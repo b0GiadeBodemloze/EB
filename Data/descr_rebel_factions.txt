@@ -1,0 +1,2428 @@
+;sorted regionally and nationally
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+;      - - -     britons   - - -
+;
+rebel_type			Brigantes	//Britons
+category			peasant_revolt
+chance				10
+description			Brigantes
+unit				celtic chariot cidainh bodyguards
+unit				celtic chariot cidainh
+unit				celtic infantry cwmyr
+unit				celtic infantry uirodusios
+unit                            celtic infantry teceitos
+unit				celtic infantry cemmeinarn
+unit				celtic infantry cemmeinarn
+
+rebel_type			Brigantes	//Britons Brigantiae
+category			peasant_revolt
+chance				7
+description			Brigantes
+unit				celtic chariot cidainh bodyguards
+unit				celtic infantry cwmyr
+unit				celtic infantry cwmyr
+unit				celtic infantry uirodusios
+unit                            celtic infantry teceitos
+unit				celtic infantry cemmeinarn
+unit				celtic infantry cemmeinarn
+
+rebel_type			Trinovantes	//Britons
+category			peasant_revolt
+chance				0
+description			Trinovantes
+unit				celtic chariot cidainh bodyguards
+unit				celtic chariot cidainh
+unit				celtic infantry botroas
+unit				celtic infantry uirodusios
+unit                            celtic infantry teceitos
+unit				celtic infantry gaeroas
+unit				celtic missile sotaroas merc
+unit				celtic missile sotaroas merc
+
+rebel_type			Casses	//Britons Cassemorg
+category			peasant_revolt
+chance				7
+description			Casses
+unit				celtic chariot cidainh bodyguards
+unit				celtic chariot cidainh
+unit				celtic infantry kluddargos
+unit				celtic infantry botroas
+unit				celtic infantry uirodusios
+unit                            celtic infantry teceitos
+unit				celtic infantry gaeroas
+unit				celtic missile sotaroas merc
+unit				celtic missile sotaroas merc
+
+rebel_type 			Goidilic	//Britons Cruddain Erain
+category			peasant_revolt
+chance				7
+description			Goidilic
+unit				goidilic infantry deaisbard
+unit				goidilic infantry uachtarach dubogaiscaocha slave
+unit				goidilic infantry ordmhornaght
+unit				goidilic infantry ordmhornaght
+unit				goidilic infantry laecha
+unit				goidilic infantry laecha
+unit				goidilic infantry daernaght 
+unit				goidilic infantry daernaght 
+unit				goidilic infantry daernaght 
+
+rebel_type 			Asturi		//Britons Asturia
+category			peasant_revolt
+chance				7
+description			Asturi
+unit				iberian infantry scortamavera
+unit				iberian infantry gestikapoinann
+unit				iberian infantry caetranann
+unit				iberian skirmisher iovamann
+unit				iberian skirmisher iovamann
+
+rebel_type 			Belgae		//Britons
+category			peasant_revolt
+chance				0
+description			Belgae
+unit				celtic chariot cidainh bodyguards
+unit				belgae cavalry taramonnos
+unit				celtic infantry milnaht
+unit				celtic infantry milnaht
+unit				celtic infantry batacorii
+unit				celtic infantry batacorii
+unit				celtic infantry batacorii
+
+rebel_type 			Bellovaci		//Britons Bellovacaea_Belgae
+category			peasant_revolt
+chance				8
+description			Bellovaci
+unit				celtic chariot cidainh bodyguards
+unit				celtic cavalry remimairepos
+unit				belgae cavalry taramonnos
+unit				celtic infantry milnaht
+unit				celtic infantry milnaht
+unit				celtic infantry batacorii
+unit				celtic infantry batacorii
+unit				celtic infantry batacorii
+
+rebel_type			Caledonii	//Britons
+category			peasant_revolt
+chance				0
+description			Caledonii
+unit				celtic skirmisher balroae
+unit				celtic skirmisher balroae
+unit				celtic skirmisher balroae
+unit				celtic skirmisher balroae
+unit				celtic skirmisher balroae
+unit				celtic skirmisher balroae
+unit				celtic skirmisher balroae
+
+rebel_type			Calydrae	//Britons Caledryn
+category			peasant_revolt
+chance				9
+description			Calydrae
+unit				celtic skirmisher balroae
+unit				celtic skirmisher balroae
+unit				celtic skirmisher balroae
+unit				celtic skirmisher balroae
+
+rebel_type 			Ordovices		//Britons
+category			peasant_revolt
+chance				6
+description			Ordovices
+unit				celtic chariot cidainh bodyguards
+unit				celtic infantry cwmyr
+unit				celtic infantry cwmyr
+unit				celtic infantry cemmeinarn
+unit				celtic infantry uirodusios
+unit                            celtic infantry teceitos
+unit				celtic infantry cemmeinarn
+
+rebel_type 			Cymreniu		//Britons Cambriae
+category			peasant_revolt
+chance				10
+description			Cymreniu
+unit				celtic chariot cidainh bodyguards
+unit				celtic infantry uirodusios
+unit                            celtic infantry teceitos
+unit				celtic infantry cemmeinarn
+unit				celtic infantry cemmeinarn
+unit                            celtic infantry siluri
+unit				celtic infantry siluri
+
+rebel_type 			Dumnones		//Britons Cornovae
+category			peasant_revolt
+chance				8
+description			Dumnones
+unit				celtic chariot cidainh bodyguards
+unit				celtic infantry uirodusios
+unit                            celtic infantry teceitos
+unit				celtic infantry botroas
+unit				celtic infantry gaeroas
+unit				celtic infantry gaeroas
+unit				celtic missile sotaroas merc
+
+;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+;      - - -     celts   - - -
+;
+
+rebel_type 			Veneti		//gauls Armoriae
+category			peasant_revolt
+chance				7
+description			Veneti
+unit				celtic cavalry chieftain brihentin
+unit				celtic infantry gaelaiche
+unit				celtic infantry gaelaiche
+unit				celtic infantry lugoae
+unit				celtic infantry lugoae
+unit				celtic missile iaosatae regional
+unit				celtic missile sotaroas merc
+
+
+rebel_type 			Patavoae		//gauls Armoriae
+category			peasant_revolt
+chance				7
+description			Patavoae
+unit				celtic cavalry chieftain brihentin
+unit				celtic infantry gaelaiche
+unit				celtic infantry gaelaiche
+unit				celtic infantry lugoae
+unit				celtic infantry lugoae
+unit				celtic missile iaosatae regional
+unit				celtic missile sotaroas merc
+
+rebel_type 			Sequani		//gauls Sequallra
+category			peasant_revolt
+chance				7
+description			Sequani
+unit				celtic cavalry chieftain brihentin
+unit				celtic skirmisher cavalry leuce epos
+unit				celtic infantry bataroas
+unit				celtic infantry bataroas
+unit				celtic infantry lugoae
+unit				celtic infantry lugoae
+
+rebel_type 			Nervii		//gauls
+category			peasant_revolt
+chance				10
+description			Nervii
+unit				celtic chariot cidainh bodyguards
+unit				belgae cavalry taramonnos
+unit				celtic infantry milnaht
+unit				celtic infantry milnaht
+unit				celtic infantry milnaht
+unit				celtic infantry batacorii
+unit				celtic infantry batacorii
+unit				celtic infantry batacorii
+
+rebel_type 			Arverni		//gauls Arvernotorg
+category			peasant_revolt
+chance				7
+description			Arverni
+unit				celtic cavalry chieftain brihentin
+unit				celtic skirmisher cavalry leuce epos
+unit				celtic skirmisher cavalry leuce epos
+unit				celtic infantry bataroas
+unit				celtic infantry bataroas
+unit				celtic missile iaosatae regional
+unit				celtic missile sotaroas merc
+
+rebel_type 			Biturige		//gauls Batromorgan
+category			peasant_revolt
+chance				7
+description			Biturige
+unit				celtic cavalry chieftain brihentin
+unit				celtic skirmisher cavalry leuce epos
+unit				celtic infantry bataroas
+unit				celtic infantry lugoae
+unit				celtic missile iaosatae regional
+
+rebel_type 			Ausci		//gauls
+category			peasant_revolt
+chance				0
+description			Ausci
+unit				celtic cavalry chieftain brihentin
+unit				celtic skirmisher cavalry leuce epos
+unit				celtic infantry gaesatae
+unit				celtic infantry lugoae
+unit				celtic infantry lugoae
+unit				celtic infantry lugoae
+unit				celtic infantry lugoae
+unit				celtic missile iaosatae regional
+unit				celtic missile sotaroas merc
+
+rebel_type 			Allobroge		//gauls Lugonesis
+category			peasant_revolt
+chance				7
+description			Allobroge
+unit				celtic cavalry chieftain brihentin
+unit				celtic infantry bataroas
+unit				celtic infantry bataroas
+unit				celtic infantry lugoae
+unit				celtic infantry lugoae
+unit				celtic missile iaosatae regional
+unit				celtic missile sotaroas merc
+
+rebel_type 			Seduni		//gauls
+category			peasant_revolt
+chance				0
+description			Seduni
+unit				celtic cavalry chieftain brihentin
+unit				celtic skirmisher cavalry leuce epos
+unit				celtic infantry gaesatae
+unit				celtic infantry bataroas
+unit				celtic infantry bataroas
+unit				celtic infantry lugoae
+unit				celtic infantry lugoae
+unit				celtic missile iaosatae regional
+unit				celtic missile sotaroas merc
+
+rebel_type 			Tectosages		//gauls
+category			peasant_revolt
+chance				0
+description			Tectosages
+unit				celtic cavalry chieftain brihentin
+unit				celtic skirmisher cavalry leuce epos
+unit				celtic infantry gaesatae
+unit				celtic infantry lugoae
+unit				celtic infantry lugoae
+unit				celtic infantry lugoae
+unit				celtic infantry lugoae
+unit				celtic missile iaosatae regional
+unit				celtic missile sotaroas merc
+
+rebel_type 			Boii_Galla		//celts Aemilia
+category			peasant_revolt
+chance				8
+description			Boii_Galla
+unit				celtic cavalry chieftain brihentin
+unit				celtic skirmisher cavalry leuce epos
+unit				celtic infantry gaesatae
+unit				celtic infantry gaesatae
+unit				celtic infantry botroas
+unit				celtic infantry botroas
+unit				celtic missile iaosatae regional
+unit				celtic missile sotaroas merc
+
+rebel_type 			Boii		//celts Mrogbonna
+category			peasant_revolt
+chance				6
+description			Boii
+unit				celtic cavalry chieftain brihentin
+unit				celtic infantry botroas
+unit				celtic infantry botroas
+unit				celtic infantry lugoae
+unit				celtic infantry lugoae
+unit				celtic missile iaosatae regional
+unit				celtic missile sotaroas merc
+
+rebel_type 			Senones		//gauls
+category			peasant_revolt
+chance				0
+description			Senones
+unit				celtic cavalry chieftain brihentin
+unit				celtic skirmisher cavalry leuce epos
+unit				celtic cavalry brihentin
+unit				celtic infantry gaesatae
+unit				celtic infantry lugoae
+unit				celtic infantry lugoae
+unit				celtic missile iaosatae regional
+unit				celtic missile iaosatae regional
+
+rebel_type 			Helvetii	//celts
+category			peasant_revolt
+chance				0
+description			Helvetii
+unit				celtic cavalry chieftain brihentin
+unit				celtic skirmisher cavalry leuce epos
+unit				celtic infantry mori gaesum
+unit				celtic infantry mori gaesum
+unit				celtic infantry gaesatae
+unit				celtic infantry kluddacorii
+unit				celtic infantry kluddacorii
+unit				celtic infantry lugoae
+unit				celtic infantry lugoae
+
+rebel_type 			Raetic	//celts Rhaetia
+category			peasant_revolt
+chance				5
+description			Raetic
+unit				celtic skirmisher cavalry leuce epos
+unit				celtic infantry kluddacorii
+unit				celtic infantry appea gaedotos
+unit				celtic infantry appea gaedotos
+unit                            celtic infantry teskatos
+unit                            celtic infantry teskatos
+unit				celtic infantry lugoae
+unit				celtic missile iaosatae regional
+
+rebel_type 			Pictones	//gaul
+category			peasant_revolt
+chance				0
+description			Pictones
+unit				celtic cavalry chieftain brihentin
+unit				celtic skirmisher cavalry leuce epos
+unit				celtic infantry gaesatae
+unit				celtic infantry gaelaiche
+unit				celtic infantry lugoae
+unit				celtic infantry lugoae
+unit				celtic missile iaosatae regional
+
+rebel_type 			Aedui		//gauls Mrogaedu
+category			peasant_revolt
+chance				7
+description			Aedui
+unit				celtic cavalry chieftain brihentin
+unit				celtic cavalry brihentin
+unit				celtic skirmisher cavalry leuce epos
+unit				celtic infantry botroas
+unit				celtic infantry botroas
+unit				celtic infantry lugoae
+unit				celtic infantry lugoae
+unit				celtic missile iaosatae regional
+unit				celtic missile sotaroas merc
+
+rebel_type 			Insubre	//gauls Insubramrog
+category			peasant_revolt
+chance				8
+description			Insubre
+unit				celtic cavalry chieftain brihentin
+unit				celtic skirmisher cavalry leuce epos
+unit				celtic infantry gaesatae
+unit				celtic infantry botroas
+unit				celtic infantry gaeroas
+unit				celtic infantry kluddacorii
+unit				celtic infantry kluddacorii
+unit				celtic missile iaosatae regional
+
+rebel_type 			Vocontii	//gauls Greseoallra
+category			peasant_revolt
+chance				3
+description			Vocontii
+unit				celtic cavalry chieftain brihentin
+unit				celtic skirmisher cavalry leuce epos
+unit				celtic infantry gaeroas
+unit				greek infantry taxeis hoplitai
+unit				greek infantry taxeis hoplitai
+unit				greek missile toxotai
+
+rebel_type 			Volcae_Volcallra		//gauls Volcallra
+category			peasant_revolt
+chance				5
+description			Volcae_Volcallra
+unit				celtic cavalry chieftain brihentin
+unit				celtic skirmisher cavalry leuce epos
+unit				celtic infantry gaecori
+unit				celtic infantry gaecori
+unit				celtic infantry gaecori
+
+rebel_type 			Liguriae	//gauls Liguria
+category			peasant_revolt
+chance				7
+description			Liguriae
+unit				celtic cavalry chieftain brihentin
+unit				celtic skirmisher cavalry leuce epos
+unit				celtic infantry gaesatae
+unit				celtic infantry gaemile liguriae
+unit				celtic infantry gaemile liguriae
+unit				celtic infantry gaemile liguriae
+
+rebel_type 			Galatai	//celts Galatia
+category			peasant_revolt
+chance				8
+description			Galatai
+unit				celtic cavalry lavotuxri
+unit				celtic infantry galatiantindanotae mercenary
+unit				celtic infantry galatiantindanotae mercenary
+unit				galatian infantry kluddolon
+unit				galatian infantry kluddolon
+unit				galatian infantry kluddolon
+
+rebel_type 			Eraviscii		//celts Eravacouw
+category			peasant_revolt
+chance				7
+description			Eraviscii
+unit				celtic cavalry chieftain brihentin
+unit				celtic skirmisher cavalry leuce epos
+unit				celtic infantry gaecori
+unit				celtic infantry gaecori
+
+rebel_type 			Cotinii		//celts Coutinoe
+category			peasant_revolt
+chance				5
+description			Cotinii
+unit				celtic cavalry chieftain brihentin
+unit				celtic skirmisher cavalry leuce epos
+unit				celtic infantry lugoae
+unit				celtic missile sotaroas merc
+
+rebel_type 			Tevrisci		//celts
+category			peasant_revolt
+chance				0
+description			Tevrisci
+unit				celtic cavalry chieftain brihentin
+unit				celtic infantry gaesatae
+unit				celtic infantry lugoae
+unit				celtic infantry lugoae
+unit				celtic infantry lugoae
+unit				celtic missile sotaroas merc
+
+rebel_type 			Lugii		//celts Lugouw
+category			peasant_revolt
+chance				7
+description			Lugii
+unit				celtic cavalry chieftain brihentin
+unit				celtic infantry lugian
+unit				germanic infantry karotovas
+unit                            celtic infantry teceitos	
+unit				celtic infantry lugoae
+unit				celtic missile iaosatae regional
+
+rebel_type 			Helvetii		//celts Helvetis
+category			peasant_revolt
+chance				10
+description			Helvetii
+unit				celtic cavalry chieftain brihentin
+unit				celtic infantry mori gaesum
+unit				celtic infantry mori gaesum
+unit				celtic infantry mori gaesum
+unit				celtic infantry lugoae
+unit				celtic infantry lugoae
+unit				celtic infantry lugoae
+
+rebel_type 			Coritanes		//celts Corieltauvae
+category			peasant_revolt
+chance				7
+description			Coritanes
+unit				celtic chariot cidainh bodyguards
+unit				celtic infantry cwmyr
+unit				celtic infantry cwmyr
+unit				celtic infantry cemmeinarn
+unit				celtic infantry cemmeinarn
+unit				celtic infantry cemmeinarn
+unit				celtic infantry cemmeinarn
+
+rebel_type 			Nori		//celts
+category			peasant_revolt
+chance				0
+description			Nori
+unit				celtic cavalry chieftain brihentin
+unit				celtic skirmisher cavalry leuce epos
+unit				celtic infantry gaesatae
+unit				celtic infantry botroas
+unit				celtic infantry botroas
+unit				celtic infantry lugoae
+unit				celtic infantry lugoae
+unit				celtic infantry lugoae
+
+rebel_type 			Norici		//celts Noricae
+category			peasant_revolt
+chance				6
+description			Norici
+unit				celtic cavalry chieftain brihentin
+unit				celtic skirmisher cavalry leuce epos
+unit				celtic skirmisher cavalry leuce epos
+unit				celtic infantry gaecori
+unit				celtic infantry gaecori
+unit				celtic infantry gaecori
+
+rebel_type 			Lemovici	//gaul Lemorisae
+category			peasant_revolt
+chance				5
+description			Lemovici
+unit				celtic cavalry chieftain brihentin
+unit				celtic infantry bataroas
+unit				celtic infantry lugoae
+unit				celtic infantry lugoae
+unit				celtic missile sotaroas merc
+unit				celtic missile sotaroas merc
+
+rebel_type 			Tarbelli	//gaul Aquitae
+category			peasant_revolt
+chance				3
+description			Tarbelli
+unit				celtic cavalry chieftain brihentin
+unit				celtic skirmisher cavalry leuce epos
+unit				celtic infantry bataroas
+unit				celtic infantry lugoae
+unit				celtic infantry lugoae
+unit				celtic missile sotaroas merc
+
+rebel_type 			Aulerci		//gauls
+category			peasant_revolt
+chance				8
+description			Aulerci
+unit				celtic cavalry chieftain brihentin
+unit				celtic skirmisher cavalry leuce epos
+unit				celtic skirmisher cavalry leuce epos
+unit				celtic infantry bataroas
+unit				celtic infantry lugoae
+unit				celtic infantry lugoae
+unit				celtic missile iaosatae regional
+
+rebel_type 			Volcae		//celts Vindelicos
+category			peasant_revolt
+chance				4
+description			Volcae
+unit				celtic cavalry chieftain brihentin
+unit				celtic infantry kluddacorii
+unit				celtic infantry kluddacorii
+unit				celtic infantry gaelaiche
+unit				celtic infantry lugoae
+unit				celtic missile iaosatae regional
+unit				celtic missile sotaroas merc
+
+;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+;      - - -     germans   - - -
+;
+rebel_type 			Batavi		//Germans
+category			peasant_revolt
+chance				3
+description			Batavi
+unit				germanic infantry general ferulharjoz
+unit				germanic cavalry ridoharjoz
+unit				germanic infantry frameharjoz
+unit				germanic infantry klumbokarlaz
+unit				germanic infantry frankamannoz slave
+unit				germanic missile bugimannoz
+
+rebel_type 			Gotanoz		//Germans
+category			peasant_revolt
+chance				8
+description			Gotanoz
+unit				germanic infantry general ferulharjoz
+unit				germanic cavalry ridoharjoz
+unit				germanic infantry frameharjoz
+unit				germanic infantry frankamannoz slave
+unit				germanic infantry swainoz
+unit				germanic missile bugimannoz
+
+rebel_type 			Hattoz		//Germans Hattolandam
+category			peasant_revolt
+chance				10
+description			Hattoz
+unit				germanic infantry general ferulharjoz
+unit				germanic cavalry ridoharjoz
+unit				germanic infantry sahsnotoz
+unit				germanic infantry frankamannoz slave
+unit				germanic infantry swainoz
+unit				germanic missile bugimannoz
+
+rebel_type 			Silengoz		//Germans Silengolandam
+category			peasant_revolt
+chance				7
+description			Silengoz
+unit				germanic infantry general ferulharjoz
+unit				germanic cavalry ridoharjoz
+unit				germanic infantry sahsnotoz
+unit				germanic infantry swainoz
+unit				germanic infantry swainoz
+
+rebel_type 			Skandzawarjoz		//Germans Skandza
+category			peasant_revolt
+chance				9
+description			Skandzawarjoz
+unit				germanic infantry general ferulharjoz
+unit				germanic cavalry ridoharjoz
+unit				germanic infantry frankamannoz slave
+unit				germanic infantry frankamannoz slave
+unit				germanic missile bugimannoz
+
+rebel_type 			Sweboz		//Germans Swebolandam
+category			peasant_revolt
+chance				8
+description			Sweboz
+unit				germanic infantry general ferulharjoz
+unit				germanic cavalry ridoharjoz
+unit				germanic infantry sahsnotoz
+unit				germanic infantry sahsnotoz
+unit				germanic infantry swainoz
+unit				germanic infantry frankamannoz slave
+unit				germanic missile bugimannoz
+
+rebel_type 			Saxones		//Germans
+category			peasant_revolt
+chance				3
+description			Saxones
+unit				germanic infantry general ferulharjoz
+unit				germanic infantry frankamannoz slave
+unit				germanic infantry frankamannoz slave
+unit				germanic missile bugimannoz
+
+rebel_type 			Gepids		//Germans
+category			peasant_revolt
+chance				3
+description			Gepids
+unit				germanic infantry general ferulharjoz
+unit				germanic cavalry ridoharjoz
+unit				germanic infantry frameharjoz
+unit				germanic infantry klumbokarlaz
+unit				germanic infantry frankamannoz slave
+unit				germanic infantry frankamannoz slave
+unit				germanic missile bugimannoz
+
+rebel_type 			Alamanni	//germans
+category			peasant_revolt
+chance				3
+description			Alamanni
+unit				germanic infantry general ferulharjoz
+unit				germanic cavalry ridoharjoz
+unit				germanic infantry sahsnotoz
+unit				germanic infantry sahsnotoz
+unit				germanic infantry klumbokarlaz
+unit				germanic infantry frankamannoz slave
+unit				germanic infantry frankamannoz slave
+unit				germanic missile bugimannoz
+unit				germanic missile bugimannoz
+
+rebel_type 			Treveri		//germans
+category			peasant_revolt
+chance				0
+description			Treveri
+unit				germanic infantry general ferulharjoz
+unit				germanic cavalry ridoharjoz
+unit				germanic infantry sahsnotoz
+unit				germanic infantry klumbokarlaz
+unit				germanic infantry frameharjoz
+unit				germanic infantry frankamannoz slave
+
+rebel_type 			Bastarnoz		//Germans Bastarnolandam
+category			peasant_revolt
+chance				9
+description			Bastarnoz
+unit				germanic cavalry ridoharjoz
+unit				germanic cavalry ridoharjoz
+unit				germanic infantry sahsnotoz
+unit				germanic infantry bastarnoz swaiut
+unit				germanic infantry bastarnoz swaiut
+unit				germanic missile bugimannoz
+unit				germanic infantry swainoz
+
+rebel_type 			Rugoz		//Germans Rugolandam
+category			peasant_revolt
+chance				7
+description			Rugoz
+unit				germanic cavalry ridoharjoz
+unit				germanic infantry frameharjoz
+unit				germanic infantry frameharjoz
+unit				germanic infantry frankamannoz slave
+unit				germanic missile bugimannoz
+
+rebel_type 			Habukoz		//Germans Habukolandam
+category			peasant_revolt
+chance				8
+description			Habukoz
+unit				germanic infantry general ferulharjoz
+unit				germanic cavalry ridoharjoz
+unit				germanic infantry sahsnotoz
+unit				germanic infantry habukoz swaiut
+unit				germanic infantry habukoz swaiut
+unit				germanic missile bugimannoz
+
+rebel_type 			Kimbrioz		//Germans Kimbrolandam
+category			peasant_revolt
+chance				9
+description			Kimbrioz
+unit				germanic infantry general ferulharjoz
+unit				germanic cavalry ridoharjoz
+unit				germanic infantry frameharjoz
+unit				germanic infantry frankamannoz slave
+unit				germanic infantry swainoz
+unit				germanic infantry swainoz
+unit				germanic missile bugimannoz
+
+rebel_type 			Heruskoz		//Germans Heruskolandam
+category			peasant_revolt
+chance				10
+description			Heruskoz
+unit				germanic infantry general ferulharjoz
+unit				germanic cavalry ridoharjoz
+unit				germanic infantry sahsnotoz
+unit				germanic infantry frankamannoz slave
+unit				germanic missile bugimannoz
+
+
+;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+;      - - -     proto-slavs, balts, finno-ugrians   - - -
+;
+rebel_type 			Seliun		//balts Seliun_Gentis
+category			peasant_revolt
+chance				7
+description			Seliun
+unit				germanic infantry kirslininkas
+unit				germanic cavalry ridoharjoz mercenary
+
+rebel_type 			Sembu		//balts Sembu_Gentys
+category			peasant_revolt
+chance				9
+description			Sembu
+unit				germanic infantry kirslininkas
+unit				germanic infantry karas viras
+unit				germanic cavalry ridoharjoz mercenary
+
+rebel_type 			Saami		//finno-ugrians Sapmi
+category			peasant_revolt
+chance				9
+description			Saami
+unit				germanic infantry karas viras
+unit				germanic missile lankininkas
+unit				germanic cavalry ridoharjoz mercenary
+
+rebel_type 			Tissagaetae		//finno-ugrians Dahyu_Thissakata
+category			peasant_revolt
+chance				7
+description			Tissagaetae
+unit				steppe infantry voinu spearmen
+unit				steppe missile cavalry sauromatae fat aexsdzhytae
+unit				steppe missile cavalry ragon sauromatae uaezdaettae
+
+rebel_type 			Vendi		//slavs Venedu_Tauta
+category			peasant_revolt
+chance				7
+description			Vendi
+unit				germanic infantry kirslininkas
+unit				germanic missile lankininkas
+unit				germanic cavalry ridoharjoz mercenary
+
+rebel_type 			Neurii	//slavs Neurije
+category			peasant_revolt
+chance				7
+description			Neurii
+unit				steppe infantry voinu spearmen
+unit				steppe infantry voinu spearmen
+unit				germanic missile medininkas
+unit				germanic cavalry ridoharjoz mercenary
+
+rebel_type 			Boudinai		//slavs Budinije
+category			peasant_revolt
+chance				7
+description			Boudinai
+unit				germanic infantry kirslininkas
+unit				germanic infantry kirslininkas
+unit				steppe missile cavalry skuda baexdzhyntae
+unit				steppe missile cavalry yancai uaezdaettae
+
+;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+;      - - -     thracians, illyrians and dacians   - - -
+;
+rebel_type 			Crobyzii	//thrace Mikra_Skythia
+category			peasant_revolt
+chance				6
+description			Crobyzii
+unit				dacian infantry getikoi stratiotai
+unit				steppe missile cavalry skuda baexdzhyntae
+unit				greek infantry taxeis hoplitai
+
+rebel_type 			Agathyrsi	//thrace Getia_Koile
+category			peasant_revolt
+chance				9
+description			Agathyrsi
+unit				dacian infantry getikoi stratiotai
+unit				dacian infantry getikoi stratiotai
+unit				dacian infantry drapanai
+unit				dacian skirmisher komatai
+unit				celtic missile sotaroas merc
+unit				celtic missile sotaroas merc
+
+rebel_type 			Getai	//thrace Getia
+category			peasant_revolt
+chance				6
+description			Getai
+unit				dacian infantry getikoi stratiotai
+unit				dacian infantry getikoi stratiotai
+unit				dacian infantry drapanai
+unit				dacian infantry drapanai
+unit				celtic missile sotaroas merc
+
+rebel_type 			Odrysai		//thrace Odrysai
+category			peasant_revolt
+chance				5
+description			Odrysai
+unit				dacian infantry getikoi stratiotai
+unit				greek skirmisher akontistai
+unit				dacian infantry drapanai
+unit                            dacian missile peltastaithrakioi
+
+rebel_type 			Paionians	//thrace
+category			peasant_revolt
+chance				0
+description			Paionians
+unit				dacian infantry getikoi stratiotai
+unit				greek cavalry mistophoroi hippeis
+unit				dacian infantry komatai kostobokon
+unit				greek skirmisher akontistai
+unit				greek infantry taxeis hoplitai
+
+rebel_type 			Dardanoi	//thrace and illyrians Dardanoia
+category			peasant_revolt
+chance				7
+description			Dardanoi
+unit                            hellenistic infantry illyrian thureophoroi
+unit                            hellenistic infantry illyrian pirate
+unit				dacian infantry getikoi stratiotai
+unit				greek infantry taxeis hoplitai
+unit                            dacian missile peltastaithrakioi
+
+
+rebel_type 			Triballi		//thrace Thraikia_Hypertera
+category			peasant_revolt
+chance				5
+description			Triballi
+unit                            dacian infantry taxeistribalii
+unit				dacian infantry getikoi stratiotai
+unit				greek cavalry mistophoroi hippeis
+unit				greek infantry taxeis hoplitai
+unit                            dacian infantry komatai kostobokon	
+unit                            dacian infantry taxeistribalii
+
+rebel_type 			Moesii		//thrace
+category			peasant_revolt
+chance				3
+description			Moesii
+unit				dacian infantry getikoi stratiotai
+unit				dacian infantry getikoi stratiotai
+unit				greek cavalry mistophoroi hippeis
+unit				greek infantry taxeis hoplitai
+unit				greek skirmisher akontistai
+
+rebel_type 			Scordiscii	//thracians, illyrians or celts Scorcouw
+category			peasant_revolt
+chance				7
+description			Scordiscii
+unit				greek cavalry mistophoroi hippeis
+unit                            celtic infantry cordinau orca
+unit				celtic skirmisher cavalry leuce epos
+unit				celtic missile sotaroas merc
+unit                            dacian missile peltastaithrakioi
+
+rebel_type 			Illyrians		//illyria Illyria_Hellenike
+category			peasant_revolt
+chance				3
+description			Illyrians
+unit                            hellenistic infantry illyrian thureophoroi
+unit                            hellenistic infantry illyrian pirate
+unit				greek infantry taxeis hoplitai
+unit				greek infantry taxeis hoplitai
+unit				greek skirmisher akontistai
+unit				greek cavalry mistophoroi hippeis
+
+rebel_type 			Autariatae		//illyria Pannonia_Illyrica
+category			peasant_revolt
+chance				7
+description			Autariatae
+unit                            hellenistic infantry illyrian thureophoroi
+unit				greek infantry taxeis hoplitai
+unit                            hellenistic infantry illyrian pirate
+unit				greek skirmisher akontistai
+unit				greek cavalry mistophoroi hippeis
+
+rebel_type 			Dalmate		//illyria Dalmatia
+category			peasant_revolt
+chance				7
+description			Dalmate
+unit                            hellenistic infantry illyrian thureophoroi
+unit                            hellenistic infantry illyrian pirate
+unit                            hellenistic infantry illyrian pirate
+unit				greek infantry taxeis hoplitai
+
+rebel_type 			Delmatae		//illyria
+category			peasant_revolt
+chance				0
+description			Delmatae
+unit                            hellenistic infantry illyrian thureophoroi
+unit				greek infantry taxeis hoplitai
+unit				greek skirmisher akontistai
+unit				greek infantry taxeis hoplitai
+unit                            hellenistic infantry illyrian pirate
+
+rebel_type 			Breuci		//illyriabs or celts Pannonia
+category			peasant_revolt
+chance				8
+description			Breuci
+unit				celtic skirmisher cavalry leuce epos
+unit				celtic skirmisher cavalry leuce epos
+unit				celtic infantry lugoae
+unit				greek cavalry mistophoroi hippeis
+unit				celtic missile sotaroas merc
+
+rebel_type 			Carpi		//dacians
+category			peasant_revolt
+chance				0
+description			Carpi
+unit				celtic infantry lugoae
+unit				celtic infantry lugoae
+unit				dacian infantry komatai kostobokon
+unit				greek cavalry mistophoroi hippeis
+unit				celtic missile sotaroas merc
+unit				dacian infantry drapanai
+
+rebel_type 			Daci		//dacians
+category			peasant_revolt
+chance				0
+description			Daci
+unit				dacian skirmisher komatai	
+unit				celtic infantry lugoae
+unit				dacian infantry komatai kostobokon	
+unit                            dacian missile peltastaithrakioi
+unit				greek cavalry mistophoroi hippeis
+unit				celtic missile sotaroas merc
+unit				dacian infantry drapanai
+
+;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+;      - - -     scythian nomads   - - -
+;
+rebel_type 			Saka		// saka Saka_Yabgu
+category			peasant_revolt
+chance				7
+description			Saka
+unit				steppe missile cavalry saka riders
+unit				steppe missile cavalry saka horse archer
+unit				steppe missile cavalry saka horse archer
+unit                            steppe missile subeshi
+
+rebel_type 			Haraiva		// saka Aria
+category			peasant_revolt
+chance				7
+description			Haraiva
+unit				eastern missile eransahr arshtbara merc
+unit				eastern skirmisher cavalry harauvatish asabara
+unit				eastern skirmisher cavalry harauvatish asabara
+
+rebel_type 			Mazsakat		// saka Dahyu_Mazsakata
+category			peasant_revolt
+chance				7
+description			Mazsakat
+unit				steppe missile cavalry sauromatae fat aexsdzhytae
+unit				eastern missile thanvare payahdag
+unit				steppe missile cavalry aursa baexdzhyntae
+unit				steppe missile cavalry daha baexdzhyntae
+unit				steppe missile fistaegfataexsdzhytae
+
+rebel_type 			Tuhara		// saka Xiyu
+category			peasant_revolt
+chance				7
+description			Tuhara
+unit				steppe missile cavalry early yuezhi nobles
+unit				steppe missile cavalry saka riders
+unit				steppe missile cavalry saka horse archer
+unit				steppe missile cavalry saka horse archer
+unit                            steppe missile subeshi
+
+
+rebel_type 			Haomavarga		// saka Dahyu_Haomavarga
+category			peasant_revolt
+chance				7
+description			Haomavarga
+unit				steppe missile cavalry saka riders
+unit				steppe missile cavalry saka horse archer
+unit				steppe missile cavalry saka horse archer
+unit				eastern missile eransahr arshtbara merc
+unit                            steppe missile subeshi
+
+rebel_type 			Wusun		// saka Sai_Yavuga
+category			peasant_revolt
+chance				7
+description			Wusun
+unit				steppe missile cavalry saka riders
+unit				steppe missile cavalry saka horse archer
+unit				steppe missile cavalry saka horse archer
+unit				steppe missile cavalry daha baexdzhyntae
+unit                            steppe missile subeshi
+
+rebel_type 			Maeot 	//Scythians Maeotis
+category			peasant_revolt
+chance				6
+description			Maeot
+unit				hellenistic infantry doryphoroi pontikoi
+unit				hellenistic infantry doryphoroi pontikoi
+unit				steppe missile cavalry skuda fat aexsdzhytae
+unit				steppe missile cavalry skuda fat aexsdzhytae
+unit                            steppe missile cavalry skuda baexdzhyntae
+unit                            steppe missile scythianfootarchers
+unit				steppe missile cavalry ragon sauromatae uaezdaettae
+
+rebel_type 			Iskutae	//scythians Skythia
+category			peasant_revolt
+chance				7
+description			Iskutae
+unit				hellenistic infantry doryphoroi pontikoi
+unit				hellenistic infantry doryphoroi pontikoi
+unit				steppe missile cavalry skuda fat aexsdzhytae
+unit				steppe missile cavalry skuda fat aexsdzhytae
+unit				steppe missile cavalry skuda baexdzhyntae
+unit                            steppe missile scythianfootarchers
+
+rebel_type 			Parni		//Parthians Dahyu_Daha
+category			peasant_revolt
+chance				7
+description			Parni
+unit				steppe missile cavalry daha baexdzhyntae
+unit				steppe missile cavalry daha baexdzhyntae
+unit				steppe skirmisher cavalry daha rog baexdzhyn aefsad
+unit				steppe skirmisher cavalry daha rog baexdzhyn aefsad
+unit				eastern missile thanvare payahdag
+unit				eastern missile thanvare payahdag
+
+rebel_type 			Aorsii		// sarmatians Dahyu_Aursa
+category			peasant_revolt
+chance				7
+description			Aorsii
+unit				steppe missile cavalry sauromatae fat aexsdzhytae
+unit				steppe missile cavalry aursa baexdzhyntae
+unit				steppe missile cavalry aursa baexdzhyntae
+unit				steppe infantry sauromatae arc aexsaeg
+unit				steppe missile fistaegfataexsdzhytae
+
+
+rebel_type 			Alan		//sarmatians Dahyu_Alanna
+category			peasant_revolt
+chance				7
+description			Alan
+unit				steppe missile cavalry sauromatae fat aexsdzhytae
+unit				steppe missile cavalry aursa baexdzhyntae
+unit				steppe missile cavalry aursa baexdzhyntae
+unit				steppe missile fistaegfataexsdzhytae
+
+rebel_type 			Iirkian	//sarmatians Dahyu_Yugra
+category			peasant_revolt
+chance				5
+description			Iirkian
+unit				steppe missile cavalry sauromatae fat aexsdzhytae
+unit				steppe missile cavalry sauromatae fat aexsdzhytae
+unit				steppe missile cavalry aursa baexdzhyntae
+unit				steppe missile fistaegfataexsdzhytae
+unit				steppe infantry voinu spearmen
+unit				steppe missile cavalry ragon sauromatae uaezdaettae
+
+rebel_type 			Rhoxolanii	//sarmatians Dahyu_Roxsalanna
+category			peasant_revolt
+chance				7
+description			Rhoxolanii
+unit				steppe missile cavalry rauxsa-alanna uaezdaettae
+unit				steppe missile cavalry sauromatae fat aexsdzhytae
+unit				steppe missile cavalry sauromatae fat aexsdzhytae
+unit				steppe infantry sauromatae arc aexsaeg
+unit				steppe missile fistaegfataexsdzhytae
+
+
+rebel_type 			Iazyg		//sarmatians Dahyu_Yazyga
+category			peasant_revolt
+chance				7
+description			Iazyg
+unit				steppe infantry sauromatae arc aexsaeg
+unit				steppe missile cavalry sauromatae fat aexsdzhytae
+unit				steppe missile cavalry sauromatae fat aexsdzhytae
+unit				steppe missile cavalry aursa baexdzhyntae
+unit				steppe missile fistaegfataexsdzhytae
+
+
+rebel_type 			Siracae		//sarmatians Dahyu_Siraca
+category			peasant_revolt
+chance				7
+description			Siracae
+unit				steppe infantry sauromatae arc aexsaeg
+unit				steppe missile cavalry sauromatae fat aexsdzhytae
+unit				steppe missile fistaegfataexsdzhytae
+unit				steppe missile cavalry aursa baexdzhyntae
+unit				steppe missile cavalry aursa baexdzhyntae
+unit				steppe missile cavalry ragon sauromatae uaezdaettae
+
+;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+;      - - -     caucasians   - - -
+;
+rebel_type 			Khalybe	//Caucasians Egrisi
+category			peasant_revolt
+chance				7
+description			Khalybe
+unit				hellenistic infantry doryphoroi pontikoi
+unit				steppe missile thanvare kavakaza
+unit				steppe missile cavalry bydirag baexdzhyntae
+unit				eastern cavalry aspet hetselazor
+
+rebel_type 			Karthouli	//Caucasians Kartli
+category			peasant_revolt
+chance				8
+description			Karthouli
+unit                            eastern infantry georgian swordsmen
+unit				eastern infantry kavakaza sparabara
+unit				steppe missile cavalry bydirag baexdzhyntae
+unit				eastern cavalry aspet hetselazor
+unit				steppe missile thanvare kavakaza
+
+rebel_type 			Gargar	//Caucasians Aghvan
+category			peasant_revolt
+chance				7
+description			Gargar
+unit				steppe missile cavalry bydirag baexdzhyntae
+unit				hellenistic infantry pantodapoi
+unit				eastern infantry kavakaza sparabara
+unit				steppe missile thanvare kavakaza
+unit				hellenistic infantry pantodapoi
+
+
+rebel_type 			Albanians	//Caucasians
+category			peasant_revolt
+chance				0
+description			Albanians
+unit				hellenistic infantry pantodapoi
+unit				steppe missile thanvare kavakaza
+unit				hellenistic infantry pantodapoi
+unit				hellenistic infantry pantodapoi
+unit				steppe missile cavalry bydirag baexdzhyntae
+unit				steppe missile cavalry bydirag baexdzhyntae
+
+rebel_type 			Haikh_Sophene	//Caucasians Sophene
+category			peasant_revolt
+chance				8
+description			Haikh_Sophene
+unit                            eastern infantry georgian swordsmen
+unit				eastern infantry hai nizagamartik
+unit				eastern infantry hai nizagamartik
+unit				eastern cavalry aspet hetselazor
+unit				eastern skirmisher cavalry nizakahar ayrudzi
+
+rebel_type 			Haikh_Pokr_Hayk	//Caucasians Pokr_Hayk
+category			peasant_revolt
+chance				0
+description			Haikh_Pokr_Hayk
+unit				eastern infantry hai nizagamartik
+unit				eastern infantry kavakaza sparabara
+unit				steppe missile thanvare kavakaza
+unit				eastern cavalry aspet hetselazor
+unit				eastern cavalry aspet hetselazor
+unit				eastern skirmisher cavalry nizakahar ayrudzi
+unit				eastern skirmisher cavalry nizakahar ayrudzi
+
+rebel_type 			Haikh	//Caucasians Hayasdan
+category			peasant_revolt
+chance				8
+description			Haikh
+unit				eastern infantry hai nizagamartik
+unit				eastern infantry kavakaza sparabara
+unit				steppe missile thanvare kavakaza
+unit				eastern skirmisher cavalry nizakahar ayrudzi
+unit				eastern cavalry aspet hetselazor
+unit				eastern cavalry aspet hetselazor
+
+;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+;      - - -     near east   - - -
+;
+rebel_type 			Tzanoi	//near east Pontos_Paralios
+category			peasant_revolt
+chance				7
+description			Tzanoi
+unit				greek skirmisher akontistai
+unit				hellenistic infantry doryphoroi pontikoi
+unit				greek missile sphendenotai
+unit				eastern cavalry aspet hetselazor
+
+rebel_type 			Paphlagone	//near east Paphlagonia
+category			peasant_revolt
+chance				5
+description			Paphlagone
+unit				hellenistic infantry pantodapoi
+unit				eastern missile thanvare payahdag
+unit				eastern missile thanvare payahdag
+unit				steppe missile cavalry yancai uaezdaettae
+
+rebel_type 			Alarodoi	//near east Adurbadagan
+category			peasant_revolt
+chance				5
+description			Alarodoi
+unit				eastern infantry nizag gund
+unit				eastern infantry nizag gund
+unit				eastern missile thanvare payahdag
+unit				steppe missile cavalry bydirag baexdzhyntae
+
+rebel_type 			Pontik	//near east Kappadokia_Pontika
+category			peasant_revolt
+chance				8
+description			Pontik
+unit				hellenistic infantry pantodapoi
+unit				eastern missile thanvare payahdag
+unit				eastern cavalry aspet hetselazor
+
+rebel_type 			Kappadokoi	//near east Kappadokia
+category			peasant_revolt
+chance				5
+description			Kappadokoi
+unit				hellenistic infantry pantodapoi
+unit				eastern missile thanvare payahdag
+unit				eastern cavalry aspet hetselazor
+unit				eastern cavalry aspet hetselazor
+
+rebel_type 			Aramaye		//near east Syria_Koile
+category			peasant_revolt
+chance				3
+description			Aramaye
+unit				hellenistic infantry pantodapoi
+unit				eastern missile thanvare payahdag
+unit				eastern missile thanvare payahdag
+unit				hellenistic infantry pantodapoi
+unit				hellenistic infantry pantodapoi
+unit				steppe missile cavalry bydirag baexdzhyntae
+
+rebel_type 			Syroi		//near east Syria
+category			peasant_revolt
+chance				4
+description			Syroi
+unit				hellenistic infantry pantodapoi
+unit				eastern missile thanvare payahdag
+unit				hellenistic infantry pantodapoi
+unit				hellenistic infantry pantodapoi
+unit				steppe missile cavalry bydirag baexdzhyntae
+
+rebel_type 			Babylonian		//near east Babylonia
+category			peasant_revolt
+chance				3
+description			Babylonian
+unit				eastern infantry nizag gund
+unit				eastern missile thanvare payahdag
+unit				eastern infantry nizag gund
+unit				eastern skirmisher cavalry nizakahar ayrudzi
+
+rebel_type 			Athuria		//near east Assyrie
+category			peasant_revolt
+chance				5
+description			Athuria
+unit				eastern infantry nizag gund
+unit				eastern missile thanvare payahdag
+
+rebel_type 			Hilakku	//near east Kilikia
+category			peasant_revolt
+chance				4
+description			Hilakku
+unit				hellenistic infantry iudaioi taxeis slave
+unit				hellenistic infantry pantodapoi
+unit				eastern missile thanvare payahdag
+
+rebel_type 			Israelites	//near east Ioudaia
+category			peasant_revolt
+chance				8
+description			Israelites
+unit				eastern missile thanvare payahdag
+unit				hellenistic infantry iudaioi taxeis slave
+unit				hellenistic infantry iudaioi taxeis slave
+unit				hellenistic infantry iudaioi taxeis slave
+unit				hellenistic infantry iudaioi taxeis slave
+
+rebel_type 			Chaldaioi		//near east Charax_Spasinou
+category			peasant_revolt
+chance				3
+description			Chaldaioi
+unit				eastern infantry nizag gund
+unit				eastern missile thanvare payahdag
+unit				eastern skirmisher cavalry nizakahar ayrudzi
+
+;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+;      - - -     iranians   - - -
+;
+rebel_type 			Mardoi		//Iranians Khoarene
+category			peasant_revolt
+chance				5
+description			Mardoi
+unit				eastern infantry nizag gund
+unit				eastern missile thanvare payahdag
+unit				eastern skirmisher cavalry nizakahar ayrudzi
+
+rebel_type 			Mada		//Iranians Media
+category			peasant_revolt
+chance				5
+description			Mada
+unit				eastern missile eransahr arshtbara merc
+unit				eastern missile thanvare payahdag
+unit				eastern infantry nizag gund
+unit				eastern missile eransahr arshtbara merc
+unit				eastern skirmisher cavalry nizakahar ayrudzi
+
+rebel_type 			Kardouchoi		//Iranians Adiabene
+category			peasant_revolt
+chance				5
+description			Kardouchoi
+unit				hellenistic infantry pantodapoi
+unit				eastern missile thanvare payahdag
+unit				eastern skirmisher cavalry nizakahar ayrudzi
+
+rebel_type 			Uvarazmi		//Iranians Khwarazm
+category			peasant_revolt
+chance				7
+description			Uvarazmi
+unit				eastern infantry nizag gund
+unit				eastern infantry nizag gund
+unit				eastern missile thanvare payahdag
+unit				steppe skirmisher cavalry daha rog baexdzhyn aefsad
+unit				steppe missile cavalry daha baexdzhyntae
+
+rebel_type 			Davan		//Iranians Dayuan
+category			peasant_revolt
+chance				7
+description			Davan
+unit				eastern missile eransahr arshtbara merc
+unit				steppe missile cavalry daha baexdzhyntae
+unit				eastern missile eransahr arshtbara merc
+
+rebel_type 			Suguda		//Iranians Sogdiane
+category			peasant_revolt
+chance				9
+description			Suguda
+unit				steppe missile cavalry daha baexdzhyntae
+unit				eastern missile eransahr arshtbara merc
+unit				eastern missile eransahr arshtbara merc
+unit				steppe missile cavalry daha baexdzhyntae
+
+rebel_type 			Kang		//Iranians Kangha
+category			peasant_revolt
+chance				7
+description			Kang
+unit				eastern missile eransahr arshtbara merc
+unit				eastern missile eransahr arshtbara merc
+unit				steppe missile cavalry daha baexdzhyntae
+
+rebel_type 			Haltamti	//Iranians Elymais
+category			peasant_revolt
+chance				4
+description			Haltamti
+unit				eastern infantry nizag gund
+unit				eastern missile eransahr arshtbara merc
+unit				eastern missile thanvare payahdag
+unit				eastern skirmisher cavalry nizakahar ayrudzi
+unit				eastern skirmisher cavalry nizakahar ayrudzi
+
+rebel_type 			Margush	//Iranians Margiana
+category			peasant_revolt
+chance				7
+description			Margush
+unit				steppe missile cavalry daha baexdzhyntae
+unit				eastern missile eransahr arshtbara merc
+unit				eastern missile eransahr arshtbara merc
+unit				steppe missile cavalry daha baexdzhyntae
+
+rebel_type 			Varkana	//Iranians Hyrkania
+category			peasant_revolt
+chance				9
+description			Varkana
+unit				eastern infantry nizag gund
+unit				eastern infantry nizag gund
+unit				eastern infantry nizag gund
+unit				eastern missile eransahr arshtbara merc
+unit				eastern missile thanvare payahdag
+
+rebel_type 			Zranka	//Iranians Drangiane
+category			peasant_revolt
+chance				5
+description			Zranka
+unit				eastern missile eransahr arshtbara merc
+unit				eastern skirmisher cavalry harauvatish asabara
+unit				eastern missile eransahr arshtbara merc
+unit				eastern skirmisher cavalry harauvatish asabara
+
+rebel_type 			Utian	//Iranians Gabiene
+category			peasant_revolt
+chance				5
+description			Utian
+unit				eastern missile thanvare payahdag
+
+rebel_type 			Parsa	//Iranians Persis
+category			peasant_revolt
+chance				5
+description			Parsa
+unit				eastern infantry nizag gund
+unit				eastern missile thanvare payahdag
+
+rebel_type 			Karmana	//Iranians Karmania
+category			peasant_revolt
+chance				3
+description			Karmana
+unit				eastern skirmisher cavalry harauvatish asabara
+unit				eastern skirmisher cavalry harauvatish asabara
+
+rebel_type 			Mahi_khoran	//Iranians Gedrosia
+category			peasant_revolt
+chance				5
+description			Mahi_khoran
+unit				eastern missile indian longbowmen
+unit				eastern missile thanvare payahdag
+unit				eastern missile thanvare payahdag
+
+rebel_type 			Haravautish	//Iranians Arachosia
+category			peasant_revolt
+chance				8
+description			Haravautish
+unit				eastern infantry nizag gund
+unit				eastern missile eransahr arshtbara merc
+unit				eastern missile indian longbowmen
+
+rebel_type 			Baktrioi	//Greek-Iranian Baktria
+category			peasant_revolt
+chance				7
+description			Baktrioi
+unit				eastern missile eransahr arshtbara merc
+unit				eastern missile eransahr arshtbara merc
+unit				eastern infantry nizag gund
+unit				steppe missile cavalry daha baexdzhyntae
+
+rebel_type 			Uparisena	//Iranians Paropamisadai
+category			peasant_revolt
+chance				5
+description			Uparisena
+unit				eastern missile indian longbowmen
+unit				eastern missile eransahr arshtbara merc
+unit				eastern skirmisher cavalry harauvatish asabara
+
+rebel_type 			Parthava	//Iranians Parthava
+category			peasant_revolt
+chance				7
+description			Parthava
+unit				eastern missile thanvare payahdag
+unit				eastern infantry nizag gund
+unit				steppe missile cavalry daha baexdzhyntae
+
+rebel_type 			Daha	//Iranians Astauene
+category			peasant_revolt
+chance				7
+description			Daha
+unit				eastern missile eransahr arshtbara merc
+unit				eastern infantry nizag gund
+unit				steppe missile cavalry daha baexdzhyntae
+
+;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+;      - - -     india   - - -
+;
+rebel_type 			Sindhi	//India Sind
+category			peasant_revolt
+chance				3
+description			Sindhi
+unit                            eastern missile parasupattyasreni
+unit                            eastern missile parasupattyasreni
+unit				eastern missile indian longbowmen
+unit				eastern missile indian longbowmen
+unit				eastern missile indian longbowmen
+unit				eastern infantry indian spearmen
+unit				eastern infantry indian spearmen
+unit				indian elephant standard
+unit				indian elephant standard
+
+rebel_type 			Moriya	//India Sattagydia
+category			peasant_revolt
+chance				4
+description			Moriya
+unit                            eastern missile parasupattyasreni
+unit                            eastern missile parasupattyasreni
+unit				eastern missile indian longbowmen
+unit				eastern missile indian longbowmen
+unit				eastern missile indian longbowmen
+unit				eastern infantry indian spearmen
+unit				eastern infantry indian spearmen
+unit				eastern infantry indian spearmen
+unit				indian elephant standard
+unit				indian elephant standard
+
+rebel_type 			Gandaran	//India Gandhara
+category			peasant_revolt
+chance				6
+description			Gandaran
+unit                            eastern missile parasupattyasreni
+unit                            eastern missile parasupattyasreni
+unit				eastern missile indian longbowmen
+unit				eastern missile indian longbowmen
+unit				eastern missile indian longbowmen
+unit				eastern infantry indian spearmen
+unit				eastern infantry indian spearmen
+unit				eastern infantry indian spearmen
+unit				indian elephant standard
+unit				indian elephant standard
+
+;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+;      - - -     arabia   - - -
+;
+rebel_type 			Palmyrenoi	//arabs Tadmor
+category			peasant_revolt
+chance				7
+description			Palmyrenoi
+unit				arabian skirmisher tribal levies
+unit				arabian missile cavalry tribal levies
+unit				arabian missile arab slingers
+
+rebel_type 			Maranitae	//arabs Sinai
+category			peasant_revolt
+chance				5
+description			Maranitae
+unit				arabian skirmisher tribal levies
+unit				arabian skirmisher tribal levies
+
+rebel_type 			Nabatu	//arabs Nabataia
+category			peasant_revolt
+chance				7
+description			Nabatu
+unit				arabian infantry redsea axemen
+unit				arabian skirmisher tribal levies
+unit				arabian missile cavalry tribal levies
+
+rebel_type 			Minaei		//Arabs Main
+category			peasant_revolt
+chance				6
+description			Minaei
+unit				arabian infantry redsea axemen
+unit				arabian missile cavalry tribal levies
+unit				arabian skirmisher tribal levies
+unit				arabian missile arab slingers
+
+rebel_type 			Sabaei		//Arabs Saba
+category			peasant_revolt
+chance				7
+description			Sabaei
+unit				arabian infantry redsea axemen
+unit				arabian missile cavalry tribal levies
+unit				arabian missile cavalry tribal levies
+unit				arabian skirmisher tribal levies
+unit				arabian missile arab slingers
+unit				arabian cavalry saba citizen cavalry
+
+rebel_type 			Amm		//Arabs Qataban
+category			peasant_revolt
+chance				7
+description			Amm
+unit				arabian infantry redsea axemen
+unit				arabian missile cavalry tribal levies
+unit				arabian missile cavalry tribal levies
+unit				arabian skirmisher tribal levies
+unit				arabian missile arab slingers
+unit				arabian cavalry saba citizen cavalry
+
+rebel_type 			Chatramotitae		//Arabs Hadramaut
+category			peasant_revolt
+chance				9
+description			Chatramotitae
+unit				arabian skirmisher tribal levies
+unit				arabian missile arab slingers
+
+rebel_type 			Maka_Zufar		//Arabs Zufar
+category			peasant_revolt
+chance				8
+description			Maka_Zufar
+unit				arabian missile cavalry tribal levies
+unit				arabian missile cavalry tribal levies
+
+rebel_type 			Maka_Maketa		//Arabs Maketa
+category			peasant_revolt
+chance				8
+description			Maka_Maketa
+unit				arabian skirmisher tribal levies
+unit				arabian missile arab slingers
+
+rebel_type 			Hagara		//Arabs Gerrhaia_Arabia
+category			peasant_revolt
+chance				7
+description			Hagara
+unit				arabian missile cavalry tribal levies
+unit				arabian missile cavalry tribal levies
+
+rebel_type 			Aribi		//Arabs Arabia
+category			peasant_revolt
+chance				8
+description			Aribi
+unit				arabian missile cavalry tribal levies
+unit				arabian missile cavalry tribal levies
+
+;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+;      - - -     east africa   - - -
+;
+rebel_type 			Imazighen		//east africa Sahara
+category			peasant_revolt
+chance				8
+description			Imazighen
+unit				african skirmisher javelinmen
+unit				african skirmisher javelinmen
+unit				african missile cavalry numidian
+unit				african cavalry numidian nobles
+
+rebel_type 			Marmaridai		//east africa Marmarike
+category			peasant_revolt
+chance				5
+description			Marmaridai
+unit				greek missile sphendenotai
+unit				greek skirmisher akontistai
+unit				hellenistic cavalry machimoi hippeis
+
+rebel_type 			Libyes		//east africa Libye
+category			peasant_revolt
+chance				3
+description			Libyes
+unit				greek missile sphendenotai
+unit				greek skirmisher akontistai
+unit				hellenistic cavalry machimoi hippeis
+
+rebel_type 			Kyrenaioi		//east africa Kyrenaia
+category			peasant_revolt
+chance				5
+description			Kyrenaioi
+unit				greek missile sphendenotai
+unit				greek infantry taxeis hoplitai
+unit				greek infantry taxeis hoplitai
+
+rebel_type 			Aigyptioi_Thebais		//east africa Thebais
+category			peasant_revolt
+chance				4
+description			Aigyptioi_Thebais
+unit				greek missile toxotai
+unit				greek skirmisher akontistai
+unit				greek skirmisher akontistai
+unit				hellenistic infantry machimoi phalangitai
+unit				hellenistic infantry machimoi phalangitai
+unit				hellenistic cavalry machimoi hippeis
+
+rebel_type 			Aigyptioi_Oasis_Megale		//east africa Oasis_Megale
+category			peasant_revolt
+chance				5
+description			Aigyptioi_Oasis_Megale
+unit				greek missile toxotai
+unit				greek skirmisher akontistai
+unit				hellenistic cavalry machimoi hippeis
+
+rebel_type 			Aigyptioi		//east africa Heptanomis
+category			peasant_revolt
+chance				3
+description			Aigyptioi
+unit				greek missile toxotai
+unit				greek skirmisher akontistai
+unit				greek skirmisher akontistai
+unit				hellenistic infantry machimoi phalangitai
+unit				hellenistic infantry machimoi phalangitai
+unit				hellenistic cavalry machimoi hippeis
+
+rebel_type 			Aigyptioi_Triakontaschoinos		//east africa Triakontaschoinos
+category			peasant_revolt
+chance				5
+description			Aigyptioi_Triakontaschoinos
+unit				african infantry nubian spearmen rebel
+unit				african infantry nubian spearmen rebel
+unit				african infantry nubian spearmen rebel
+unit				african infantry nubian spearmen rebel
+unit				african infantry nubian spearmen rebel
+unit				african elephant forest
+
+rebel_type 			Kasu		//east africa Kush
+category			peasant_revolt
+chance				7
+description			Kasu
+unit				african infantry nubian spearmen rebel
+unit				african infantry nubian spearmen rebel
+unit				african infantry nubian spearmen rebel
+unit				african infantry nubian spearmen rebel
+unit				african infantry nubian spearmen rebel
+unit				african elephant forest
+
+rebel_type 			Agazyan		//east africa Diamat
+category			peasant_revolt
+chance				6
+description			Agazyan
+unit				arabian infantry ethiopian spearmen
+unit				arabian infantry ethiopian spearmen
+unit				arabian infantry redsea axemen
+unit				african elephant bush
+
+rebel_type 			Tibu		//east africa
+category			peasant_revolt
+chance				0
+description			Tibu
+unit				arabian infantry ethiopian spearmen
+unit				arabian infantry ethiopian spearmen
+unit				arabian infantry ethiopian spearmen
+unit				arabian infantry ethiopian spearmen
+unit				arabian infantry redsea axemen
+
+rebel_type 			Beja		//east africa Erythraia
+category			peasant_revolt
+chance				7
+description			Beja
+unit				arabian infantry ethiopian spearmen
+unit				arabian infantry redsea axemen
+unit				african elephant bush
+
+;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+;      - - -     berbers   - - -
+;
+rebel_type 			Tingitana		//berbers Mauretania_Tingitana
+category			peasant_revolt
+chance				7
+description			Tingitana
+unit				african skirmisher javelinmen
+unit				african skirmisher javelinmen
+unit				african missile cavalry numidian
+unit				african missile cavalry numidian
+unit				african elephant forest
+unit				african cavalry numidian nobles
+
+rebel_type 			Masaesyli		//berbers Mauretania_Massaesili
+category			peasant_revolt
+chance				7
+description			Masaesyli
+unit				carthaginian infantry mishteret izrahim feenikim rebel
+unit				african skirmisher javelinmen
+unit				african skirmisher javelinmen
+unit				african missile cavalry numidian
+unit				african cavalry numidian nobles
+
+rebel_type 			Gaetulian		//berbers Gaetulia
+category			peasant_revolt
+chance				9
+description			Gaetulian
+unit				african skirmisher javelinmen
+unit				african missile cavalry numidian
+unit				african elephant forest
+unit				african cavalry numidian nobles
+
+rebel_type 			Pharusii		//berbers
+category			peasant_revolt
+chance				3
+description			Pharusii
+unit				african skirmisher javelinmen
+unit				african skirmisher javelinmen
+unit				african missile cavalry numidian
+unit				african missile cavalry numidian
+unit				african cavalry numidian nobles
+
+rebel_type 			Numidae		//berbers Numidia
+category			peasant_revolt
+chance				7
+description			Numidae
+unit				african skirmisher javelinmen
+unit				african missile cavalry numidian
+unit				african missile cavalry numidian
+unit				african cavalry numidian nobles
+
+rebel_type 			Masylian		//berbers Mashiliem
+category			peasant_revolt
+chance				7
+description			Masylian
+unit				african skirmisher javelinmen
+unit				carthaginian infantry mishteret izrahim feenikim rebel
+unit				african missile cavalry numidian
+unit				african missile cavalry numidian
+unit				african cavalry numidian nobles
+
+rebel_type 			Garamante		//berbers Phasania
+category			peasant_revolt
+chance				7
+description			Garamante
+unit				african skirmisher javelinmen
+unit				african missile cavalry numidian
+unit				african missile cavalry numidian
+unit				african cavalry numidian nobles
+
+rebel_type 			Maurisi		//Britons Mauretania
+category			peasant_revolt
+chance				7
+description			Maurisi
+unit				african skirmisher javelinmen
+unit				african skirmisher javelinmen
+unit				african missile cavalry numidian
+unit				african missile cavalry numidian
+unit				african elephant forest
+unit				african cavalry numidian nobles
+
+rebel_type 			Nasamone		//berbers Cydamae
+category			peasant_revolt
+chance				8
+description			Nasamone
+unit				african skirmisher javelinmen
+unit				african missile cavalry numidian
+unit				african cavalry numidian nobles
+
+rebel_type 			Tamasheq		//berbers
+category			peasant_revolt
+chance				3
+description			Tamasheq
+unit				african skirmisher javelinmen
+unit				african skirmisher javelinmen
+unit				african skirmisher javelinmen
+unit				african missile cavalry numidian
+unit				african missile cavalry numidian
+unit				african cavalry numidian nobles
+
+rebel_type 			Marmaridae		//berbers Augila
+category			peasant_revolt
+chance				8
+description			Marmaridae
+unit				african skirmisher javelinmen
+unit				african missile cavalry numidian
+unit				african missile cavalry numidian
+unit				african cavalry numidian nobles
+
+rebel_type 			Melanogaetuli		//berbers
+category			peasant_revolt
+chance				3
+description			Melanogaetuli
+unit				african skirmisher javelinmen
+unit				african skirmisher javelinmen
+unit				african skirmisher javelinmen
+unit				african missile cavalry numidian
+unit				african cavalry numidian nobles
+
+;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+;      - - -     carthage   - - -
+;
+rebel_type 			Iberians	//iberians and carthaginians Turdulia
+category			peasant_revolt
+chance				3
+description			Iberians
+unit				iberian skirmisher iovamann
+unit				iberian skirmisher iovamann
+unit				iberian infantry caetranann
+unit				iberian infantry caetranann
+unit				iberian infantry gestikapoinann
+unit				iberian infantry gestikapoinann
+unit				iberian cavalry ambakaro epones
+unit				iberian cavalry generals bodyguard
+
+rebel_type 			Turdetani	//iberians and carthaginians Turdetania
+category			peasant_revolt
+chance				3
+description			Turdetani
+unit				carthaginian infantry mishteret izrahim feenikim rebel
+unit				iberian infantry light caetratii
+unit				iberian infantry medium scutarii
+unit				iberian infantry medium scutarii
+unit				iberian skirmisher cavalry equites caetratii
+unit				iberian cavalry generals bodyguard
+
+rebel_type 			Vettoni	//iberians and carthaginians Lusitania
+category			peasant_revolt
+chance				7
+description			Vettoni
+unit				iberian skirmisher iovamann
+unit				iberian skirmisher iovamann
+unit				iberian infantry caetranann
+unit				iberian infantry caetranann
+unit				iberian infantry gestikapoinann
+unit				iberian infantry gestikapoinann
+unit				iberian cavalry ambakaro epones
+unit				iberian cavalry generals bodyguard
+
+rebel_type 			Lacetani	//iberians and carthaginians Lacetania
+category			peasant_revolt
+chance				4
+description			Lacetani
+unit				iberian infantry light caetratii
+unit				iberian infantry medium scutarii
+unit				iberian infantry medium scutarii
+unit				iberian skirmisher cavalry equites caetratii
+unit				iberian cavalry generals bodyguard
+
+rebel_type 			Gallaeci	//iberians and carthaginians Galaecia
+category			peasant_revolt
+chance				7
+description			Gallaeci
+unit				iberian infantry light caetratii
+unit				iberian cavalry light curisii
+unit				iberian infantry medium scutarii
+unit				iberian infantry medium scutarii
+unit				iberian cavalry generals bodyguard
+
+rebel_type 			Edetani	//iberians and carthaginians Edetania
+category			peasant_revolt
+chance				3
+description			Edetani
+unit				iberian infantry light caetratii
+unit				iberian cavalry light curisii
+unit				iberian infantry medium scutarii
+unit				iberian infantry medium scutarii
+unit				iberian infantry medium scutarii
+unit				iberian skirmisher cavalry equites caetratii
+unit				iberian cavalry generals bodyguard
+
+rebel_type 			Arevaci	//iberians and carthaginians Celtiberia
+category			peasant_revolt
+chance				7
+description			Arevaci
+unit				iberian infantry light caetratii
+unit				iberian infantry light caetratii
+unit				iberian cavalry light curisii
+unit				iberian infantry medium scutarii
+unit				iberian skirmisher cavalry equites caetratii
+unit				iberian cavalry generals bodyguard
+
+rebel_type 			Carpetani	//iberians and carthaginians Carpetania
+category			peasant_revolt
+chance				3
+description			Carpetani
+unit				iberian infantry light caetratii
+unit				iberian infantry light caetratii
+unit				iberian infantry medium scutarii
+unit				iberian infantry medium scutarii
+unit				iberian cavalry generals bodyguard
+
+rebel_type 			Cantabri	//iberians and carthaginians Cantabrias
+category			peasant_revolt
+chance				7
+description			Cantabri
+unit				iberian infantry light caetratii
+unit				iberian infantry light caetratii
+unit				iberian infantry medium scutarii
+unit				iberian infantry medium scutarii
+unit				iberian infantry medium scutarii
+unit				iberian skirmisher cavalry equites caetratii
+unit				iberian cavalry generals bodyguard
+
+rebel_type 			Bastestani	//iberians and carthaginians Bastetania
+category			peasant_revolt
+chance				4
+description			Bastestani
+unit				iberian infantry light caetratii
+unit				iberian cavalry light curisii
+unit				iberian infantry medium scutarii
+unit				iberian infantry medium scutarii
+unit				iberian skirmisher cavalry equites caetratii
+unit				iberian cavalry generals bodyguard
+
+rebel_type 			Baleari	//iberians and carthaginians Baleares
+category			peasant_revolt
+chance				3
+description			Baleari
+unit				iberian missile balearic slinger
+unit				iberian missile balearic slinger
+unit				iberian cavalry generals bodyguard
+
+rebel_type 			Shardana	//carthage Sardin
+category			peasant_revolt
+chance				7
+description			Shardana
+unit				carthaginian infantry mishteret izrahim feenikim rebel
+unit				carthaginian infantry mishteret izrahim feenikim rebel
+unit				african missile cavalry numidian
+
+rebel_type 			Korsim	//carthage Korsim
+category			peasant_revolt
+chance				7
+description			Korsim
+unit				carthaginian infantry mishteret izrahim feenikim rebel
+unit				carthaginian infantry mishteret izrahim feenikim rebel
+unit				african missile cavalry numidian
+
+rebel_type 			Mamertine		//Carthage Sicilia
+category			peasant_revolt
+chance				5
+description			Mamertine
+unit				greek missile sphendenotai
+unit				greek infantry misthophoroi hoplitai
+unit				greek infantry misthophoroi hoplitai
+unit				carthaginian infantry mishteret izrahim feenikim rebel
+unit				iberian skirmisher cavalry equites caetratii
+
+rebel_type 			Elim		//Carthage Elimya
+category			peasant_revolt
+chance				5
+description			Elim
+unit				greek missile sphendenotai
+unit				greek infantry misthophoroi hoplitai
+unit				carthaginian infantry mishteret izrahim feenikim rebel
+
+rebel_type 			Carthaginian_Zeugitana		//Carthage Zeugitana
+category			peasant_revolt
+chance				5
+description			Carthaginian_Zeugitana
+unit				carthaginian infantry mishteret izrahim feenikim rebel
+unit				carthaginian infantry mishteret izrahim feenikim rebel
+unit				african skirmisher javelinmen
+unit				african missile cavalry numidian
+unit				african missile cavalry numidian
+unit				african cavalry numidian nobles
+
+rebel_type 			Carthaginian_Tripolitania		//Carthage Syrthim
+category			peasant_revolt
+chance				3
+description			Carthaginian_Tripolitania
+unit				carthaginian infantry mishteret izrahim feenikim rebel
+unit				african skirmisher javelinmen
+unit				african missile cavalry numidian
+unit				african cavalry numidian nobles
+
+rebel_type 			Carthaginian		//Carthage Byzacena
+category			peasant_revolt
+chance				5
+description			Carthaginian
+unit				carthaginian infantry mishteret izrahim feenikim rebel
+unit				carthaginian infantry mishteret izrahim feenikim rebel
+unit				african skirmisher javelinmen
+unit				african missile cavalry numidian
+unit				african cavalry numidian nobles
+
+rebel_type 			Kena_ani	//carthage Phoenicia
+category			peasant_revolt
+chance				5
+description			Kena_ani
+unit				greek skirmisher akontistai
+unit				eastern missile shubanfradakshana
+unit				hellenistic infantry iudaioi taxeis slave
+unit				greek infantry taxeis hoplitai
+unit				hellenistic infantry pantodapoi
+unit				hellenistic skirmisher cavalry hippakontistai slave
+
+;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+;      - - -     macedon   - - -
+;
+rebel_type 			Makedones		//Macedon Makedonia
+category			peasant_revolt
+chance				5
+description			Makedones
+unit				greek infantry taxeis hoplitai
+unit				greek skirmisher akontistai
+unit				greek infantry taxeis hoplitai
+unit				greek cavalry mistophoroi hippeis
+unit				greek cavalry hippeis
+
+rebel_type 			Byzantioi	//Macedon Chersonesos_Thraikia
+category			peasant_revolt
+chance				7
+description			Byzantioi
+unit				greek infantry taxeis hoplitai
+unit				greek skirmisher peltastai
+
+;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+;      - - -     greeks   - - -
+;
+rebel_type 			Bithynoi	//greeks and thracians Bithynia
+category			peasant_revolt
+chance				7
+description			Bithynoi
+unit				greek infantry taxeis hoplitai
+unit				greek skirmisher akontistai
+unit				greek skirmisher peltastai
+unit				greek cavalry mistophoroi hippeis
+
+rebel_type 			Phryges	//greeks and thracians Phrygia
+category			peasant_revolt
+chance				5
+description			Phryges
+unit				greek infantry taxeis hoplitai
+unit				greek cavalry mistophoroi hippeis
+unit				dacian infantry getikoi stratiotai
+
+rebel_type 			Epeirotai		//greeks Epeiros
+category			peasant_revolt
+chance				7
+description			Epeirotai
+unit				greek infantry taxeis hoplitai
+unit				greek infantry taxeis hoplitai
+
+rebel_type 			Lesbioi	//international Lesbos
+category			peasant_revolt
+chance				5
+description			Lesbioi
+unit				greek infantry iphikratous hoplitai
+unit				greek cavalry hippeis
+
+rebel_type 			Thessaloi	//greeks Thessalia
+category			peasant_revolt
+chance				3
+description			Thessaloi
+unit				greek infantry taxeis hoplitai
+unit				greek cavalry mistophoroi hippeis
+unit				greek cavalry mistophoroi hippeis
+unit				greek cavalry hippeis
+
+rebel_type 			Ionians		//greeks
+category			peasant_revolt
+chance				0
+description			Ionians
+unit				greek infantry taxeis hoplitai
+unit				greek skirmisher akontistai
+unit				greek skirmisher peltastai
+unit				greek infantry taxeis hoplitai
+unit				greek infantry taxeis hoplitai
+unit				greek infantry iphikratous hoplitai
+unit				greek cavalry mistophoroi hippeis
+
+rebel_type 			Ione_Mysia		//greeks Mysia
+category			peasant_revolt
+chance				3
+description			Ione_Mysia
+;unit				greek infantry taxeis phalangitai
+unit				hellenistic infantry heavy pezhetairoi
+unit				greek cavalry mistophoroi hippeis
+unit				greek skirmisher akontistai
+unit				greek missile sphendenotai
+
+rebel_type 			Ione		//greeks Lydia
+category			peasant_revolt
+chance				3
+description			Ione
+unit				greek infantry taxeis hoplitai
+unit				greek infantry iphikratous hoplitai
+unit				greek cavalry mistophoroi hippeis
+
+rebel_type 			Aitolioi	//greeks Aitolia
+category			peasant_revolt
+chance				5
+description			Aitolioi
+unit				greek infantry taxeis hoplitai
+unit				greek skirmisher peltastai
+unit				greek skirmisher akontistai
+unit				hellenistic skirmisher cavalry hippakontistai slave
+
+rebel_type 			Athenaioi	//greeks Attike
+category			peasant_revolt
+chance				3
+description			Athenaioi
+unit				greek infantry taxeis hoplitai
+unit				greek infantry iphikratous hoplitai
+unit				greek infantry iphikratous hoplitai
+unit				greek cavalry mistophoroi hippeis
+
+rebel_type 			Peloponnesioi	//greeks Peloponnesos
+category			peasant_revolt
+chance				4
+description			Peloponnesioi
+unit				greek infantry taxeis hoplitai
+unit				greek skirmisher akontistai
+unit				greek skirmisher peltastai
+unit				greek cavalry mistophoroi hippeis
+
+rebel_type 			Lycians		//greeks
+category			peasant_revolt
+chance				0
+description			Lycians
+unit				greek infantry taxeis hoplitai
+unit				greek skirmisher akontistai
+unit				greek skirmisher peltastai
+unit				hellenistic skirmisher cavalry hippakontistai slave
+unit				hellenistic infantry iudaioi taxeis slave
+
+rebel_type 			Trmmli		//greeks Karia
+category			peasant_revolt
+chance				7
+description			Trmmli
+unit				greek infantry taxeis hoplitai
+unit				greek skirmisher akontistai
+unit				greek skirmisher peltastai
+
+rebel_type 			Kyprioi	//greeks Kypros
+category			peasant_revolt
+chance				3
+description			Kyprioi
+unit				greek skirmisher akontistai
+unit				greek skirmisher peltastai
+unit				greek infantry iphikratous hoplitai
+
+rebel_type 			Syrakousioi	//greeks Trinakrie
+category			peasant_revolt
+chance				5
+description			Syrakousioi
+unit				greek infantry taxeis hoplitai
+unit				greek skirmisher akontistai
+unit				greek skirmisher peltastai
+unit				greek infantry iphikratous hoplitai
+unit				greek cavalry hippeis
+
+rebel_type 			Heilotes		//greeks Lakonike
+category			peasant_revolt
+chance				3
+description			Heilotes
+unit				greek infantry taxeis hoplitai
+unit				greek skirmisher akontistai
+unit				greek infantry taxeis hoplitai
+unit				greek infantry taxeis hoplitai
+unit				greek infantry iphikratous hoplitai
+
+rebel_type 			Rhodioi	//greeks Rhodos
+category			peasant_revolt
+chance				5
+description			Rhodioi
+unit				greek infantry taxeis hoplitai
+unit				greek missile sphendenotai
+
+rebel_type 			Kretai		//greeks Krete
+category			peasant_revolt
+chance				7
+description			Kretai
+unit				greek infantry taxeis hoplitai
+unit				greek missile toxotai
+unit				greek missile toxotai
+unit				greek missile toxotai
+
+rebel_type 			Tauri	//greek and scythians Taurike_Chersonesos
+category			peasant_revolt
+chance				5
+description			Tauri
+unit				greek infantry taxeis hoplitai
+unit				greek infantry iphikratous hoplitai
+unit				greek cavalry mistophoroi hippeis
+unit				steppe missile cavalry skuda baexdzhyntae
+
+rebel_type 			Bosporitai	//greek and scythians Bosporion_Tyrranesis
+category			peasant_revolt
+chance				5
+description			Bosporitai
+unit				greek infantry taxeis hoplitai
+unit				greek infantry iphikratous hoplitai
+unit				steppe missile cavalry sauromatae fat aexsdzhytae
+unit				steppe missile cavalry skuda fat aexsdzhytae
+
+rebel_type 			Euboieis	//greeks Euboia
+category			peasant_revolt
+chance				3
+description			Euboieis
+unit				greek infantry taxeis hoplitai
+unit				greek infantry iphikratous hoplitai
+unit				greek skirmisher peltastai
+unit				hellenistic skirmisher cavalry hippakontistai slave
+
+rebel_type 			Pamphylioi	//greeks Pamphylia
+category			peasant_revolt
+chance				5
+description			Pamphylioi
+unit				greek infantry taxeis hoplitai
+unit				greek skirmisher akontistai
+unit				greek skirmisher peltastai
+unit				greek cavalry mistophoroi hippeis
+
+;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+;      - - -     romans   - - -
+;
+rebel_type 			Etruscans	//romans Etruria
+category			peasant_revolt
+chance				5
+description			Etruscans
+unit				roman infantry camillan rorarii
+unit				roman infantry camillan rorarii
+unit				roman skirmisher velites
+unit				roman infantry camillan rorarii
+unit				roman cavalry polybian eqvites
+
+rebel_type 			Roma_Umbria	//romans Umbria
+category			peasant_revolt
+chance				5
+description			Roma_Umbria
+unit				roman infantry camillan rorarii
+unit				roman skirmisher velites
+unit				roman cavalry polybian eqvites
+
+rebel_type 			Roma_Apulia	//romans, greeks and samnite Apulia
+category			peasant_revolt
+chance				5
+description			Roma_Apulia
+unit				samnite infantry spearmen merc
+unit				samnite infantry swordsmen merc
+unit				greek infantry taxeis hoplitai
+unit				greek cavalry mistophoroi hippeis
+
+rebel_type 			Roma_Latium		//Romans Latium2
+category			peasant_revolt
+chance				7
+description			Roma_Latium
+unit				roman infantry camillan rorarii
+unit				roman skirmisher velites
+unit				roman skirmisher velites
+unit				roman infantry camillan rorarii
+unit				roman infantry camillan rorarii
+unit				roman cavalry polybian eqvites
+
+rebel_type 			Tarentine	//romans, greeks and samnite Kalabria
+category			peasant_revolt
+chance				7
+description			Tarentine
+unit				samnite infantry spearmen merc
+unit				samnite infantry swordsmen merc
+unit				greek infantry taxeis hoplitai
+unit				greek cavalry mistophoroi hippeis
+
+rebel_type 			Campanians 	//romans, greeks and samnite Campania
+category			peasant_revolt
+chance				5
+description			Campanians
+unit				greek skirmisher akontistai
+unit				samnite infantry spearmen merc
+unit				samnite infantry spearmen merc
+unit				samnite infantry swordsmen merc
+unit				greek cavalry mistophoroi hippeis
+
+rebel_type 			Leukanoi	//romans, greeks and samnite Brettia
+category			peasant_revolt
+chance				6
+description			Leukanoi
+unit				greek skirmisher akontistai
+unit				samnite infantry swordsmen merc
+unit				samnite infantry spearmen merc
+
+;;;;;;;;;;;;		;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;non region			based
+;;;;;;;;;;;;		;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+rebel_type			gladiator_uprising
+category			gladiator_revolt
+chance				100
+description			gladiator_uprising
+unit				hellenistic infantry pantodapoi
+unit				hellenistic infantry pantodapoi
+unit				hellenistic infantry pantodapoi
+unit				hellenistic infantry pantodapoi
+unit				eastern missile thanvare payahdag
+unit				eastern missile thanvare payahdag
+unit				eastern missile thanvare payahdag
+unit				eastern missile thanvare payahdag
+
+rebel_type			brigands
+category			brigands
+chance				15
+description			brigands
+unit				eastern missile thanvare payahdag merc
+unit				celtic infantry enoci curoas merc
+unit				celtic skirmisher cavalry curepos
+unit				greek cavalry hippeis thessalikoi merc
+unit				hellenistic infantry misthophoroi phalangitai
+unit				hellenistic infantry thureophoroi mercenary
+unit				greek skirmisher peltastai mercenary
+unit				greek cavalry mistophoroi hippeis
+unit				samnite infantry swordsmen merc
+unit				greek infantry iphikratous hoplitai
+unit				celtic infantry curoas
+unit				germanic infantry frameharjoz
+unit				germanic cavalry ridoharjoz
+unit				germanic infantry gastiz
+unit				steppe missile cavalry skuda fat aexsdzhytae
+unit				hellenistic infantry doryphoroi pontikoi
+
+rebel_type			pirates
+category			pirates
+chance				25
+description			pirates
+unit				generic ship sea warriors
+unit				generic ship small pirate
+;unit				generic ship great pirate // Removed by JMRC 2007.10.05
+
+
+;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+

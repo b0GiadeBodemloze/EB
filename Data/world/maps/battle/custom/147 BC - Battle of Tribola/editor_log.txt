@@ -1,0 +1,413 @@
+Loading from file eb/data/world/maps/battle/custom/147 BC - Battle of Tribola/descr_battle.txt
+Created faction macedon from file
+	Creating army controlled by Philippos at 0x2c678938 from script
+		Creating unit (Somatophylakes Strategou (Hellenic Bodyguard Cavalry)) at 0x2cbd4928
+		Creating unit (Hippeis Thessalikoi (Thessalian Heavy Cavalry)) at 0x2c98dc38
+		Creating unit (Argyraspides (Hellenic Elite Phalanx)) at 0x2c9b2088
+		Creating unit (Pezhetairoi (Hellenic Medium Phalanx)) at 0x2c9b22d0
+		Creating unit (Phalangitai Deuteroi (Hellenic Levy Phalanx)) at 0x2c9b2518
+		Creating unit (Pezhetairoi (Hellenic Medium Phalanx)) at 0x2c9b2760
+Created faction seleucid from file
+	Creating army controlled by Titvs at 0x2c678cb8 from script
+		Creating unit (Eqvites Consvlares (Republican Consular Guard Cavalry)) at 0x2c9b29a8
+		Creating unit (Hastati (Polybian Medium Infantry Maniple)) at 0x2c9b2c98
+		Creating unit (Hastati (Polybian Medium Infantry Maniple)) at 0x4177670
+		Creating unit (Hastati (Polybian Medium Infantry Maniple)) at 0x4178948
+		Creating unit (Hastati (Polybian Medium Infantry Maniple)) at 0x4178f58
+		Creating unit (Principes (Polybian Heavy Infantry Maniple)) at 0x4179568
+		Creating unit (Principes (Polybian Heavy Infantry Maniple)) at 0x4179b78
+		Creating unit (Principes (Polybian Heavy Infantry Maniple)) at 0x417a188
+		Creating unit (Principes (Polybian Heavy Infantry Maniple)) at 0x417a798
+		Creating unit (Velites (Polybian Skirmishers)) at 0x417ada8
+		Creating unit (Velites (Polybian Skirmishers)) at 0x417aff0
+		Creating unit (Eqvites Extraordinarii (Elite Heavy Cavalry of the Italic Allies)) at 0x417ce10
+Adding unit (Somatophylakes Strategou (Hellenic Bodyguard Cavalry)) at 0x2cbd4928 to deployment area at 0x3280010
+Adding unit (Hippeis Thessalikoi (Thessalian Heavy Cavalry)) at 0x2c98dc38 to deployment area at 0x3280010
+Adding unit (Argyraspides (Hellenic Elite Phalanx)) at 0x2c9b2088 to deployment area at 0x3280010
+Adding unit (Pezhetairoi (Hellenic Medium Phalanx)) at 0x2c9b22d0 to deployment area at 0x3280010
+Adding unit (Phalangitai Deuteroi (Hellenic Levy Phalanx)) at 0x2c9b2518 to deployment area at 0x3280010
+Adding unit (Pezhetairoi (Hellenic Medium Phalanx)) at 0x2c9b2760 to deployment area at 0x3280010
+Adding unit (Eqvites Consvlares (Republican Consular Guard Cavalry)) at 0x2c9b29a8 to deployment area at 0x328004c
+Adding unit (Hastati (Polybian Medium Infantry Maniple)) at 0x2c9b2c98 to deployment area at 0x328004c
+Adding unit (Hastati (Polybian Medium Infantry Maniple)) at 0x4177670 to deployment area at 0x328004c
+Adding unit (Hastati (Polybian Medium Infantry Maniple)) at 0x4178948 to deployment area at 0x328004c
+Adding unit (Hastati (Polybian Medium Infantry Maniple)) at 0x4178f58 to deployment area at 0x328004c
+Adding unit (Principes (Polybian Heavy Infantry Maniple)) at 0x4179568 to deployment area at 0x328004c
+Adding unit (Principes (Polybian Heavy Infantry Maniple)) at 0x4179b78 to deployment area at 0x328004c
+Adding unit (Principes (Polybian Heavy Infantry Maniple)) at 0x417a188 to deployment area at 0x328004c
+Adding unit (Principes (Polybian Heavy Infantry Maniple)) at 0x417a798 to deployment area at 0x328004c
+Adding unit (Velites (Polybian Skirmishers)) at 0x417ada8 to deployment area at 0x328004c
+Adding unit (Velites (Polybian Skirmishers)) at 0x417aff0 to deployment area at 0x328004c
+Adding unit (Eqvites Extraordinarii (Elite Heavy Cavalry of the Italic Allies)) at 0x417ce10 to deployment area at 0x328004c
+Load finished **************************
+
+
+Trying to remove unit (Eqvites Consvlares (Republican Consular Guard Cavalry)) at 0x2c9b29a8 from deployment area at 0x328004c and the unit wasn't found
+Trying to remove unit (Hastati (Polybian Medium Infantry Maniple)) at 0x2c9b2c98 from deployment area at 0x328004c and the unit wasn't found
+Trying to remove unit (Hastati (Polybian Medium Infantry Maniple)) at 0x4177670 from deployment area at 0x328004c and the unit wasn't found
+Trying to remove unit (Hastati (Polybian Medium Infantry Maniple)) at 0x4178948 from deployment area at 0x328004c and the unit wasn't found
+Trying to remove unit (Hastati (Polybian Medium Infantry Maniple)) at 0x4178f58 from deployment area at 0x328004c and the unit wasn't found
+Trying to remove unit (Principes (Polybian Heavy Infantry Maniple)) at 0x4179568 from deployment area at 0x328004c and the unit wasn't found
+Trying to remove unit (Principes (Polybian Heavy Infantry Maniple)) at 0x4179b78 from deployment area at 0x328004c and the unit wasn't found
+Trying to remove unit (Principes (Polybian Heavy Infantry Maniple)) at 0x417a188 from deployment area at 0x328004c and the unit wasn't found
+Trying to remove unit (Principes (Polybian Heavy Infantry Maniple)) at 0x417a798 from deployment area at 0x328004c and the unit wasn't found
+Trying to remove unit (Velites (Polybian Skirmishers)) at 0x417ada8 from deployment area at 0x328004c and the unit wasn't found
+Trying to remove unit (Velites (Polybian Skirmishers)) at 0x417aff0 from deployment area at 0x328004c and the unit wasn't found
+Trying to remove unit (Eqvites Extraordinarii (Elite Heavy Cavalry of the Italic Allies)) at 0x417ce10 from deployment area at 0x328004c and the unit wasn't found
+Trying to remove unit (Somatophylakes Strategou (Hellenic Bodyguard Cavalry)) at 0x2cbd4928 from deployment area at 0x3280010 and the unit wasn't found
+Trying to remove unit (Hippeis Thessalikoi (Thessalian Heavy Cavalry)) at 0x2c98dc38 from deployment area at 0x3280010 and the unit wasn't found
+Trying to remove unit (Argyraspides (Hellenic Elite Phalanx)) at 0x2c9b2088 from deployment area at 0x3280010 and the unit wasn't found
+Trying to remove unit (Pezhetairoi (Hellenic Medium Phalanx)) at 0x2c9b22d0 from deployment area at 0x3280010 and the unit wasn't found
+Trying to remove unit (Phalangitai Deuteroi (Hellenic Levy Phalanx)) at 0x2c9b2518 from deployment area at 0x3280010 and the unit wasn't found
+Trying to remove unit (Pezhetairoi (Hellenic Medium Phalanx)) at 0x2c9b2760 from deployment area at 0x3280010 and the unit wasn't found
+************** STARTING BATTLE EDITOR
+
+************** STARTING BATTLE EDITOR
+
+************** STARTING BATTLE EDITOR
+
+CREATE_ARMY::do_func() - Creating army at 0x2dd80dd8 (General: Captain Viriatos), adding to spain
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (260.436832, 391.41792)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (231.252256, 273.62016)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (-184.951712, 387.945024)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (-241.505664, 229.69376)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (201.414608, 113.733968)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (338.118592, 329.902016)
+************** STARTING BATTLE EDITOR
+
+CREATE_ARMY::do_func() - Creating army at 0x2ddab068 (General: Captain Viriatos), adding to spain
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (254.367328, 386.348448)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (297.943264, 224.782064)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (-198.334256, 304.8856)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (-239.928352, 169.90464)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (363.729408, 42.290208)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (369.010752, 266.909792)
+************** STARTING BATTLE EDITOR
+
+************** STARTING BATTLE EDITOR
+
+CREATE_ARMY::do_func() - Creating army at 0x34135f0 (General: Captain Viriatos), adding to spain
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (-9.445848, 657.53824)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (-9.590714, 493.821664)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (171.884432, 680.906496)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (162.586912, 297.119136)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (-362.04736, 221.715264)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (-415.768128, 375.65216)
+************** STARTING BATTLE EDITOR
+
+************** STARTING BATTLE EDITOR
+
+CREATE_ARMY::do_func() - Creating army at 0x2dd6b070 (General: Captain Viriatos), adding to spain
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (33.625504, 691.334272)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (78.324008, 329.603648)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (-277.606336, 236.833824)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (-304.125664, 638.437632)
+Adding unit (Lusotannan Bodyguards (Lusotannan Bodyguard Cavalry)) at 0x2c7a1d80 to deployment area at 0x3280010
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Lusotannan Bodyguards (Lusotannan Bodyguard Cavalry)) at 0x2c7a1d80 - Deployed at (23.79213, 539.751808) in deployment area at 0x3280010
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (spain:Lusotannan Bodyguards (Lusotannan Bodyguard Cavalry)) at 0x2c7a1d80 from (27.19461, 532.684032) to (20.409882, 570.313856)
+	 with rotation -1.681051 and width 30.748596 - now residing in deployment area at 0x3280010
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (spain:Lusotannan Bodyguards (Lusotannan Bodyguard Cavalry)) at 0x2c7a1d80 from (33.239914, 580.07584) to (25.45018, 517.778272)
+	 with rotation -1.681051 and width 30.748596 - now residing in deployment area at 0x3280010
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (spain:Lusotannan Bodyguards (Lusotannan Bodyguard Cavalry)) at 0x2c7a1d80 from (31.877778, 527.83728) to (-81.530272, 545.374336)
+	 with rotation -1.681051 and width 30.748596 - now residing in deployment area at 0x3280010
+CREATE_ARMY::do_func() - Creating army at 0x2d8f95e0 (General: Captain Caivs), adding to seleucid
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (-308.777952, 635.855936)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (-296.10416, 423.194048)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (-826.519488, 272.46784)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (-821.623744, 423.52672)
+Adding unit (Eqvites Consvlares (Republican Consular Guard Cavalry)) at 0x2c7ac160 to deployment area at 0x328004c
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Eqvites Consvlares (Republican Consular Guard Cavalry)) at 0x2c7ac160 - Deployed at (-354.895744, 525.639904) in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (seleucid:Eqvites Consvlares (Republican Consular Guard Cavalry)) at 0x2c7ac160 from (-353.314208, 523.346624) to (-354.895584, 525.639968)
+	 with rotation 1.501192 and width 20.56429 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (seleucid:Eqvites Consvlares (Republican Consular Guard Cavalry)) at 0x2c7ac160 from (-355.07728, 514.41072) to (-345.425376, 577.20576)
+	 with rotation 1.501192 and width 20.56429 - now residing in deployment area at 0x328004c
+Adding unit (Hastati (Polybian Medium Infantry Maniple)) at 0x2c7acaf0 to deployment area at 0x328004c
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Hastati (Polybian Medium Infantry Maniple)) at 0x2c7acaf0 - Deployed at (-377.154528, 515.454944) in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (seleucid:Hastati (Polybian Medium Infantry Maniple)) at 0x2c7acaf0 from (-379.466848, 523.574208) to (-377.154528, 515.454944)
+	 with rotation 1.441942 and width 13.71772 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (seleucid:Hastati (Polybian Medium Infantry Maniple)) at 0x2c7acaf0 from (-390.249888, 510.158112) to (-368.528096, 513.794912)
+	 with rotation 1.441942 and width 13.71772 - now residing in deployment area at 0x328004c
+Adding unit (Principes (Polybian Heavy Infantry Maniple)) at 0x2c7acd38 to deployment area at 0x328004c
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Principes (Polybian Heavy Infantry Maniple)) at 0x2c7acd38 - Deployed at (-414.325184, 505.246464) in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (seleucid:Principes (Polybian Heavy Infantry Maniple)) at 0x2c7acd38 from (-410.73024, 499.855456) to (-414.325184, 505.246464)
+	 with rotation 1.459295 and width 13.486152 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (seleucid:Principes (Polybian Heavy Infantry Maniple)) at 0x2c7acd38 from (-419.161824, 495.563552) to (-398.957504, 508.918496)
+	 with rotation 1.459295 and width 13.486152 - now residing in deployment area at 0x328004c
+Adding unit (Triarii (Polybian Heavy-Spear Maniple)) at 0x2c7acf80 to deployment area at 0x328004c
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Triarii (Polybian Heavy-Spear Maniple)) at 0x2c7acf80 - Deployed at (-450.348864, 499.445536) in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (seleucid:Triarii (Polybian Heavy-Spear Maniple)) at 0x2c7acf80 from (-449.410176, 496.655328) to (-449.410176, 496.655328)
+	 with rotation 1.456994 and width 11.24906 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (seleucid:Triarii (Polybian Heavy-Spear Maniple)) at 0x2c7acf80 from (-450.528736, 490.369536) to (-429.861024, 505.107616)
+	 with rotation 1.456994 and width 11.24906 - now residing in deployment area at 0x328004c
+Adding unit (Hastati (Polybian Medium Infantry Maniple)) at 0x2c7ade80 to deployment area at 0x328004c
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Hastati (Polybian Medium Infantry Maniple)) at 0x2c7ade80 - Deployed at (-461.026464, 495.204384) in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (seleucid:Hastati (Polybian Medium Infantry Maniple)) at 0x2c7ade80 from (-461.790656, 490.597632) to (-461.026464, 495.204384)
+	 with rotation 1.452776 and width 13.708652 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (seleucid:Hastati (Polybian Medium Infantry Maniple)) at 0x2c7ade80 from (-468.023072, 487.850592) to (-444.121376, 502.987104)
+	 with rotation 1.452776 and width 13.708652 - now residing in deployment area at 0x328004c
+Adding unit (Principes (Polybian Heavy Infantry Maniple)) at 0x2c7ae300 to deployment area at 0x328004c
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Principes (Polybian Heavy Infantry Maniple)) at 0x2c7ae300 - Deployed at (-497.279232, 493.517088) in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (seleucid:Principes (Polybian Heavy Infantry Maniple)) at 0x2c7ae300 from (-497.252736, 487.435008) to (-497.279232, 493.517088)
+	 with rotation 1.456802 and width 13.917314 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (seleucid:Principes (Polybian Heavy Infantry Maniple)) at 0x2c7ae300 from (-507.386592, 485.834976) to (-475.818976, 499.4368)
+	 with rotation 1.456802 and width 13.917314 - now residing in deployment area at 0x328004c
+Adding unit (Triarii (Polybian Heavy-Spear Maniple)) at 0x2c7af2a8 to deployment area at 0x328004c
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Triarii (Polybian Heavy-Spear Maniple)) at 0x2c7af2a8 - Deployed at (-529.012512, 486.65936) in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (seleucid:Triarii (Polybian Heavy-Spear Maniple)) at 0x2c7af2a8 from (-526.191456, 478.900288) to (-529.012512, 486.65936)
+	 with rotation 1.539254 and width 11.59446 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (seleucid:Triarii (Polybian Heavy-Spear Maniple)) at 0x2c7af2a8 from (-531.824896, 478.433536) to (-509.495008, 495.451712)
+	 with rotation 1.539254 and width 11.59446 - now residing in deployment area at 0x328004c
+Adding unit (Eqvites Romani (Polybian Roman Citizen Cavalry)) at 0x2c7b0ed8 to deployment area at 0x328004c
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Eqvites Romani (Polybian Roman Citizen Cavalry)) at 0x2c7b0ed8 - Deployed at (-340.53424, 519.206368) in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (seleucid:Eqvites Romani (Polybian Roman Citizen Cavalry)) at 0x2c7b0ed8 from (-341.18352, 512.32416) to (-340.53424, 519.206368)
+	 with rotation 1.437436 and width 28.630124 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (seleucid:Eqvites Romani (Polybian Roman Citizen Cavalry)) at 0x2c7b0ed8 from (-344.547808, 498.894816) to (-332.556704, 522.039904)
+	 with rotation 1.437436 and width 28.630124 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (seleucid:Eqvites Romani (Polybian Roman Citizen Cavalry)) at 0x2c7b0ed8 from (-336.564256, 508.5048) to (-329.399136, 523.59216)
+	 with rotation 1.437436 and width 28.630124 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (seleucid:Eqvites Romani (Polybian Roman Citizen Cavalry)) at 0x2c7b0ed8 from (-333.351744, 510.888672) to (-329.399136, 523.59216)
+	 with rotation 1.423438 and width 21.859584 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (seleucid:Eqvites Romani (Polybian Roman Citizen Cavalry)) at 0x2c7b0ed8 from (-345.872352, 509.919584) to (-321.6704, 523.22144)
+	 with rotation 1.423438 and width 21.859584 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (seleucid:Eqvites Consvlares (Republican Consular Guard Cavalry)) at 0x2c7ac160 from (-351.884352, 565.545664) to (-348.889984, 541.648896)
+	 with rotation 1.501192 and width 20.56429 - now residing in deployment area at 0x328004c
+Adding unit (Velites (Polybian Skirmishers)) at 0x2c7b1fe8 to deployment area at 0x328004c
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Velites (Polybian Skirmishers)) at 0x2c7b1fe8 - Deployed at (-527.801824, 486.04544) in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (seleucid:Velites (Polybian Skirmishers)) at 0x2c7b1fe8 from (-526.12096, 479.580064) to (-547.656128, 490.354304)
+	 with rotation .095778 and width 1.0 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (seleucid:Velites (Polybian Skirmishers)) at 0x2c7b1fe8 from (-546.69504, 485.456096) to (-547.656128, 490.354304)
+	 with rotation 1.476169 and width 12.377052 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (seleucid:Velites (Polybian Skirmishers)) at 0x2c7b1fe8 from (-565.967616, 481.301728) to (-525.994752, 492.022048)
+	 with rotation 1.476169 and width 12.377052 - now residing in deployment area at 0x328004c
+Adding unit (Velites (Polybian Skirmishers)) at 0x2c7b2468 to deployment area at 0x328004c
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Velites (Polybian Skirmishers)) at 0x2c7b2468 - Deployed at (-614.04608, 482.063712) in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (seleucid:Velites (Polybian Skirmishers)) at 0x2c7b2468 from (-613.81408, 477.649152) to (-613.055296, 466.723008)
+	 with rotation 1.506273 and width 15.37266 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (seleucid:Velites (Polybian Skirmishers)) at 0x2c7b2468 from (-622.362368, 464.681696) to (-576.752512, 487.735392)
+	 with rotation 1.506273 and width 15.37266 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (seleucid:Velites (Polybian Skirmishers)) at 0x2c7b2468 from (-588.619008, 480.274464) to (-576.752512, 487.735392)
+	 with rotation 1.425164 and width 13.038166 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (seleucid:Velites (Polybian Skirmishers)) at 0x2c7b2468 from (-592.328576, 478.283904) to (-573.039168, 486.910016)
+	 with rotation 1.425164 and width 13.038166 - now residing in deployment area at 0x328004c
+Trying to remove unit (Eqvites Consvlares (Republican Consular Guard Cavalry)) at 0x2c7ac160 from deployment area at 0x328004c and the unit wasn't found
+Trying to remove unit (Hastati (Polybian Medium Infantry Maniple)) at 0x2c7acaf0 from deployment area at 0x328004c and the unit wasn't found
+Trying to remove unit (Principes (Polybian Heavy Infantry Maniple)) at 0x2c7acd38 from deployment area at 0x328004c and the unit wasn't found
+Trying to remove unit (Triarii (Polybian Heavy-Spear Maniple)) at 0x2c7acf80 from deployment area at 0x328004c and the unit wasn't found
+Trying to remove unit (Hastati (Polybian Medium Infantry Maniple)) at 0x2c7ade80 from deployment area at 0x328004c and the unit wasn't found
+Trying to remove unit (Principes (Polybian Heavy Infantry Maniple)) at 0x2c7ae300 from deployment area at 0x328004c and the unit wasn't found
+Trying to remove unit (Triarii (Polybian Heavy-Spear Maniple)) at 0x2c7af2a8 from deployment area at 0x328004c and the unit wasn't found
+Trying to remove unit (Eqvites Romani (Polybian Roman Citizen Cavalry)) at 0x2c7b0ed8 from deployment area at 0x328004c and the unit wasn't found
+Trying to remove unit (Velites (Polybian Skirmishers)) at 0x2c7b1fe8 from deployment area at 0x328004c and the unit wasn't found
+Trying to remove unit (Velites (Polybian Skirmishers)) at 0x2c7b2468 from deployment area at 0x328004c and the unit wasn't found
+Loading from file eb/data/world/maps/battle/custom/Tribola/descr_battle.txt
+Created faction seleucid from file
+	Creating army controlled by Caivs at 0x2ddb0a30 from script
+		Creating unit (Eqvites Consvlares (Republican Consular Guard Cavalry)) at 0x2da916c8
+		Creating unit (Hastati (Polybian Medium Infantry Maniple)) at 0x2da90c30
+		Creating unit (Principes (Polybian Heavy Infantry Maniple)) at 0x2d2f9cd0
+		Creating unit (Triarii (Polybian Heavy-Spear Maniple)) at 0x2d2ef610
+		Creating unit (Hastati (Polybian Medium Infantry Maniple)) at 0x2d2ef3a0
+		Creating unit (Principes (Polybian Heavy Infantry Maniple)) at 0x2c8e2740
+		Creating unit (Triarii (Polybian Heavy-Spear Maniple)) at 0x2c8e2260
+		Creating unit (Eqvites Romani (Polybian Roman Citizen Cavalry)) at 0x2d2172d0
+		Creating unit (Velites (Polybian Skirmishers)) at 0x2d217088
+		Creating unit (Velites (Polybian Skirmishers)) at 0x2c8ca380
+Created faction spain from file
+	Creating army controlled by Viriatos at 0x2dd9ff90 from script
+		Creating unit (Lusotannan Bodyguards (Lusotannan Bodyguard Cavalry)) at 0x2c8c9ef0
+Adding unit (Eqvites Consvlares (Republican Consular Guard Cavalry)) at 0x2da916c8 to deployment area at 0x3280010
+Adding unit (Hastati (Polybian Medium Infantry Maniple)) at 0x2da90c30 to deployment area at 0x3280010
+Adding unit (Principes (Polybian Heavy Infantry Maniple)) at 0x2d2f9cd0 to deployment area at 0x3280010
+Adding unit (Triarii (Polybian Heavy-Spear Maniple)) at 0x2d2ef610 to deployment area at 0x3280010
+Adding unit (Hastati (Polybian Medium Infantry Maniple)) at 0x2d2ef3a0 to deployment area at 0x3280010
+Adding unit (Principes (Polybian Heavy Infantry Maniple)) at 0x2c8e2740 to deployment area at 0x3280010
+Adding unit (Triarii (Polybian Heavy-Spear Maniple)) at 0x2c8e2260 to deployment area at 0x3280010
+Adding unit (Eqvites Romani (Polybian Roman Citizen Cavalry)) at 0x2d2172d0 to deployment area at 0x3280010
+Adding unit (Velites (Polybian Skirmishers)) at 0x2d217088 to deployment area at 0x3280010
+Adding unit (Velites (Polybian Skirmishers)) at 0x2c8ca380 to deployment area at 0x3280010
+Adding unit (Lusotannan Bodyguards (Lusotannan Bodyguard Cavalry)) at 0x2c8c9ef0 to deployment area at 0x328004c
+Load finished **************************
+
+
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (spain:Lusotannan Bodyguards (Lusotannan Bodyguard Cavalry)) at 0x2c8c9ef0 from (-76.146176, 557.999936) to (-81.53, 545.374016)
+	 with rotation -1.705211 and width 37.719476 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (spain:Lusotannan Bodyguards (Lusotannan Bodyguard Cavalry)) at 0x2c8c9ef0 from (-76.189808, 566.48992) to (-108.484496, 530.617248)
+	 with rotation -1.705211 and width 37.719476 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (spain:Lusotannan Bodyguards (Lusotannan Bodyguard Cavalry)) at 0x2c8c9ef0 from (-98.86456, 547.75584) to (25.263854, 540.003008)
+	 with rotation -1.705211 and width 37.719476 - now residing in deployment area at 0x328004c
+Adding unit (Ambakaro (Lusotannan Elite Shock Infantry)) at 0x2dbe1510 to deployment area at 0x328004c
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Ambakaro (Lusotannan Elite Shock Infantry)) at 0x2dbe1510 - Deployed at (13.471634, 595.696704) in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (spain:Ambakaro (Lusotannan Elite Shock Infantry)) at 0x2dbe1510 from (14.520356, 586.507392) to (13.47149, 595.696576)
+	 with rotation -1.672806 and width 21.400662 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (spain:Ambakaro (Lusotannan Elite Shock Infantry)) at 0x2dbe1510 from (16.2548, 600.261376) to (18.970528, 576.87008)
+	 with rotation -1.672806 and width 21.400662 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (spain:Ambakaro (Lusotannan Elite Shock Infantry)) at 0x2dbe1510 from (21.809646, 588.022336) to (27.402088, 511.095712)
+	 with rotation -1.672806 and width 21.400662 - now residing in deployment area at 0x328004c
+Adding unit (Gestikapoinann (Lusotannan Light Spearmen)) at 0x2c76d768 to deployment area at 0x328004c
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Gestikapoinann (Lusotannan Light Spearmen)) at 0x2c76d768 - Deployed at (-266.128608, 388.639232) in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (spain:Gestikapoinann (Lusotannan Light Spearmen)) at 0x2c76d768 from (-264.553856, 380.846368) to (-266.128608, 388.639232)
+	 with rotation -.157521 and width 23.094092 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (spain:Gestikapoinann (Lusotannan Light Spearmen)) at 0x2c76d768 from (-255.567792, 388.01568) to (-274.413952, 400.956448)
+	 with rotation -.157521 and width 23.094092 - now residing in deployment area at 0x328004c
+Adding unit (Caetranann (Lusotannan Light Infantry)) at 0x2c76dbe8 to deployment area at 0x328004c
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Caetranann (Lusotannan Light Infantry)) at 0x2c76dbe8 - Deployed at (-239.946352, 401.679456) in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (spain:Caetranann (Lusotannan Light Infantry)) at 0x2c76dbe8 from (-236.964624, 386.316128) to (-236.964624, 386.316128)
+	 with rotation .026078 and width 35.317824 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (spain:Caetranann (Lusotannan Light Infantry)) at 0x2c76dbe8 from (-215.645264, 384.212576) to (-244.37168, 405.433792)
+	 with rotation .026078 and width 35.317824 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (spain:Gestikapoinann (Lusotannan Light Spearmen)) at 0x2c76d768 from (-267.975344, 398.028608) to (-274.413952, 400.956448)
+	 with rotation -.128854 and width 22.003818 - now residing in deployment area at 0x328004c
+Adding unit (Scortamareva (Lusotannan Medium Spearmen)) at 0x2d51d280 to deployment area at 0x328004c
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Scortamareva (Lusotannan Medium Spearmen)) at 0x2d51d280 - Deployed at (-196.14776, 397.518688) in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (spain:Scortamareva (Lusotannan Medium Spearmen)) at 0x2d51d280 from (-194.5132, 394.224224) to (-196.018448, 397.018144)
+	 with rotation -.007958 and width 22.357504 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (spain:Scortamareva (Lusotannan Medium Spearmen)) at 0x2d51d280 from (-180.884032, 394.142272) to (-209.218192, 403.663648)
+	 with rotation -.007958 and width 22.357504 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (spain:Gestikapoinann (Lusotannan Light Spearmen)) at 0x2c76d768 from (-264.691472, 395.942912) to (-276.716256, 401.75808)
+	 with rotation -.128854 and width 22.003818 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (spain:Gestikapoinann (Lusotannan Light Spearmen)) at 0x2c76d768 from (-271.254432, 398.73616) to (-281.984352, 402.45984)
+	 with rotation -.128854 and width 22.003818 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (spain:Caetranann (Lusotannan Light Infantry)) at 0x2c76dbe8 from (-219.903904, 397.821408) to (-256.346992, 404.692096)
+	 with rotation .026078 and width 35.317824 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (spain:Scortamareva (Lusotannan Medium Spearmen)) at 0x2d51d280 from (-206.764224, 403.505632) to (-219.901776, 403.782016)
+	 with rotation -.007958 and width 22.357504 - now residing in deployment area at 0x328004c
+Adding unit (Scortamareva (Lusotannan Medium Spearmen)) at 0x2da71a78 to deployment area at 0x328004c
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Scortamareva (Lusotannan Medium Spearmen)) at 0x2da71a78 - Deployed at (-184.01456, 400.14288) in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (spain:Scortamareva (Lusotannan Medium Spearmen)) at 0x2da71a78 from (-181.443104, 393.89584) to (-184.0148, 400.144096)
+	 with rotation -.116295 and width 22.522386 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (spain:Scortamareva (Lusotannan Medium Spearmen)) at 0x2da71a78 from (-169.224448, 398.72048) to (-196.86888, 402.209856)
+	 with rotation -.116295 and width 22.522386 - now residing in deployment area at 0x328004c
+Adding unit (Caetranann (Lusotannan Light Infantry)) at 0x2d52c190 to deployment area at 0x328004c
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Caetranann (Lusotannan Light Infantry)) at 0x2d52c190 - Deployed at (-155.143904, 407.44528) in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (spain:Caetranann (Lusotannan Light Infantry)) at 0x2d52c190 from (-150.885376, 397.855488) to (-155.143872, 407.445248)
+	 with rotation -.09875 and width 25.787858 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (spain:Caetranann (Lusotannan Light Infantry)) at 0x2d52c190 from (-141.761248, 400.153952) to (-169.110656, 405.44768)
+	 with rotation -.09875 and width 25.787858 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (spain:Caetranann (Lusotannan Light Infantry)) at 0x2d52c190 from (-160.884496, 396.510816) to (-168.907488, 405.58144)
+	 with rotation -.056278 and width 35.247304 - now residing in deployment area at 0x328004c
+Adding unit (Scortamareva (Lusotannan Medium Spearmen)) at 0x2c7d5c20 to deployment area at 0x328004c
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Scortamareva (Lusotannan Medium Spearmen)) at 0x2c7d5c20 - Deployed at (-120.882544, 401.884544) in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (spain:Scortamareva (Lusotannan Medium Spearmen)) at 0x2c7d5c20 from (-119.640392, 394.720736) to (-120.882544, 401.884544)
+	 with rotation -.07133 and width 17.496268 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (spain:Scortamareva (Lusotannan Medium Spearmen)) at 0x2c7d5c20 from (-108.234048, 396.853152) to (-128.676408, 409.173632)
+	 with rotation -.07133 and width 17.496268 - now residing in deployment area at 0x328004c
+Adding unit (Caetranann (Lusotannan Light Infantry)) at 0x2c7d66a8 to deployment area at 0x328004c
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Caetranann (Lusotannan Light Infantry)) at 0x2c7d66a8 - Deployed at (-90.317784, 403.684896) in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (spain:Caetranann (Lusotannan Light Infantry)) at 0x2c7d66a8 from (-83.069232, 408.821952) to (-90.317784, 403.684896)
+	 with rotation -.040075 and width 41.851188 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (spain:Caetranann (Lusotannan Light Infantry)) at 0x2c7d66a8 from (-63.310888, 401.797632) to (-99.85884, 404.487488)
+	 with rotation -.040075 and width 41.851188 - now residing in deployment area at 0x328004c
+Adding unit (Scortamareva (Lusotannan Medium Spearmen)) at 0x2c7d7eb0 to deployment area at 0x328004c
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Scortamareva (Lusotannan Medium Spearmen)) at 0x2c7d7eb0 - Deployed at (-34.027432, 403.516384) in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (spain:Scortamareva (Lusotannan Medium Spearmen)) at 0x2c7d7eb0 from (-39.221032, 399.817696) to (-34.027432, 403.516384)
+	 with rotation -.047266 and width 22.29232 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (spain:Scortamareva (Lusotannan Medium Spearmen)) at 0x2c7d7eb0 from (-20.353956, 402.077472) to (-25.322054, 460.712256)
+	 with rotation -.047266 and width 22.29232 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (spain:Caetranann (Lusotannan Light Infantry)) at 0x2c7d66a8 from (-71.503544, 405.213248) to (-73.179304, 457.86768)
+	 with rotation -.040075 and width 41.851188 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (spain:Scortamareva (Lusotannan Medium Spearmen)) at 0x2c7d5c20 from (-115.945608, 404.191712) to (-95.958272, 456.027616)
+	 with rotation -.07133 and width 17.496268 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (spain:Caetranann (Lusotannan Light Infantry)) at 0x2d52c190 from (-151.870784, 402.913984) to (-133.503632, 451.669152)
+	 with rotation -.056278 and width 35.247304 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (spain:Scortamareva (Lusotannan Medium Spearmen)) at 0x2da71a78 from (-180.730736, 398.716608) to (-162.265472, 448.308672)
+	 with rotation -.116295 and width 22.522386 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (spain:Scortamareva (Lusotannan Medium Spearmen)) at 0x2d51d280 from (-211.412768, 396.719456) to (-187.37552, 446.464864)
+	 with rotation -.007958 and width 22.357504 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (spain:Caetranann (Lusotannan Light Infantry)) at 0x2c76dbe8 from (-231.130032, 399.970464) to (-224.011024, 445.418656)
+	 with rotation .026078 and width 35.317824 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (spain:Gestikapoinann (Lusotannan Light Spearmen)) at 0x2c76d768 from (-266.040528, 401.024096) to (-252.39704, 442.907712)
+	 with rotation -.128854 and width 22.003818 - now residing in deployment area at 0x328004c
+Trying to remove unit (Lusotannan Bodyguards (Lusotannan Bodyguard Cavalry)) at 0x2c8c9ef0 from deployment area at 0x328004c and the unit wasn't found
+Trying to remove unit (Ambakaro (Lusotannan Elite Shock Infantry)) at 0x2dbe1510 from deployment area at 0x328004c and the unit wasn't found
+Trying to remove unit (Gestikapoinann (Lusotannan Light Spearmen)) at 0x2c76d768 from deployment area at 0x328004c and the unit wasn't found
+Trying to remove unit (Caetranann (Lusotannan Light Infantry)) at 0x2c76dbe8 from deployment area at 0x328004c and the unit wasn't found
+Trying to remove unit (Scortamareva (Lusotannan Medium Spearmen)) at 0x2d51d280 from deployment area at 0x328004c and the unit wasn't found
+Trying to remove unit (Scortamareva (Lusotannan Medium Spearmen)) at 0x2da71a78 from deployment area at 0x328004c and the unit wasn't found
+Trying to remove unit (Caetranann (Lusotannan Light Infantry)) at 0x2d52c190 from deployment area at 0x328004c and the unit wasn't found
+Trying to remove unit (Scortamareva (Lusotannan Medium Spearmen)) at 0x2c7d5c20 from deployment area at 0x328004c and the unit wasn't found
+Trying to remove unit (Caetranann (Lusotannan Light Infantry)) at 0x2c7d66a8 from deployment area at 0x328004c and the unit wasn't found
+Trying to remove unit (Scortamareva (Lusotannan Medium Spearmen)) at 0x2c7d7eb0 from deployment area at 0x328004c and the unit wasn't found
+Trying to remove unit (Eqvites Consvlares (Republican Consular Guard Cavalry)) at 0x2da916c8 from deployment area at 0x3280010 and the unit wasn't found
+Trying to remove unit (Hastati (Polybian Medium Infantry Maniple)) at 0x2da90c30 from deployment area at 0x3280010 and the unit wasn't found
+Trying to remove unit (Principes (Polybian Heavy Infantry Maniple)) at 0x2d2f9cd0 from deployment area at 0x3280010 and the unit wasn't found
+Trying to remove unit (Triarii (Polybian Heavy-Spear Maniple)) at 0x2d2ef610 from deployment area at 0x3280010 and the unit wasn't found
+Trying to remove unit (Hastati (Polybian Medium Infantry Maniple)) at 0x2d2ef3a0 from deployment area at 0x3280010 and the unit wasn't found
+Trying to remove unit (Principes (Polybian Heavy Infantry Maniple)) at 0x2c8e2740 from deployment area at 0x3280010 and the unit wasn't found
+Trying to remove unit (Triarii (Polybian Heavy-Spear Maniple)) at 0x2c8e2260 from deployment area at 0x3280010 and the unit wasn't found
+Trying to remove unit (Eqvites Romani (Polybian Roman Citizen Cavalry)) at 0x2d2172d0 from deployment area at 0x3280010 and the unit wasn't found
+Trying to remove unit (Velites (Polybian Skirmishers)) at 0x2d217088 from deployment area at 0x3280010 and the unit wasn't found
+Trying to remove unit (Velites (Polybian Skirmishers)) at 0x2c8ca380 from deployment area at 0x3280010 and the unit wasn't found
+Loading from file eb/data/world/maps/battle/custom/Tribola/descr_battle.txt
+Created faction seleucid from file
+	Creating army controlled by Caivs at 0x2da57900 from script
+		Creating unit (Eqvites Consvlares (Republican Consular Guard Cavalry)) at 0x2cf90520
+		Creating unit (Hastati (Polybian Medium Infantry Maniple)) at 0x2ca968c0
+		Creating unit (Principes (Polybian Heavy Infantry Maniple)) at 0x2ca8fe18
+		Creating unit (Triarii (Polybian Heavy-Spear Maniple)) at 0x2cfd95a0
+		Creating unit (Hastati (Polybian Medium Infantry Maniple)) at 0x2cfd9330
+		Creating unit (Principes (Polybian Heavy Infantry Maniple)) at 0x2dba0bf0
+		Creating unit (Triarii (Polybian Heavy-Spear Maniple)) at 0x2dba0980
+		Creating unit (Eqvites Romani (Polybian Roman Citizen Cavalry)) at 0x2ca8da98
+		Creating unit (Velites (Polybian Skirmishers)) at 0x2ca8df78
+		Creating unit (Velites (Polybian Skirmishers)) at 0x2ca8dd08
+Created faction spain from file
+	Creating army controlled by Viriatos at 0x2da57a80 from script
+		Creating unit (Lusotannan Bodyguards (Lusotannan Bodyguard Cavalry)) at 0x2ca89e48
+		Creating unit (Ambakaro (Lusotannan Elite Shock Infantry)) at 0x2ca8e1e8
+		Creating unit (Gestikapoinann (Lusotannan Light Spearmen)) at 0x2cb2e890
+		Creating unit (Caetranann (Lusotannan Light Infantry)) at 0x2cfb0c98
+		Creating unit (Scortamareva (Lusotannan Medium Spearmen)) at 0x2cfee940
+		Creating unit (Scortamareva (Lusotannan Medium Spearmen)) at 0x2d612a00
+		Creating unit (Caetranann (Lusotannan Light Infantry)) at 0x2d3ea938
+		Creating unit (Scortamareva (Lusotannan Medium Spearmen)) at 0x2d3ea6f0
+		Creating unit (Caetranann (Lusotannan Light Infantry)) at 0x2d0f7fb8
+		Creating unit (Scortamareva (Lusotannan Medium Spearmen)) at 0x2d0f88d8
+Adding unit (Eqvites Consvlares (Republican Consular Guard Cavalry)) at 0x2cf90520 to deployment area at 0x3280010
+Adding unit (Hastati (Polybian Medium Infantry Maniple)) at 0x2ca968c0 to deployment area at 0x3280010
+Adding unit (Principes (Polybian Heavy Infantry Maniple)) at 0x2ca8fe18 to deployment area at 0x3280010
+Adding unit (Triarii (Polybian Heavy-Spear Maniple)) at 0x2cfd95a0 to deployment area at 0x3280010
+Adding unit (Hastati (Polybian Medium Infantry Maniple)) at 0x2cfd9330 to deployment area at 0x3280010
+Adding unit (Principes (Polybian Heavy Infantry Maniple)) at 0x2dba0bf0 to deployment area at 0x3280010
+Adding unit (Triarii (Polybian Heavy-Spear Maniple)) at 0x2dba0980 to deployment area at 0x3280010
+Adding unit (Eqvites Romani (Polybian Roman Citizen Cavalry)) at 0x2ca8da98 to deployment area at 0x3280010
+Adding unit (Velites (Polybian Skirmishers)) at 0x2ca8df78 to deployment area at 0x3280010
+Adding unit (Velites (Polybian Skirmishers)) at 0x2ca8dd08 to deployment area at 0x3280010
+Adding unit (Lusotannan Bodyguards (Lusotannan Bodyguard Cavalry)) at 0x2ca89e48 to deployment area at 0x328004c
+Adding unit (Ambakaro (Lusotannan Elite Shock Infantry)) at 0x2ca8e1e8 to deployment area at 0x328004c
+Adding unit (Gestikapoinann (Lusotannan Light Spearmen)) at 0x2cb2e890 to deployment area at 0x328004c
+Adding unit (Caetranann (Lusotannan Light Infantry)) at 0x2cfb0c98 to deployment area at 0x328004c
+Adding unit (Scortamareva (Lusotannan Medium Spearmen)) at 0x2cfee940 to deployment area at 0x328004c
+Adding unit (Scortamareva (Lusotannan Medium Spearmen)) at 0x2d612a00 to deployment area at 0x328004c
+Adding unit (Caetranann (Lusotannan Light Infantry)) at 0x2d3ea938 to deployment area at 0x328004c
+Adding unit (Scortamareva (Lusotannan Medium Spearmen)) at 0x2d3ea6f0 to deployment area at 0x328004c
+Adding unit (Caetranann (Lusotannan Light Infantry)) at 0x2d0f7fb8 to deployment area at 0x328004c
+Adding unit (Scortamareva (Lusotannan Medium Spearmen)) at 0x2d0f88d8 to deployment area at 0x328004c
+Load finished **************************
+
+
+DELETE_UNIT_FUNCTION::do_func() - Deleting unit (Scortamareva (Lusotannan Medium Spearmen)) at 0x2d3ea6f0 - was in army controlled by Viriatos at 0x2da57a80 from spain and in deployment area at 0x328004c
+Removed unit (Scortamareva (Lusotannan Medium Spearmen)) at 0x2d3ea6f0 from deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (spain:Scortamareva (Lusotannan Medium Spearmen)) at 0x2cfee940 from (-174.892096, 439.007584) to (-187.394528, 446.479456)
+	 with rotation .0 and width 22.358 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (spain:Scortamareva (Lusotannan Medium Spearmen)) at 0x2d612a00 from (-157.468544, 448.001184) to (-162.264992, 448.308992)
+	 with rotation -.122143 and width 22.522 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (spain:Scortamareva (Lusotannan Medium Spearmen)) at 0x2cfee940 from (-178.019392, 442.424704) to (-187.394528, 446.479456)
+	 with rotation .0 and width 22.358 - now residing in deployment area at 0x328004c
+DELETE_UNIT_FUNCTION::do_func() - Deleting unit (Scortamareva (Lusotannan Medium Spearmen)) at 0x2cfee940 - was in army controlled by Viriatos at 0x2da57a80 from spain and in deployment area at 0x328004c
+Removed unit (Scortamareva (Lusotannan Medium Spearmen)) at 0x2cfee940 from deployment area at 0x328004c
+Adding unit (Gestikapoinann (Lusotannan Light Spearmen)) at 0x2d0e3d40 to deployment area at 0x328004c
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Gestikapoinann (Lusotannan Light Spearmen)) at 0x2d0e3d40 - Deployed at (-177.733568, 443.014944) in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (spain:Gestikapoinann (Lusotannan Light Spearmen)) at 0x2d0e3d40 from (-171.320976, 445.495232) to (-191.637792, 435.317024)
+	 with rotation -.162985 and width 26.785136 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (spain:Gestikapoinann (Lusotannan Light Spearmen)) at 0x2d0e3d40 from (-175.600048, 435.084096) to (-191.72976, 443.978816)
+	 with rotation -.162985 and width 26.785136 - now residing in deployment area at 0x328004c
+Adding unit (Gestikapoinann (Lusotannan Light Spearmen)) at 0x2e08c530 to deployment area at 0x328004c
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Gestikapoinann (Lusotannan Light Spearmen)) at 0x2e08c530 - Deployed at (-91.398752, 453.577184) in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (spain:Gestikapoinann (Lusotannan Light Spearmen)) at 0x2e08c530 from (-87.907312, 454.972544) to (-91.398752, 453.577184)
+	 with rotation -.121376 and width 14.990192 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (spain:Gestikapoinann (Lusotannan Light Spearmen)) at 0x2e08c530 from (-87.702328, 449.873728) to (-99.885624, 452.738144)
+	 with rotation -.121376 and width 14.990192 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (spain:Gestikapoinann (Lusotannan Light Spearmen)) at 0x2e08c530 from (-94.560384, 452.17712) to (-77.472744, 455.583936)
+	 with rotation -.126266 and width 22.592828 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (spain:Gestikapoinann (Lusotannan Light Spearmen)) at 0x2e08c530 from (-75.469688, 452.791488) to (-98.662912, 453.955072)
+	 with rotation -.126266 and width 22.592828 - now residing in deployment area at 0x328004c

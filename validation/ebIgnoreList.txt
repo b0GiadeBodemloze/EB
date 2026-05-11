@@ -1,0 +1,38 @@
+.\Data\scripts\show_me
+.\Data\world\maps\base\map.rwm
+.\Data\world\maps\campaign
+.\Data\world\maps\campaign
+.\Data\world\maps\custom
+.\data\world\maps\tutorials
+.\EB\Data\world\maps\base\map.rwm
+.\EB\Modesty
+.\EB\validation
+.\cliffs_debug.tga
+.\corrected_regions.tga
+.\Docs
+.\EB\documentation
+.\EB\preferences
+.\EB\lighting
+.\EB\presets
+.\EB\saves
+.\EBTemp
+.\Censoredebconfig.dat
+.\ebconfig
+.\ebicon.ico
+.\Europa Barbarorum v10 Full.rtf
+.\gamespy.ico
+.\keys.dat
+.\Nakedebconfig.dat
+.\player.txt
+.\preferences
+.\Rome Total War 1.3 patch Read me ENG.htm
+.\saves
+.\validateInstall.bat
+.\version.inf
+.\data\models_unit
+.\data\world\maps\battle\custom
+.\eb\custom\previous battle.cbt
+.\temp\battle.rpy
+.\eb play.lnk
+.\extras
+.\unins

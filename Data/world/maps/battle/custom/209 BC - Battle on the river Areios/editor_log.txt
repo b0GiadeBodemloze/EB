@@ -1,0 +1,75 @@
+Loading from file data/world/maps/battle/custom/209 BC - Battle on the river Areios/descr_battle.txt
+Created faction romans_julii from file
+	Creating army controlled by Antiochos at 0x2a762128 from script
+		Creating unit (Somatophylakes Strategou (Hellenic Bodyguard Cavalry)) at 0x2a7ba6f0
+		Creating unit (Hetairoi (Companion Cavalry)) at 0x2a829078
+		Creating unit (Hetairoi (Companion Cavalry)) at 0x2a8292c0
+		Creating unit (Prodromoi (Successor Medium Cavalry)) at 0x2a788088
+		Creating unit (Hypaspistai (Hellenic Royal Guard)) at 0x2a7882d0
+		Creating unit (Argyraspidai (Silver Shields Phalanx)) at 0x2a695a80
+		Creating unit (Argyraspidai (Silver Shields Phalanx)) at 0x2a695cc8
+		Creating unit (Argyraspidai (Silver Shields Phalanx)) at 0x2a696d58
+		Creating unit (Argyraspidai (Silver Shields Phalanx)) at 0x2a696fa0
+		Creating unit (Hypaspistai (Hellenic Royal Guard)) at 0x2a6971e8
+		Creating unit (Thanvarê Payâhdag (Persian Archers)) at 0x2a697430
+		Creating unit (Thanvarê Payâhdag (Persian Archers)) at 0x2a697678
+		Creating unit (Mada Nizhak Asabara (Median Skirmisher Cavalry)) at 0x2a6992f0
+Created faction romans_brutii from file
+	Creating army controlled by Eukratides at 0x2a829508 from script
+		Creating unit (Baktrioi Hippeis (Baktrian Medium Cavalry)) at 0x2a699538
+		Creating unit (Baktrioi Hippeis (Baktrian Medium Cavalry)) at 0x2a699780
+	Creating army controlled by Euthydemos at 0x2a69e038 from script
+		Creating unit (Somatophylakes Strategou (Baktrian Early Bodyguard)) at 0x2a69e120
+		Creating unit (Hellenikoi Kataphraktoi (Hellenic Cataphracts)) at 0x2a69e368
+		Creating unit (Hellenikoi Kataphraktoi (Hellenic Cataphracts)) at 0x2a69ee88
+		Creating unit (Hellenikoi Kataphraktoi (Hellenic Cataphracts)) at 0x2a69f0d0
+		Creating unit (Hellenikoi Kataphraktoi (Hellenic Cataphracts)) at 0x2a69fb18
+		Creating unit (Hellenikoi Kataphraktoi (Hellenic Cataphracts)) at 0x2a69fd60
+		Creating unit (Hellenikoi Kataphraktoi (Hellenic Cataphracts)) at 0x2a6a0df0
+		Creating unit (Baktrioi Hippotoxotai (Baktrian Horse-Archers)) at 0x2a6a1038
+		Creating unit (Baktrioi Hippotoxotai (Baktrian Horse-Archers)) at 0x2a6a20c8
+Adding unit (Somatophylakes Strategou (Hellenic Bodyguard Cavalry)) at 0x2a7ba6f0 to deployment area at 0x30d0350
+Adding unit (Hetairoi (Companion Cavalry)) at 0x2a829078 to deployment area at 0x30d0350
+Adding unit (Hetairoi (Companion Cavalry)) at 0x2a8292c0 to deployment area at 0x30d0350
+Adding unit (Prodromoi (Successor Medium Cavalry)) at 0x2a788088 to deployment area at 0x30d0350
+Adding unit (Hypaspistai (Hellenic Royal Guard)) at 0x2a7882d0 to deployment area at 0x30d0350
+Adding unit (Argyraspidai (Silver Shields Phalanx)) at 0x2a695a80 to deployment area at 0x30d0350
+Adding unit (Argyraspidai (Silver Shields Phalanx)) at 0x2a695cc8 to deployment area at 0x30d0350
+Adding unit (Argyraspidai (Silver Shields Phalanx)) at 0x2a696d58 to deployment area at 0x30d0350
+Adding unit (Argyraspidai (Silver Shields Phalanx)) at 0x2a696fa0 to deployment area at 0x30d0350
+Adding unit (Hypaspistai (Hellenic Royal Guard)) at 0x2a6971e8 to deployment area at 0x30d0350
+Adding unit (Thanvarê Payâhdag (Persian Archers)) at 0x2a697430 to deployment area at 0x30d0350
+Adding unit (Thanvarê Payâhdag (Persian Archers)) at 0x2a697678 to deployment area at 0x30d0350
+Adding unit (Mada Nizhak Asabara (Median Skirmisher Cavalry)) at 0x2a6992f0 to deployment area at 0x30d0350
+Adding unit (Baktrioi Hippeis (Baktrian Medium Cavalry)) at 0x2a699538 to deployment area at 0x30d038c
+Adding unit (Baktrioi Hippeis (Baktrian Medium Cavalry)) at 0x2a699780 to deployment area at 0x30d038c
+Adding unit (Somatophylakes Strategou (Baktrian Early Bodyguard)) at 0x2a69e120 to deployment area at 0x30d03c8
+Adding unit (Hellenikoi Kataphraktoi (Hellenic Cataphracts)) at 0x2a69e368 to deployment area at 0x30d03c8
+Adding unit (Hellenikoi Kataphraktoi (Hellenic Cataphracts)) at 0x2a69ee88 to deployment area at 0x30d03c8
+Adding unit (Hellenikoi Kataphraktoi (Hellenic Cataphracts)) at 0x2a69f0d0 to deployment area at 0x30d03c8
+Adding unit (Hellenikoi Kataphraktoi (Hellenic Cataphracts)) at 0x2a69fb18 to deployment area at 0x30d03c8
+Adding unit (Hellenikoi Kataphraktoi (Hellenic Cataphracts)) at 0x2a69fd60 to deployment area at 0x30d03c8
+Adding unit (Hellenikoi Kataphraktoi (Hellenic Cataphracts)) at 0x2a6a0df0 to deployment area at 0x30d03c8
+Adding unit (Baktrioi Hippotoxotai (Baktrian Horse-Archers)) at 0x2a6a1038 to deployment area at 0x30d03c8
+Adding unit (Baktrioi Hippotoxotai (Baktrian Horse-Archers)) at 0x2a6a20c8 to deployment area at 0x30d03c8
+Load finished **************************
+
+
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (romans_julii:Mada Nizhak Asabara (Median Skirmisher Cavalry)) at 0x2a6992f0 from (16.737554, -615.694976) to (-1.560231, -780.756032)
+	 with rotation .0 and width 35.654 - now residing in deployment area at 0x30d0350
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (romans_julii:Mada Nizhak Asabara (Median Skirmisher Cavalry)) at 0x2a6992f0 from (15.082322, -798.624) to (-1.560231, -780.756032)
+	 with rotation .0 and width 35.654 - now residing in deployment area at 0x30d0350
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (romans_julii:Mada Nizhak Asabara (Median Skirmisher Cavalry)) at 0x2a6992f0 from (16.796012, -806.679616) to (.200336, -804.23392)
+	 with rotation .0 and width 35.654 - now residing in deployment area at 0x30d0350
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (romans_julii:Mada Nizhak Asabara (Median Skirmisher Cavalry)) at 0x2a6992f0 from (16.091088, -818.366912) to (2.547367, -804.975424)
+	 with rotation .0 and width 35.654 - now residing in deployment area at 0x30d0350
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (romans_julii:Mada Nizhak Asabara (Median Skirmisher Cavalry)) at 0x2a6992f0 from (21.525696, -825.386304) to (-.656803, -803.77088)
+	 with rotation .0 and width 35.654 - now residing in deployment area at 0x30d0350
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (romans_julii:Prodromoi (Successor Medium Cavalry)) at 0x2a788088 from (14.663814, -574.064512) to (-.553207, -615.743104)
+	 with rotation .017449 and width 38.0 - now residing in deployment area at 0x30d0350
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (romans_julii:Hypaspistai (Hellenic Royal Guard)) at 0x2a7882d0 from (16.700688, -652.173248) to (3.695, -647.405056)
+	 with rotation -.034898 and width 20.0 - now residing in deployment area at 0x30d0350
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (romans_julii:Prodromoi (Successor Medium Cavalry)) at 0x2a788088 from (16.585216, -623.091968) to (-.619909, -617.725376)
+	 with rotation .017449 and width 38.0 - now residing in deployment area at 0x30d0350
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (romans_julii:Hypaspistai (Hellenic Royal Guard)) at 0x2a7882d0 from (16.778626, -651.588672) to (3.695, -647.405056)
+	 with rotation -.034898 and width 20.0 - now residing in deployment area at 0x30d0350

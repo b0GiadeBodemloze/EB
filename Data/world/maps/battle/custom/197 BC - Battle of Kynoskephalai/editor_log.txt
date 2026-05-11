@@ -1,0 +1,318 @@
+Loading from file eb/data/world/maps/battle/custom/197 BC - Battle of Kynoskephalae/descr_battle.txt
+Created faction macedon from file
+	Creating army controlled by Philippos at 0x2e7405e8 from script
+		Creating unit (Somatophylakes Strategou (Hellenic Bodyguard Cavalry)) at 0x2d13a9c0
+		Creating unit (Hetairoi Aspidophoroi) at 0x2cf29758
+		Creating unit (Hippeis Thessalikoi (Thessalian Heavy Cavalry)) at 0x2d1e1b20
+		Creating unit (Misthophoroi Thureophoroi (Mercenary Hellenic Spearmen)) at 0x2d1e1d90
+		Creating unit (Illyrioi Thureophoroi (Illyrian spearmen)) at 0x2d196820
+		Creating unit (Thraikioi Peltastai (Thraikian Peltasts)) at 0x2d196f70
+		Creating unit (Argyraspides (Hellenic Elite Phalanx)) at 0x2d1947d0
+		Creating unit (Pezhetairoi (Hellenic Medium Phalanx)) at 0x2d194560
+		Creating unit (Phalangitai Deuteroi (Hellenic Levy Phalanx)) at 0x2d193040
+		Creating unit (Pezhetairoi (Hellenic Medium Phalanx)) at 0x2d1965b0
+		Creating unit (Phalangitai Deuteroi (Hellenic Levy Phalanx)) at 0x2d191b88
+		Creating unit (Pezhetairoi (Hellenic Medium Phalanx)) at 0x2d191438
+		Creating unit (Phalangitai Deuteroi (Hellenic Levy Phalanx)) at 0x2d193520
+		Creating unit (Phalangitai Deuteroi (Hellenic Levy Phalanx)) at 0x2d193a00
+		Creating unit (Phalangitai Deuteroi (Hellenic Levy Phalanx)) at 0x2d158730
+Created faction seleucid from file
+	Creating army controlled by Titvs at 0x2e740768 from script
+		Creating unit (Eqvites Consvlares (Republican Consular Guard Cavalry)) at 0x2d158978
+		Creating unit (Velites (Polybian Skirmishers)) at 0x2d18f898
+		Creating unit (Hastati (Polybian Medium Infantry Maniple)) at 0x2d1901f0
+		Creating unit (Hastati (Polybian Medium Infantry Maniple)) at 0x2d14b770
+		Creating unit (Principes (Polybian Heavy Infantry Maniple)) at 0x2d14b9b8
+		Creating unit (Principes (Polybian Heavy Infantry Maniple)) at 0x2d1df8c8
+		Creating unit (Triarii (Polybian Heavy-Spear Maniple)) at 0x2d1932b0
+		Creating unit (Hastati (Polybian Medium Infantry Maniple)) at 0x2d1916a8
+		Creating unit (Hastati (Polybian Medium Infantry Maniple)) at 0x2d191918
+		Creating unit (Principes (Polybian Heavy Infantry Maniple)) at 0x2d191df8
+		Creating unit (Principes (Polybian Heavy Infantry Maniple)) at 0x2d192068
+		Creating unit (Triarii (Polybian Heavy-Spear Maniple)) at 0x2d190460
+		Creating unit (Elephantes Hulaioi Liboukoi (African Forest Elephants)) at 0x2d18ff80
+		Creating unit (Equites Campanici (Campanian Cavalry)) at 0x2d14b528
+		Creating unit (Velites (Polybian Skirmishers)) at 0x2d14ae50
+		Creating unit (Toxotai Kretikoi (Kretan Archers)) at 0x2d14b2e0
+		Creating unit (Akontistai (Hellenic Skirmishers)) at 0x2d14b098
+		Creating unit (Hoplitai (Greek Classical Hoplites)) at 0x2d156630
+		Creating unit (Misthophoroi Thureophoroi (Mercenary Hellenic Spearmen)) at 0x2d156878
+		Creating unit (Hippeis (Greek Medium Cavalry)) at 0x2d1556f8
+Adding unit (Somatophylakes Strategou (Hellenic Bodyguard Cavalry)) at 0x2d13a9c0 to deployment area at 0x3270010
+Adding unit (Hetairoi Aspidophoroi) at 0x2cf29758 to deployment area at 0x3270010
+Adding unit (Hippeis Thessalikoi (Thessalian Heavy Cavalry)) at 0x2d1e1b20 to deployment area at 0x3270010
+Adding unit (Misthophoroi Thureophoroi (Mercenary Hellenic Spearmen)) at 0x2d1e1d90 to deployment area at 0x3270010
+Adding unit (Illyrioi Thureophoroi (Illyrian spearmen)) at 0x2d196820 to deployment area at 0x3270010
+Adding unit (Thraikioi Peltastai (Thraikian Peltasts)) at 0x2d196f70 to deployment area at 0x3270010
+Adding unit (Argyraspides (Hellenic Elite Phalanx)) at 0x2d1947d0 to deployment area at 0x3270010
+Adding unit (Pezhetairoi (Hellenic Medium Phalanx)) at 0x2d194560 to deployment area at 0x3270010
+Adding unit (Phalangitai Deuteroi (Hellenic Levy Phalanx)) at 0x2d193040 to deployment area at 0x3270010
+Adding unit (Pezhetairoi (Hellenic Medium Phalanx)) at 0x2d1965b0 to deployment area at 0x3270010
+Adding unit (Phalangitai Deuteroi (Hellenic Levy Phalanx)) at 0x2d191b88 to deployment area at 0x3270010
+Adding unit (Pezhetairoi (Hellenic Medium Phalanx)) at 0x2d191438 to deployment area at 0x3270010
+Adding unit (Phalangitai Deuteroi (Hellenic Levy Phalanx)) at 0x2d193520 to deployment area at 0x3270010
+Adding unit (Phalangitai Deuteroi (Hellenic Levy Phalanx)) at 0x2d193a00 to deployment area at 0x3270010
+Adding unit (Phalangitai Deuteroi (Hellenic Levy Phalanx)) at 0x2d158730 to deployment area at 0x3270010
+Adding unit (Eqvites Consvlares (Republican Consular Guard Cavalry)) at 0x2d158978 to deployment area at 0x327004c
+Adding unit (Velites (Polybian Skirmishers)) at 0x2d18f898 to deployment area at 0x327004c
+Adding unit (Hastati (Polybian Medium Infantry Maniple)) at 0x2d1901f0 to deployment area at 0x327004c
+Adding unit (Hastati (Polybian Medium Infantry Maniple)) at 0x2d14b770 to deployment area at 0x327004c
+Adding unit (Principes (Polybian Heavy Infantry Maniple)) at 0x2d14b9b8 to deployment area at 0x327004c
+Adding unit (Principes (Polybian Heavy Infantry Maniple)) at 0x2d1df8c8 to deployment area at 0x327004c
+Adding unit (Triarii (Polybian Heavy-Spear Maniple)) at 0x2d1932b0 to deployment area at 0x327004c
+Adding unit (Hastati (Polybian Medium Infantry Maniple)) at 0x2d1916a8 to deployment area at 0x327004c
+Adding unit (Hastati (Polybian Medium Infantry Maniple)) at 0x2d191918 to deployment area at 0x327004c
+Adding unit (Principes (Polybian Heavy Infantry Maniple)) at 0x2d191df8 to deployment area at 0x327004c
+Adding unit (Principes (Polybian Heavy Infantry Maniple)) at 0x2d192068 to deployment area at 0x327004c
+Adding unit (Triarii (Polybian Heavy-Spear Maniple)) at 0x2d190460 to deployment area at 0x327004c
+Adding unit (Elephantes Hulaioi Liboukoi (African Forest Elephants)) at 0x2d18ff80 to deployment area at 0x327004c
+Adding unit (Equites Campanici (Campanian Cavalry)) at 0x2d14b528 to deployment area at 0x327004c
+Adding unit (Velites (Polybian Skirmishers)) at 0x2d14ae50 to deployment area at 0x327004c
+Adding unit (Toxotai Kretikoi (Kretan Archers)) at 0x2d14b2e0 to deployment area at 0x327004c
+Adding unit (Akontistai (Hellenic Skirmishers)) at 0x2d14b098 to deployment area at 0x327004c
+Adding unit (Hoplitai (Greek Classical Hoplites)) at 0x2d156630 to deployment area at 0x327004c
+Adding unit (Misthophoroi Thureophoroi (Mercenary Hellenic Spearmen)) at 0x2d156878 to deployment area at 0x327004c
+Adding unit (Hippeis (Greek Medium Cavalry)) at 0x2d1556f8 to deployment area at 0x327004c
+Load finished **************************
+
+
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (macedon:Phalangitai Deuteroi (Hellenic Levy Phalanx)) at 0x2d193520 from (146.916752, -92.016096) to (154.16088, -93.767784)
+	 with rotation -1.605694 and width 8.059 - now residing in deployment area at 0x3270010
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (macedon:Phalangitai Deuteroi (Hellenic Levy Phalanx)) at 0x2d193a00 from (168.201632, -74.807576) to (190.806848, -79.315672)
+	 with rotation -1.553347 and width 7.893 - now residing in deployment area at 0x3270010
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (macedon:Phalangitai Deuteroi (Hellenic Levy Phalanx)) at 0x2d158730 from (184.625136, -59.865628) to (232.402928, -60.434464)
+	 with rotation -1.588245 and width 8.098 - now residing in deployment area at 0x3270010
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (macedon:Phalangitai Deuteroi (Hellenic Levy Phalanx)) at 0x2d158730 from (238.759056, -58.506092) to (224.858576, -60.731344)
+	 with rotation -1.588245 and width 8.098 - now residing in deployment area at 0x3270010
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (macedon:Pezhetairoi (Hellenic Medium Phalanx)) at 0x2d191438 from (135.703152, -104.471256) to (135.050944, -109.269976)
+	 with rotation -1.605694 and width 12.401 - now residing in deployment area at 0x3270010
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (macedon:Phalangitai Deuteroi (Hellenic Levy Phalanx)) at 0x2d193520 from (166.125312, -87.370272) to (160.268928, -90.200784)
+	 with rotation -1.605694 and width 8.059 - now residing in deployment area at 0x3270010
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (macedon:Phalangitai Deuteroi (Hellenic Levy Phalanx)) at 0x2d193a00 from (195.946464, -75.52316) to (193.058784, -76.55236)
+	 with rotation -1.553347 and width 7.893 - now residing in deployment area at 0x3270010
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (macedon:Phalangitai Deuteroi (Hellenic Levy Phalanx)) at 0x2d158730 from (229.663504, -57.975484) to (225.542112, -63.264964)
+	 with rotation -1.588245 and width 8.098 - now residing in deployment area at 0x3270010
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (macedon:Phalangitai Deuteroi (Hellenic Levy Phalanx)) at 0x2d158730 from (240.82216, -58.828752) to (230.589904, -63.313916)
+	 with rotation -1.588245 and width 8.098 - now residing in deployment area at 0x3270010
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (macedon:Phalangitai Deuteroi (Hellenic Levy Phalanx)) at 0x2d193a00 from (201.012096, -74.229064) to (197.14008, -73.730424)
+	 with rotation -1.553347 and width 7.893 - now residing in deployment area at 0x3270010
+Trying to remove unit (Eqvites Consvlares (Republican Consular Guard Cavalry)) at 0x2d158978 from deployment area at 0x327004c and the unit wasn't found
+Trying to remove unit (Velites (Polybian Skirmishers)) at 0x2d18f898 from deployment area at 0x327004c and the unit wasn't found
+Trying to remove unit (Hastati (Polybian Medium Infantry Maniple)) at 0x2d1901f0 from deployment area at 0x327004c and the unit wasn't found
+Trying to remove unit (Hastati (Polybian Medium Infantry Maniple)) at 0x2d14b770 from deployment area at 0x327004c and the unit wasn't found
+Trying to remove unit (Principes (Polybian Heavy Infantry Maniple)) at 0x2d14b9b8 from deployment area at 0x327004c and the unit wasn't found
+Trying to remove unit (Principes (Polybian Heavy Infantry Maniple)) at 0x2d1df8c8 from deployment area at 0x327004c and the unit wasn't found
+Trying to remove unit (Triarii (Polybian Heavy-Spear Maniple)) at 0x2d1932b0 from deployment area at 0x327004c and the unit wasn't found
+Trying to remove unit (Hastati (Polybian Medium Infantry Maniple)) at 0x2d1916a8 from deployment area at 0x327004c and the unit wasn't found
+Trying to remove unit (Hastati (Polybian Medium Infantry Maniple)) at 0x2d191918 from deployment area at 0x327004c and the unit wasn't found
+Trying to remove unit (Principes (Polybian Heavy Infantry Maniple)) at 0x2d191df8 from deployment area at 0x327004c and the unit wasn't found
+Trying to remove unit (Principes (Polybian Heavy Infantry Maniple)) at 0x2d192068 from deployment area at 0x327004c and the unit wasn't found
+Trying to remove unit (Triarii (Polybian Heavy-Spear Maniple)) at 0x2d190460 from deployment area at 0x327004c and the unit wasn't found
+Trying to remove unit (Elephantes Hulaioi Liboukoi (African Forest Elephants)) at 0x2d18ff80 from deployment area at 0x327004c and the unit wasn't found
+Trying to remove unit (Equites Campanici (Campanian Cavalry)) at 0x2d14b528 from deployment area at 0x327004c and the unit wasn't found
+Trying to remove unit (Velites (Polybian Skirmishers)) at 0x2d14ae50 from deployment area at 0x327004c and the unit wasn't found
+Trying to remove unit (Toxotai Kretikoi (Kretan Archers)) at 0x2d14b2e0 from deployment area at 0x327004c and the unit wasn't found
+Trying to remove unit (Akontistai (Hellenic Skirmishers)) at 0x2d14b098 from deployment area at 0x327004c and the unit wasn't found
+Trying to remove unit (Hoplitai (Greek Classical Hoplites)) at 0x2d156630 from deployment area at 0x327004c and the unit wasn't found
+Trying to remove unit (Misthophoroi Thureophoroi (Mercenary Hellenic Spearmen)) at 0x2d156878 from deployment area at 0x327004c and the unit wasn't found
+Trying to remove unit (Hippeis (Greek Medium Cavalry)) at 0x2d1556f8 from deployment area at 0x327004c and the unit wasn't found
+Trying to remove unit (Somatophylakes Strategou (Hellenic Bodyguard Cavalry)) at 0x2d13a9c0 from deployment area at 0x3270010 and the unit wasn't found
+Trying to remove unit (Hetairoi Aspidophoroi) at 0x2cf29758 from deployment area at 0x3270010 and the unit wasn't found
+Trying to remove unit (Hippeis Thessalikoi (Thessalian Heavy Cavalry)) at 0x2d1e1b20 from deployment area at 0x3270010 and the unit wasn't found
+Trying to remove unit (Misthophoroi Thureophoroi (Mercenary Hellenic Spearmen)) at 0x2d1e1d90 from deployment area at 0x3270010 and the unit wasn't found
+Trying to remove unit (Illyrioi Thureophoroi (Illyrian spearmen)) at 0x2d196820 from deployment area at 0x3270010 and the unit wasn't found
+Trying to remove unit (Thraikioi Peltastai (Thraikian Peltasts)) at 0x2d196f70 from deployment area at 0x3270010 and the unit wasn't found
+Trying to remove unit (Argyraspides (Hellenic Elite Phalanx)) at 0x2d1947d0 from deployment area at 0x3270010 and the unit wasn't found
+Trying to remove unit (Pezhetairoi (Hellenic Medium Phalanx)) at 0x2d194560 from deployment area at 0x3270010 and the unit wasn't found
+Trying to remove unit (Phalangitai Deuteroi (Hellenic Levy Phalanx)) at 0x2d193040 from deployment area at 0x3270010 and the unit wasn't found
+Trying to remove unit (Pezhetairoi (Hellenic Medium Phalanx)) at 0x2d1965b0 from deployment area at 0x3270010 and the unit wasn't found
+Trying to remove unit (Phalangitai Deuteroi (Hellenic Levy Phalanx)) at 0x2d191b88 from deployment area at 0x3270010 and the unit wasn't found
+Trying to remove unit (Pezhetairoi (Hellenic Medium Phalanx)) at 0x2d191438 from deployment area at 0x3270010 and the unit wasn't found
+Trying to remove unit (Phalangitai Deuteroi (Hellenic Levy Phalanx)) at 0x2d193520 from deployment area at 0x3270010 and the unit wasn't found
+Trying to remove unit (Phalangitai Deuteroi (Hellenic Levy Phalanx)) at 0x2d193a00 from deployment area at 0x3270010 and the unit wasn't found
+Trying to remove unit (Phalangitai Deuteroi (Hellenic Levy Phalanx)) at 0x2d158730 from deployment area at 0x3270010 and the unit wasn't found
+Loading from file eb/data/world/maps/battle/custom/197 BC - Battle of Kynoskephalae/descr_battle.txt
+Created faction macedon from file
+	Creating army controlled by Philippos at 0x2e06eb00 from script
+		Creating unit (Somatophylakes Strategou (Hellenic Bodyguard Cavalry)) at 0x2d193520
+		Creating unit (Hetairoi Aspidophoroi) at 0x2d193a00
+		Creating unit (Hippeis Thessalikoi (Thessalian Heavy Cavalry)) at 0x2d158730
+		Creating unit (Misthophoroi Thureophoroi (Mercenary Hellenic Spearmen)) at 0x2d42fe30
+		Creating unit (Illyrioi Thureophoroi (Illyrian spearmen)) at 0x2dfa3e88
+		Creating unit (Thraikioi Peltastai (Thraikian Peltasts)) at 0x2d242ff8
+		Creating unit (Argyraspides (Hellenic Elite Phalanx)) at 0x2efe04d8
+		Creating unit (Pezhetairoi (Hellenic Medium Phalanx)) at 0x2efb4840
+		Creating unit (Phalangitai Deuteroi (Hellenic Levy Phalanx)) at 0x2da4a468
+		Creating unit (Pezhetairoi (Hellenic Medium Phalanx)) at 0x2dbd9850
+		Creating unit (Phalangitai Deuteroi (Hellenic Levy Phalanx)) at 0x2d33b950
+		Creating unit (Pezhetairoi (Hellenic Medium Phalanx)) at 0x2da4fa08
+		Creating unit (Phalangitai Deuteroi (Hellenic Levy Phalanx)) at 0x2efb45d0
+		Creating unit (Phalangitai Deuteroi (Hellenic Levy Phalanx)) at 0x2e7b8c98
+		Creating unit (Phalangitai Deuteroi (Hellenic Levy Phalanx)) at 0x2efac2c8
+Created faction seleucid from file
+	Creating army controlled by Titvs at 0x2e06ec80 from script
+		Creating unit (Eqvites Consvlares (Republican Consular Guard Cavalry)) at 0x2cf59880
+		Creating unit (Velites (Polybian Skirmishers)) at 0x2cf593a0
+		Creating unit (Hastati (Polybian Medium Infantry Maniple)) at 0x2d8edac8
+		Creating unit (Hastati (Polybian Medium Infantry Maniple)) at 0x2d8d0230
+		Creating unit (Principes (Polybian Heavy Infantry Maniple)) at 0x2ed69670
+		Creating unit (Principes (Polybian Heavy Infantry Maniple)) at 0x2efaa108
+		Creating unit (Triarii (Polybian Heavy-Spear Maniple)) at 0x2d8c1ee8
+		Creating unit (Hastati (Polybian Medium Infantry Maniple)) at 0x2d8c1920
+		Creating unit (Hastati (Polybian Medium Infantry Maniple)) at 0x2da4f798
+		Creating unit (Principes (Polybian Heavy Infantry Maniple)) at 0x2cf59130
+		Creating unit (Principes (Polybian Heavy Infantry Maniple)) at 0x2e7b8a50
+		Creating unit (Triarii (Polybian Heavy-Spear Maniple)) at 0x2efac538
+		Creating unit (Elephantes Hulaioi Liboukoi (African Forest Elephants)) at 0x2e7b8ee0
+		Creating unit (Equites Campanici (Campanian Cavalry)) at 0x2efaa350
+		Creating unit (Velites (Polybian Skirmishers)) at 0x2ed698e0
+		Creating unit (Toxotai Kretikoi (Kretan Archers)) at 0x2d158978
+		Creating unit (Akontistai (Hellenic Skirmishers)) at 0x2d1901f0
+		Creating unit (Hoplitai (Greek Classical Hoplites)) at 0x2d697768
+		Creating unit (Misthophoroi Thureophoroi (Mercenary Hellenic Spearmen)) at 0x2d18f898
+		Creating unit (Hippeis (Greek Medium Cavalry)) at 0x2d8d66c0
+Adding unit (Somatophylakes Strategou (Hellenic Bodyguard Cavalry)) at 0x2d193520 to deployment area at 0x3270010
+Adding unit (Hetairoi Aspidophoroi) at 0x2d193a00 to deployment area at 0x3270010
+Adding unit (Hippeis Thessalikoi (Thessalian Heavy Cavalry)) at 0x2d158730 to deployment area at 0x3270010
+Adding unit (Misthophoroi Thureophoroi (Mercenary Hellenic Spearmen)) at 0x2d42fe30 to deployment area at 0x3270010
+Adding unit (Illyrioi Thureophoroi (Illyrian spearmen)) at 0x2dfa3e88 to deployment area at 0x3270010
+Adding unit (Thraikioi Peltastai (Thraikian Peltasts)) at 0x2d242ff8 to deployment area at 0x3270010
+Adding unit (Argyraspides (Hellenic Elite Phalanx)) at 0x2efe04d8 to deployment area at 0x3270010
+Adding unit (Pezhetairoi (Hellenic Medium Phalanx)) at 0x2efb4840 to deployment area at 0x3270010
+Adding unit (Phalangitai Deuteroi (Hellenic Levy Phalanx)) at 0x2da4a468 to deployment area at 0x3270010
+Adding unit (Pezhetairoi (Hellenic Medium Phalanx)) at 0x2dbd9850 to deployment area at 0x3270010
+Adding unit (Phalangitai Deuteroi (Hellenic Levy Phalanx)) at 0x2d33b950 to deployment area at 0x3270010
+Adding unit (Pezhetairoi (Hellenic Medium Phalanx)) at 0x2da4fa08 to deployment area at 0x3270010
+Adding unit (Phalangitai Deuteroi (Hellenic Levy Phalanx)) at 0x2efb45d0 to deployment area at 0x3270010
+Adding unit (Phalangitai Deuteroi (Hellenic Levy Phalanx)) at 0x2e7b8c98 to deployment area at 0x3270010
+Adding unit (Phalangitai Deuteroi (Hellenic Levy Phalanx)) at 0x2efac2c8 to deployment area at 0x3270010
+Adding unit (Eqvites Consvlares (Republican Consular Guard Cavalry)) at 0x2cf59880 to deployment area at 0x327004c
+Adding unit (Velites (Polybian Skirmishers)) at 0x2cf593a0 to deployment area at 0x327004c
+Adding unit (Hastati (Polybian Medium Infantry Maniple)) at 0x2d8edac8 to deployment area at 0x327004c
+Adding unit (Hastati (Polybian Medium Infantry Maniple)) at 0x2d8d0230 to deployment area at 0x327004c
+Adding unit (Principes (Polybian Heavy Infantry Maniple)) at 0x2ed69670 to deployment area at 0x327004c
+Adding unit (Principes (Polybian Heavy Infantry Maniple)) at 0x2efaa108 to deployment area at 0x327004c
+Adding unit (Triarii (Polybian Heavy-Spear Maniple)) at 0x2d8c1ee8 to deployment area at 0x327004c
+Adding unit (Hastati (Polybian Medium Infantry Maniple)) at 0x2d8c1920 to deployment area at 0x327004c
+Adding unit (Hastati (Polybian Medium Infantry Maniple)) at 0x2da4f798 to deployment area at 0x327004c
+Adding unit (Principes (Polybian Heavy Infantry Maniple)) at 0x2cf59130 to deployment area at 0x327004c
+Adding unit (Principes (Polybian Heavy Infantry Maniple)) at 0x2e7b8a50 to deployment area at 0x327004c
+Adding unit (Triarii (Polybian Heavy-Spear Maniple)) at 0x2efac538 to deployment area at 0x327004c
+Adding unit (Elephantes Hulaioi Liboukoi (African Forest Elephants)) at 0x2e7b8ee0 to deployment area at 0x327004c
+Adding unit (Equites Campanici (Campanian Cavalry)) at 0x2efaa350 to deployment area at 0x327004c
+Adding unit (Velites (Polybian Skirmishers)) at 0x2ed698e0 to deployment area at 0x327004c
+Adding unit (Toxotai Kretikoi (Kretan Archers)) at 0x2d158978 to deployment area at 0x327004c
+Adding unit (Akontistai (Hellenic Skirmishers)) at 0x2d1901f0 to deployment area at 0x327004c
+Adding unit (Hoplitai (Greek Classical Hoplites)) at 0x2d697768 to deployment area at 0x327004c
+Adding unit (Misthophoroi Thureophoroi (Mercenary Hellenic Spearmen)) at 0x2d18f898 to deployment area at 0x327004c
+Adding unit (Hippeis (Greek Medium Cavalry)) at 0x2d8d66c0 to deployment area at 0x327004c
+Load finished **************************
+
+
+Trying to remove unit (Eqvites Consvlares (Republican Consular Guard Cavalry)) at 0x2cf59880 from deployment area at 0x327004c and the unit wasn't found
+Trying to remove unit (Velites (Polybian Skirmishers)) at 0x2cf593a0 from deployment area at 0x327004c and the unit wasn't found
+Trying to remove unit (Hastati (Polybian Medium Infantry Maniple)) at 0x2d8edac8 from deployment area at 0x327004c and the unit wasn't found
+Trying to remove unit (Hastati (Polybian Medium Infantry Maniple)) at 0x2d8d0230 from deployment area at 0x327004c and the unit wasn't found
+Trying to remove unit (Principes (Polybian Heavy Infantry Maniple)) at 0x2ed69670 from deployment area at 0x327004c and the unit wasn't found
+Trying to remove unit (Principes (Polybian Heavy Infantry Maniple)) at 0x2efaa108 from deployment area at 0x327004c and the unit wasn't found
+Trying to remove unit (Triarii (Polybian Heavy-Spear Maniple)) at 0x2d8c1ee8 from deployment area at 0x327004c and the unit wasn't found
+Trying to remove unit (Hastati (Polybian Medium Infantry Maniple)) at 0x2d8c1920 from deployment area at 0x327004c and the unit wasn't found
+Trying to remove unit (Hastati (Polybian Medium Infantry Maniple)) at 0x2da4f798 from deployment area at 0x327004c and the unit wasn't found
+Trying to remove unit (Principes (Polybian Heavy Infantry Maniple)) at 0x2cf59130 from deployment area at 0x327004c and the unit wasn't found
+Trying to remove unit (Principes (Polybian Heavy Infantry Maniple)) at 0x2e7b8a50 from deployment area at 0x327004c and the unit wasn't found
+Trying to remove unit (Triarii (Polybian Heavy-Spear Maniple)) at 0x2efac538 from deployment area at 0x327004c and the unit wasn't found
+Trying to remove unit (Elephantes Hulaioi Liboukoi (African Forest Elephants)) at 0x2e7b8ee0 from deployment area at 0x327004c and the unit wasn't found
+Trying to remove unit (Equites Campanici (Campanian Cavalry)) at 0x2efaa350 from deployment area at 0x327004c and the unit wasn't found
+Trying to remove unit (Velites (Polybian Skirmishers)) at 0x2ed698e0 from deployment area at 0x327004c and the unit wasn't found
+Trying to remove unit (Hoplitai (Greek Classical Hoplites)) at 0x2d697768 from deployment area at 0x327004c and the unit wasn't found
+Trying to remove unit (Hippeis (Greek Medium Cavalry)) at 0x2d8d66c0 from deployment area at 0x327004c and the unit wasn't found
+Trying to remove unit (Misthophoroi Thureophoroi (Mercenary Hellenic Spearmen)) at 0x2d42fe30 from deployment area at 0x3270010 and the unit wasn't found
+Trying to remove unit (Illyrioi Thureophoroi (Illyrian spearmen)) at 0x2dfa3e88 from deployment area at 0x3270010 and the unit wasn't found
+Trying to remove unit (Thraikioi Peltastai (Thraikian Peltasts)) at 0x2d242ff8 from deployment area at 0x3270010 and the unit wasn't found
+Trying to remove unit (Argyraspides (Hellenic Elite Phalanx)) at 0x2efe04d8 from deployment area at 0x3270010 and the unit wasn't found
+Trying to remove unit (Pezhetairoi (Hellenic Medium Phalanx)) at 0x2efb4840 from deployment area at 0x3270010 and the unit wasn't found
+Trying to remove unit (Phalangitai Deuteroi (Hellenic Levy Phalanx)) at 0x2da4a468 from deployment area at 0x3270010 and the unit wasn't found
+Trying to remove unit (Pezhetairoi (Hellenic Medium Phalanx)) at 0x2dbd9850 from deployment area at 0x3270010 and the unit wasn't found
+Trying to remove unit (Phalangitai Deuteroi (Hellenic Levy Phalanx)) at 0x2d33b950 from deployment area at 0x3270010 and the unit wasn't found
+Trying to remove unit (Pezhetairoi (Hellenic Medium Phalanx)) at 0x2da4fa08 from deployment area at 0x3270010 and the unit wasn't found
+Trying to remove unit (Phalangitai Deuteroi (Hellenic Levy Phalanx)) at 0x2efb45d0 from deployment area at 0x3270010 and the unit wasn't found
+Trying to remove unit (Phalangitai Deuteroi (Hellenic Levy Phalanx)) at 0x2e7b8c98 from deployment area at 0x3270010 and the unit wasn't found
+Trying to remove unit (Phalangitai Deuteroi (Hellenic Levy Phalanx)) at 0x2efac2c8 from deployment area at 0x3270010 and the unit wasn't found
+Loading from file eb/data/world/maps/battle/custom/197 BC - Battle of Kynoskephalae/descr_battle.txt
+Created faction macedon from file
+	Creating army controlled by Philippos at 0x2de64d10 from script
+		Creating unit (Somatophylakes Strategou (Hellenic Bodyguard Cavalry)) at 0x2dcbbd68
+		Creating unit (Hetairoi Aspidophoroi) at 0x2df9f140
+		Creating unit (Hippeis Thessalikoi (Thessalian Heavy Cavalry)) at 0x2d5a4da8
+		Creating unit (Misthophoroi Thureophoroi (Mercenary Hellenic Spearmen)) at 0x2df9f890
+		Creating unit (Illyrioi Thureophoroi (Illyrian spearmen)) at 0x2df9f3b0
+		Creating unit (Thraikioi Peltastai (Thraikian Peltasts)) at 0x2f06e820
+		Creating unit (Argyraspides (Hellenic Elite Phalanx)) at 0x2f06ef98
+		Creating unit (Pezhetairoi (Hellenic Medium Phalanx)) at 0x2e228968
+		Creating unit (Phalangitai Deuteroi (Hellenic Levy Phalanx)) at 0x2e2286f8
+		Creating unit (Pezhetairoi (Hellenic Medium Phalanx)) at 0x2dbf09a0
+		Creating unit (Phalangitai Deuteroi (Hellenic Levy Phalanx)) at 0x2e228488
+		Creating unit (Pezhetairoi (Hellenic Medium Phalanx)) at 0x2ef706d0
+		Creating unit (Phalangitai Deuteroi (Hellenic Levy Phalanx)) at 0x2d641588
+		Creating unit (Phalangitai Deuteroi (Hellenic Levy Phalanx)) at 0x2d6e1578
+		Creating unit (Phalangitai Deuteroi (Hellenic Levy Phalanx)) at 0x2d6e1c28
+Created faction seleucid from file
+	Creating army controlled by Titvs at 0x2de64e90 from script
+		Creating unit (Eqvites Consvlares (Republican Consular Guard Cavalry)) at 0x2d5fb1b0
+		Creating unit (Velites (Polybian Skirmishers)) at 0x2d5fb8d0
+		Creating unit (Hastati (Polybian Medium Infantry Maniple)) at 0x2ed1e1b0
+		Creating unit (Hastati (Polybian Medium Infantry Maniple)) at 0x2ce5f568
+		Creating unit (Principes (Polybian Heavy Infantry Maniple)) at 0x2d0ea8a0
+		Creating unit (Principes (Polybian Heavy Infantry Maniple)) at 0x2c8614c0
+		Creating unit (Triarii (Polybian Heavy-Spear Maniple)) at 0x2efa1318
+		Creating unit (Hastati (Polybian Medium Infantry Maniple)) at 0x2ef9f6c8
+		Creating unit (Hastati (Polybian Medium Infantry Maniple)) at 0x2ef9fb58
+		Creating unit (Principes (Polybian Heavy Infantry Maniple)) at 0x2dc0a1d0
+		Creating unit (Principes (Polybian Heavy Infantry Maniple)) at 0x2ded8518
+		Creating unit (Triarii (Polybian Heavy-Spear Maniple)) at 0x2ded8088
+		Creating unit (Elephantes Hulaioi Liboukoi (African Forest Elephants)) at 0x2ded8760
+		Creating unit (Equites Campanici (Campanian Cavalry)) at 0x2ef9ffe8
+		Creating unit (Velites (Polybian Skirmishers)) at 0x2e76cce8
+		Creating unit (Toxotai Kretikoi (Kretan Archers)) at 0x2ef9fda0
+		Creating unit (Akontistai (Hellenic Skirmishers)) at 0x2ef9f910
+		Creating unit (Hoplitai (Greek Classical Hoplites)) at 0x2e9e74a0
+		Creating unit (Misthophoroi Thureophoroi (Mercenary Hellenic Spearmen)) at 0x2dbf2948
+		Creating unit (Hippeis (Greek Medium Cavalry)) at 0x2ded82d0
+Adding unit (Somatophylakes Strategou (Hellenic Bodyguard Cavalry)) at 0x2dcbbd68 to deployment area at 0x3270010
+Adding unit (Hetairoi Aspidophoroi) at 0x2df9f140 to deployment area at 0x3270010
+Adding unit (Hippeis Thessalikoi (Thessalian Heavy Cavalry)) at 0x2d5a4da8 to deployment area at 0x3270010
+Adding unit (Misthophoroi Thureophoroi (Mercenary Hellenic Spearmen)) at 0x2df9f890 to deployment area at 0x3270010
+Adding unit (Illyrioi Thureophoroi (Illyrian spearmen)) at 0x2df9f3b0 to deployment area at 0x3270010
+Adding unit (Thraikioi Peltastai (Thraikian Peltasts)) at 0x2f06e820 to deployment area at 0x3270010
+Adding unit (Argyraspides (Hellenic Elite Phalanx)) at 0x2f06ef98 to deployment area at 0x3270010
+Adding unit (Pezhetairoi (Hellenic Medium Phalanx)) at 0x2e228968 to deployment area at 0x3270010
+Adding unit (Phalangitai Deuteroi (Hellenic Levy Phalanx)) at 0x2e2286f8 to deployment area at 0x3270010
+Adding unit (Pezhetairoi (Hellenic Medium Phalanx)) at 0x2dbf09a0 to deployment area at 0x3270010
+Adding unit (Phalangitai Deuteroi (Hellenic Levy Phalanx)) at 0x2e228488 to deployment area at 0x3270010
+Adding unit (Pezhetairoi (Hellenic Medium Phalanx)) at 0x2ef706d0 to deployment area at 0x3270010
+Adding unit (Phalangitai Deuteroi (Hellenic Levy Phalanx)) at 0x2d641588 to deployment area at 0x3270010
+Adding unit (Phalangitai Deuteroi (Hellenic Levy Phalanx)) at 0x2d6e1578 to deployment area at 0x3270010
+Adding unit (Phalangitai Deuteroi (Hellenic Levy Phalanx)) at 0x2d6e1c28 to deployment area at 0x3270010
+Adding unit (Eqvites Consvlares (Republican Consular Guard Cavalry)) at 0x2d5fb1b0 to deployment area at 0x327004c
+Adding unit (Velites (Polybian Skirmishers)) at 0x2d5fb8d0 to deployment area at 0x327004c
+Adding unit (Hastati (Polybian Medium Infantry Maniple)) at 0x2ed1e1b0 to deployment area at 0x327004c
+Adding unit (Hastati (Polybian Medium Infantry Maniple)) at 0x2ce5f568 to deployment area at 0x327004c
+Adding unit (Principes (Polybian Heavy Infantry Maniple)) at 0x2d0ea8a0 to deployment area at 0x327004c
+Adding unit (Principes (Polybian Heavy Infantry Maniple)) at 0x2c8614c0 to deployment area at 0x327004c
+Adding unit (Triarii (Polybian Heavy-Spear Maniple)) at 0x2efa1318 to deployment area at 0x327004c
+Adding unit (Hastati (Polybian Medium Infantry Maniple)) at 0x2ef9f6c8 to deployment area at 0x327004c
+Adding unit (Hastati (Polybian Medium Infantry Maniple)) at 0x2ef9fb58 to deployment area at 0x327004c
+Adding unit (Principes (Polybian Heavy Infantry Maniple)) at 0x2dc0a1d0 to deployment area at 0x327004c
+Adding unit (Principes (Polybian Heavy Infantry Maniple)) at 0x2ded8518 to deployment area at 0x327004c
+Adding unit (Triarii (Polybian Heavy-Spear Maniple)) at 0x2ded8088 to deployment area at 0x327004c
+Adding unit (Elephantes Hulaioi Liboukoi (African Forest Elephants)) at 0x2ded8760 to deployment area at 0x327004c
+Adding unit (Equites Campanici (Campanian Cavalry)) at 0x2ef9ffe8 to deployment area at 0x327004c
+Adding unit (Velites (Polybian Skirmishers)) at 0x2e76cce8 to deployment area at 0x327004c
+Adding unit (Toxotai Kretikoi (Kretan Archers)) at 0x2ef9fda0 to deployment area at 0x327004c
+Adding unit (Akontistai (Hellenic Skirmishers)) at 0x2ef9f910 to deployment area at 0x327004c
+Adding unit (Hoplitai (Greek Classical Hoplites)) at 0x2e9e74a0 to deployment area at 0x327004c
+Adding unit (Misthophoroi Thureophoroi (Mercenary Hellenic Spearmen)) at 0x2dbf2948 to deployment area at 0x327004c
+Adding unit (Hippeis (Greek Medium Cavalry)) at 0x2ded82d0 to deployment area at 0x327004c
+Load finished **************************
+
+

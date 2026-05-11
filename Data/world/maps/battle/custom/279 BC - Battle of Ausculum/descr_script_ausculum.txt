@@ -1,0 +1,149 @@
+script
+
+	prepare_for_battle
+
+
+; *********************************************************************************************
+;	Epeiros - Alliance 0
+; *********************************************************************************************
+
+;Pyrrhos Aiakides
+	label_unit 0 0 0 strategos
+        label_unit 0 0 1 thes_cav
+	label_unit 0 0 2 tarentinoi
+	label_unit 0 0 3 lonchophoroi
+	label_unit 0 0 4 phalangitai
+	label_unit 0 0 5 lucanian
+	label_unit 0 0 6 hoplite
+	label_unit 0 0 7 chaeonian
+	label_unit 0 0 8 pezhetairoi
+	label_unit 0 0 9 pezhetairoi1
+	label_unit 0 0 10 peltastai
+	label_unit 0 0 11 samnite
+	label_unit 0 0 12 greek_cav
+	label_unit 0 0 13 tarentinoi1
+	label_unit 0 0 14 archer
+	label_unit 0 0 15 slinger
+	label_unit 0 0 16 elephant
+        label_unit 0 0 17 elephant1
+        label_unit 0 0 18 horse
+
+; *********************************************************************************************
+;	Rome - Alliance 1
+; *********************************************************************************************
+
+;Pvblivs
+	label_unit 1 0 0 consul
+	label_unit 1 0 1 hastati
+	label_unit 1 0 2 hastati1
+	label_unit 1 0 3 hastati2
+	label_unit 1 0 4 hastati3
+	label_unit 1 0 5 principes
+	label_unit 1 0 6 principes1
+	label_unit 1 0 7 principes2
+	label_unit 1 0 8 principes3
+	label_unit 1 0 9 triarii
+	label_unit 1 0 10 triarii1
+        label_unit 1 0 11 triarii2
+        label_unit 1 0 12 triarii3
+        label_unit 1 0 13 equites
+        label_unit 1 0 14 auxilia_cav
+        label_unit 1 0 15 leves
+        label_unit 1 0 16 leves1
+
+
+; *********************************************************************************************
+;	INITIALISATION
+; *********************************************************************************************
+
+	while ! I_BattleStarted					; Wait for deployment
+	end_while
+	ai_active_set off
+	camera_restrictions_set off
+	
+
+; *********************************************************************************************
+
+	
+	while I_InBattle
+ 
+        if I_LocalFaction thrace
+
+        battle_wait 1
+
+        unit_order_attack_unit hastati lucanian 
+	unit_order_attack_unit hastati1 chaeonian
+	unit_order_attack_unit hastati2 pezhetairoi1
+	unit_order_attack_unit hastati3 samnite
+	unit_order_attack_unit principes phalangitai
+        unit_order_attack_unit principes1 hoplite
+	unit_order_attack_unit principes2 pezhetairoi
+	unit_order_attack_unit principes3 peltastai
+	unit_order_attack_unit equites greek_cav 
+	unit_order_attack_unit auxilia_cav lonchophoroi 
+
+        battle_wait 30
+        
+        release_unit consul
+        release_unit triarii
+        release_unit triarii1
+        release_unit triarii2
+        release_unit triarii3
+    
+        end_if
+
+
+
+	
+	if I_LocalFaction seleucid
+
+        battle_wait 1
+        
+        unit_set_skirmish_mode peltastai off
+        unit_use_special_ability chaeonian
+        unit_use_special_ability pezhetairoi
+        unit_use_special_ability pezhetairoi1
+        unit_use_special_ability phalangitai
+
+        battle_wait 1
+       
+        unit_set_guard_mode phalangitai
+        unit_set_guard_mode chaeonian
+        unit_set_guard_mode pezhetairoi
+        unit_set_guard_mode pezhetairoi1
+
+
+
+        battle_wait 1
+        
+        unit_order_attack_unit thes_cav auxilia_cav 
+        unit_order_attack_unit tarentinoi auxilia_cav
+        unit_order_attack_unit lonchophoroi auxilia_cav
+        unit_order_attack_unit lucanian hastati
+	unit_order_attack_unit chaeonian hastati1
+	unit_order_attack_unit pezhetairoi1 hastati2
+	unit_order_attack_unit samnite hastati3
+	unit_order_attack_unit phalangitai principes
+        unit_order_attack_unit hoplite principes1
+	unit_order_attack_unit pezhetairoi principes2
+	unit_order_attack_unit peltastai principes3
+	unit_order_attack_unit greek_cav equites
+        unit_order_attack_unit tarentinoi1 equites
+
+        battle_wait 30
+        
+        release_unit strategos
+        release_unit archer
+        release_unit slinger
+        release_unit elephant
+        release_unit elephant1
+        release_unit horse
+	
+       
+
+	end_if
+	
+
+	end_while
+
+end_script

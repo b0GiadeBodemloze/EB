@@ -1,0 +1,171 @@
+script
+
+	prepare_for_battle
+; *********************************************************************************************
+;	Pahlava - Alliance 0
+; *********************************************************************************************
+
+;Rostaham
+	label_unit 0 0 0 parthian_general
+	label_unit 0 0 1 shivatir
+	label_unit 0 0 2 shivatir1
+	label_unit 0 0 3 shivatir2
+	label_unit 0 0 4 shivatir3
+	label_unit 0 0 5 shivatir4
+	label_unit 0 0 6 shivatir5
+	label_unit 0 0 7 nomad
+        label_unit 0 0 8 nomad1
+
+; *********************************************************************************************
+;	SPQR - Alliance 1
+; *********************************************************************************************
+
+;Marcvs
+	label_unit 1 0 0 consul
+	label_unit 1 0 1 asian_cav
+	label_unit 1 0 2 asian_cav1
+	label_unit 1 0 3 asian_cav2
+	label_unit 1 0 4 asian_cav3
+	label_unit 1 0 5 syrian_arch
+	label_unit 1 0 6 syrian_arch1
+	label_unit 1 0 7 syrian_arch2
+	label_unit 1 0 8 legio
+	label_unit 1 0 9 legio1
+	label_unit 1 0 10 legio2
+	label_unit 1 0 11 legio3
+	label_unit 1 0 12 legio4
+	label_unit 1 0 13 legio5
+	label_unit 1 0 14 legio6
+	label_unit 1 0 15 legio7
+	label_unit 1 0 16 syrian_arch3
+
+;Pvblivs
+	label_unit 1 1 0 consul1
+	label_unit 1 1 1 equites_gaul
+	label_unit 1 1 2 syrian_arch4
+	label_unit 1 1 3 legio8
+	label_unit 1 1 4 legio9
+
+
+	
+
+
+
+
+; *********************************************************************************************
+;	INITIALISATION
+; *********************************************************************************************
+
+	while ! I_BattleStarted					; Wait for deployment
+	end_while
+	ai_active_set off
+	camera_restrictions_set off
+	
+
+; *********************************************************************************************
+
+	while I_InBattle
+
+        if I_LocalFaction parthia
+
+        battle_wait 1
+
+        release_unit consul1
+	release_unit equites_gaul
+	release_unit syrian_arch4
+	release_unit legio8
+        release_unit legio9
+
+        battle_wait 1
+
+        unit_set_skirmish_mode asian_cav off
+        unit_set_skirmish_mode asian_cav1 off
+        unit_set_skirmish_mode asian_cav2 off
+        unit_set_skirmish_mode asian_cav3 off
+        unit_set_skirmish_mode syrian_arch off
+        unit_set_skirmish_mode syrian_arch1 off
+        unit_set_skirmish_mode syrian_arch2 off
+        unit_set_skirmish_mode syrian_arch3 off
+
+        battle_wait 2
+
+        unit_set_guard_mode legio on
+        unit_set_guard_mode legio1 on
+        unit_set_guard_mode legio2 on
+        unit_set_guard_mode legio3 on
+        unit_set_guard_mode legio4 on
+        unit_set_guard_mode legio5 on
+        unit_set_guard_mode legio6 on
+        unit_set_guard_mode legio7 on
+        unit_set_guard_mode asian_cav on
+        unit_set_guard_mode asian_cav1 on
+        unit_set_guard_mode asian_cav2 on
+        unit_set_guard_mode asian_cav3 on
+        unit_set_guard_mode syrian_arch on
+        unit_set_guard_mode syrian_arch1 on
+        unit_set_guard_mode syrian_arch2 on
+        unit_set_guard_mode syrian_arch3 on
+
+        battle_wait 2
+
+        unit_set_fire_at_will_mode legio on
+        unit_set_fire_at_will_mode legio1 on
+        unit_set_fire_at_will_mode legio2 on
+        unit_set_fire_at_will_mode legio3 on
+        unit_set_fire_at_will_mode legio4 on
+        unit_set_fire_at_will_mode legio5 on
+        unit_set_fire_at_will_mode legio6 on
+        unit_set_fire_at_will_mode legio7 on
+        unit_set_fire_at_will_mode asian_cav on
+        unit_set_fire_at_will_mode asian_cav1 on
+        unit_set_fire_at_will_mode asian_cav2 on
+        unit_set_fire_at_will_mode asian_cav3 on
+        unit_set_fire_at_will_mode syrian_arch on
+        unit_set_fire_at_will_mode syrian_arch1 on
+        unit_set_fire_at_will_mode syrian_arch2 on
+        unit_set_fire_at_will_mode syrian_arch3 on
+
+        
+
+	
+        
+        end_if
+
+        if I_LocalFaction seleucid
+
+        battle_wait 1
+
+        unit_set_morale legio8 wavering
+        unit_set_morale legio9 wavering
+
+        battle_wait 1
+
+	unit_order_attack_unit nomad consul1 run
+        unit_order_attack_unit nomad1 consul1 run
+	unit_order_attack_unit shivatir legio8 run
+	unit_order_attack_unit shivatir1 consul run
+	unit_order_attack_unit shivatir2 legio8 run
+        unit_order_attack_unit shivatir3 legio9 run
+	unit_order_attack_unit shivatir4 legio9 run
+	unit_order_attack_unit shivatir5 syrian_arch4 run
+
+        
+
+        battle_wait 50
+
+        release_unit parthian_general
+	release_unit shivatir
+	release_unit shivatir1
+	release_unit shivatir2
+        release_unit shivatir3
+	release_unit shivatir4
+	release_unit shivatir5
+        release_unit nomad
+	release_unit nomad1
+        
+        end_if
+
+
+	end_while
+
+end_script

@@ -1,0 +1,201 @@
+script
+
+	prepare_for_battle
+
+
+; *********************************************************************************************
+;	Epeiros - Alliance 0
+; *********************************************************************************************
+
+;Pyrrhos Aiakides
+	label_unit 0 0 0 strategos
+        label_unit 0 0 1 hetairoi
+	label_unit 0 0 2 thes_cav
+	label_unit 0 0 3 thureo
+	label_unit 0 0 4 illyrian
+	label_unit 0 0 5 thrakian
+	label_unit 0 0 6 argy
+	label_unit 0 0 7 phalanx
+	label_unit 0 0 8 phalanx1
+	label_unit 0 0 9 phalanx2
+	label_unit 0 0 10 phalanx3
+	label_unit 0 0 11 phalanx4
+	label_unit 0 0 12 phalanx5
+	label_unit 0 0 13 phalanx6
+	label_unit 0 0 14 phalanx7
+        
+
+; *********************************************************************************************
+;	Rome - Alliance 1
+; *********************************************************************************************
+
+;Pvblivs
+	label_unit 1 0 0 consul
+	label_unit 1 0 1 velites
+	label_unit 1 0 2 hastati
+	label_unit 1 0 3 hastati1
+	label_unit 1 0 4 principes
+	label_unit 1 0 5 principes1
+	label_unit 1 0 6 triarii
+	label_unit 1 0 7 hastati2
+	label_unit 1 0 8 hastati3
+	label_unit 1 0 9 principes2
+	label_unit 1 0 10 principes3
+        label_unit 1 0 11 triarii1
+        label_unit 1 0 12 elephant
+        label_unit 1 0 13 campanian_cav
+        label_unit 1 0 14 velites1
+        label_unit 1 0 15 cretan
+        label_unit 1 0 16 akontistai
+        label_unit 1 0 17 hoplitai
+        label_unit 1 0 18 thuepheroi
+        label_unit 1 0 19 hippeis
+
+
+; *********************************************************************************************
+;	INITIALISATION
+; *********************************************************************************************
+
+	while ! I_BattleStarted					; Wait for deployment
+	end_while
+	ai_active_set off
+	camera_restrictions_set off
+	
+
+; *********************************************************************************************
+
+	
+	while I_InBattle
+ 
+        if I_LocalFaction macedon
+
+        battle_wait 1
+        unit_set_skirmish_mode velites off
+        unit_set_skirmish_mode velites1 off
+        unit_set_skirmish_mode campanian_cav off
+
+        battle_wait 1
+        unit_order_attack_unit campanian_cav thes_cav run
+        unit_order_attack_unit velites thrakian run
+	unit_order_attack_unit hastati phalanx run
+	unit_order_attack_unit hastati1 phalanx2 run
+	unit_order_attack_unit principes argy run
+	unit_order_attack_unit principes1 phalanx1 run
+        unit_order_attack_unit velites1 illyrian run
+
+
+        battle_wait 100
+
+        unit_order_attack_unit triarii argy 
+        unit_order_attack_unit hastati2 phalanx7 run
+	unit_order_attack_unit hastati3 phalanx5 run
+	unit_order_attack_unit principes2 phalanx7 run
+	unit_order_attack_unit principes3 phalanx6 run
+	unit_order_attack_unit triarii1 phalanx6
+        unit_order_attack_unit elephant phalanx5
+        unit_order_attack_unit cretan phalanx5
+        unit_order_attack_unit akontistai phalanx5 run
+        unit_order_attack_unit hoplitai phalanx4 run
+        unit_order_attack_unit thuepheroi phalanx3 run
+	unit_order_attack_unit hippeis phalanx3 run
+
+        battle_wait 70
+        
+        unit_order_attack_unit principes2 phalanx2 run
+        unit_order_attack_unit principes3 phalanx2 run
+        unit_order_attack_unit triarii1 phalanx2 run
+
+        battle_wait 60
+
+        release_unit consul
+	release_unit velites
+	release_unit hastati
+	release_unit hastati1
+	release_unit principes
+	release_unit principes1
+	release_unit triarii
+	release_unit hastati2
+	release_unit hastati3
+	release_unit principes2
+	release_unit principes3
+        release_unit triarii1
+        release_unit elephant
+        release_unit campanian_cav
+        release_unit velites1
+        release_unit cretan
+        release_unit akontistai
+        release_unit hoplitai
+        release_unit thuepheroi
+        release_unit hippeis
+
+        
+        
+        end_if
+
+
+
+	
+	if I_LocalFaction seleucid
+
+        battle_wait 1
+        
+        unit_set_skirmish_mode thrakian off
+        unit_use_special_ability argy
+        unit_use_special_ability phalanx
+        unit_use_special_ability phalanx1
+        unit_use_special_ability phalanx2
+        
+        battle_wait 1
+
+        unit_set_fire_at_will_mode thureo on
+        unit_set_fire_at_will_mode thrakian on
+        unit_set_fire_at_will_mode illyrian on
+
+        battle_wait 1
+       
+        unit_set_guard_mode strategos
+        unit_set_guard_mode hetairoi
+	unit_set_guard_mode thes_cav
+	unit_set_guard_mode thureo
+	unit_set_guard_mode illyrian
+	unit_set_guard_mode thrakian
+	unit_set_guard_mode argy
+	unit_set_guard_mode phalanx
+	unit_set_guard_mode phalanx1
+	unit_set_guard_mode phalanx2
+	unit_set_guard_mode phalanx3
+	unit_set_guard_mode phalanx4
+
+        battle_wait 20
+
+        unit_use_special_ability phalanx3
+        unit_use_special_ability phalanx4
+        unit_order_attack_unit phalanx5 hastati3 
+        unit_order_attack_unit phalanx6 elephant
+	unit_order_attack_unit phalanx7 hastati2
+
+        battle_wait 250
+
+        release_unit strategos
+	release_unit hetairoi
+	release_unit thes_cav
+	release_unit thureo
+	release_unit illyrian
+	release_unit thrakian
+	release_unit argy
+	release_unit phalanx
+	release_unit phalanx1
+	release_unit phalanx2
+	release_unit phalanx3
+        release_unit phalanx4
+        release_unit phalanx5
+        release_unit phalanx6
+        release_unit phalanx7
+        
+
+	end_if
+	
+
+	end_while
+
+end_script

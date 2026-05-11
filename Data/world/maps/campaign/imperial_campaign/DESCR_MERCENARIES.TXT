@@ -1,0 +1,403 @@
+pool Alps and Cisalpine Gaul
+	regions Greseoallra Liguria Aemilia Venetia Noricae Rhaetia Helvetis Insubramrog Lugonesis Umbria Etruria
+	unit hellenistic infantry massiloi hoplitai merc,         exp 0 cost 3294 replenish 0.030 - 0.040 max 2 initial 0
+	unit celtic infantry teskatos,                            exp 0 cost 3301 replenish 0.035 - 0.055 max 2 initial 1
+	unit celtic infantry gaecori,                             exp 0 cost 4085 replenish 0.040 - 0.060 max 2 initial 0
+	unit celtic infantry appea gaedotos,                      exp 0 cost 3255 replenish 0.040 - 0.055 max 2 initial 0
+	unit celtic infantry gaemile liguriae,                    exp 0 cost 3206 replenish 0.045 - 0.060 max 2 initial 1
+	unit celtic cavalry ligurian,                             exp 0 cost 5212 replenish 0.030 - 0.040 max 1 initial 0
+	unit celtic infantry mistophoroi keltohellenikoi,         exp 0 cost 2875 replenish 0.015 - 0.030 max 2 initial 0
+	unit celtic infantry enoci curoas merc,                   exp 0 cost 2985 replenish 0.055 - 0.065 max 3 initial 1
+	unit celtic infantry curoas,                              exp 0 cost 3528 replenish 0.015 - 0.030 max 2 initial 0
+	unit celtic skirmisher cavalry curepos,                   exp 0 cost 4531 replenish 0.040 - 0.055 max 2 initial 1
+	unit celtic missile iaosatae regional,                    exp 0 cost 1771 replenish 0.015 - 0.025 max 1 initial 0
+	unit celtic missile sotaroas merc,                        exp 0 cost 1617 replenish 0.025 - 0.040 max 2 initial 0
+	unit samnite infantry swordsmen merc,                     exp 0 cost 5414 replenish 0.015 - 0.030 max 1 initial 0
+	unit samnite infantry spearmen merc,                      exp 0 cost 3482 replenish 0.025 - 0.040 max 2 initial 1
+	unit hellenistic cavalry illyrioihippeis,                 exp 0 cost 4439 replenish 0.010 - 0.020 max 1 initial 0
+	unit greek infantry lucanian spearmen merc,               exp 0 cost 2640 replenish 0.020 - 0.040 max 2 initial 0
+	unit italic cavalry campanian,                            exp 0 cost 5748 replenish 0.015 - 0.025 max 1 initial 0
+	unit greek skirmisher peltastai mercenary,                exp 0 cost 2801 replenish 0.025 - 0.035 max 1 initial 0
+	unit greek cavalry mistophoroi hippeis,                   exp 0 cost 5175 replenish 0.015 - 0.025 max 1 initial 0
+
+pool Anatolia
+	regions Karia Lydia Pamphylia Phrygia Galatia Bithynia Kappadokia_Pontika Kappadokia Kilikia Paphlagonia Kypros
+	unit celtic infantry mistophoroi keltohellenikoi,         exp 0 cost 2875 replenish 0.015 - 0.030 max 2 initial 0
+	unit celtic infantry galatiantindanotae mercenary,        exp 0 cost 7951 replenish 0.020 - 0.035 max 2 initial 0
+	unit celtic infantry enoci curoas merc,                   exp 0 cost 2985 replenish 0.060 - 0.075 max 3 initial 1
+	unit galatian infantry kluddolon,                         exp 0 cost 3411 replenish 0.065 - 0.080 max 4 initial 1
+	unit celtic skirmisher cavalry curepos,                   exp 0 cost 4531 replenish 0.055 - 0.065 max 3 initial 0
+	unit celtic missile iaosatae regional,                    exp 0 cost 1771 replenish 0.020 - 0.030 max 2 initial 0
+	unit hellenistic infantry hoplitai merc,                  exp 0 cost 3036 replenish 0.035 - 0.050 max 3 initial 0
+	unit hellenistic infantry thureophoroi mercenary,         exp 0 cost 3075 replenish 0.040 - 0.060 max 4 initial 0
+	unit greek skirmisher peltastai mercenary,                exp 0 cost 2801 replenish 0.050 - 0.070 max 3 initial 1
+	unit hellenistic infantry misthophoroi phalangitai,       exp 0 cost 5085 replenish 0.035 - 0.050 max 2 initial 0
+	unit greek cavalry hippeis thessalikoi merc,              exp 0 cost 7457 replenish 0.030 - 0.045 max 2 initial 0
+	unit greek cavalry mistophoroi hippeis,                   exp 0 cost 5175 replenish 0.035 - 0.045 max 2 initial 1
+	unit hellenistic infantry uazali mercenary,               exp 0 cost 3478 replenish 0.070 - 0.085 max 4 initial 2
+
+pool Bastarnae/Boii/Getia
+	regions Mrogbonna Coutinoe Bastarnolandam Getia_Koile Getia Eravacouw
+	unit celtic infantry enoci curoas merc,                   exp 0 cost 2985 replenish 0.055 - 0.075 max 2 initial 1
+	unit celtic skirmisher cavalry curepos,                   exp 0 cost 4531 replenish 0.050 - 0.065 max 2 initial 1
+	unit galatian infantry kluddolon,                         exp 0 cost 3411 replenish 0.070 - 0.090 max 3 initial 1 
+	unit celtic missile iaosatae regional,                    exp 0 cost 1771 replenish 0.030 - 0.040 max 1 initial 0
+	unit celtic infantry curoas,                              exp 0 cost 3528 replenish 0.050 - 0.070 max 2 initial 0
+	unit celtic infantry mistophoroi keltohellenikoi,         exp 0 cost 2875 replenish 0.010 - 0.020 max 1 initial 0
+	unit germanic cavalry ridoharjoz mercenary,               exp 0 cost 6256 replenish 0.060 - 0.075 max 1 initial 0
+	unit germanic infantry gastiz,                            exp 0 cost 6314 replenish 0.045 - 0.060 max 1 initial 0   
+	unit dacian missile peltastaithrakioi merc,               exp 0 cost 3190 replenish 0.055 - 0.075 max 2 initial 0
+	unit dacian infantry getikoi stratiotai,                  exp 0 cost 2645 replenish 0.060 - 0.075 max 2 initial 1
+	unit steppe missile cavalry skuda baexdzhyntae,           exp 0 cost 2811 replenish 0.030 - 0.050 max 1 initial 0
+	unit steppe missile cavalry skuda fat aexsdzhytae,        exp 0 cost 2456 replenish 0.040 - 0.055 max 1 initial 0
+	unit germanic infantry bastarnoz swaiut,                  exp 0 cost 3151 replenish 0.030 - 0.050 max 3 initial 0
+
+pool Central Britain, Caledonia, and Ireland
+	regions Cambriae Corieltauvae Brigantiae Caledryn Cruddain Erain
+	unit celtic skirmisher balroae,                           exp 0 cost 2399 replenish 0.085 - 0.110 max 4 initial 2
+	unit celtic cavalry myrcharn,                             exp 0 cost 4738 replenish 0.055 - 0.070 max 3 initial 1
+	unit celtic infantry siluri,                              exp 0 cost 3006 replenish 0.050 - 0.065 max 2 initial 1
+	unit celtic missile iaosatae regional,                    exp 0 cost 1771 replenish 0.030 - 0.040 max 2 initial 0
+	unit celtic missile sotaroas merc,                        exp 0 cost 1617 replenish 0.040 - 0.050 max 2 initial 0
+
+pool Eastern Gaul/Western Germania Boarder Zone
+	regions Nervaea_Belgae Habukolandam Heruskolandam Vindelicos Mrog_Arctagone Sequallra
+	unit celtic infantry batacorii,                           exp 0 cost 3020 replenish 0.055 - 0.075 max 2 initial 0
+	unit celtic skirmisher cavalry curepos,                   exp 0 cost 4531 replenish 0.050 - 0.070 max 2 initial 1
+	unit celtic infantry curoas,                              exp 0 cost 3528 replenish 0.070 - 0.090 max 3 initial 1
+	unit celtic missile iaosatae regional,                    exp 0 cost 1771 replenish 0.040 - 0.060 max 2 initial 0
+	unit celtic missile sotaroas merc,                        exp 0 cost 1617 replenish 0.050 - 0.065 max 2 initial 0
+	unit germanic infantry frankamannoz slave,                exp 0 cost 2061 replenish 0.065 - 0.085 max 2 initial 1
+	unit germanic cavalry ridoharjoz mercenary,               exp 0 cost 6256 replenish 0.060 - 0.080 max 3 initial 1
+	unit germanic infantry gastiz,                            exp 0 cost 6314 replenish 0.050 - 0.065 max 1 initial 0
+	unit germanic infantry klumbokarlaz,                      exp 0 cost 2792 replenish 0.060 - 0.080 max 1 initial 0
+
+pool Epirote/Illyrian/Scordiscii
+	regions Pannonia Pannonia_Illyrica Dalmatia Scorcouw Illyria_Hellenike
+	unit greek infantry misthophoroi hoplitai,                exp 0 cost 2933 replenish 0.045 - 0.065 max 2 initial 0
+	unit greek cavalry mistophoroi hippeis,                   exp 0 cost 5175 replenish 0.035 - 0.055 max 2 initial 0
+	unit hellenistic cavalry illyrioihippeis,                 exp 0 cost 4439 replenish 0.045 - 0.065 max 2 initial 1
+	unit greek skirmisher peltastai mercenary,                exp 0 cost 2801 replenish 0.045 - 0.065 max 2 initial 1
+	unit hellenistic infantry hoplitai merc,                  exp 0 cost 3036 replenish 0.035 - 0.055 max 1 initial 0
+	unit celtic infantry enoci curoas merc,                   exp 0 cost 2985 replenish 0.035 - 0.065 max 2 initial 0
+	unit galatian infantry kluddolon,                         exp 0 cost 3411 replenish 0.055 - 0.065 max 3 initial 1
+	unit celtic skirmisher cavalry curepos,                   exp 0 cost 4531 replenish 0.035 - 0.055 max 2 initial 1
+	unit celtic infantry mistophoroi keltohellenikoi,         exp 0 cost 2875 replenish 0.030 - 0.050 max 3 initial 0
+	unit celtic infantry teskatos,                            exp 0 cost 3301 replenish 0.020 - 0.035 max 1 initial 0
+	unit celtic infantry gaecori,                             exp 0 cost 4085 replenish 0.025 - 0.040 max 1 initial 0
+	unit germanic infantry bastarnoz swaiut,                  exp 0 cost 3151 replenish 0.020 - 0.030 max 2 initial 0
+
+pool Greater Thrace
+	regions Dardanoia Thraikia_Hypertera Mikra_Skythia Odrysai Chersonesos_Thraikia
+	unit hellenistic cavalry prodromoithrakioi merc,          exp 0 cost 6801 replenish 0.040 - 0.055 max 1 initial 1
+	unit dacian missile peltastaithrakioi merc,               exp 0 cost 3190 replenish 0.060 - 0.085 max 4 initial 1
+	unit hellenistic cavalry thrakioi hippeis merc,           exp 0 cost 5320 replenish 0.050 - 0.070 max 2 initial 0
+	unit celtic infantry mistophoroi keltohellenikoi,         exp 0 cost 2875 replenish 0.020 - 0.035 max 1 initial 0
+	unit dacian infantry galathraikes regional,               exp 0 cost 3365 replenish 0.020 - 0.035 max 1 initial 0
+	unit celtic infantry galatiantindanotae mercenary,        exp 0 cost 7951 replenish 0.010 - 0.020 max 1 initial 0
+	unit dacian infantry getikoi stratiotai,                  exp 0 cost 2645 replenish 0.045 - 0.055 max 2 initial 0
+	unit steppe missile cavalry skuda fat aexsdzhytae,        exp 0 cost 2456 replenish 0.050 - 0.065 max 2 initial 0
+	unit hellenistic infantry hoplitai merc,                  exp 0 cost 3036 replenish 0.040 - 0.065 max 2 initial 0
+	unit eastern infantry scythian axemen,                    exp 0 cost 2746 replenish 0.020 - 0.030 max 2 initial 0
+	unit celtic infantry enoci curoas merc,                   exp 0 cost 2985 replenish 0.040 - 0.055 max 2 initial 0
+	unit galatian infantry kluddolon,                         exp 0 cost 3411 replenish 0.050 - 0.065 max 3 initial 1
+	unit celtic skirmisher cavalry curepos,                   exp 0 cost 4531 replenish 0.030 - 0.050 max 2 initial 0
+	; taxeis triballoi start 1 max 3 refresh .055-.075 added when merc skin set up, cut one thraikioi doryphoroi when added
+	unit germanic infantry bastarnoz swaiut,                  exp 0 cost 3151 replenish 0.025 - 0.040 max 3 initial 0
+
+pool Hellas
+	regions Makedonia Thessalia Aitolia Attike Euboia Peloponnesos Lakonike Krete Rhodos Lesbos Mysia Epeiros
+	unit hellenistic infantry thureophoroi mercenary,         exp 0 cost 3075 replenish 0.060 - 0.080 max 3 initial 0
+	unit hellenistic infantry hoplitai merc,                  exp 0 cost 3036 replenish 0.055 - 0.075 max 3 initial 0
+	unit greek skirmisher peltastai mercenary,                exp 0 cost 2801 replenish 0.060 - 0.085 max 3 initial 1
+	unit greek infantry misthophoroi hoplitai,                exp 0 cost 2933 replenish 0.060 - 0.075 max 3 initial 0
+	unit greek cavalry hippeis thessalikoi merc,              exp 0 cost 7457 replenish 0.045 - 0.065 max 2 initial 0
+	unit greek cavalry mistophoroi hippeis,                   exp 0 cost 5175 replenish 0.050 - 0.070 max 3 initial 0
+	unit hellenistic cavalry prodromoithrakioi merc,          exp 0 cost 6801 replenish 0.045 - 0.055 max 1 initial 0
+	unit dacian missile peltastaithrakioi merc,               exp 0 cost 3190 replenish 0.055 - 0.070 max 2 initial 0
+	unit hellenistic infantry misthophoroi phalangitai,       exp 0 cost 5085 replenish 0.040 - 0.055 max 2 initial 1
+	unit hellenistic missile cretan archers merc,             exp 0 cost 2371 replenish 0.065 - 0.085 max 3 initial 1
+	unit hellenistic skirmisher cavalry hippakontistai slave, exp 0 cost 3222 replenish 0.050 - 0.060 max 3 initial 0
+	unit steppe missile cavalry skuda fat aexsdzhytae,        exp 0 cost 2456 replenish 0.010 - 0.020 max 1 initial 0
+	unit hellenistic cavalry illyrioihippeis,                 exp 0 cost 4439 replenish 0.020 - 0.035 max 1 initial 0
+	unit celtic infantry mistophoroi keltohellenikoi,         exp 0 cost 2875 replenish 0.010 - 0.020 max 1 initial 0
+	unit celtic infantry galatiantindanotae mercenary,        exp 0 cost 7951 replenish 0.015 - 0.025 max 1 initial 0
+	unit celtic infantry enoci curoas merc,                   exp 0 cost 2985 replenish 0.035 - 0.050 max 2 initial 0
+	unit celtic skirmisher cavalry curepos,                   exp 0 cost 4531 replenish 0.030 - 0.045 max 1 initial 0
+	unit hellenistic cavalry tarentinoi merc,                 exp 1 cost 7389 replenish 0.020 - 0.030 max 2 initial 0
+
+pool Levant
+	regions Syria Syria_Koile Phoinike Ioudaia Delta_Neilou Heptanomis
+	unit hellenistic cavalry prodromoithrakioi merc,          exp 0 cost 6801 replenish 0.010 - 0.030 max 1 initial 1
+	unit dacian missile peltastaithrakioi merc,               exp 0 cost 3190 replenish 0.035 - 0.055 max 2 initial 0
+	unit celtic infantry galatiantindanotae mercenary,        exp 0 cost 7951 replenish 0.020 - 0.035 max 1 initial 0
+	unit galatian infantry kluddolon,                         exp 0 cost 3411 replenish 0.040 - 0.070 max 3 initial 1
+	unit celtic skirmisher cavalry curepos,                   exp 0 cost 4531 replenish 0.030 - 0.045 max 2 initial 0
+	unit hellenistic infantry hoplitai merc,                  exp 0 cost 3036 replenish 0.040 - 0.055 max 3 initial 1
+	unit hellenistic infantry misthophoroi phalangitai,       exp 0 cost 5085 replenish 0.025 - 0.040 max 2 initial 0
+	unit greek skirmisher peltastai mercenary,                exp 0 cost 2801 replenish 0.040 - 0.060 max 3 initial 0
+	unit hellenistic missile cretan archers merc,             exp 0 cost 2371 replenish 0.035 - 0.085 max 3 initial 1
+	unit greek cavalry hippeis thessalikoi merc,              exp 0 cost 7457 replenish 0.020 - 0.030 max 2 initial 1
+	unit greek cavalry mistophoroi hippeis,                   exp 0 cost 5175 replenish 0.030 - 0.045 max 2 initial 0
+	unit greek infantry misthophoroi hoplitai,                exp 0 cost 2933 replenish 0.060 - 0.075 max 3 initial 1
+	unit hellenistic infantry thureophoroi mercenary,         exp 0 cost 3075 replenish 0.060 - 0.080 max 4 initial 0
+	unit celtic infantry mistophoroi keltohellenikoi,         exp 0 cost 2875 replenish 0.030 - 0.060 max 3 initial 0
+	unit hellenistic infantry uazali mercenary,               exp 0 cost 3478 replenish 0.050 - 0.070 max 4 initial 1
+
+pool Mediterranean Iberia
+	regions Turdulia Turdetania Carpetania Edetania Lacetania
+	unit hellenistic infantry massiloi hoplitai merc,         exp 0 cost 3294 replenish 0.010 - 0.020 max 1 initial 0
+	unit celtic infantry mistophoroi keltohellenikoi,         exp 0 cost 2875 replenish 0.010 - 0.020 max 1 initial 0
+	unit celtic infantry curoas,                              exp 0 cost 3528 replenish 0.030 - 0.050 max 2 initial 0
+	unit celtic skirmisher cavalry curepos,                   exp 0 cost 4531 replenish 0.025 - 0.040 max 1 initial 0
+	unit iberian missile balearic slinger mercenary,          exp 0 cost 2367 replenish 0.050 - 0.065 max 2 initial 1
+	unit iberian infantry scutarii merc,                      exp 0 cost 3981 replenish 0.070 - 0.090 max 3 initial 1
+	unit iberian infantry scortamavera merc,                  exp 0 cost 5479 replenish 0.010 - 0.025 max 1 initial 0
+
+pool Northern Germanics and Southern Balts
+	regions Swebolandam Rugolandam Venedu_Tauta Sembu_Gentys Skandza Latium Kimbrolandam Silengolandam
+	unit germanic infantry frankamannoz slave,                exp 0 cost 2061 replenish 0.060 - 0.080 max 3 initial 1
+	unit germanic cavalry ridoharjoz mercenary,               exp 0 cost 6256 replenish 0.075 - 0.090 max 2 initial 1
+	unit germanic infantry gastiz,                            exp 0 cost 6314 replenish 0.055 - 0.070 max 2 initial 1
+	unit germanic infantry klumbokarlaz,                      exp 0 cost 2792 replenish 0.065 - 0.085 max 2 initial 0
+	unit germanic infantry karotovas,                         exp 0 cost 2657 replenish 0.050 - 0.065 max 2 initial 1
+	unit germanic infantry karas viras,                       exp 0 cost 1375 replenish 0.050 - 0.060 max 2 initial 0
+	unit germanic missile medininkas,                         exp 0 cost 1546 replenish 0.040 - 0.055 max 1 initial 0
+	unit germanic infantry wargoz,                            exp 1 cost 2778 replenish 0.020 - 0.035 max 2 initial 0
+
+pool Southwestern Gaul and Celtic Influenced Iberia
+	regions Aquitae Volcallra Lusitania Celtiberia Cantabria Galaecia Asturia
+	unit celtic infantry curoas,                              exp 0 cost 3528 replenish 0.060 - 0.080 max 3 initial 1
+	unit celtic skirmisher cavalry curepos,                   exp 0 cost 4531 replenish 0.045 - 0.060 max 2 initial 1
+	unit celtic missile iaosatae regional,                    exp 0 cost 1771 replenish 0.015 - 0.030 max 1 initial 0
+	unit celtic missile sotaroas merc,                        exp 0 cost 1617 replenish 0.025 - 0.040 max 2 initial 0
+	unit celtic infantry mistophoroi keltohellenikoi,         exp 0 cost 2875 replenish 0.005 - 0.015 max 1 initial 0
+	unit iberian infantry roscaithrera regional,              exp 0 cost 4637 replenish 0.025 - 0.040 max 2 initial 0
+	unit iberian missile balearic slinger mercenary,          exp 0 cost 2367 replenish 0.010 - 0.020 max 1 initial 0
+	unit iberian infantry scutarii merc,                      exp 0 cost 4105 replenish 0.025 - 0.040 max 2 initial 0
+	unit iberian infantry dunaminaca mercenary,               exp 0 cost 4720 replenish 0.025 - 0.040 max 2 initial 0
+	unit iberian infantry loricatii caetratii,                exp 0 cost 4030 replenish 0.015 - 0.030 max 1 initial 0
+	unit iberian infantry scortamavera merc,                  exp 0 cost 5479 replenish 0.030 - 0.050 max 2 initial 1
+	;celtiberians when in game
+
+pool Transalpine Gaul and Southern Britain
+	regions Cornovae Cassemorg Bellovacaea_Belgae Mrogaule Armoriae Lemorisae Batromorgan Mrogaedu Arvernotorg
+	unit celtic infantry curoas,                              exp 0 cost 3528 replenish 0.070 - 0.110 max 4 initial 2
+	unit celtic infantry batacorii,                           exp 0 cost 3020 replenish 0.055 - 0.075 max 2 initial 1
+	unit celtic skirmisher cavalry curepos,                   exp 0 cost 4531 replenish 0.065 - 0.080 max 3 initial 1
+	unit celtic missile iaosatae regional,                    exp 0 cost 1771 replenish 0.040 - 0.060 max 2 initial 0
+	unit celtic infantry enoci curoas merc,                   exp 0 cost 2985 replenish 0.040 - 0.055 max 2 initial 0
+	unit celtic cavalry myrcharn,                             exp 0 cost 4738 replenish 0.030 - 0.045 max 2 initial 0
+	unit celtic infantry mistophoroi keltohellenikoi,         exp 0 cost 2875 replenish 0.010 - 0.020 max 1 initial 0
+
+pool Western Africa
+	regions Mashiliem Numidia Gaetulia Mauretania Mauretania_Massaesili Mauretania_Tingitana
+	unit african infantry garamantines,                       exp 0 cost 2772 replenish 0.060 - 0.080 max 2 initial 1
+	unit african infantry maures mercenary,                   exp 0 cost 3013 replenish 0.080 - 0.120 max 2 initial 1
+	unit african missile slingers,                            exp 0 cost 1267 replenish 0.060 - 0.080 max 2 initial 1
+
+pool Liby-Phoenicia
+	regions Atiqa Zeugitana Byzacena Syrthim Elimya Phasania
+	unit greek cavalry mistophoroi hippeis,                   exp 0 cost 5175 replenish 0.050 - 0.075 max 2 initial 1
+	unit greek infantry misthophoroi hoplitai,                exp 0 cost 2933 replenish 0.050 - 0.080 max 1 initial 0
+	unit greek skirmisher peltastai mercenary,                exp 0 cost 2801 replenish 0.050 - 0.075 max 2 initial 0
+	unit hellenistic infantry misthophoroi phalangitai,       exp 0 cost 5085 replenish 0.050 - 0.075 max 2 initial 0
+	unit hellenistic infantry thureophoroi mercenary,         exp 0 cost 3075 replenish 0.065 - 0.090 max 1 initial 0
+	unit celtic infantry enoci curoas merc,                   exp 0 cost 2985 replenish 0.055 - 0.065 max 2 initial 0
+	unit celtic infantry curoas,                              exp 0 cost 3528 replenish 0.055 - 0.075 max 1 initial 1
+	unit iberian infantry loricatii caetratii,                exp 0 cost 4030 replenish 0.025 - 0.040 max 1 initial 0
+	unit iberian infantry scutarii merc,                      exp 0 cost 3981 replenish 0.020 - 0.060 max 2 initial 0
+	unit iberian missile balearic slinger mercenary,          exp 0 cost 2367 replenish 0.030 - 0.070 max 2 initial 0
+	unit celtic infantry gaemile liguriae,                    exp 0 cost 3206 replenish 0.020 - 0.030 max 2 initial 0
+	unit african infantry garamantines,                       exp 0 cost 2772 replenish 0.040 - 0.060 max 2 initial 1
+	unit african infantry maures mercenary,                   exp 0 cost 3013 replenish 0.040 - 0.060 max 2 initial 0
+
+pool Libya
+	regions Augila Kyrenaia Marmarike Libye
+	unit greek cavalry mistophoroi hippeis,                   exp 0 cost 5175 replenish 0.030 - 0.040 max 1 initial 1
+	unit greek infantry misthophoroi hoplitai,                exp 0 cost 2933 replenish 0.045 - 0.055 max 2 initial 1
+	unit greek skirmisher peltastai mercenary,                exp 0 cost 2801 replenish 0.040 - 0.050 max 2 initial 0
+	unit hellenistic infantry thureophoroi mercenary,         exp 0 cost 3075 replenish 0.040 - 0.055 max 2 initial 0
+	unit african infantry garamantines,                       exp 0 cost 2772 replenish 0.020 - 0.030 max 2 initial 0
+	unit african infantry ethiopian swordsmen,                exp 0 cost 2532 replenish 0.010 - 0.015 max 1 initial 0
+	
+pool Italia and Sicilia 
+	regions Latium2 Apulia Campania Kalabria Brettia Sicilia Trinakrie
+	unit celtic skirmisher cavalry curepos,                   exp 0 cost 4531 replenish 0.028 - 0.037 max 2 initial 0
+	unit celtic infantry enoci curoas merc,                   exp 0 cost 2985 replenish 0.032 - 0.046 max 2 initial 0
+	unit celtic cavalry ligurian,                             exp 0 cost 5212 replenish 0.009 - 0.018 max 1 initial 0
+	unit celtic infantry mistophoroi keltohellenikoi,         exp 0 cost 2875 replenish 0.009 - 0.023 max 1 initial 0
+	unit celtic infantry teskatos,                            exp 0 cost 3301 replenish 0.023 - 0.032 max 1 initial 0
+	unit celtic infantry gaemile liguriae,                    exp 0 cost 3206 replenish 0.018 - 0.028 max 1 initial 0
+	unit hellenistic cavalry tarentinoi merc,                 exp 1 cost 7389 replenish 0.018 - 0.028 max 2 initial 0
+	unit greek cavalry mistophoroi hippeis,                   exp 0 cost 5175 replenish 0.037 - 0.055 max 2 initial 0
+	unit greek infantry lucanian spearmen merc,               exp 0 cost 2640 replenish 0.046 - 0.065 max 2 initial 0
+	unit greek infantry lucanian spearmen merc,               exp 1 cost 2813 replenish 0.014 - 0.036 max 2 initial 1
+	unit greek infantry lucanian spearmen merc,               exp 2 cost 2985 replenish 0.014 - 0.036 max 2 initial 1
+	unit greek infantry misthophoroi hoplitai,                exp 0 cost 2933 replenish 0.037 - 0.060 max 2 initial 0
+	unit greek skirmisher peltastai mercenary,                exp 0 cost 2801 replenish 0.046 - 0.065 max 2 initial 1
+	unit hellenistic infantry hoplitai merc,                  exp 0 cost 3036 replenish 0.028 - 0.037 max 2 initial 0
+	unit hellenistic infantry misthophoroi phalangitai,       exp 0 cost 5085 replenish 0.037 - 0.055 max 2 initial 0
+	unit hellenistic infantry thureophoroi mercenary,         exp 0 cost 3075 replenish 0.037 - 0.055 max 1 initial 0
+	unit hellenistic missile cretan archers merc,             exp 0 cost 2371 replenish 0.023 - 0.038 max 2 initial 0
+	unit italic cavalry campanian,                            exp 0 cost 5748 replenish 0.028 - 0.042 max 2 initial 0
+	unit samnite infantry swordsmen merc,                     exp 0 cost 5414 replenish 0.033 - 0.051 max 4 initial 1
+	unit samnite infantry swordsmen merc,                     exp 1 cost 5767 replenish 0.010 - 0.022 max 2 initial 1
+	unit samnite infantry swordsmen merc,                     exp 2 cost 6120 replenish 0.001 - 0.005 max 2 initial 1
+	unit samnite infantry spearmen merc,                      exp 0 cost 3482 replenish 0.053 - 0.073 max 3 initial 2
+	unit italic infantry bruttian,                            exp 0 cost 2500 replenish 0.038 - 0.052 max 3 initial 1
+	unit italic infantry bruttian,                            exp 1 cost 2663 replenish 0.009 - 0.014 max 2 initial 0
+	unit italic infantry bruttian,                            exp 2 cost 2826 replenish 0.001 - 0.005 max 1 initial 0
+
+pool Western Islands
+	regions Baleares Korsim Sardin
+	unit greek infantry misthophoroi hoplitai,                exp 0 cost 2933 replenish 0.020 - 0.050 max 1 initial 0
+	unit iberian missile balearic slinger mercenary,          exp 1 cost 2521 replenish 0.050 - 0.080 max 2 initial 2
+	unit iberian missile balearic slinger mercenary,          exp 0 cost 2367 replenish 0.100 - 0.130 max 3 initial 0
+
+	
+pool North of Black Sea
+	regions Skythia Taurike_Chersonesos Bosporion_Tyrranesis Maeotis
+	unit dacian missile peltastaithrakioi merc,               exp 0 cost 3190 replenish 0.055 - 0.075 max 2 initial 0
+	unit dacian infantry getikoi stratiotai,                  exp 0 cost 2645 replenish 0.060 - 0.075 max 2 initial 1
+	unit steppe missile cavalry bydirag baexdzhyntae,         exp 0 cost 3657 replenish 0.055 - 0.065 max 3 initial 1
+	unit hellenistic infantry doryphoroi pontikoi,            exp 0 cost 2721 replenish 0.060 - 0.080 max 2 initial 0
+	unit steppe missile cavalry sauromatae fat aexsdzhytae,   exp 0 cost 2466 replenish 0.060 - 0.080 max 2 initial 1
+	unit steppe missile cavalry skuda baexdzhyntae,           exp 0 cost 2811 replenish 0.055 - 0.065 max 2 initial 1
+	unit greek infantry misthophoroi hoplitai,                exp 0 cost 2933 replenish 0.040 - 0.060 max 2 initial 0 
+	unit greek skirmisher peltastai mercenary,                exp 0 cost 2801 replenish 0.055 - 0.065 max 2 initial 0 
+	
+pool Baltic
+	regions Seliun_Gentis Neurije Budinije Sapmi
+	unit steppe missile cavalry bydirag baexdzhyntae,         exp 0 cost 3657 replenish 0.040 - 0.060 max 2 initial 1
+	unit steppe missile cavalry skuda baexdzhyntae,           exp 0 cost 2811 replenish 0.035 - 0.045 max 2 initial 0
+	unit germanic missile medininkas,                         exp 0 cost 1417 replenish 0.060 - 0.080 max 2 initial 1
+	unit germanic infantry frankamannoz slave,                exp 0 cost 2061 replenish 0.060 - 0.080 max 2 initial 1
+	unit germanic cavalry ridoharjoz mercenary,               exp 0 cost 6256 replenish 0.035 - 0.055 max 2 initial 1
+	unit germanic infantry gastiz,                            exp 0 cost 6314 replenish 0.020 - 0.040 max 1 initial 0
+	unit germanic infantry klumbokarlaz,                      exp 0 cost 2792 replenish 0.040 - 0.060 max 2 initial 0
+	unit germanic infantry karotovas,                         exp 0 cost 2657 replenish 0.050 - 0.065 max 2 initial 1
+	unit germanic infantry karas viras,                       exp 0 cost 1375 replenish 0.050 - 0.060 max 2 initial 0
+	
+pool Western Steppes
+	regions Dahyu_Thissakata Dahyu_Yazyga Dahyu_Siraca Dahyu_Roxsalanna Dahyu_Aursa Dahyu_Yugra
+	unit steppe missile cavalry bydirag baexdzhyntae,         exp 0 cost 3657 replenish 0.060 - 0.080 max 2 initial 1
+	unit hellenistic infantry doryphoroi pontikoi,            exp 0 cost 2721 replenish 0.040 - 0.060 max 2 initial 0
+	unit steppe missile cavalry sauromatae fat aexsdzhytae,   exp 0 cost 2466 replenish 0.060 - 0.080 max 2 initial 1
+	unit steppe missile cavalry skuda baexdzhyntae,           exp 0 cost 2811 replenish 0.055 - 0.065 max 3 initial 1
+	unit eastern infantry scythian axemen,                    exp 0 cost 2746 replenish 0.045 - 0.055 max 2 initial 0
+	unit steppe missile cavalry yancai uaezdaettae,           exp 1 cost 8274 replenish 0.025 - 0.035 max 2 initial 0
+	unit steppe infantry sauromatae arc aexsaeg,              exp 0 cost 2233 replenish 0.050 - 0.060 max 3 initial 1
+	
+pool Eastern Steppes
+	regions Dahyu_Alanna Dahyu_Mazsakata Saka_Yabgu Kangha Sai_Yavuga Xiyu
+	unit steppe missile cavalry sauromatae fat aexsdzhytae,   exp 0 cost 2466 replenish 0.060 - 0.080 max 2 initial 1
+	unit steppe missile cavalry bydirag baexdzhyntae,         exp 0 cost 3657 replenish 0.060 - 0.080 max 2 initial 1
+	unit steppe missile cavalry yancai uaezdaettae,           exp 1 cost 8274 replenish 0.040 - 0.060 max 2 initial 0
+	unit steppe infantry sauromatae arc aexsaeg,              exp 0 cost 2233 replenish 0.040 - 0.060 max 2 initial 0
+	unit steppe skirmisher cavalry daha rog baexdzhyn aefsad, exp 1 cost 1975 replenish 0.040 - 0.060 max 3 initial 1
+	unit steppe missile subeshi,                              exp 0 cost 2160 replenish 0.050 - 0.060 max 2 initial 0
+
+
+pool India
+	regions Gandhara Sattagydia Sind
+	unit eastern missile thanvare payahdag merc,              exp 0 cost 1592 replenish 0.060 - 0.080 max 4 initial 0
+	unit eastern infantry verkhana kofyaren,                  exp 0 cost 1918 replenish 0.060 - 0.080 max 2 initial 0 
+	unit eastern missile eransahr arshtbara merc,             exp 0 cost 1546 replenish 0.060 - 0.080 max 3 initial 1
+	unit hellenistic infantry thureophoroi mercenary,         exp 0 cost 3075 replenish 0.060 - 0.080 max 2 initial 0
+	unit greek skirmisher peltastai mercenary,                exp 0 cost 2801 replenish 0.060 - 0.080 max 2 initial 1
+	unit eastern cavalry taxilan agema,                       exp 0 cost 10134 replenish 0.040 - 0.060 max 2 initial 0
+	unit eastern cavalry bactrian kambojas,                   exp 0 cost 6472 replenish 0.060 - 0.080 max 3 initial 1
+	unit steppe missile subeshi,                              exp 0 cost 2160 replenish 0.050 - 0.060 max 2 initial 0
+	
+pool Parthia
+	regions Dahyu_Daha Sogdiane Khwarazm Margiana Astauene
+	unit eastern missile thanvare payahdag merc,              exp 0 cost 1592 replenish 0.060 - 0.080 max 4 initial 0
+	unit steppe missile mardian footarchers,                  exp 0 cost 2160 replenish 0.060 - 0.080 max 2 initial 0 
+	unit eastern infantry verkhana kofyaren,                  exp 0 cost 1918 replenish 0.050 - 0.070 max 2 initial 0 
+	unit eastern missile eransahr arshtbara merc,             exp 0 cost 1546 replenish 0.060 - 0.080 max 3 initial 1
+	unit hellenistic infantry thureophoroi mercenary,         exp 0 cost 3075 replenish 0.040 - 0.060 max 2 initial 0
+	unit greek skirmisher peltastai mercenary,                exp 0 cost 2801 replenish 0.060 - 0.080 max 2 initial 1
+	unit eastern cavalry bactrian kambojas,                   exp 0 cost 6472 replenish 0.040 - 0.060 max 2 initial 9
+	unit steppe skirmisher cavalry daha rog baexdzhyn aefsad, exp 1 cost 1975 replenish 0.060 - 0.080 max 3 initial 1
+
+	
+pool Baktria
+	regions Baktria Dayuan Dahyu_Haomavarga Aria Paropamisadai
+	unit hellenistic infantry misthophoroi phalangitai,       exp 0 cost 5085 replenish 0.040 - 0.060 max 4 initial 1
+	unit eastern missile thanvare payahdag merc,              exp 0 cost 1592 replenish 0.060 - 0.080 max 3 initial 0
+	unit steppe missile mardian footarchers,                  exp 0 cost 2160 replenish 0.040 - 0.060 max 2 initial 0 
+	unit eastern infantry verkhana kofyaren,                  exp 0 cost 1918 replenish 0.060 - 0.080 max 2 initial 0 
+	unit eastern missile eransahr arshtbara merc,             exp 0 cost 1546 replenish 0.060 - 0.080 max 3 initial 1
+	unit hellenistic infantry thureophoroi mercenary,         exp 0 cost 3075 replenish 0.040 - 0.060 max 2 initial 0
+	unit greek skirmisher peltastai mercenary,                exp 0 cost 2801 replenish 0.060 - 0.080 max 2 initial 1
+	unit eastern cavalry bactrian kambojas,                   exp 0 cost 6472 replenish 0.045 - 0.055 max 3 initial 1
+	unit steppe skirmisher cavalry daha rog baexdzhyn aefsad, exp 1 cost 1975 replenish 0.040 - 0.060 max 2 initial 1
+
+	
+pool West of India
+	regions Karmania Gedrosia Arachosia Drangiane
+	unit hellenistic infantry misthophoroi phalangitai,       exp 0 cost 5085 replenish 0.040 - 0.060 max 3 initial 1
+	unit eastern missile thanvare payahdag merc,              exp 0 cost 1592 replenish 0.060 - 0.080 max 3 initial 0
+	unit eastern missile eransahr arshtbara merc,             exp 0 cost 1546 replenish 0.060 - 0.080 max 3 initial 1
+	unit hellenistic infantry thureophoroi mercenary,         exp 0 cost 3075 replenish 0.040 - 0.060 max 2 initial 0
+	unit greek skirmisher peltastai mercenary,                exp 0 cost 2801 replenish 0.060 - 0.080 max 2 initial 1
+	unit eastern cavalry bactrian kambojas,                   exp 0 cost 6472 replenish 0.040 - 0.060 max 3 initial 1
+	
+
+pool Persia
+	regions Hyrkania Parthyaia Gabiene Persis Khoarene Media Elymais Charax_Spasinou
+	unit hellenistic infantry misthophoroi phalangitai,       exp 0 cost 5085 replenish 0.040 - 0.060 max 3 initial 1
+	unit hellenistic infantry thureophoroi mercenary,         exp 0 cost 3075 replenish 0.050 - 0.070 max 2 initial 0
+	unit greek skirmisher peltastai mercenary,                exp 0 cost 2801 replenish 0.050 - 0.070 max 2 initial 1
+	unit greek cavalry mistophoroi hippeis,                   exp 0 cost 5175 replenish 0.055 - 0.065 max 2 initial 1
+	unit eastern infantry babylonian heavy infantry,          exp 0 cost 3002 replenish 0.060 - 0.080 max 2 initial 0
+	unit steppe missile hallatamtithanvare,                   exp 0 cost 2686 replenish 0.055 - 0.065 max 3 initial 0 
+	unit eastern missile thanvare payahdag merc,              exp 0 cost 1592 replenish 0.060 - 0.080 max 4 initial 0
+	unit steppe missile mardian footarchers,                  exp 0 cost 2160 replenish 0.060 - 0.080 max 2 initial 0 
+	unit eastern infantry verkhana kofyaren,                  exp 0 cost 1918 replenish 0.055 - 0.065 max 2 initial 0 
+	unit eastern missile eransahr arshtbara merc,             exp 0 cost 1546 replenish 0.060 - 0.080 max 3 initial 1
+
+	
+pool Caucasus
+	regions Aghvan Adurbadegan Kartli Egrisi Hayasdan Pontos_Paralios Pokr_Hayk
+	unit steppe missile cavalry bydirag baexdzhyntae,         exp 0 cost 3657 replenish 0.045 - 0.055 max 2 initial 1
+	unit eastern infantry georgian swordsmen,                 exp 0 cost 2790 replenish 0.040 - 0.060 max 3 initial 1
+	unit steppe missile cavalry sauromatae fat aexsdzhytae,   exp 0 cost 2466 replenish 0.045 - 0.055 max 2 initial 1
+	unit eastern missile thanvare payahdag merc,              exp 0 cost 1592 replenish 0.040 - 0.060 max 2 initial 0
+	unit hellenistic infantry thureophoroi mercenary,         exp 0 cost 3075 replenish 0.040 - 0.060 max 2 initial 0
+	unit greek skirmisher peltastai mercenary,                exp 0 cost 2801 replenish 0.060 - 0.080 max 3 initial 1
+	unit hellenistic infantry hoplitai merc,                  exp 0 cost 3036 replenish 0.035 - 0.045 max 3 initial 0
+
+pool Seleukeia                                             
+	regions Babylonia Mesopotamia Assyrie Adiabene Sophene Tadmor
+	unit hellenistic infantry misthophoroi phalangitai,       exp 0 cost 5085 replenish 0.040 - 0.060 max 3 initial 1
+	unit hellenistic infantry thureophoroi mercenary,         exp 0 cost 3075 replenish 0.040 - 0.060 max 2 initial 0
+	unit greek skirmisher peltastai mercenary,                exp 0 cost 2801 replenish 0.060 - 0.080 max 2 initial 1
+	unit greek cavalry mistophoroi hippeis,                   exp 0 cost 5175 replenish 0.055 - 0.065 max 2 initial 1
+	unit eastern infantry babylonian heavy infantry,          exp 0 cost 3002 replenish 0.040 - 0.060 max 3 initial 0
+	unit steppe missile hallatamtithanvare,                   exp 0 cost 2686 replenish 0.055 - 0.065 max 3 initial 0 
+	unit eastern missile thanvare payahdag merc,              exp 0 cost 1592 replenish 0.055 - 0.065 max 2 initial 0
+	
+pool Southern Egypt 
+	regions Thebais Oasis_Megale Kush Triakontaschoinos
+	unit hellenistic infantry misthophoroi phalangitai,       exp 0 cost 5085 replenish 0.030 - 0.040 max 2 initial 1
+	unit hellenistic infantry thureophoroi mercenary,         exp 0 cost 3075 replenish 0.030 - 0.040 max 1 initial 0
+	unit hellenistic cavalry tarentinoi merc,                 exp 1 cost 7389 replenish 0.020 - 0.030 max 2 initial 0
+	unit greek skirmisher peltastai mercenary,                exp 0 cost 2801 replenish 0.035 - 0.050 max 2 initial 1
+	unit greek cavalry mistophoroi hippeis,                   exp 0 cost 5175 replenish 0.025 - 0.035 max 2 initial 0
+	unit african infantry nubian spearmen rebel,              exp 0 cost 1762 replenish 0.035 - 0.050 max 2 initial 1
+	unit african infantry ethiopian swordsmen,                exp 0 cost 2532 replenish 0.035 - 0.050 max 2 initial 1
+	unit african infantry garamantines,                       exp 0 cost 2772 replenish 0.030 - 0.040 max 2 initial 0
+
+pool Southern Africa Coast and East Arabia
+	regions Diamat Erythraia Saba Qataban Main
+	unit arabian missile arab slingers,                       exp 0 cost 1449 replenish 0.080 - 0.120 max 3 initial 1 
+	unit african infantry ethiopian swordsmen,                exp 0 cost 2532 replenish 0.050 - 0.060 max 2 initial 1
+;High replenishment and availability as there are few merc units. Should be reduced as more mercs become available.
+
+pool Arabia
+	regions Zufar Maketa Hadramaut Gerrhaia_Arabia Nabataia Sinai
+	unit arabian missile arab slingers,                       exp 0 cost 1449 replenish 0.080 - 0.130 max 3 initial 1 
+	unit african infantry ethiopian swordsmen,                exp 0 cost 2532 replenish 0.025 - 0.035 max 2 initial 0
+;High replenishment and availability as there are few merc units. Should be reduced as more mercs become available.

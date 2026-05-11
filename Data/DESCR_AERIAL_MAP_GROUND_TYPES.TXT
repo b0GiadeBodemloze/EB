@@ -1,0 +1,182 @@
+;
+;
+;
+;	cultivated_low			
+;	cultivated_medium	
+;	cultivated_high		
+;	fertility_low		
+;	fertility_medium	
+;	fertility_high		
+;	forest_dense		
+;	forest_sparse		
+;	hills				
+;	mountains_high		
+;	mountains_low		
+;	swamp				
+;	beach				
+;	scorched			
+;
+;
+;
+
+climate default
+{
+	cultivated_low		../../../../eb/data/terrain/aerial_map/ground_types/eb_temperate_grassland_farm.tga	../../../../eb/data/terrain/aerial_map/ground_types/eb_arctic.tga
+	cultivated_medium	../../../../eb/data/terrain/aerial_map/ground_types/eb_temperate_grassland_farm.tga	../../../../eb/data/terrain/aerial_map/ground_types/eb_arctic.tga
+	cultivated_high		../../../../eb/data/terrain/aerial_map/ground_types/eb_temperate_grassland_farm.tga	../../../../eb/data/terrain/aerial_map/ground_types/eb_arctic.tga
+	fertility_low		../../../../eb/data/terrain/aerial_map/ground_types/eb_texture2.tga					../../../../eb/data/terrain/aerial_map/ground_types/eb_arctic.tga
+	fertility_medium	../../../../eb/data/terrain/aerial_map/ground_types/eb_temperate_grassland.tga			../../../../eb/data/terrain/aerial_map/ground_types/eb_arctic.tga
+	fertility_high		../../../../eb/data/terrain/aerial_map/ground_types/eb_temperate_grassland.tga			../../../../eb/data/terrain/aerial_map/ground_types/eb_arctic.tga
+	forest_dense		../../../../eb/data/terrain/aerial_map/ground_types/eb_texture1.tga					../../../../eb/data/terrain/aerial_map/ground_types/eb_TEXTURE1W.TGA
+	forest_sparse		../../../../eb/data/terrain/aerial_map/ground_types/eb_texture1.tga					../../../../eb/data/terrain/aerial_map/ground_types/eb_TEXTURE1W.TGA	
+	hills				../../../../eb/data/terrain/aerial_map/ground_types/eb_TEXTURE1_HILLY.TGA				../../../../eb/data/terrain/aerial_map/ground_types/eb_TEMPERATE_HILLS_WINTER.TGA
+	mountains_high		../../../../eb/data/terrain/aerial_map/ground_types/eb_temperate_mountain_small.tga	../../../../eb/data/terrain/aerial_map/ground_types/eb_TEMPERATE_MOUNTAIN_WINTER.TGA
+	mountains_low		../../../../eb/data/terrain/aerial_map/ground_types/eb_temperate_hills_small.tga		../../../../eb/data/terrain/aerial_map/ground_types/eb_TEMPERATE_HILLS_WINTER.TGA
+	swamp				../../../../eb/data/terrain/aerial_map/ground_types/eb_SWAMP.TGA						../../../../eb/data/terrain/aerial_map/ground_types/eb_arctic.tga
+	beach				../../../../eb/data/terrain/aerial_map/ground_types/eb_beach.tga
+	scorched			../../../../eb/data/terrain/aerial_map/ground_types/eb_SCORCHED.TGA
+}
+
+climate highland
+{
+	cultivated_low		../../../../eb/data/terrain/aerial_map/ground_types/eb_temperate_grassland_farm.tga	../../../../eb/data/terrain/aerial_map/ground_types/eb_arctic.tga
+	cultivated_medium	../../../../eb/data/terrain/aerial_map/ground_types/eb_temperate_grassland_farm.tga	../../../../eb/data/terrain/aerial_map/ground_types/eb_arctic.tga
+	cultivated_high		../../../../eb/data/terrain/aerial_map/ground_types/eb_temperate_grassland_farm.tga	../../../../eb/data/terrain/aerial_map/ground_types/eb_arctic.tga
+	fertility_low		../../../../eb/data/terrain/aerial_map/ground_types/eb_HIGHLAND.TGA					../../../../eb/data/terrain/aerial_map/ground_types/eb_arctic.tga
+	fertility_medium	../../../../eb/data/terrain/aerial_map/ground_types/eb_HIGHLAND.TGA					../../../../eb/data/terrain/aerial_map/ground_types/eb_arctic.tga
+	fertility_high		../../../../eb/data/terrain/aerial_map/ground_types/eb_HIGHLAND.TGA					../../../../eb/data/terrain/aerial_map/ground_types/eb_arctic.tga
+	forest_dense		../../../../eb/data/terrain/aerial_map/ground_types/eb_texture1.tga					../../../../eb/data/terrain/aerial_map/ground_types/eb_TEXTURE1W.TGA
+	forest_sparse		../../../../eb/data/terrain/aerial_map/ground_types/eb_texture1.tga					../../../../eb/data/terrain/aerial_map/ground_types/eb_TEXTURE1W.TGA
+	hills				../../../../eb/data/terrain/aerial_map/ground_types/eb_TEXTURE1_HILLY.TGA				../../../../eb/data/terrain/aerial_map/ground_types/eb_TEMPERATE_HILLS_WINTER.TGA
+	mountains_high		../../../../eb/data/terrain/aerial_map/ground_types/eb_temperate_mountain_small.tga	../../../../eb/data/terrain/aerial_map/ground_types/eb_arctic.tga
+	mountains_low		../../../../eb/data/terrain/aerial_map/ground_types/eb_temperate_hills_small.tga		../../../../eb/data/terrain/aerial_map/ground_types/eb_TEMPERATE_HILLS_WINTER.TGA
+	swamp				../../../../eb/data/terrain/aerial_map/ground_types/eb_SWAMP.TGA						../../../../eb/data/terrain/aerial_map/ground_types/eb_arctic.tga
+	beach				../../../../eb/data/terrain/aerial_map/ground_types/eb_beach.tga
+	scorched			../../../../eb/data/terrain/aerial_map/ground_types/eb_SCORCHED.TGA
+}
+
+climate alpine
+{
+	cultivated_low		../../../../eb/data/terrain/aerial_map/ground_types/eb_temperate_grassland_farm.tga	../../../../eb/data/terrain/aerial_map/ground_types/eb_arctic.tga	
+	cultivated_medium	../../../../eb/data/terrain/aerial_map/ground_types/eb_temperate_grassland_farm.tga	../../../../eb/data/terrain/aerial_map/ground_types/eb_arctic.tga
+	cultivated_high		../../../../eb/data/terrain/aerial_map/ground_types/eb_temperate_grassland_farm.tga	../../../../eb/data/terrain/aerial_map/ground_types/eb_arctic.tga
+	fertility_low		../../../../eb/data/terrain/aerial_map/ground_types/eb_alpine.tga						../../../../eb/data/terrain/aerial_map/ground_types/eb_arctic.tga
+	fertility_medium	../../../../eb/data/terrain/aerial_map/ground_types/eb_alpine.tga						../../../../eb/data/terrain/aerial_map/ground_types/eb_arctic.tga
+	fertility_high		../../../../eb/data/terrain/aerial_map/ground_types/eb_alpine.tga						../../../../eb/data/terrain/aerial_map/ground_types/eb_arctic.tga
+	forest_dense		../../../../eb/data/terrain/aerial_map/ground_types/eb_texture1.tga					../../../../eb/data/terrain/aerial_map/ground_types/eb_TEXTURE1W.TGA
+	forest_sparse		../../../../eb/data/terrain/aerial_map/ground_types/eb_texture1.tga					../../../../eb/data/terrain/aerial_map/ground_types/eb_TEXTURE1W.TGA
+	hills				../../../../eb/data/terrain/aerial_map/ground_types/eb_TEXTURE1_HILLY.TGA				../../../../eb/data/terrain/aerial_map/ground_types/eb_TEMPERATE_HILLS_WINTER.TGA
+	mountains_high		../../../../eb/data/terrain/aerial_map/ground_types/eb_temperate_mountain_small.tga	../../../../eb/data/terrain/aerial_map/ground_types/eb_arctic.tga
+	mountains_low		../../../../eb/data/terrain/aerial_map/ground_types/eb_temperate_hills_small.tga		../../../../eb/data/terrain/aerial_map/ground_types/eb_TEMPERATE_HILLS_WINTER.TGA
+	swamp				../../../../eb/data/terrain/aerial_map/ground_types/eb_SWAMP.TGA						../../../../eb/data/terrain/aerial_map/ground_types/eb_arctic.tga
+	beach				../../../../eb/data/terrain/aerial_map/ground_types/eb_beach.tga	
+	scorched			../../../../eb/data/terrain/aerial_map/ground_types/eb_SCORCHED.TGA
+}
+
+climate sub_arctic
+{
+	cultivated_low		../../../../eb/data/terrain/aerial_map/ground_types/eb_temperate_grassland_farm.tga	../../../../eb/data/terrain/aerial_map/ground_types/eb_arctic.tga	
+	cultivated_medium	../../../../eb/data/terrain/aerial_map/ground_types/eb_temperate_grassland_farm.tga	../../../../eb/data/terrain/aerial_map/ground_types/eb_arctic.tga
+	cultivated_high		../../../../eb/data/terrain/aerial_map/ground_types/eb_temperate_grassland_farm.tga	../../../../eb/data/terrain/aerial_map/ground_types/eb_arctic.tga
+	fertility_low		../../../../eb/data/terrain/aerial_map/ground_types/eb_alpine.tga						../../../../eb/data/terrain/aerial_map/ground_types/eb_arctic.tga
+	fertility_medium	../../../../eb/data/terrain/aerial_map/ground_types/eb_alpine.tga						../../../../eb/data/terrain/aerial_map/ground_types/eb_arctic.tga
+	fertility_high		../../../../eb/data/terrain/aerial_map/ground_types/eb_alpine.tga						../../../../eb/data/terrain/aerial_map/ground_types/eb_arctic.tga
+	forest_dense		../../../../eb/data/terrain/aerial_map/ground_types/eb_texture1.tga					../../../../eb/data/terrain/aerial_map/ground_types/eb_arctic.tga
+	forest_sparse		../../../../eb/data/terrain/aerial_map/ground_types/eb_texture1.tga					../../../../eb/data/terrain/aerial_map/ground_types/eb_arctic.tga
+	hills				../../../../eb/data/terrain/aerial_map/ground_types/eb_TEMPERATE_HILLS_WINTER.TGA				../../../../eb/data/terrain/aerial_map/ground_types/eb_arctic.tga
+	mountains_high		../../../../eb/data/terrain/aerial_map/ground_types/eb_arctic.tga	../../../../eb/data/terrain/aerial_map/ground_types/eb_arctic.tga
+	mountains_low		../../../../eb/data/terrain/aerial_map/ground_types/eb_TEMPERATE_HILLS_WINTER.TGA		../../../../eb/data/terrain/aerial_map/ground_types/eb_arctic.tga
+	swamp				../../../../eb/data/terrain/aerial_map/ground_types/eb_SWAMP.TGA						../../../../eb/data/terrain/aerial_map/ground_types/eb_arctic.tga
+	beach				../../../../eb/data/terrain/aerial_map/ground_types/eb_beach.tga
+	scorched			../../../../eb/data/terrain/aerial_map/ground_types/eb_SCORCHED.TGA
+}
+
+climate semi_arid
+{
+	cultivated_low		../../../../eb/data/terrain/aerial_map/ground_types/eb_temperate_grassland_farm.tga		
+	cultivated_medium	../../../../eb/data/terrain/aerial_map/ground_types/eb_temperate_grassland_farm.tga
+	cultivated_high		../../../../eb/data/terrain/aerial_map/ground_types/eb_temperate_grassland_farm.tga
+	fertility_low		../../../../eb/data/terrain/aerial_map/ground_types/eb_TEXTURE2B.TGA
+	fertility_medium	../../../../eb/data/terrain/aerial_map/ground_types/eb_TEXTURE2B.TGA
+	fertility_high		../../../../eb/data/terrain/aerial_map/ground_types/eb_TEXTURE2B.TGA
+	forest_dense		../../../../eb/data/terrain/aerial_map/ground_types/eb_texture1.tga
+	forest_sparse		../../../../eb/data/terrain/aerial_map/ground_types/eb_TEXTURE1B.TGA
+	hills				../../../../eb/data/terrain/aerial_map/ground_types/eb_TEXTURE1_HILLY.TGA
+	mountains_high		../../../../eb/data/terrain/aerial_map/ground_types/eb_GREEN_MOUNTAIN_SMALL.TGA
+	mountains_low		../../../../eb/data/terrain/aerial_map/ground_types/eb_temperate_hills_small.tga
+	swamp				../../../../eb/data/terrain/aerial_map/ground_types/eb_SWAMP.TGA
+	beach				../../../../eb/data/terrain/aerial_map/ground_types/eb_beach.tga
+	scorched			../../../../eb/data/terrain/aerial_map/ground_types/eb_SCORCHED.TGA
+}
+
+climate test_climate
+{
+	cultivated_low		../../../../eb/data/terrain/aerial_map/ground_types/eb_temperate_grassland_farm.tga		
+	cultivated_medium	../../../../eb/data/terrain/aerial_map/ground_types/eb_temperate_grassland_farm.tga	
+	cultivated_high		../../../../eb/data/terrain/aerial_map/ground_types/eb_temperate_grassland_farm.tga	
+	fertility_low		../../../../eb/data/terrain/aerial_map/ground_types/eb_texture2.tga					
+	fertility_medium	../../../../eb/data/terrain/aerial_map/ground_types/eb_texture2.tga					
+	fertility_high		../../../../eb/data/terrain/aerial_map/ground_types/eb_texture2.tga					
+	forest_dense		../../../../eb/data/terrain/aerial_map/ground_types/eb_texture2.tga
+	forest_sparse		../../../../eb/data/terrain/aerial_map/ground_types/eb_texture2.tga
+	hills				../../../../eb/data/terrain/aerial_map/ground_types/eb_TEXTURE1_HILLY.TGA
+	mountains_high		../../../../eb/data/terrain/aerial_map/ground_types/eb_GREEN_MOUNTAIN_SMALL.TGA
+	mountains_low		../../../../eb/data/terrain/aerial_map/ground_types/eb_TEMPERATE_HILLS_GREEN.TGA
+	swamp				../../../../eb/data/terrain/aerial_map/ground_types/eb_SWAMP.TGA
+	beach				../../../../eb/data/terrain/aerial_map/ground_types/eb_beach.tga
+	scorched			../../../../eb/data/terrain/aerial_map/ground_types/eb_SCORCHED.TGA
+}
+
+climate rocky_desert
+{
+	cultivated_low		../../../../eb/data/terrain/aerial_map/ground_types/eb_temperate_grassland_farm.tga		
+	cultivated_medium	../../../../eb/data/terrain/aerial_map/ground_types/eb_temperate_grassland_farm.tga
+	cultivated_high		../../../../eb/data/terrain/aerial_map/ground_types/eb_temperate_grassland_farm.tga
+	fertility_low		../../../../eb/data/terrain/aerial_map/ground_types/eb_DESERT_ROCKY_LOW_FERTILITY.TGA
+	fertility_medium	../../../../eb/data/terrain/aerial_map/ground_types/eb_desert_rocky_medium_fertility.tga
+	fertility_high		../../../../eb/data/terrain/aerial_map/ground_types/eb_desert_rocky_medium_fertility.tga
+	forest_dense		../../../../eb/data/terrain/aerial_map/ground_types/eb_desert_rocky_medium_fertility.tga
+	forest_sparse		../../../../eb/data/terrain/aerial_map/ground_types/eb_desert_rocky_medium_fertility.tga
+	hills				../../../../eb/data/terrain/aerial_map/ground_types/eb_desert_hills.tga
+	mountains_high		../../../../eb/data/terrain/aerial_map/ground_types/eb_desert_hills.tga
+	mountains_low		../../../../eb/data/terrain/aerial_map/ground_types/eb_desert_hills.tga
+	swamp				../../../../eb/data/terrain/aerial_map/ground_types/eb_SWAMP.TGA
+	beach				../../../../eb/data/terrain/aerial_map/ground_types/eb_beach.tga
+	scorched			../../../../eb/data/terrain/aerial_map/ground_types/eb_SCORCHED.TGA
+}
+
+climate sandy_desert
+{
+	cultivated_low		../../../../eb/data/terrain/aerial_map/ground_types/eb_temperate_grassland_farm.tga		
+	cultivated_medium	../../../../eb/data/terrain/aerial_map/ground_types/eb_temperate_grassland_farm.tga
+	cultivated_high		../../../../eb/data/terrain/aerial_map/ground_types/eb_temperate_grassland_farm.tga
+	fertility_low		../../../../eb/data/terrain/aerial_map/ground_types/eb_desert_sandy_medium_fertility.tga
+	fertility_medium	../../../../eb/data/terrain/aerial_map/ground_types/eb_desert_sandy_medium_fertility.tga
+	fertility_high		../../../../eb/data/terrain/aerial_map/ground_types/eb_desert_sandy_medium_fertility.tga
+	forest_dense		../../../../eb/data/terrain/aerial_map/ground_types/eb_desert_sandy_medium_fertility.tga
+	forest_sparse		../../../../eb/data/terrain/aerial_map/ground_types/eb_desert_sandy_medium_fertility.tga
+	hills				../../../../eb/data/terrain/aerial_map/ground_types/eb_desert_hills.tga
+	mountains_high		../../../../eb/data/terrain/aerial_map/ground_types/eb_desert_mountains.tga
+	mountains_low		../../../../eb/data/terrain/aerial_map/ground_types/eb_DESERT_SANDY_HILLS.TGA
+	swamp				../../../../eb/data/terrain/aerial_map/ground_types/eb_SWAMP.TGA
+	beach				../../../../eb/data/terrain/aerial_map/ground_types/eb_beach.tga
+	scorched			../../../../eb/data/terrain/aerial_map/ground_types/eb_SCORCHED.TGA
+}
+
+climate inaccessable
+{
+	cultivated_low		../../../../eb/data/terrain/aerial_map/ground_types/eb_desert_sandy_medium_fertility.tga
+	cultivated_medium	../../../../eb/data/terrain/aerial_map/ground_types/eb_desert_sandy_medium_fertility.tga
+	cultivated_high		../../../../eb/data/terrain/aerial_map/ground_types/eb_desert_sandy_medium_fertility.tga
+	fertility_low		../../../../eb/data/terrain/aerial_map/ground_types/eb_desert_sandy_medium_fertility.tga
+	fertility_medium	../../../../eb/data/terrain/aerial_map/ground_types/eb_desert_sandy_medium_fertility.tga
+	fertility_high		../../../../eb/data/terrain/aerial_map/ground_types/eb_desert_sandy_medium_fertility.tga
+	forest_dense		../../../../eb/data/terrain/aerial_map/ground_types/eb_desert_sandy_medium_fertility.tga
+	forest_sparse		../../../../eb/data/terrain/aerial_map/ground_types/eb_desert_sandy_medium_fertility.tga
+	hills				../../../../eb/data/terrain/aerial_map/ground_types/eb_desert_sandy_medium_fertility.tga
+	mountains_high		../../../../eb/data/terrain/aerial_map/ground_types/eb_desert_sandy_medium_fertility.tga
+	mountains_low		../../../../eb/data/terrain/aerial_map/ground_types/eb_desert_sandy_medium_fertility.tga
+	swamp				../../../../eb/data/terrain/aerial_map/ground_types/eb_desert_sandy_medium_fertility.tga
+	beach				../../../../eb/data/terrain/aerial_map/ground_types/eb_desert_sandy_medium_fertility.tga
+	scorched			../../../../eb/data/terrain/aerial_map/ground_types/eb_desert_sandy_medium_fertility.tga
+}

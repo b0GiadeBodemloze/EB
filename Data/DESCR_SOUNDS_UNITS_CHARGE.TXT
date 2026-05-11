@@ -1,0 +1,121 @@
+; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+ DEFAULT: 3d mindist 10 minPitch .9 maxPitch 1.1 fadein 0 fadeout 0 volume -10 priority 170 probability 1 distancepriority -1 randomdelay .25  effect_level .25 delay 1.5 pref SFX
+ BANK: unit_charge
+
+ 
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;	GALLIC
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; 
+;includes dacian units
+				
+	type barb peasant briton,barb peasant gaul,barb peasant german,celtic cavalry brihentin,celtic cavalry chieftain brihentin,celtic chariot cidainh,celtic chariot cidainh bodyguards,celtic cavalry remimairepos,celtic cavalry chieftain brihentin,celtic infantry arjos,celtic infantry batacorii,celtic infantry bataroas,celtic infantry botroas,celtic infantry calawre,celtic infantry carnute cingetos,celtic infantry curoas,celtic infantry cwmyr,celtic infantry enoci curoas merc,celtic infantry gaeroas,celtic infantry gaesatae,celtic infantry kluddargos,celtic infantry kluddobro,celtic infantry lugoae,celtic infantry milnaht,celtic infantry mori gaesum,celtic infantry neitos,celtic infantry rycalawre,celtic infantry solduros,celtic missile sotaroas,celtic missile sotaroas merc,celtic skirmisher balroae,celtic infantry gaelaiche,celtic infantry cemmeinarn,celtic infantry gaecori,celtic infantry pictones,celtic infantry teskatos,celtic infantry kluddacorii,celtic infantry gaemile liguriae,celtic infantry appea gaedotos,celtic infantry teceitos,celtic infantry mistophoroi keltohellenikoi,celtic infantry keltohellenikoi,celtic infantry drwdae,celtic infantry cordinau orca,celtic infantry uirodusios,celtic infantry boii,celtic infantry caturiges,celtic missile iaosatae,celtic missile iaosatae regional,celtic infantry imannae,celtic skirmisher cavalry curepos,celtic skirmisher cavalry leuce epos,belgae cavalry taramonnos,celtic cavalry myrcharn,celtic cavalry ligurian,celtic cavalry caledonian nobles,celtic cavalry lavotuxri,galatian infantry galatikoi kleruchoi,galatian infantry kluddolon,galatian infantry kuarothori,celtic infantry galatiantindanotae,celtic infantry galatiantindanotae mercenary,celtic general neitos,dacian infantry galathraikes,dacian infantry galathraikes regional,dacian infantry agema orditon,dacian cavalry komatai hippeis,dacian cavalry ktistai,dacian cavalry phylakes daoi,dacian cavalry tarabostes,dacian infantry drapanai,dacian infantry getikoi stratiotai,dacian infantry komatai kostobokon,dacian infantry komatai thorakitai stratiotai,dacian infantry taxeistribalii,dacian infantry rhompharoi thorakitai,dacian infantry thraikioi doryphoroi,dacian missile cavalry getikoi hippotoxotai,dacian missile komatai sphendonitai,dacian missile komatai toxotai,dacian missile komataiagrianai,dacian missile peltastaithrakioi,dacian missile peltastaithrakioi merc,dacian skirmisher komatai,dacian skirmisher komatai epilektoi,hellenistic cavalry thrakioi hippeis,hellenistic cavalry thrakioi hippeis merc,hellenistic cavalry prodromoithrakioi,hellenistic cavalry prodromoithrakioi merc,illyrian infantry taxeis illyrioi
+	event lod 5  
+			folder eb/data/sounds/gallic
+			barb_group_charge_small_G01
+			barb_group_charge_small_G02
+			barb_group_charge_small_G03
+		end
+
+		event lod 10 
+			folder eb/data/sounds/gallic
+			barb_group_charge_med_G01
+			barb_group_charge_med_G02
+			barb_group_charge_med_G03
+			
+			end
+		
+		event lod 20 
+			folder eb/data/sounds/gallic
+			barb_group_charge_large_G01
+			barb_group_charge_large_G02
+			barb_group_charge_large_G03
+			end
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;	Q-CELTIC
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; 
+			
+				
+	type celtic cavalry goidilic,goidilic infantry daernaght,goidilic infantry ordmhornaght,goidilic infantry deaisbard,goidilic infantry uachtarach duboGaiscaocha,goidilic infantry uachtarach dubogaiscaocha slave,iberian cavalry generals bodyguard,iberian cavalry heavy lancearii,iberian cavalry light curisii,iberian infantry dorkei hatkafa ibeerim,iberian infantry light caetratii,iberian infantry light milites,iberian infantry loricatii caetratii,iberian infantry medium scutarii,iberian infantry scutarii merc,iberian skirmisher cavalry equites caetratii,iberian skirmisher velites,iberian infantry loricatiscutarii,iberian infantry dosidataskeli,iberian skirmisher iovamann,iberian infantry caetranann,iberian infantry gestikapoinann,iberian infantry scortamavera,iberian infantry scortamavera merc,iberian infantry ambakaro,iberian cavalry ambakaro epones,iberian infantry roscaithrera regional,iberian infantry roscaithrera,iberian missile northern skirmisher,iberian infantry asturian axemen,iberian cavalry equites cantabrii,celtic infantry siluri,celtic infantry bagaudas,celtic infantry lugian,iberian missile balearic slinger,iberian missile balearic slinger mercenary,iberian missile balearic light infantry,iberian infantry dunaminaca,iberian infantry dunaminaca mercenary,iberian infantry ilergeta,iberian missile slingers,iberian skirmisher celtiberian,iberian skirmisher lusitanian
+	event lod 5  
+			folder eb/data/sounds/qceltic
+			barb_group_charge_small_Q01
+			barb_group_charge_small_Q02
+			barb_group_charge_small_Q03
+		end
+
+		event lod 10 
+			folder eb/data/sounds/qceltic
+			barb_group_charge_med_Q01
+			barb_group_charge_med_Q02
+			barb_group_charge_med_Q03
+			
+			end
+		
+		event lod 20 
+			folder eb/data/sounds/qceltic
+			barb_group_charge_large_Q01
+			barb_group_charge_large_Q02
+			barb_group_charge_large_Q03
+			end
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;	GERMANIC
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; 
+			
+				
+	type germanic cavalry ridoharjoz,germanic cavalry ridoharjoz mercenary,germanic infantry bastarnoz swaiut,germanic infantry frameharjoz,germanic infantry frankamannoz,germanic infantry frankamannoz slave,germanic infantry gaisaz harjoz,germanic infantry gastiz,germanic infantry chatti spearmen,germanic infantry general ferulharjoz,germanic infantry habukoz swaiut,germanic infantry heruskoz swaiut,germanic infantry sahsnotoz,germanic infantry skandza swaiut,germanic infantry swainoz,germanic infantry wodanawulfaz,germanic missile bugimannoz,germanic infantry kirslininkas,germanic missile lankininkas,germanic missile medininkas,germanic infantry karas viras,germanic infantry swardimannoz,germanic infantry karotovas,germanic infantry cheruscii swordsmen,germanic infantry wargoz,germanic cavalry marhathegnoz,germanic general gastiz,celtic cavalry celtogermanic,celtic infantry aljazgae
+	event lod 5  
+			folder eb/data/sounds/germanic
+			barb_group_charge_small_Ger01
+			barb_group_charge_small_Ger02
+			barb_group_charge_small_Ger03
+		end
+
+		event lod 10 
+			folder eb/data/sounds/germanic
+			barb_group_charge_med_Ger01
+			barb_group_charge_med_Ger02
+			barb_group_charge_med_Ger03
+			
+			end
+		
+		event lod 20 
+			folder eb/data/sounds/germanic
+			barb_group_charge_large_Ger01
+			barb_group_charge_large_Ger02
+			barb_group_charge_large_Ger03
+			end
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;	GREEK
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;includes Carthage and Saba units at the end as placeholders, they will be moved when Punic is done
+
+	type greek cavalry generals bodyguard,greek cavalry hippeis,greek cavalry hippeis thessalikoi merc,greek cavalry hippeis thessalikoi,greek cavalry hippeis xystophoroi,greek cavalry mistophoroi hippeis,greek infantry chaeonian agema,greek infantry ekdromoi hoplitai,greek infantry epikletoi hoplitai,greek infantry hypaspistai,greek infantry iphikratous hoplitai,greek infantry misthophoroi hoplitai,greek infantry kleruchoi hoplitai,greek infantry pheraspidai,greek infantry taxeis hoplitai,greek infantry taxeis hoplite script,greek infantry taxeis phalangitai,greek infantry thorakitai,greek missile sphendenotai,greek missile toxotai,greek skirmisher akontistai,greek skirmisher peltastai,greek skirmisher peltastai mercenary,hellenistic cavalry hippeis baktrioi,hellenistic cavalry generals bodyguard,hellenistic cavalry tarentinoi,hellenistic cavalry tarentinoi merc,hellenistic cavalry hellenikoi kataphraktoi,hellenistic cavalry kleruchoi agema hippeis,hellenistic cavalry machimoi hippeis,hellenistic cavalry successor hetairoi,hellenistic cavalry baktrioi hippotoxotai,hellenistic chariot scythed,hellenistic infantry agrianaipelekephoroi,hellenistic infantry baktrioi agema,hellenistic infantry basilikon agemata,hellenistic infantry doryphoroi pontikoi,hellenistic infantry heavy pezhetairoi,hellenistic infantry indo greek hoplite,hellenistic infantry iudaioi taxeis,hellenistic infantry iudaioi taxeis slave,hellenistic infantry kleruchoi agemata,hellenistic infantry machimoi phalangitai,hellenistic infantry misthophoroi phalangitai,hellenistic infantry pantodapoi,hellenistic infantry pantodapoi phalangitai,hellenistic infantry taxeis phalangitai slave,hellenistic infantry thorakitai argyraspidai,hellenistic infantry thureophoroi,hellenistic infantry thureophoroi mercenary,hellenistic infantry spartiateshoplitai,hellenistic skirmisher cavalry hippakontistai,hellenistic skirmisher cavalry hippakontistai slave,hellenistic cavalry illyrioihippeis,hellenistic cavalry thrakioi hippeis,hellenistic infantry chalkaspidai,hellenistic missile cretan archers,hellenistic cavalry prodromoi,hellenistic cavalry prodromoithrakioi,hellenistic cavalry prodromoithrakioi merc,hellenistic cavalry molossianagema,hellenistic infantry argyraspidai,hellenistic infantry hysteroi pezhetairoi,hellenistic infantry hoplitai,hellenistic infantry hoplitai merc,hellenistic infantry hoplitai hellenikoi,hellenistic cavalry saka agema hippeis,hellenistic cavalry baktrian bodyguard,hellenistic infantry indohellenikoi hoplitai,hellenistic missile cretan archers merc,hellenistic cavalry thrakioi hippeis merc,hellenistic infantry massiloi hoplitai,hellenistic infantry massiloi hoplitai merc,greek infantry epikletoi hoplitai,greek infantry lucanian spearmen,greek infantry lucanian spearmen merc,greek infantry greek general,greek infantry epilektoi hoplite,hellenistic cavalry generals bodyguard 2,hellenistic cavalry generals bodyguard 3,hellenistic cavalry molossianagema bodyguard,hellenistic cavalry hetairoi aspidophoroi,hellenistic infantry koinon phalangitai,hellenistic missile thureopheromenoi toxotai,hellenistic cavalry lonchophoroi,hellenistic cavalry baktrian bodyguard,hellenic cavalry hetairoi kataphraktoi,hellenistic cavalry pontos late bodyguard,hellenistic infantry indogreek nobles,hellenistic infantry uazali,hellenistic infantry uazali mercenary,hellenistic infantry illyrian thureophoroi,hellenistic infantry illyrian pirate,hellenistic infantry red sea hoplites,hellenistic infantry syracuse hoplite,illyrian infantry taxeis illyrioi,indian elephant armored,indian elephant standard,italic infantry bruttian,hellenistic missile rhodian slingers,italic infantry nuraghi,african infantry garamantines,african missile cavalry numidian,african missile numidian archers,african missile numidian archers mercenary,african missile slingers,african cavalry numidian nobles,african skirmisher javelinmen,carthaginian cavalry ezrahim parashim feeniki,carthaginian cavalry generals bodyguard,carthaginian cavalry haabbirim haqdosim abbirim,carthaginian infantry aanatim afrikanim aloophim,carthaginian infantry aanatim leebim,carthaginian infantry dorkim afrikanim aloophim,carthaginian infantry dorkim kdoshim,carthaginian infantry dorkim leebi-feenikim meshoorianim,carthaginian infantry dorkim leebi-feenikim mookdamim,carthaginian infantry meshoorianim leebim,carthaginian infantry mishteret izrahim feenikim,carthaginian infantry mishteret izrahim feenikim rebel,carthaginian infantry picked libyphoenician,carthaginian cavalry libyphenician,carthaginian infantry picked libyphoenician,arabian cavalry saba citizen cavalry,arabian missile cavalry tribal levies,arabian infantry assilinmodarra,arabian infantry saba kings elites,arabian infantry saba citizen spearmen,arabian infantry saba citizen spearmen,arabian infantry redsea axemen,arabian infantry east coast levies,arabian missile northern arab levy,arabian skirmisher tribal levies,arabian missile arab slingers,arabian missile sabean archers
+
+
+		event lod 5
+			folder eb/data/sounds/Greek
+			Greek_Group_Charge_Large_01.wav
+			Greek_Group_Charge_Large_02.wav
+			Greek_Group_Charge_Large_03.wav
+			end
+
+		event lod 10
+			folder eb/data/sounds/Greek
+			Greek_Group_Charge_Medium_01.wav
+			Greek_Group_Charge_Medium_02.wav
+			Greek_Group_Charge_Medium_03.wav
+			end
+
+		event lod 20
+			folder eb/data/sounds/Greek
+			Greek_Group_Charge_Small_01.wav
+			Greek_Group_Charge_Small_02.wav
+			Greek_Group_Charge_Small_01.wav
+			end

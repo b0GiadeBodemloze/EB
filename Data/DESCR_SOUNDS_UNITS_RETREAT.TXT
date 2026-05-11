@@ -1,0 +1,12 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;
+;; Units routing bank
+;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+DEFAULT: 3d mindist 5 priority 170 fadein .25 fadeout 1
+DEFAULT: minpitch .8 maxpitch 1.1 volume 0 probability 1
+DEFAULT: distancepriority -1 randomdelay 1  delay 1.5 effect_level .5 pref SFX
+
+BANK: unit_retreat
+

@@ -1,0 +1,1171 @@
+; custom locations , add new locations at the bottom
+
+custom_location		EB Caledonian Highland
+{
+	location		48	222		
+	image			eb/data/menu/caledoniahigh.tga
+	sett_locked		no
+	summer			no
+}
+
+custom_location		EB Caledonian Coastal Mountain
+{
+	location		44	221		
+	image			eb/data/menu/caledoniasea.tga
+	sett_locked		yes
+	summer			no
+}
+
+custom_location		EB Caledonian Lowlands
+{
+	location		46	214		
+	image			eb/data/menu/caledonialow.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		EB Isle of Mann
+{
+	location		44	201		
+	image			eb/data/menu/islemann.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		EB Irish East Coast
+{
+	location		38	198		
+	image			eb/data/menu/irisheast.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		EB Irish Marshlands
+{
+	location		37	203		
+	image			eb/data/menu/irishmarsh.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		EB Irish Highlands
+{
+	location		30	202		
+	image			eb/data/menu/irishhigh.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		EB Belgica
+{
+	location		68	180		
+	image			eb/data/menu/belgica.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		EB Western Gaul
+{
+	location		45	156		
+	image			eb/data/menu/westgaul.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		EB Thermopylai
+{
+	location		139	113		
+	image			eb/data/menu/thermopylai.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		EB Samos
+{
+	location		148	120		
+	image			eb/data/menu/Samos.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		EB Cappadocian Uplands
+{
+	location		186	114		
+	image			eb/data/menu/cappadocia.tga
+	sett_locked		no
+	summer			no
+}
+
+custom_location		EB River Jordan
+{
+	location		204	90		
+	image			eb/data/menu/river2.tga
+	sett_locked		yes
+	summer			no
+}
+
+custom_location		EB Pripyat Marshes
+{
+	location		154	194		
+	image			eb/data/menu/Pripyat.tga
+	sett_locked		no
+	summer			no
+}
+
+custom_location		EB Steppe Grassland
+{
+	location		174	164		
+	image			eb/data/menu/steppe.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		EB Wusun Lakeside
+{
+	location		360	206		
+	image			eb/data/menu/wusun.tga
+	sett_locked		no
+	summer			no
+}
+
+custom_location		EB Hindu Kush
+{
+	location		347	166		
+	image			eb/data/menu/hindukush.tga
+	sett_locked		no
+	summer			no
+}
+
+custom_location		EB Low Indian Hills
+{
+	location		360	146		
+	image			eb/data/menu/india1.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		EB Marib Hills
+{
+	location		257	7		
+	image			eb/data/menu/marib.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		EB Atlas River Roots
+{
+	location		35	95		
+	image			eb/data/menu/atlas.tga
+	sett_locked		yes
+	summer			yes
+}
+
+custom_location		EB Storming Gibraltar
+{
+	location		12	106		
+	image			eb/data/menu/gibraltar.tga
+	sett_locked		yes
+	summer			yes
+}
+
+custom_location		EB Kerkyra
+{
+	location		124	117		
+	image			eb/data/menu/Corcyra.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		EB Malat
+{
+	location		102	94		
+	image			eb/data/menu/Malat.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		EB Krete
+{
+	location		151	94		
+	image			eb/data/menu/Krete.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		EB Rhaetian Peaks
+{
+	location		88	155		
+	image			eb/data/menu/Rhaetia.tga
+	sett_locked		no
+	summer			no
+}
+custom_location		EB Galilee
+{
+	location		203	95		
+	image			eb/data/menu/Galilee.tga
+	sett_locked		no
+	summer			yes
+}
+custom_location		EB Danube Delta
+{
+	location		160	152		
+	image			eb/data/menu/DanubeDelta.tga
+	sett_locked		no
+	summer			yes
+}
+custom_location		EB Chaldean Coast
+{
+	location		261	93		
+	image			eb/data/menu/ChaldeanCoast.tga
+	sett_locked		no
+	summer			yes
+}
+custom_location		EB Nineveh and the Tigris
+{
+	location		228	117		
+	image			eb/data/menu/Nineveh.tga
+	sett_locked		no
+	summer			yes
+}
+custom_location		EB Galatian river crossing
+{
+	location		182	128		
+	image			eb/data/menu/Galatia.tga
+	sett_locked		yes
+	summer			yes
+}
+custom_location		EB Ural Crossing
+{
+	location		256	231		
+	image			eb/data/menu/Urals.tga
+	sett_locked		no
+	summer			no
+}
+
+custom_location		EB Amu Darya
+{
+	location		293	170		
+	image			eb/data/menu/AmuDarya.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		EB Western Lusitania
+{
+	location		5	131		
+	image			eb/data/menu/WesLus.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		EB Land of the Getae
+{
+	location		139	152		
+	image			eb/data/menu/Get.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		EB Vesuvius
+{
+	location		103	120		
+	image			eb/data/menu/Vesuvius.tga
+	sett_locked		yes
+	summer			yes
+}
+
+custom_location		EB The Nile in Kush
+{
+	location		199	17		
+	image			eb/data/menu/NileKush.tga
+	sett_locked		yes
+	summer			yes
+}
+
+custom_location		EB Scythian Steppe
+{
+	location		168	172		
+	image			eb/data/menu/ScythianSteppe.tga
+	sett_locked		no
+	summer			no
+}
+
+custom_location		EB Peloponnesos
+{
+	location		135	105		
+	image			eb/data/menu/Peloponn.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		EB Mount Olympus
+{
+	location		133	120		
+	image			eb/data/menu/Olympus.tga
+	sett_locked		yes
+	summer			yes
+}
+
+custom_location		EB The Volga Delta
+{
+	location		231	184		
+	image			eb/data/menu/VolgaDelta.tga
+	sett_locked		yes
+	summer			yes
+}
+
+custom_location		EB Baktrian Hills
+{
+	location		325	148		
+	image			eb/data/menu/BakHills.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		EB Cyrene
+{
+	location		137	79		
+	image			eb/data/menu/MTC.tga
+	sett_locked		yes
+	summer			yes
+}
+
+custom_location		EB Judean shore
+{
+	location		198	88		
+	image			eb/data/menu/JudeanS.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		EB Arvernia
+{
+	location		62	150		
+	image			eb/data/menu/Arvernia.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		EB Callanish Isle
+{
+	location		43	225		
+	image			eb/data/menu/Callanish.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		EB Aghbania
+{
+	location		244	155		
+	image			eb/data/menu/Albania.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		EB Lost in the Sakae Steppe
+{
+	location		333	230		
+	image			eb/data/menu/LostSakae.tga
+	sett_locked		no
+	summer			no
+}
+
+custom_location		EB Gulf of Corinth
+{
+	location		139	110		
+	image			eb/data/menu/GOC.tga
+	sett_locked		yes
+	summer			yes
+}
+
+custom_location		EB Forest of Zeugitana 
+{
+	location		80	100
+	image			eb/data/menu/ZeugWood.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		EB Persepolis Route
+{
+	location		292	99		
+	image			eb/data/menu/PersiaRoute.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		EB Celtiberia
+{
+	location		22	135		
+	image			eb/data/menu/Celtiberia.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		EB Wusun Silk Road 
+{
+	location		135	191		
+	image			eb/data/menu/WusunSilk.tga
+	sett_locked		no
+	summer			no
+}
+
+custom_location		EB Armenian Highlands
+{
+	location		229	143		
+	image			eb/data/menu/ArmenianHighlands.tga
+	sett_locked		yes
+	summer			no
+}
+
+custom_location		EB Taxila Route
+{
+	location		370	151		
+	image			eb/data/menu/TaxilaRoute.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		EB South Calabria
+{
+	location		118	117		
+	image			eb/data/menu/SouthCalab.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		EB Liguria
+{
+	location		86	139		
+	image			eb/data/menu/Liguria.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		EB Chaucii Woodland
+{
+	location		85	189		
+	image			eb/data/menu/ChauciiWoods.tga
+	sett_locked		no
+	summer			no
+}
+
+custom_location		EB Gentes Fennicae Marshes
+{
+	location		145	216		
+	image			eb/data/menu/FinnMarshes.tga
+	sett_locked		no
+	summer			no
+}
+
+custom_location		EB Hills of Thrace
+{
+	location		150	131		
+	image			eb/data/menu/ThracianHills.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		EB Thracian Forest
+{
+	location		155	133		
+	image			eb/data/menu/DeepForestThrace.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		EB Lake Vanern
+{
+	location		98	219		
+	image			eb/data/menu/Vanern.tga
+	sett_locked		yes
+	summer			no
+}
+
+custom_location		EB Nordic Mountains
+{
+	location		79	227		
+	image			eb/data/menu/NordMount.tga
+	sett_locked		yes
+	summer			no
+}
+
+custom_location		EB Lugdinensis
+{
+	location		74	155		
+	image			eb/data/menu/Lugdin.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		EB The coast of Punt
+{
+	location		293	3		
+	image			eb/data/menu/Punt.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		EB Central Campania
+{
+	location		104	124		
+	image			eb/data/menu/CentralCampania.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		EB Baleares
+{
+	location		55	118		
+	image			eb/data/menu/Baleares.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		EB Dioscorida
+{
+	location		309	10		
+	image			eb/data/menu/Dioscorida.tga
+	sett_locked		yes
+	summer			yes
+}
+
+custom_location		EB Sogdiane Route
+{
+	location		321	168		
+	image			eb/data/menu/SogRoute.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		EB Babylonia
+{
+	location		243	108		
+	image			eb/data/menu/Babylonia.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		EB Pyrenees Crossing
+{
+	location		44	138		
+	image			eb/data/menu/Pyrenees.tga
+	sett_locked		no
+	summer			no
+}
+
+custom_location		EB Path to Syracuse
+{
+	location		105	101		
+	image			eb/data/menu/SyracusePath.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		EB Bruttium Forest Lakes
+{
+	location		109	110		
+	image			eb/data/menu/Bruttium.tga
+	sett_locked		yes
+	summer			yes
+}
+
+custom_location		EB The Zagros
+{
+	location		240	124		
+	image			eb/data/menu/Zagros.tga
+	sett_locked		yes
+	summer			no
+}
+
+custom_location		EB Tarim Basin
+{
+	location		381	187		
+	image			eb/data/menu/Tarim.tga
+	sett_locked		no
+	summer			no
+}
+
+custom_location		EB Enter the Colossus
+{
+	location		160	100		
+	image			eb/data/menu/Colossus.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		EB Blemmyon Coast
+{
+	location		216	39		
+	image			eb/data/menu/Belmmyon.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		EB Straight of Messana
+{
+	location		108	106		
+	image			eb/data/menu/Messana.tga
+	sett_locked		yes
+	summer			yes
+}
+
+custom_location		EB Tiberis River End
+{
+	location		94	134		
+	image			eb/data/menu/TiberisRiver.tga
+	sett_locked		yes
+	summer			no
+}
+
+custom_location		EB Etruria Hills
+{
+	location		88	138		
+	image			eb/data/menu/EtruriaHills.tga
+	sett_locked		no
+	summer			no
+}
+
+custom_location		EB Southern Iberia
+{
+	location		18	110		
+	image			eb/data/menu/SIP.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		EB Tyrrhenum Mare Insula
+{
+	location		86	131		
+	image			eb/data/menu/ITM.tga
+	sett_locked		yes
+	summer			yes
+}
+
+custom_location		EB Frisia
+{
+	location		73	191		
+	image			eb/data/menu/Frisia.tga
+	sett_locked		no
+	summer			no
+}
+
+custom_location		EB Ionia
+{
+	location		158	108		
+	image			eb/data/menu/Ionia.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		EB The Qattara
+{
+	location		170	63		
+	image			eb/data/menu/Qattara.tga
+	sett_locked		yes
+	summer			yes
+}
+
+custom_location		EB Asturia
+{
+	location		22	140		
+	image			eb/data/menu/Asturia.tga
+	sett_locked		no
+	summer			no
+}
+
+custom_location		EB Bihor Massif
+{
+	location		133	154		
+	image			eb/data/menu/Bihor.tga
+	sett_locked		yes
+	summer			no
+}
+
+custom_location		EB Danastris River Region
+{
+	location		158	157		
+	image			eb/data/menu/Danastris.tga
+	sett_locked		no
+	summer			no
+}
+
+custom_location		EB Helvetia
+{
+	location		80	154		
+	image			eb/data/menu/Helvetia.tga
+	sett_locked		yes
+	summer			no
+}
+
+custom_location		EB Gedrosia Dust
+{
+	location		325	93		
+	image			eb/data/menu/Gedrosia.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		EB Van
+{
+	location		224	132		
+	image			eb/data/menu/Van.tga
+	sett_locked		yes
+	summer			no
+}
+
+custom_location		EB Chott Ech Chergui
+{
+	location		36	87		
+	image			eb/data/menu/CEC.tga
+	sett_locked		yes
+	summer			yes
+}
+
+custom_location		EB The Lower Indus
+{
+	location		360	94		
+	image			eb/data/menu/LowInd.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		EB Epirus
+{
+	location		126	118		
+	image			eb/data/menu/Epirus.tga
+	sett_locked		no
+	summer			no
+}
+
+custom_location		EB Assyrian Plain
+{
+	location		219	119		
+	image			eb/data/menu/AssyrianPlain.tga
+	sett_locked		no
+	summer			no
+}
+
+custom_location		EB Cilician Forest
+{
+	location		200	118		
+	image			eb/data/menu/Cilician.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		EB Armoriae Battlegrounds
+{
+	location		42	170		
+	image			eb/data/menu/ACBG.tga
+	sett_locked		no
+	summer			no
+}
+
+custom_location		EB Nile Delta Fringes
+{
+	location		186	76		
+	image			eb/data/menu/NDF.tga
+	sett_locked		yes
+	summer			yes
+}
+
+custom_location		EB The Himmerland
+{
+	location		88	206		
+	image			eb/data/menu/Himmerland.tga
+	sett_locked		yes
+	summer			no
+}
+
+
+custom_location		EB Karpathos
+{
+	location		158	97		
+	image			eb/data/menu/Karpathos.tga
+	sett_locked		no
+	summer			no
+}
+
+custom_location		EB Kefallinia
+{
+	location		129	108		
+	image			eb/data/menu/Kefal.tga
+	sett_locked		no
+	summer			no
+}
+
+custom_location		EB Phrygia
+{
+	location		166	118		
+	image			eb/data/menu/Phrygia.tga
+	sett_locked		no
+	summer			no
+}
+
+custom_location		EB Media
+{
+	location		242	128		
+	image			eb/data/menu/Media.tga
+	sett_locked		no
+	summer			no
+}
+
+custom_location		EB Euphrates
+{
+	location		208	111		
+	image			eb/data/menu/Euph.tga
+	sett_locked		yes
+	summer			yes
+}
+
+custom_location		EB Agion Oros
+{
+	location		144	120		
+	image			eb/data/menu/AO.tga
+	sett_locked		yes
+	summer			no
+}
+
+custom_location		EB Guernsey Island
+{
+	location		43	174		
+	image			eb/data/menu/GI.tga
+	sett_locked		yes
+	summer			no
+}
+
+custom_location		EB Pannonia
+{
+	location		114	152		
+	image			eb/data/menu/Panno.tga
+	sett_locked		yes
+	summer			no
+}
+
+custom_location		EB Thissakata Forest
+{
+	location		190	214		
+	image			eb/data/menu/Thissakata.tga
+	sett_locked		no
+	summer			no
+}
+
+custom_location		EB Atlantic Mauretania
+{
+	location		6	99		
+	image			eb/data/menu/AtlMau.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		EB Yuezhi Homelands
+{
+	location		375	184		
+	image			eb/data/menu/Homelands.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		EB North Gandhara & the Indus
+{
+	location		374	160		
+	image			eb/data/menu/GandInd.tga
+	sett_locked		yes
+	summer			no
+}
+
+custom_location		EB Eastern Armenia
+{
+	location		233	139		
+	image			eb/data/menu/EastArmenia.tga
+	sett_locked		no
+	summer			no
+}
+
+custom_location		EB Aral Sea
+{
+	location		279	189		
+	image			eb/data/menu/AralSea.tga
+	sett_locked		yes
+	summer			no
+}
+
+custom_location		EB East Gaul
+{
+	location		72	169		
+	image			eb/data/menu/EastGaul.tga
+	sett_locked		no
+	summer			no
+}
+
+custom_location		EB Cymru
+{
+	location		45	189		
+	image			eb/data/menu/Cymru.tga
+	sett_locked		no
+	summer			no
+}
+
+custom_location		EB Sheba
+{
+	location		259	13		
+	image			eb/data/menu/Sheba.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		EB Abyssinia
+{
+	location		216	4		
+	image			eb/data/menu/Abyss.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		EB Turdetanian Valley Floor
+{
+	location		25	112		
+	image			eb/data/menu/Turd.tga
+	sett_locked		yes
+	summer			yes
+}
+
+custom_location		EB Kallipolis
+{
+	location		151	121		
+	image			eb/data/menu/Kalli.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		EB Makedonia
+{
+	location		140	123		
+	image			eb/data/menu/Makedonia.tga
+	sett_locked		no
+	summer			no
+}
+
+custom_location		EB Cairncalladrydan
+{
+	location		48	187		
+	image			eb/data/menu/henge.tga
+	sett_locked		yes
+	summer			no
+}
+
+custom_location		EB Gebel Barkal
+{
+	location		191	20		
+	image			eb/data/menu/gebel.tga
+	sett_locked		yes
+	summer			yes
+}
+
+custom_location		EB Aigai
+{
+	location		135	122		
+	image			eb/data/menu/tholos.tga
+	sett_locked		yes
+	summer			no
+}
+
+custom_location		EB Abu Simbel
+{
+	location		188	42		
+	image			eb/data/menu/simbel.tga
+	sett_locked		yes
+	summer			yes
+}
+
+custom_location		EB Caernahfronynys
+{
+	location		44	227		
+	image			eb/data/menu/stones1.tga
+	sett_locked		yes
+	summer			no
+}
+
+custom_location		EB Cairnaichaeoriam
+{
+	location		38	167		
+	image			eb/data/menu/stones2.tga
+	sett_locked		yes
+	summer			no
+}
+
+custom_location		EB Temple of Zeus at Olympia
+{
+	location		134	105		
+	image			eb/data/menu/zeus.tga
+	sett_locked		yes
+	summer			no
+}
+
+custom_location		EB Delphi
+{
+	location		137	111		
+	image			eb/data/menu/delphi.tga
+	sett_locked		yes
+	summer			no
+}
+
+custom_location		EB Ustyurt Plateau
+{
+	location		266	174		
+	image			eb/data/menu/sanctuaries.tga
+	sett_locked		yes
+	summer			no
+}
+
+custom_location		EB Mausoleum
+{
+	location		159	105		
+	image			eb/data/menu/mausoleum.tga
+	sett_locked		yes
+	summer			yes
+}
+
+custom_location		EB Pyramids
+{
+	location		182	69		
+	image			eb/data/menu/pyramids.tga
+	sett_locked		yes
+	summer			yes
+}
+
+custom_location		EB Temple of Artemis at Ephesus
+{
+	location		156	107		
+	image			eb/data/menu/temple.tga
+	sett_locked		yes
+	summer			yes
+}
+
+custom_location		EB Hanging Gardens of Babylon
+{
+	location		239	105		
+	image			eb/data/menu/gardens.tga
+	sett_locked		yes
+	summer			yes
+}
+
+custom_location		EB Colossus of Rhodes
+{
+	location		162	102		
+	image			eb/data/menu/colossus2.tga
+	sett_locked		yes
+	summer			yes
+}
+
+custom_location		EB Sleza
+{
+	location		109	174		
+	image			eb/data/menu/sleza.tga
+	sett_locked		yes
+	summer			no
+}
+
+custom_location		EB Tauris
+{
+	location		179	152		
+	image			eb/data/menu/Tauris.tga
+	sett_locked		no
+	summer			no
+{
+
+custom_location		EB Lacetania
+{
+	location		47	128		
+	image			eb/data/menu/Lacetania.tga
+	sett_locked		no
+	summer			yes
+{
+
+custom_location		EB Anatolia East
+{
+	location		213	125		
+	image			eb/data/menu/EastAna.tga
+	sett_locked		no
+	summer			no
+{
+
+custom_location		EB Alatau
+{
+	location		363	222		
+	image			eb/data/menu/Alatau.tga
+	sett_locked		yes
+	summer			no
+{
+
+custom_location		EB Qataban Coast
+{
+	location		267	6		
+	image			eb/data/menu/Qataban.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		EB Hadramawt Hills
+{
+	location		283	26		
+	image			eb/data/menu/Hadramawt.tga
+	sett_locked		yes
+	summer			yes
+}
+
+custom_location		EB Sinai Coast
+{
+	location		204	66		
+	image			eb/data/menu/SinCoast.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		EB Ammonion
+{
+	location		154	57		
+	image			eb/data/menu/Ammonion.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		EB Marmarike Cliffs
+{
+	location		152	76		
+	image			eb/data/menu/Marmarike.tga
+	sett_locked		yes
+	summer			yes
+}
+
+custom_location		EB Gedrosian Coast
+{
+	location		339	87		
+	image			eb/data/menu/GedrosianCoast.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		EB Desert Oasis
+{
+	location		260	41		
+	image			eb/data/menu/Oasis.tga
+	sett_locked		yes
+	summer			yes
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

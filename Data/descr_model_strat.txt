@@ -1,0 +1,794 @@
+;;
+;	this file contains the model linkages for both strategy map and battlefield; it gets
+;	parsed on application startup but is not otherwise referred to. the data format is thus:
+;
+;	;						indicates a comment ;-)
+;
+;	type					indicates a new model type
+;
+;								must be followed by id name string
+;
+;	skeleton				indicates which skeleton should be used for these models
+;
+;								must be followed by id name string (cf descr_skeleton.txt)
+;
+;	indiv_range				indicates at what point we start rendering men individually even if
+;								we can 'group render'
+;
+;								must be followed by an integer (whole number) range in metres
+;
+;								group render means the whole unit will be rendered using one
+;								model, individual render means the soldiers will be	tested
+;								individually for which model lod to use (slower)
+;
+;	(models)				there must be at least one; the model_ keywords indicate a new model in
+;								the lod series; each must be followed by a filename and either the
+;								lod range in metres or the word 'max' for maximum range... all lods
+;								must be in order, from shortest distance (highest detail) to furthest
+;								distance. The model_ keywords are:
+;
+;			model_flexi_m		essentially a flexi model but has a small number of weighted
+;								vertices, such as Will's high-detail carthaginian infantryman
+;								with the weighted shoulder verts
+;
+;			model_flexi_c		a flexi model which contains per-vertex colours, for example
+;								for colouring the different Roman faction assassins
+;
+;			model_flexi			plain vanilla flexi model, which is a single-skinned mesh with
+;								normals and texture coordinates
+;
+;			shadow_model_flexi	as model_flexi but used to create the shadow volume
+;
+;	model_mesh				(optional) range only for using animated mesh frames for the model
+;
+;	model_sprite			(optional) sprite model for this model type
+;
+;								if the first item is a distance (integer number in m), a new
+;								sprite animation set will be generated for this model; if it is
+;								anything else, it must be a type name from this file which has a
+;								valid sprite entry *and* was processed before this type entry
+;
+;	model_tri				(optional) indicates that this model can be represented by a single
+;								triangle
+;
+;								must be followed by a range (integer number in metres), and three
+;								floating point numbers in the range 0.0f - 1.0f which indicate
+;								colours red,green,blue to use for the triangle
+;
+
+
+;strat map only characters
+ignore_registry
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;SPIES, ASSASSINS AND DIPLOMATS
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+type				diplomat
+skeleton			strat_diplomat
+scale				0.7
+indiv_range			40
+texture				seleucid, eb/data/models_strat/textures/diplomat_romani.tga
+texture				pontus, data/models_strat/textures/diplomat_greek.tga
+texture				scythia, data/models_strat/textures/diplomat_brutii.tga
+;texture				scythia, data/models_strat/textures/barb_wagon_laager.tga (nice brown robed barb, but no head)
+;texture				scythia, data/models_strat/textures/governor.tga
+texture				saba, eb/data/models_strat/textures/diplomat_saba.tga
+texture				macedon, data/models_strat/textures/diplomat_macedon.tga
+texture				numidia, eb/data/models_strat/textures/diplomat_ptolemaioi.tga
+texture				romans_julii, eb/data/models_strat/textures/diplomat_arche_seleukeia.tga
+texture				egypt, eb/data/models_strat/textures/diplomat_qarthadast.tga
+texture				parthia, data/models_strat/textures/diplomat_parthia.tga
+texture				carthage, data/models_strat/textures/diplomat_senate.tga
+texture				gauls, data/models_strat/textures/diplomat_gaul.tga
+texture				germans, data/models_strat/textures/diplomat_german.tga
+texture				britons, data/models_strat/textures/diplomat_briton.tga
+texture				romans_scipii, data/models_strat/textures/diplomat_numidia.tga
+texture				dacia, data/models_strat/textures/diplomat_dacia.tga
+texture				greek_cities, eb/data/models_strat/textures/diplomat_koinon_hellonon.tga
+texture				romans_brutii, eb/data/models_strat/textures/diplomat_baktria.tga
+texture				armenia, data/models_strat/textures/diplomat_sauromatae.tga
+;texture				armenia, data/models_strat/textures/diplomat_slave.tga
+texture				spain, data/models_strat/textures/diplomat_spain.tga
+texture				thrace, eb/data/models_strat/textures/diplomat_epirote.tga
+texture				slave, data/models_strat/textures/diplomat_slave.tga
+model_flexi_m		data/models_strat/diplomat.cas, max
+shadow_model_flexi	data/models_strat/shadow_model_diplomat.cas, max
+
+type				spy
+skeleton			strat_spy
+scale				0.7
+indiv_range			40
+texture				seleucid, data/models_strat/textures/spy_julii.tga
+texture				pontus, data/models_strat/textures/spy_greek.tga
+texture				scythia, data/models_strat/textures/spy_brutii.tga
+;texture				scythia, data/models_strat/textures/strat_spy2.tga (white-ghostly)
+texture				saba, eb/data/models_strat/textures/spy_saba.tga
+texture				macedon, data/models_strat/textures/spy_macedon.tga
+texture				numidia, data/models_strat/textures/spy_egypt.tga
+texture				romans_julii, data/models_strat/textures/spy_seleucid.tga
+texture				egypt, data/models_strat/textures/spy_carthage.tga
+texture				parthia, data/models_strat/textures/spy_parthia.tga
+texture				carthage, data/models_strat/textures/spy_senate.tga
+texture				gauls, data/models_strat/textures/spy_gaul.tga
+texture				germans, data/models_strat/textures/spy_german.tga
+texture				britons, data/models_strat/textures/spy_briton.tga
+texture				romans_scipii, data/models_strat/textures/spy_numidia.tga
+texture				dacia, data/models_strat/textures/spy_dacia.tga
+texture				greek_cities, data/models_strat/textures/spy_scythia.tga
+texture				romans_brutii, data/models_strat/textures/spy_scipii.tga
+texture				armenia, data/models_strat/textures/spy_slave.tga
+;texture				armenia, data/models_strat/textures/barbarian_priest.tga (Too pink and shiny, otherwise OK)
+texture				spain, data/models_strat/textures/spy_spain.tga
+texture				thrace, data/models_strat/textures/spy_brutii.tga
+texture				slave, data/models_strat/textures/spy_slave.tga
+model_flexi_m		data/models_strat/spy.cas, max
+shadow_model_flexi	data/models_strat/shadow_model.cas, max
+
+;;TEMPORARY;;
+
+type				assassin
+skeleton			strat_assassin
+scale				0.7
+indiv_range			40
+texture				seleucid, data/models_strat/textures/assassin_julii.tga
+texture				pontus, data/models_strat/textures/assassin_greek.tga
+texture				scythia, data/models_strat/textures/assassin_brutii.tga
+texture				saba, data/models_strat/textures/assassin_spain.tga
+texture				macedon, data/models_strat/textures/assassin_macedon.tga
+texture				numidia, data/models_strat/textures/assassin_egypt.tga
+texture				romans_julii, data/models_strat/textures/assassin_seleucid.tga
+texture				egypt, data/models_strat/textures/assassin_carthage.tga
+texture				parthia, data/models_strat/textures/assassin_parthia.tga
+texture				carthage, data/models_strat/textures/assassin_senate.tga
+texture				gauls, data/models_strat/textures/assassin_gaul.tga
+texture				germans, data/models_strat/textures/assassin_german.tga
+texture				britons, data/models_strat/textures/assassin_briton.tga
+texture				romans_scipii, data/models_strat/textures/assassin_numidia.tga
+texture				dacia, data/models_strat/textures/assassin_dacia.tga
+texture				greek_cities, data/models_strat/textures/assassin_scythia.tga
+texture				romans_brutii, data/models_strat/textures/assassin_scipii.tga
+texture				armenia, data/models_strat/textures/assassin_slave.tga
+texture				spain, data/models_strat/textures/assassin_spain.tga
+texture				thrace, data/models_strat/textures/assassin_brutii.tga
+texture				slave, data/models_strat/textures/assassin_slave.tga
+model_flexi			data/models_strat/assassin.cas, max
+shadow_model_flexi	data/models_strat/shadow_model.cas, max
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;BARB GENERALS
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+type				ebstrat_lusotannan_general
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				spain, eb/data/models_strat/textures/ebstrat_lusotannan_general_aymar_spain.tga
+model_flexi_m		eb/data/models_strat/ebstrat_lusotannan_general_aymar_high.cas, max
+shadow_model_flexi	data/models_strat/shadow_model.cas, max
+
+;type				sm_barb_lesser_general
+;skeleton			strat_named_with_army
+;scale				0.7
+;indiv_range			40
+;texture				gauls, data/models_strat/textures/unit_strat_map_captain_gaul.tga
+;texture				germans, data/models_strat/textures/unit_strat_map_captain_german.tga
+;texture				britons, data/models_strat/textures/unit_strat_map_captain_briton.tga
+;texture				dacia, data/models_strat/textures/unit_strat_map_captain_dacia.tga
+;texture				armenia, data/models_strat/textures/unit_strat_map_captain_scythia.tga
+;texture				spain, data/models_strat/textures/unit_strat_map_captain_iberia.tga
+;model_flexi_m		data/models_strat/barb_strat_map_captain.CAS, max
+;shadow_model_flexi	data/models_strat/shadow_model.cas, max
+
+type				ebstrat_sweboz_general
+skeleton			strat_named_with_army
+scale				0.8
+indiv_range			40
+texture				germans, eb/data/models_strat/textures/ebstrat_sweboz_general_blank_germans.tga
+model_flexi_m		eb/data/models_strat/ebstrat_sweboz_general_psycho&forgus_high.cas, max
+shadow_model_flexi	data/models_strat/shadow_model.cas, max
+
+type				sm_getai_lesser_general
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				dacia, eb/data/models_strat/textures/EBUNIT_AYMAR_BARB_KOMATAI_AGRIANAI_DACIA.TGA
+model_flexi_m		eb/data/models_strat/eb_getai_lesser_general.cas, max
+shadow_model_flexi	data/models_strat/shadow_model.cas, max
+
+type				ebstrat_getai_general
+skeleton			strat_named_with_army
+scale				0.8
+indiv_range			40
+texture				dacia, eb/data/models_strat/textures/ebstrat_getai_general_xprime_dacia.tga
+model_flexi_m		eb/data/models_strat/ebstrat_getai_general_xprime&stefan_high.cas, max
+shadow_model_flexi	data/models_strat/shadow_model.cas, max
+
+type				ebstrat_casse_general
+skeleton			strat_named_with_army
+scale				0.8
+indiv_range			40
+texture				britons, eb/data/models_strat/textures/ebstrat_casse_general_psycho_britons.tga
+model_flexi_m		eb/data/models_strat/ebstrat_casse_general_psycho&stefan_high.cas, max
+shadow_model_flexi	data/models_strat/shadow_model.cas, max
+
+type				sm_briton_lesser_general
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				britons, eb/data/models_strat/textures/ebunit_Psycho_BARB_SOUTHERN_WARBAND_briton.tga
+model_flexi_m		eb/data/models_strat/eb_briton_lesser_general.CAS, max
+shadow_model_flexi	data/models_strat/shadow_model.cas, max
+
+type				ebstrat_aedui_general
+skeleton			strat_named_with_army
+scale				0.8
+indiv_range			40
+texture				gauls, eb/data/models_strat/textures/ebstrat_aedui_general_psycho_gauls.tga
+model_flexi_m		eb/data/models_strat/ebstrat_aedui_general_psycho&stefan_high.cas, max
+shadow_model_flexi	data/models_strat/shadow_model.cas, max
+
+type				sm_aedui_lesser_general
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				gauls, eb/data/models_strat/textures/ebunit_Psycho_BARB_NORTHERN_WARBAND_gaul.tga
+model_flexi_m		eb/data/models_strat/eb_aedui_lesser_general.CAS, max
+shadow_model_flexi	data/models_strat/shadow_model.cas, max
+
+type				sm_sarmatian_lesser_general
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				armenia, eb/data/models_strat/textures/ebunit_SPW_EASTERN_dahae_cavalry_REGIONAL.tga
+model_flexi_m		eb/data/models_strat/eb_sarmatian_lesser_general.CAS, max
+shadow_model_flexi	data/models_strat/shadow_model.cas, max
+
+type				sm_arverni_lesser_general
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				scythia, eb/data/models_strat/textures/ebunit_Psycho_BARB_GALLIC_STANDARD.tga
+model_flexi_m		eb/data/models_strat/eb_arverni_lesser_general.CAS, max
+shadow_model_flexi	data/models_strat/shadow_model.cas, max
+
+type				ebstrat_arverni_general
+skeleton			strat_named_with_army
+scale				0.8
+indiv_range			40
+texture				scythia, eb/data/models_strat/textures/ebstrat_arverni_general_psycho_scythia.tga
+model_flexi_m		eb/data/models_strat/ebstrat_arverni_general_psycho&stefan_high.cas, max
+shadow_model_flexi	data/models_strat/shadow_model.cas, max
+
+type				ebstrat_saka_general
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				pontus, eb/data/models_strat/textures/ebstrat_saka_general_forgus_pontus.tga
+model_flexi_m		eb/data/models_strat/ebstrat_saka_general_stefan_high.cas, max
+shadow_model_flexi	data/models_strat/shadow_model.cas, max
+
+type				ebstrat_sauromatae_general
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				armenia, eb/data/models_strat/textures/ebstrat_sauromatae_general_forgus_armenia.tga
+model_flexi_m		eb/data/models_strat/ebstrat_sauromatae_general_stefan_high.cas, max
+shadow_model_flexi	data/models_strat/shadow_model.cas, max
+
+type				sm_yuezhi_lesser_general
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				pontus, eb/data/models_strat/textures/ebunit_Weirdshady_unit_archer_east.tga
+model_flexi_m		eb/data/models_strat/eb_yuezhi_lesser_general.CAS, max
+shadow_model_flexi	data/models_strat/shadow_model.cas, max
+
+type				sm_german_lesser_general
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				germans, eb/data/models_strat/textures/EBUNIT_WEBBIRD_GERMANIC_FERULHARJOZ_GERMANIA.TGA
+model_flexi_m		eb/data/models_strat/ebstrat_sweboz_captain_stefan_high.cas, max
+shadow_model_flexi	data/models_strat/shadow_model.cas, max
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;CARTHAGINIAN GENERALS
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+type				ebstrat_pontos_general
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				carthage, eb/data/models_strat/textures/ebstrat_pontos_general_xprime_carthage.tga
+model_flexi_m		eb/data/models_strat/ebstrat_pontos_general_xprime&stefan_high.cas, max
+shadow_model_flexi	data/models_strat/shadow_model.cas, max
+
+
+type				ebstrat_pontos_captain
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				carthage, eb/data/models_strat/textures/ebstrat_pontos_captain_spw_carthage.tga
+model_flexi_m		eb/data/models_strat/ebstrat_pontos_captain_spw&stefan_high.cas, max
+shadow_model_flexi	data/models_strat/shadow_model.cas, max
+
+type				ebstrat_karthadastim_general
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				egypt, eb/data/models_strat/textures/ebstrat_karthadastim_general_stefan_egypt.tga
+model_flexi_m		eb/data/models_strat/ebstrat_karthadastim_general_stefan_high.cas, max
+shadow_model_flexi	data/models_strat/shadow_model.cas, max
+
+type				sm_tsorim_lesser_general
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				egypt, eb/data/models_strat/textures/ebunit_Prome_new_carthaginian_libyanspearmen_early.tga
+model_flexi_m		eb/data/models_strat/eb_tsorim_lesser_general.CAS, max
+shadow_model_flexi	data/models_strat/shadow_model.cas, max
+
+type				ebstrat_lusotannan_captain
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				spain, eb/data/models_strat/textures/ebstrat_lusotannan_captain_aymar_spain.tga
+model_flexi_m		eb/data/models_strat/ebstrat_lusotannan_captain_aymar_high.cas, max
+shadow_model_flexi	data/models_strat/shadow_model.cas, max
+
+type				ebstrat_saba_general
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				saba, eb/data/models_strat/textures/ebstrat_saba_general_stefan_saba.tga
+model_flexi_m		eb/data/models_strat/ebstrat_saba_general_stefan_high.cas, max
+shadow_model_flexi	data/models_strat/shadow_model.cas, max
+
+type				sm_sabaean_lesser_general
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				saba, eb/data/models_strat/textures/EBUNIT_SEYD_SABA_CITIZEN_SPEARMEN.tga
+model_flexi_m		eb/data/models_strat/eb_saba_lesser_general.cas, max
+shadow_model_flexi	data/models_strat/shadow_model.cas, max
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;EASTERN GENERALS
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+type				sm_eastern_general
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				parthia, data/models_unit/textures/officer_eastern_general_parthia.TGA
+texture				carthage, data/models_unit/textures/officer_eastern_general_pontus.TGA
+texture				romans_scipii, data/models_unit/textures/officer_eastern_general_armenia.TGA
+model_flexi_m		data/models_unit/officer_eastern_general_high.CAS, max
+shadow_model_flexi	data/models_strat/shadow_model.cas, max
+
+type				sm_eastern_lesser_general
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				parthia, data/models_strat/textures/unit_eastern_crew_parthia.tga
+texture				carthage, data/models_strat/textures/unit_eastern_crew_pontus.tga
+texture				romans_scipii, data/models_strat/textures/unit_eastern_crew_armenia.tga
+model_flexi			data/models_strat/strat_eastern_lesser_general.CAS, max
+shadow_model_flexi	data/models_strat/shadow_model.cas, max
+
+type				ebstrat_hayasdan_captain
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				romans_scipii, eb/data/models_strat/textures/ebstrat_hayasdan_captain_spw_scipii.tga
+model_flexi_m		eb/data/models_strat/ebstrat_hayasdan_captain_spw&stefan_high.cas, max
+shadow_model_flexi	data/models_strat/shadow_model.cas, max
+
+type				ebstrat_hayasdan_general
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				romans_scipii, eb/data/models_strat/textures/ebstrat_hayasdan_general_xprime_scipii.tga
+model_flexi_m		eb/data/models_strat/ebstrat_hayasdan_general_xprime&stefan_high.cas, max
+shadow_model_flexi	data/models_strat/shadow_model.cas, max
+
+type				sm_parthia_lesser_general
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				parthia, eb/data/models_strat/textures/ebunit_SPW_eastern_doryophoroi_Parthia.tga
+model_flexi			eb/data/models_strat/eb_parthia_lesser_general.CAS, max
+shadow_model_flexi	data/models_strat/shadow_model.cas, max
+
+type				ebstrat_pahlava_general
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				parthia, eb/data/models_strat/textures/ebstrat_pahlava_general_forgus_parthia.tga
+model_flexi			eb/data/models_strat/ebstrat_pahlava_general_stefan_high.cas, max
+shadow_model_flexi	data/models_strat/shadow_model.cas, max
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;EGYPTIAN GENERALS
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;type				sm_egypt_general
+;skeleton			strat_named_with_army
+;scale				0.7
+;indiv_range			40
+;texture				numidia, data/models_unit/textures/unit_egyption_elite_guard.tga
+;model_flexi_m		data/models_strat/strat_egyptian_general.cas, max
+;shadow_model_flexi	data/models_strat/shadow_model.cas, max
+
+;type				sm_egypt_lesser_general
+;skeleton			strat_named_with_army
+;indiv_range			40
+;texture				numidia, data/models_unit/textures/unit_egyption_cleruch.tga
+;model_flexi_m		data/models_strat/strat_egyptian_lesser_general.CAS, max
+;shadow_model_flexi	data/models_strat/shadow_model_axe.cas, max
+
+type				ebstrat_ptolemaioi_general
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				numidia, eb/data/models_strat/textures/ebstrat_ptolemaioi_general_stefan_numidia.tga
+model_flexi			eb/data/models_strat/ebstrat_ptolemaioi_general_stefan_high.cas, max
+shadow_model_flexi	data/models_strat/shadow_model.cas, max
+
+type				ebstrat_ptolemaioi_captain
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				numidia, eb/data/models_strat/textures/ebstrat_ptolemaioi_captain_spw_numidia.tga
+model_flexi_m		eb/data/models_strat/ebstrat_ptolemaioi_captain_spw&stefan_high.cas, max
+shadow_model_flexi	data/models_strat/shadow_model.cas, max
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;GREEK GENERALS
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+type				sm_greek_general
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				macedon, data/models_unit/textures/officer_greek_general_macedon.tga
+texture				romans_julii, data/models_unit/textures/officer_greek_general_seleucid.tga
+texture				greek_cities, data/models_unit/textures/officer_greek_general_greece.tga
+texture				thrace, data/models_unit/textures/officer_greek_general_thrace.tga
+model_flexi_m		data/models_unit/officer_greek_general_high.cas, max
+shadow_model_flexi	data/models_strat/shadow_model.cas, max
+
+type				sm_greek_lesser_general
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				macedon, data/models_unit/textures/unit_greek_militia_hoplite_macedon.tga
+texture				romans_julii, data/models_unit/textures/unit_greek_militia_hoplite_seleucid.tga
+texture				greek_cities, data/models_unit/textures/unit_greek_militia_hoplite_greek.tga
+texture				thrace, data/models_unit/textures/unit_greek_militia_hoplite_thrace.tga
+model_flexi_m		data/models_strat/strat_greek_lesser_general.CAS, max
+shadow_model_flexi	data/models_strat/shadow_model.cas, max
+
+type				ebstrat_seleukid_general
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				romans_julii, eb/data/models_strat/textures/ebstrat_seleukid_general_stefan_julii.tga
+model_flexi_m		eb/data/models_strat/ebstrat_seleukid_general_stefan_high.cas, max
+shadow_model_flexi	data/models_strat/shadow_model.cas, max
+
+type				ebstrat_seleukid_captain
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				romans_julii, eb/data/models_strat/textures/ebstrat_seleukid_captain_sor_julii.tga
+model_flexi_m		eb/data/models_strat/ebstrat_seleukid_captain_sor&stefan_high.cas, max
+shadow_model_flexi	data/models_strat/shadow_model.cas, max
+
+type				ebstrat_greek_general
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				greek_cities, eb/data/models_strat/textures/ebstrat_greek_general_spw_greek.tga
+model_flexi_m		eb/data/models_strat/ebstrat_greek_general_spw&stefan_high.cas, max
+shadow_model_flexi	data/models_strat/shadow_model.cas, max
+
+type				ebstrat_greek_captain
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				greek_cities, eb/data/models_strat/textures/ebstrat_greek_captain_sor_greek.tga
+model_flexi_m		eb/data/models_strat/ebstrat_greek_captain_sor&stefan_high.cas, max
+shadow_model_flexi	data/models_strat/shadow_model.cas, max
+
+type				ebstrat_epeiros_general
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				thrace, eb/data/models_strat/textures/ebstrat_epeiros_general_stefan_thrace.tga
+model_flexi			eb/data/models_strat/ebstrat_epeiros_general_stefan_high.cas, max
+shadow_model_flexi	data/models_strat/shadow_model.cas, max
+
+type				sm_epirus_lesser_general
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				thrace, eb/data/models_strat/textures/ebunit_SPW_greek_thureophoroi_Epirus.tga
+model_flexi_m		eb/data/models_strat/eb_epirus_lesser_general.CAS, max
+shadow_model_flexi	data/models_strat/shadow_model.cas, max
+
+type				ebstrat_makedonia_general
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				macedon, eb/data/models_strat/textures/ebstrat_makedonia_general_stefan_macedon.tga
+model_flexi_m		eb/data/models_strat/ebstrat_makedonia_general_stefan_high.cas, max
+shadow_model_flexi	data/models_strat/shadow_model.cas, max
+
+type				ebstrat_makedonia_captain
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				macedon, eb/data/models_strat/textures/ebstrat_makedonia_captain_sor_macedon.tga
+model_flexi_m		eb/data/models_strat/ebstrat_makedonia_captain_sor&stefan_high.cas, max
+shadow_model_flexi	data/models_strat/shadow_model.cas, max
+
+type				ebstrat_baktria_general
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				romans_brutii, eb/data/models_strat/textures/ebstrat_baktria_general_stefan_brutii.tga
+model_flexi_m		eb/data/models_strat/ebstrat_baktria_general_stefan_high.cas, max
+shadow_model_flexi	data/models_strat/shadow_model.cas, max
+
+type				sm_baktrian_lesser_general
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				romans_brutii, eb/data/models_strat/textures/ebunit_SPW_greek_phalangitai_Bactria.tga
+model_flexi_m		eb/data/models_strat/eb_baktrian_lesser_general.CAS, max
+shadow_model_flexi	data/models_strat/shadow_model.cas, max
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;ROMAN GENERALS
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+type				ebstrat_romani_general
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				seleucid, eb/data/models_strat/textures/ebstrat_romani_general_prom_seleucid.tga
+model_flexi			eb/data/models_strat/ebstrat_romani_general_prom&stefan_high.cas, max
+shadow_model_flexi	data/models_strat/shadow_model.cas, max
+
+type				sm_roman_lesser_general
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture_no_move		seleucid, data/models_strat/textures/officer_roman_general_julii_marble.tga
+texture				seleucid, data/models_unit/textures/unit_roman_legionary_II_julii.tga
+texture				pontus, data/models_unit/textures/unit_roman_legionary_II_brutii.tga
+texture				scythia, data/models_unit/textures/unit_roman_legionary_II_scipii.tga
+texture				saba, data/models_unit/textures/unit_roman_legionary_II_senate.tga
+model_flexi_m		data/models_strat/strat_roman_lesser_general.cas, max
+shadow_model_flexi	data/models_strat/shadow_model.cas, max
+
+type				sm_rome_lesser_general
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				seleucid, eb/data/models_strat/textures/ebunit_Prome_new_roman_caesarlegions_julii.tga
+model_flexi_m		eb/data/models_strat/eb_roman_lesser_general.CAS, max
+shadow_model_flexi	data/models_strat/shadow_model.cas, max
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;REBEL GENERALS
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+type				ebstrat_eleutheroi_general
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				slave, eb/data/models_strat/textures/ebstrat_eleutheroi_general_sor_slave.tga
+model_flexi			eb/data/models_strat/ebstrat_eleutheroi_general_sor&stefan_high.cas, max
+shadow_model_flexi	data/models_strat/shadow_model.cas, max
+
+type				sm_rebel_lesser_general
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture			slave, eb/data/models_strat/textures/ebunit_Psycho_barb_LeuceEpos_rebel.tga
+model_flexi		eb/data/models_strat/eb_slave_lesser_general.cas
+shadow_model_flexi	data/models_strat/shadow_model.cas, max
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;ADMIRALS
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+type				julii_admiral
+skeleton			strat_navy
+indiv_range			40
+texture				seleucid, eb/data/models_strat/textures/navy.tga
+model_flexi			eb/data/models_strat/navy_roman.cas, max
+shadow_model_flexi	eb/data/models_strat/navy_roman_shadow.cas, max
+
+type				brutii_admiral
+skeleton			strat_navy
+indiv_range			40
+texture				pontus, data/models_strat/textures/navy_scythia.tga
+model_flexi			data/models_strat/navy_eastern.cas, max
+shadow_model_flexi	eb/data/models_strat/navy_shadow.cas, max
+
+type				scipii_admiral
+skeleton			strat_navy
+indiv_range			40
+texture				scythia, data/models_strat/textures/navy_gaul.tga
+model_flexi			data/models_strat/navy_barb.cas, max
+shadow_model_flexi	eb/data/models_strat/navy_shadow.cas, max
+
+type				senate_admiral
+skeleton			strat_navy
+indiv_range			40
+texture				saba, eb/data/models_strat/textures/navy.tga
+model_flexi			eb/data/models_strat/navy_roman.cas, max
+shadow_model_flexi	eb/data/models_strat/navy_roman_shadow.cas, max
+
+type				macedon_admiral
+skeleton			strat_navy
+indiv_range			40
+texture				macedon, eb/data/models_strat/textures/navy.tga
+model_flexi			eb/data/models_strat/navy_greek.cas, max
+shadow_model_flexi	eb/data/models_strat/navy_greek_shadow.cas, max
+
+type				carthage_admiral
+skeleton			strat_navy
+indiv_range			40
+texture				egypt, eb/data/models_strat/textures/navy.tga
+model_flexi			eb/data/models_strat/navy_roman.cas, max
+shadow_model_flexi	eb/data/models_strat/navy_roman_shadow.cas, max
+
+type				parthia_admiral
+skeleton			strat_navy
+indiv_range			40
+texture				parthia, data/models_strat/textures/navy_parthia.tga
+model_flexi			data/models_strat/navy_eastern.cas, max
+shadow_model_flexi	eb/data/models_strat/navy_shadow.cas, max
+
+type				egypt_admiral
+skeleton			strat_navy
+indiv_range			40
+texture				numidia, data/models_strat/textures/navy_egypt.tga
+model_flexi			data/models_strat/navy_egypt.cas, max
+shadow_model_flexi	eb/data/models_strat/navy_shadow.cas, max
+
+type				seleucid_admiral
+skeleton			strat_navy
+indiv_range			40
+texture				romans_julii, eb/data/models_strat/textures/navy.tga
+model_flexi			eb/data/models_strat/navy_greek.cas, max
+shadow_model_flexi	eb/data/models_strat/navy_greek_shadow.cas, max
+
+type				pontus_admiral
+skeleton			strat_navy
+indiv_range			40
+texture				carthage, data/models_strat/textures/navy_pontus.tga
+model_flexi			data/models_strat/navy_eastern.cas, max
+shadow_model_flexi	eb/data/models_strat/navy_shadow.cas, max
+
+type				gaul_admiral
+skeleton			strat_navy
+indiv_range			40
+texture				gauls, data/models_strat/textures/navy_gaul.tga
+model_flexi			data/models_strat/navy_barb.cas, max
+shadow_model_flexi	eb/data/models_strat/navy_shadow.cas, max
+
+type				german_admiral
+skeleton			strat_navy
+indiv_range			40
+texture				germans, data/models_strat/textures/navy_german.tga
+model_flexi			data/models_strat/navy_barb.cas, max
+shadow_model_flexi	eb/data/models_strat/navy_shadow.cas, max
+
+type				briton_admiral
+skeleton			strat_navy
+indiv_range			40
+texture				britons, data/models_strat/textures/navy_briton.tga
+model_flexi			data/models_strat/navy_barb.cas, max
+shadow_model_flexi	eb/data/models_strat/navy_shadow.cas, max
+
+type				armenia_admiral
+skeleton			strat_navy
+indiv_range			40
+texture				romans_scipii, data/models_strat/textures/navy_armenia.tga
+model_flexi			data/models_strat/navy_eastern.cas, max
+shadow_model_flexi	eb/data/models_strat/navy_shadow.cas, max
+
+type				dacia_admiral
+skeleton			strat_navy
+indiv_range			40
+texture				dacia, eb/data/models_strat/textures/navy.tga
+model_flexi			eb/data/models_strat/navy_greek.cas, max
+shadow_model_flexi	eb/data/models_strat/navy_greek_shadow.cas, max
+
+type				greek_cities_admiral
+skeleton			strat_navy
+indiv_range			40
+texture				greek_cities, data/models_strat/textures/navy.tga
+model_flexi			eb/data/models_strat/navy_greek.cas, max
+shadow_model_flexi	eb/data/models_strat/navy_greek_shadow.cas, max
+
+type				numidia_admiral
+skeleton			strat_navy
+indiv_range			40
+texture				romans_brutii, eb/data/models_strat/textures/navy.tga
+model_flexi			eb/data/models_strat/navy_greek.cas, max
+shadow_model_flexi	eb/data/models_strat/navy_greek_shadow.cas, max
+
+type				scythia_admiral
+skeleton			strat_navy
+indiv_range			40
+texture				armenia, data/models_strat/textures/navy_scythia.tga
+model_flexi			data/models_strat/navy_barb.cas, max
+shadow_model_flexi	eb/data/models_strat/navy_shadow.cas, max
+
+type				spain_admiral
+skeleton			strat_navy
+indiv_range			40
+texture				spain, data/models_strat/textures/navy_spain.tga
+model_flexi			data/models_strat/navy_barb.cas, max
+shadow_model_flexi	eb/data/models_strat/navy_shadow.cas, max
+
+type				thrace_admiral
+skeleton			strat_navy
+indiv_range			40
+texture				thrace, eb/data/models_strat/textures/navy.tga
+model_flexi			eb/data/models_strat/navy_greek.cas, max
+shadow_model_flexi	eb/data/models_strat/navy_greek_shadow.cas, max
+
+type				slave_admiral
+skeleton			strat_navy
+indiv_range			40
+texture				slave, data/models_strat/textures/navy_slave.tga
+model_flexi			data/models_strat/navy_barb.cas, max
+shadow_model_flexi	eb/data/models_strat/navy_shadow.cas, max
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+type				pontus_named
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+model_flexi			data/models_strat/character_pontus.cas, max
+
+type				pontus_general
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+model_flexi			data/models_strat/general_pontus.cas, max
+
+

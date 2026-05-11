@@ -1,0 +1,102 @@
+Loading from file EB/data/world/maps/battle/custom/279 BC - Battle of Ausculum/descr_battle.txt
+Created faction seleucid from file
+	Creating army controlled by Pvblivs at 0x2f1636b0 from script
+		Creating unit (Eqvites Consvlares (Republican Consular Guard Cavalry)) at 0x2da2f7a0
+		Creating unit (Hastati (Camillan Medium Infantry Maniple)) at 0x2da2f558
+		Creating unit (Hastati (Camillan Medium Infantry Maniple)) at 0x2da2ef50
+		Creating unit (Hastati (Camillan Medium Infantry Maniple)) at 0x2da2eac0
+		Creating unit (Hastati (Camillan Medium Infantry Maniple)) at 0x2da2b8e8
+		Creating unit (Principes (Camillan Heavy Infantry Maniple)) at 0x2da2bb30
+		Creating unit (Principes (Camillan Heavy Infantry Maniple)) at 0x2da2e878
+		Creating unit (Principes (Camillan Heavy Infantry Maniple)) at 0x2da2ed08
+		Creating unit (Principes (Camillan Heavy Infantry Maniple)) at 0x2da2b6a0
+		Creating unit (Triarii (Camillan Roman Hoplite Maniple)) at 0x2da2bd78
+		Creating unit (Triarii (Camillan Roman Hoplite Maniple)) at 0x2da319e0
+		Creating unit (Triarii (Camillan Roman Hoplite Maniple)) at 0x2da30ef8
+		Creating unit (Triarii (Camillan Roman Hoplite Maniple)) at 0x2da30cb0
+		Creating unit (Eqvites Romani (Camillan Roman Citizen Cavalry)) at 0x2da2e630
+		Creating unit (Eqvites Extraordinarii (Elite Heavy Cavalry of the Italic Allies)) at 0x2da2dc68
+		Creating unit (Leves (Camillan Skirmishers)) at 0x2da2d058
+		Creating unit (Leves (Camillan Skirmishers)) at 0x2da2d2a0
+Created faction thrace from file
+	Creating army controlled by Pyrrhos Aiakides at 0x2f163530 from script
+		Creating unit (Somatophylakes Strategou (Hellenic Bodyguard Cavalry)) at 0x2da24818
+		Creating unit (Hippeis Thessalikoi (Thessalian Heavy Cavalry)) at 0x2da2acd8
+		Creating unit (Hippeis Tarantinoi (Tarantine Elite Cavalry)) at 0x2da2aa90
+		Creating unit (Lonchophoroi Hippeis (Hellenic Medium Cavalry)) at 0x2da22e20
+		Creating unit (Misthophoroi Phalangitai (Mercenary Hellenic Medium Phalanx)) at 0x2da21ca8
+		Creating unit (Aichmetai Leukanoi (Lucanian Light Infantry)) at 0x2db612d0
+		Creating unit (Hoplitai Haploi (Greek Levy Hoplites)) at 0x2db2ba68
+		Creating unit (Chaonion Agema (Epeirote Elite Phalanx)) at 0x2da1f640
+		Creating unit (Pezhetairoi (Hellenic Medium Phalanx)) at 0x2da2a848
+		Creating unit (Pezhetairoi (Hellenic Medium Phalanx)) at 0x2da27d68
+		Creating unit (Misthophoroi Peltastai (Mercenary Hellenic Heavy Skirmishers)) at 0x2da22bd8
+		Creating unit (Hastati Samnitici (Samnite Medium Spearmen)) at 0x2da22748
+		Creating unit (Misthophoroi Hippeis (Mercenary Greek Medium Cavalry)) at 0x2da27fb0
+		Creating unit (Hippeis Tarantinoi (Tarantine Elite Cavalry)) at 0x2da2a600
+		Creating unit (Toxotai (Hellenic Archers)) at 0x2da22990
+		Creating unit (Sphendonetai (Hellenic Slingers)) at 0x2da22500
+		Creating unit (Elephantes Indikoi (Indian Elephants)) at 0x2db61088
+		Creating unit (Elephantes Indikoi (Indian Elephants)) at 0x2da20188
+Adding unit (Eqvites Consvlares (Republican Consular Guard Cavalry)) at 0x2da2f7a0 to deployment area at 0x327ef60
+Adding unit (Hastati (Camillan Medium Infantry Maniple)) at 0x2da2f558 to deployment area at 0x327ef60
+Adding unit (Hastati (Camillan Medium Infantry Maniple)) at 0x2da2ef50 to deployment area at 0x327ef60
+Adding unit (Hastati (Camillan Medium Infantry Maniple)) at 0x2da2eac0 to deployment area at 0x327ef60
+Adding unit (Hastati (Camillan Medium Infantry Maniple)) at 0x2da2b8e8 to deployment area at 0x327ef60
+Adding unit (Principes (Camillan Heavy Infantry Maniple)) at 0x2da2bb30 to deployment area at 0x327ef60
+Adding unit (Principes (Camillan Heavy Infantry Maniple)) at 0x2da2e878 to deployment area at 0x327ef60
+Adding unit (Principes (Camillan Heavy Infantry Maniple)) at 0x2da2ed08 to deployment area at 0x327ef60
+Adding unit (Principes (Camillan Heavy Infantry Maniple)) at 0x2da2b6a0 to deployment area at 0x327ef60
+Adding unit (Triarii (Camillan Roman Hoplite Maniple)) at 0x2da2bd78 to deployment area at 0x327ef60
+Adding unit (Triarii (Camillan Roman Hoplite Maniple)) at 0x2da319e0 to deployment area at 0x327ef60
+Adding unit (Triarii (Camillan Roman Hoplite Maniple)) at 0x2da30ef8 to deployment area at 0x327ef60
+Adding unit (Triarii (Camillan Roman Hoplite Maniple)) at 0x2da30cb0 to deployment area at 0x327ef60
+Adding unit (Eqvites Romani (Camillan Roman Citizen Cavalry)) at 0x2da2e630 to deployment area at 0x327ef60
+Adding unit (Eqvites Extraordinarii (Elite Heavy Cavalry of the Italic Allies)) at 0x2da2dc68 to deployment area at 0x327ef60
+Adding unit (Leves (Camillan Skirmishers)) at 0x2da2d058 to deployment area at 0x327ef60
+Adding unit (Leves (Camillan Skirmishers)) at 0x2da2d2a0 to deployment area at 0x327ef60
+Adding unit (Somatophylakes Strategou (Hellenic Bodyguard Cavalry)) at 0x2da24818 to deployment area at 0x327ef9c
+Adding unit (Hippeis Thessalikoi (Thessalian Heavy Cavalry)) at 0x2da2acd8 to deployment area at 0x327ef9c
+Adding unit (Hippeis Tarantinoi (Tarantine Elite Cavalry)) at 0x2da2aa90 to deployment area at 0x327ef9c
+Adding unit (Lonchophoroi Hippeis (Hellenic Medium Cavalry)) at 0x2da22e20 to deployment area at 0x327ef9c
+Adding unit (Misthophoroi Phalangitai (Mercenary Hellenic Medium Phalanx)) at 0x2da21ca8 to deployment area at 0x327ef9c
+Adding unit (Aichmetai Leukanoi (Lucanian Light Infantry)) at 0x2db612d0 to deployment area at 0x327ef9c
+Adding unit (Hoplitai Haploi (Greek Levy Hoplites)) at 0x2db2ba68 to deployment area at 0x327ef9c
+Adding unit (Chaonion Agema (Epeirote Elite Phalanx)) at 0x2da1f640 to deployment area at 0x327ef9c
+Adding unit (Pezhetairoi (Hellenic Medium Phalanx)) at 0x2da2a848 to deployment area at 0x327ef9c
+Adding unit (Pezhetairoi (Hellenic Medium Phalanx)) at 0x2da27d68 to deployment area at 0x327ef9c
+Adding unit (Misthophoroi Peltastai (Mercenary Hellenic Heavy Skirmishers)) at 0x2da22bd8 to deployment area at 0x327ef9c
+Adding unit (Hastati Samnitici (Samnite Medium Spearmen)) at 0x2da22748 to deployment area at 0x327ef9c
+Adding unit (Misthophoroi Hippeis (Mercenary Greek Medium Cavalry)) at 0x2da27fb0 to deployment area at 0x327ef9c
+Adding unit (Hippeis Tarantinoi (Tarantine Elite Cavalry)) at 0x2da2a600 to deployment area at 0x327ef9c
+Adding unit (Toxotai (Hellenic Archers)) at 0x2da22990 to deployment area at 0x327ef9c
+Adding unit (Sphendonetai (Hellenic Slingers)) at 0x2da22500 to deployment area at 0x327ef9c
+Adding unit (Elephantes Indikoi (Indian Elephants)) at 0x2db61088 to deployment area at 0x327ef9c
+Adding unit (Elephantes Indikoi (Indian Elephants)) at 0x2da20188 to deployment area at 0x327ef9c
+Load finished **************************
+
+
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (thrace:Somatophylakes Strategou (Hellenic Bodyguard Cavalry)) at 0x2da24818 from (-379.1624, -34.743396) to (-373.659008, -21.269)
+	 with rotation 1.604927 and width 19.576964 - now residing in deployment area at 0x327ef9c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (thrace:Somatophylakes Strategou (Hellenic Bodyguard Cavalry)) at 0x2da24818 from (-382.149408, -32.556458) to (-372.825504, -30.656336)
+	 with rotation 1.604927 and width 19.576964 - now residing in deployment area at 0x327ef9c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (thrace:Somatophylakes Strategou (Hellenic Bodyguard Cavalry)) at 0x2da24818 from (-382.122848, -35.670844) to (-389.46704, -34.442672)
+	 with rotation 1.604927 and width 19.576964 - now residing in deployment area at 0x327ef9c
+Adding unit (Molosson Agema (Epeiros Heavy Cavalry)) at 0x2e482088 to deployment area at 0x327ef9c
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Molosson Agema (Epeiros Heavy Cavalry)) at 0x2e482088 - Deployed at (-397.719008, -15.49648) in deployment area at 0x327ef9c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (thrace:Molosson Agema (Epeiros Heavy Cavalry)) at 0x2e482088 from (-394.790208, -17.83323) to (-401.98784, 4.624775)
+	 with rotation .0 and width 1.0 - now residing in deployment area at 0x327ef9c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (thrace:Molosson Agema (Epeiros Heavy Cavalry)) at 0x2e482088 from (-400.57744, -.142841) to (-401.98784, 4.624775)
+	 with rotation 1.567633 and width 19.517414 - now residing in deployment area at 0x327ef9c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (thrace:Molosson Agema (Epeiros Heavy Cavalry)) at 0x2e482088 from (-407.08224, -3.902313) to (-389.528, -14.293636)
+	 with rotation 1.567633 and width 19.517414 - now residing in deployment area at 0x327ef9c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (thrace:Somatophylakes Strategou (Hellenic Bodyguard Cavalry)) at 0x2da24818 from (-394.602176, -44.320316) to (-402.087968, -58.8757)
+	 with rotation 1.604927 and width 19.576964 - now residing in deployment area at 0x327ef9c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (thrace:Molosson Agema (Epeiros Heavy Cavalry)) at 0x2e482088 from (-398.166432, -25.559676) to (-402.591168, -39.24376)
+	 with rotation 1.567633 and width 19.517414 - now residing in deployment area at 0x327ef9c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (thrace:Molosson Agema (Epeiros Heavy Cavalry)) at 0x2e482088 from (-411.2296, -50.509796) to (-402.106368, -39.14708)
+	 with rotation 1.567633 and width 19.517414 - now residing in deployment area at 0x327ef9c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (thrace:Molosson Agema (Epeiros Heavy Cavalry)) at 0x2e482088 from (-404.652032, -46.664316) to (-404.652032, -46.664316)
+	 with rotation 1.612885 and width 19.288512 - now residing in deployment area at 0x327ef9c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (thrace:Molosson Agema (Epeiros Heavy Cavalry)) at 0x2e482088 from (-416.647712, -48.885088) to (-401.4424, -39.981812)
+	 with rotation 1.612885 and width 19.288512 - now residing in deployment area at 0x327ef9c

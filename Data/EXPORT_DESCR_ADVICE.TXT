@@ -1,0 +1,1689 @@
+;This file is generated from the Spreadsheet Advice.xls
+;Please modify the spreadsheet and re-xport the data, rather than editing this file directly
+
+;===============================================================
+;== ADVICE THREAD DATA STARTS HERE ==
+;===============================================================
+
+;------------------------------------------
+AdviceThread EBBS_Thread
+    GameArea Campaign
+
+    Item EBBS_Text_01
+        Uninhibitable
+        Verbosity  0
+        Threshold  1
+	MaxRepeats  0
+	RepeatInterval  1
+        Attitude Normal
+        Presentation Default
+        Title EBBS_Text_01_Title
+        Script scripts\show_me\EBBS_script.txt
+        Text EBBS_Text_01_Text1
+
+;------------------------------------------
+AdviceThread Generic_Script_Thread
+    GameArea Campaign
+
+    Item Generic_Script_Text_01
+        Uninhibitable
+        Verbosity  0 
+        Threshold  1 
+        Attitude Normal
+        Presentation Default
+        Title Generic_Script_Text_01_Title
+        Script scripts\show_me\genericScript.txt
+        Text Generic_Script_Text_01_Text1
+
+
+;---------------------Chersonesos--------------
+AdviceThread Near_Chersonesos_Thread
+GameArea Campaign
+
+Item Near_Chersonesos_Text_01
+Uninhibitable
+Verbosity  0
+Threshold  1
+MaxRepeats  0
+RepeatInterval  1
+Attitude Normal
+Presentation Default
+Title Near_Chersonesos_Text_01_Title
+Text Near_Chersonesos_Text_01_Text1
+;------------------------------------------
+AdviceThread Attacks_Chersonesos_Thread
+GameArea Campaign
+Item Attacks_Chersonesos_Text_01
+Uninhibitable
+Verbosity  0
+Threshold  1
+MaxRepeats  0
+RepeatInterval  1
+Attitude Normal
+Presentation Default
+Title Attacks_Chersonesos_Text_01_Title
+Text Attacks_Chersonesos_Text_01_Text1
+;------------------------------------------
+
+
+;---------------------Chersonsesos_Thraikia--------------
+AdviceThread Near_Chersonsesos_Thraikia_Thread
+GameArea Campaign
+
+Item Chersonsesos_Thraikia_Text_01
+Uninhibitable
+Verbosity  0
+Threshold  1
+MaxRepeats  0
+RepeatInterval  1
+Attitude Normal
+Presentation Default
+Title Near_Chersonsesos_Thraikia_Text_01_Title
+Text Near_Chersonsesos_Thraikia_Text_01_Text1
+;------------------------------------------
+AdviceThread Attacks_Chersonsesos_Thraikia_Thread
+GameArea Campaign
+Item Attacks_Chersonsesos_Thraikia_Text_01
+Uninhibitable
+Verbosity  0
+Threshold  1
+MaxRepeats  0
+RepeatInterval  1
+Attitude Normal
+Presentation Default
+Title Attacks_Chersonsesos_Thraikia_Text_01_Title
+Text Attacks_Chersonsesos_Thraikia_Text_01_Text1
+;------------------------------------------
+
+
+
+;---------------------Halikarnassos--------------
+AdviceThread Greeks_Near_Halikarnassos_Thread
+GameArea Campaign
+
+Item Greeks_Near_Halikarnassos_Text_01
+Uninhibitable
+Verbosity  0
+Threshold  1
+MaxRepeats  0
+RepeatInterval  1
+Attitude Normal
+Presentation Default
+Title Greeks_Near_Halikarnassos_Text_01_Title
+Text Greeks_Near_Halikarnassos_Text_01_Text1
+;------------------------------------------
+AdviceThread Greeks_Attacks_Halikarnassos_Thread
+GameArea Campaign
+Item Greeks_Attacks_Halikarnassos_Text_01
+Uninhibitable
+Verbosity  0
+Threshold  1
+MaxRepeats  0
+RepeatInterval  1
+Attitude Normal
+Presentation Default
+Title Greeks_Attacks_Halikarnassos_Text_01_Title
+Text Greeks_Attacks_Halikarnassos_Text_01_Text1
+;------------------------------------------
+
+AdviceThread Near_Halikarnassos_Thread
+GameArea Campaign
+
+Item Near_Halikarnassos_Text_01
+Uninhibitable
+Verbosity  0
+Threshold  1
+MaxRepeats  0
+RepeatInterval  1
+Attitude Normal
+Presentation Default
+Title Near_Halikarnassos_Text_01_Title
+Text Near_Halikarnassos_Text_01_Text1
+;------------------------------------------
+AdviceThread Attacks_Halikarnassos_Thread
+GameArea Campaign
+Item Attacks_Halikarnassos_Text_01
+Uninhibitable
+Verbosity  0
+Threshold  1
+MaxRepeats  0
+RepeatInterval  1
+Attitude Normal
+Presentation Default
+Title Attacks_Halikarnassos_Text_01_Title
+Text Attacks_Halikarnassos_Text_01_Text1
+;------------------------------------------
+
+
+
+;---------------------Kallatis--------------
+AdviceThread Near_Kallatis_Thread
+GameArea Campaign
+
+Item Near_Kallatis_Text_01
+Uninhibitable
+Verbosity  0
+Threshold  1
+MaxRepeats  0
+RepeatInterval  1
+Attitude Normal
+Presentation Default
+Title Near_Kallatis_Text_01_Title
+Text Near_Kallatis_Text_01_Text1
+;------------------------------------------
+AdviceThread Attacks_Kallatis_Thread
+GameArea Campaign
+Item Attacks_Kallatis_Text_01
+Uninhibitable
+Verbosity  0
+Threshold  1
+MaxRepeats  0
+RepeatInterval  1
+Attitude Normal
+Presentation Default
+Title Attacks_Kallatis_Text_01_Title
+Text Attacks_Kallatis_Text_01_Text1
+
+
+
+;---------------------Nikaia--------------
+AdviceThread Near_Nikaia_Thread
+GameArea Campaign
+
+Item Near_Nikaia_Text_01
+Uninhibitable
+Verbosity  0
+Threshold  1
+MaxRepeats  0
+RepeatInterval  1
+Attitude Normal
+Presentation Default
+Title Near_Nikaia_Text_01_Title
+Text Near_Nikaia_Text_01_Text1
+;------------------------------------------
+AdviceThread Attacks_Nikaia_Thread
+GameArea Campaign
+Item Attacks_Nikaia_Text_01
+Uninhibitable
+Verbosity  0
+Threshold  1
+MaxRepeats  0
+RepeatInterval  1
+Attitude Normal
+Presentation Default
+Title Attacks_Nikaia_Text_01_Title
+Text Attacks_Nikaia_Text_01_Text1
+;------------------------------------------
+
+
+;---------------------Pantikapaion--------------
+AdviceThread Near_Pantikapaion_Thread
+GameArea Campaign
+
+Item Near_Pantikapaion_Text_01
+Uninhibitable
+Verbosity  0
+Threshold  1
+MaxRepeats  0
+RepeatInterval  1
+Attitude Normal
+Presentation Default
+Title Near_Pantikapaion_Text_01_Title
+Text Near_Pantikapaion_Text_01_Text1
+;------------------------------------------
+AdviceThread Attacks_Pantikapaion_Thread
+GameArea Campaign
+Item Attacks_Pantikapaion_Text_01
+Uninhibitable
+Verbosity  0
+Threshold  1
+MaxRepeats  0
+RepeatInterval  1
+Attitude Normal
+Presentation Default
+Title Attacks_Pantikapaion_Text_01_Title
+Text Attacks_Pantikapaion_Text_01_Text1
+;******************************************NOWE***  ***********************
+;---------------------Sinope--------------
+AdviceThread Pontic_Near_Sinope_Thread
+GameArea Campaign
+
+Item Pontic_Near_Sinope_Text_01
+Uninhibitable
+Verbosity  0
+Threshold  1
+MaxRepeats  0
+RepeatInterval  1
+Attitude Normal
+Presentation Default
+Title Pontic_Near_Sinope_Text_01_Title
+Text Pontic_Near_Sinope_Text_01_Text1
+;------------------------------------------
+AdviceThread Pontic_Attacks_Sinope_Thread
+GameArea Campaign
+Item Pontic_Attacks_Sinope_Text_01
+Uninhibitable
+Verbosity  0
+Threshold  1
+MaxRepeats  0
+RepeatInterval  1
+Attitude Normal
+Presentation Default
+Title Pontic_Attacks_Sinope_Text_01_Title
+Text Pontic_Attacks_Sinope_Text_01_Text1
+;------------------------------------------
+
+;---------------------Thermon--------------
+
+AdviceThread Macedon_Near_Thermon_Thread
+GameArea Campaign
+Item Macedon_Near_Thermon_Text_01
+Uninhibitable
+Verbosity  0
+Threshold  1
+MaxRepeats  0
+RepeatInterval  1
+Attitude Normal
+Presentation Default
+Title Macedon_Near_Thermon_Text_01_Title
+Text Macedon_Near_Thermon_Text_01_Text1
+;------------------------------------------
+AdviceThread Macedon_Attacks_Thermon_Thread
+GameArea Campaign
+Item Macedon_Attacks_Thermon_Text_01
+Uninhibitable
+Verbosity  0
+Threshold  1
+MaxRepeats  0
+RepeatInterval  1
+Attitude Normal
+Presentation Default
+Title Macedon_Attacks_Thermon_Text_01_Title
+Text Macedon_Attacks_Thermon_Text_01_Text1
+;------------------------------------------
+
+AdviceThread Epeiros_Near_Thermon_Thread
+GameArea Campaign
+Item Epeiros_Near_Thermon_Text_01
+Uninhibitable
+Verbosity  0
+Threshold  1
+MaxRepeats  0
+RepeatInterval  1
+Attitude Normal
+Presentation Default
+Title Epeiros_Near_Thermon_Text_01_Title
+Text Epeiros_Near_Thermon_Text_01_Text1
+;------------------------------------------
+AdviceThread Epeiros_Attacks_Thermon_Thread
+GameArea Campaign
+Item Epeiros_Attacks_Thermon_Text_01
+Uninhibitable
+Verbosity  0
+Threshold  1
+MaxRepeats  0
+RepeatInterval  1
+Attitude Normal
+Presentation Default
+Title Epeiros_Attacks_Thermon_Text_01_Title
+Text Epeiros_Attacks_Thermon_Text_01_Text1
+;------------------------------------------
+
+AdviceThread Romans_Near_Thermon_Thread
+GameArea Campaign
+Item Romans_Near_Thermon_Text_01
+Uninhibitable
+Verbosity  0
+Threshold  1
+MaxRepeats  0
+RepeatInterval  1
+Attitude Normal
+Presentation Default
+Title Romans_Near_Thermon_Text_01_Title
+Text Romans_Near_Thermon_Text_01_Text1
+;------------------------------------------
+AdviceThread Romans_Attacks_Thermon_Thread
+GameArea Campaign
+Item Romans_Attacks_Thermon_Text_01
+Uninhibitable
+Verbosity  0
+Threshold  1
+MaxRepeats  0
+RepeatInterval  1
+Attitude Normal
+Presentation Default
+Title Romans_Attacks_Thermon_Text_01_Title
+Text Romans_Attacks_Thermon_Text_01_Text1
+;------------------------------------------
+
+;---------------------Trapezous--------------
+AdviceThread Pontic_Near_Trapezous_Thread
+GameArea Campaign
+
+Item Pontic_Near_Trapezous_Text_01
+Uninhibitable
+Verbosity  0
+Threshold  1
+MaxRepeats  0
+RepeatInterval  1
+Attitude Normal
+Presentation Default
+Title Pontic_Near_Trapezous_Text_01_Title
+Text Pontic_Near_Trapezous_Text_01_Text1
+;------------------------------------------
+AdviceThread Pontic_Attacks_Trapezous_Thread
+GameArea Campaign
+Item Pontic_Attacks_Trapezous_Text_01
+Uninhibitable
+Verbosity  0
+Threshold  1
+MaxRepeats  0
+RepeatInterval  1
+Attitude Normal
+Presentation Default
+Title Pontic_Attacks_Trapezous_Text_01_Title
+Text Pontic_Attacks_Trapezous_Text_01_Text1
+;------------------------------------------
+
+AdviceThread Armenia_Near_Trapezous_Thread
+GameArea Campaign
+
+Item Armenia_Near_Trapezous_Text_01
+Uninhibitable
+Verbosity  0
+Threshold  1
+MaxRepeats  0
+RepeatInterval  1
+Attitude Normal
+Presentation Default
+Title Armenia_Near_Trapezous_Text_01_Title
+Text Armenia_Near_Trapezous_Text_01_Text1
+;------------------------------------------
+AdviceThread Armenia_Attacks_Trapezous_Thread
+GameArea Campaign
+Item Armenia_Attacks_Trapezous_Text_01
+Uninhibitable
+Verbosity  0
+Threshold  1
+MaxRepeats  0
+RepeatInterval  1
+Attitude Normal
+Presentation Default
+Title Armenia_Attacks_Trapezous_Text_01_Title
+Text Armenia_Attacks_Trapezous_Text_01_Text1
+;------------------------------------------
+;---------------------Ammonion--------------
+AdviceThread Tsorim_Near_Ammonion_Thread
+GameArea Campaign
+
+Item Tsorim_Near_Ammonion_Text_01
+Uninhibitable
+Verbosity  0
+Threshold  1
+MaxRepeats  0
+RepeatInterval  1
+Attitude Normal
+Presentation Default
+Title Tsorim_Near_Ammonion_Text_01_Title
+Text Tsorim_Near_Ammonion_Text_01_Text1
+;------------------------------------------
+AdviceThread Tsorim_Attacks_Ammonion_Thread
+GameArea Campaign
+Item Tsorim_Attacks_Ammonion_Text_01
+Uninhibitable
+Verbosity  0
+Threshold  1
+MaxRepeats  0
+RepeatInterval  1
+Attitude Normal
+Presentation Default
+Title Tsorim_Attacks_Ammonion_Text_01_Title
+Text Tsorim_Attacks_Ammonion_Text_01_Text1
+;------------------------------------------
+
+;---------------------Kyrene--------------
+AdviceThread Ptolemies_Near_Kyrene_Thread
+GameArea Campaign
+
+Item Ptolemies_Near_Kyrene_Text_01
+Uninhibitable
+Verbosity  0
+Threshold  1
+MaxRepeats  0
+RepeatInterval  1
+Attitude Normal
+Presentation Default
+Title Ptolemies_Near_Kyrene_Text_01_Title
+Text Ptolemies_Near_Kyrene_Text_01_Text1
+;------------------------------------------
+AdviceThread Ptolemies_Attacks_Kyrene_Thread
+GameArea Campaign
+Item Ptolemies_Attacks_Kyrene_Text_01
+Uninhibitable
+Verbosity  0
+Threshold  1
+MaxRepeats  0
+RepeatInterval  1
+Attitude Normal
+Presentation Default
+Title Ptolemies_Attacks_Kyrene_Text_01_Title
+Text Ptolemies_Attacks_Kyrene_Text_01_Text1
+;------------------------------------------
+
+;---------------------Kyrene--------------
+AdviceThread Tsorim_Near_Kyrene_Thread
+GameArea Campaign
+
+Item Tsorim_Near_Kyrene_Text_01
+Uninhibitable
+Verbosity  0
+Threshold  1
+MaxRepeats  0
+RepeatInterval  1
+Attitude Normal
+Presentation Default
+Title Tsorim_Near_Kyrene_Text_01_Title
+Text Tsorim_Near_Kyrene_Text_01_Text1
+;------------------------------------------
+AdviceThread Tsorim_Attacks_Kyrene_Thread
+GameArea Campaign
+Item Tsorim_Attacks_Kyrene_Text_01
+Uninhibitable
+Verbosity  0
+Threshold  1
+MaxRepeats  0
+RepeatInterval  1
+Attitude Normal
+Presentation Default
+Title Tsorim_Attacks_Kyrene_Text_01_Title
+Text Tsorim_Attacks_Kyrene_Text_01_Text1
+;------------------------------------------
+
+
+;------------------------------------------
+;conquests
+AdviceThread Victory_Conditions_1_Thread ;split to faction-specific, if a faction can't raid don't include script in thread
+    GameArea Campaign
+
+    Item Victory_Conditions_1_Text_01
+        Uninhibitable
+        Verbosity  0
+        Threshold  1
+        MaxRepeats  0
+        RepeatInterval  1
+        Attitude Normal
+        Presentation Default
+        Title Victory_Conditions_1_Text_01_Title
+        Text Victory_Conditions_1_Text_01_Text1
+
+
+;------------------------------------------
+;raids
+AdviceThread Victory_Conditions_2_Thread ;split to faction-specific
+    GameArea Campaign
+
+    Item Victory_Conditions_2_Text_01
+        Uninhibitable
+        Verbosity  0
+        Threshold  1
+        MaxRepeats  0
+        RepeatInterval  1
+        Attitude Normal
+        Presentation Default
+        Title Victory_Conditions_2_Text_01_Title
+        Text Victory_Conditions_2_Text_01_Text1
+
+;------------------------------------------
+
+AdviceThread Iberia_vc_Thread
+    GameArea Campaign
+
+    Item Iberia_vc_Text_01
+        Uninhibitable
+        Verbosity  0
+        Threshold  1
+        MaxRepeats  0
+        RepeatInterval  1
+        Attitude Normal
+        Presentation Default
+        Title Iberia_vc_Text_01_Title
+        Text Iberia_vc_Text_01_Text1
+
+;------------------------------------------
+
+AdviceThread Iberia_raid_Thread
+    GameArea Campaign
+
+    Item Iberia_raid_Text_01
+        Uninhibitable
+        Verbosity  0
+        Threshold  1
+        MaxRepeats  0
+        RepeatInterval  1
+        Attitude Normal
+        Presentation Default
+        Title Iberia_raid_Text_01_Title
+        Text Iberia_raid_Text_01_Text1
+
+;------------------------------------------
+
+AdviceThread Aedui_vc_Thread
+    GameArea Campaign
+
+    Item Aedui_vc_Text_01
+        Uninhibitable
+        Verbosity  0
+        Threshold  1
+        MaxRepeats  0
+        RepeatInterval  1
+        Attitude Normal
+        Presentation Default
+        Title Aedui_vc_Text_01_Title
+        Text Aedui_vc_Text_01_Text1
+
+;------------------------------------------
+
+AdviceThread Aedui_raid_Thread
+    GameArea Campaign
+
+    Item Aedui_raid_Text_01
+        Uninhibitable
+        Verbosity  0
+        Threshold  1
+        MaxRepeats  0
+        RepeatInterval  1
+        Attitude Normal
+        Presentation Default
+        Title Aedui_raid_Text_01_Title
+        Text Aedui_raid_Text_01_Text1
+
+;------------------------------------------
+
+AdviceThread Arverni_vc_Thread
+    GameArea Campaign
+
+    Item Arverni_vc_Text_01
+        Uninhibitable
+        Verbosity  0
+        Threshold  1
+        MaxRepeats  0
+        RepeatInterval  1
+        Attitude Normal
+        Presentation Default
+        Title Arverni_vc_Text_01_Title
+        Text Arverni_vc_Text_01_Text1
+
+;------------------------------------------
+
+AdviceThread Arverni_raid_Thread
+    GameArea Campaign
+
+    Item Arverni_raid_Text_01
+        Uninhibitable
+        Verbosity  0
+        Threshold  1
+        MaxRepeats  0
+        RepeatInterval  1
+        Attitude Normal
+        Presentation Default
+        Title Arverni_raid_Text_01_Title
+        Text Arverni_raid_Text_01_Text1
+
+
+;------------------------------------------
+
+AdviceThread Casse_vc_Thread
+    GameArea Campaign
+
+    Item Casse_vc_Text_01
+        Uninhibitable
+        Verbosity  0
+        Threshold  1
+        MaxRepeats  0
+        RepeatInterval  1
+        Attitude Normal
+        Presentation Default
+        Title Casse_vc_Text_01_Title
+        Text Casse_vc_Text_01_Text1
+
+;------------------------------------------
+
+AdviceThread Getai_vc_Thread
+    GameArea Campaign
+
+    Item Getai_vc_Text_01
+        Uninhibitable
+        Verbosity  0
+        Threshold  1
+        MaxRepeats  0
+        RepeatInterval  1
+        Attitude Normal
+        Presentation Default
+        Title Getai_vc_Text_01_Title
+        Text Getai_vc_Text_01_Text1
+
+;------------------------------------------
+
+AdviceThread Getai_raid_Thread
+    GameArea Campaign
+
+    Item Getai_raid_Text_01
+        Uninhibitable
+        Verbosity  0
+        Threshold  1
+        MaxRepeats  0
+        RepeatInterval  1
+        Attitude Normal
+        Presentation Default
+        Title Getai_raid_Text_01_Title
+        Text Getai_raid_Text_01_Text1
+
+;------------------------------------------
+
+AdviceThread Hayasdan_vc_Thread
+    GameArea Campaign
+
+    Item Hayasdan_vc_Text_01
+        Uninhibitable
+        Verbosity  0
+        Threshold  1
+        MaxRepeats  0
+        RepeatInterval  1
+        Attitude Normal
+        Presentation Default
+        Title Hayasdan_vc_Text_01_Title
+        Text Hayasdan_vc_Text_01_Text1
+
+;------------------------------------------
+
+AdviceThread Hayasdan_raid_Thread
+    GameArea Campaign
+
+    Item Hayasdan_raid_Text_01
+        Uninhibitable
+        Verbosity  0
+        Threshold  1
+        MaxRepeats  0
+        RepeatInterval  1
+        Attitude Normal
+        Presentation Default
+        Title Hayasdan_raid_Text_01_Title
+        Text Hayasdan_raid_Text_01_Text1
+
+;------------------------------------------
+
+AdviceThread Pahlava_vc_Thread
+    GameArea Campaign
+
+    Item Pahlava_vc_Text_01
+        Uninhibitable
+        Verbosity  0
+        Threshold  1
+        MaxRepeats  0
+        RepeatInterval  1
+        Attitude Normal
+        Presentation Default
+        Title Pahlava_vc_Text_01_Title
+        Text Pahlava_vc_Text_01_Text1
+
+;------------------------------------------
+
+AdviceThread Pontos_vc_Thread
+    GameArea Campaign
+
+    Item Pontos_vc_Text_01
+        Uninhibitable
+        Verbosity  0
+        Threshold  1
+        MaxRepeats  0
+        RepeatInterval  1
+        Attitude Normal
+        Presentation Default
+        Title Pontos_vc_Text_01_Title
+        Text Pontos_vc_Text_01_Text1
+
+;------------------------------------------
+
+AdviceThread Sauromatae_vc_Thread
+    GameArea Campaign
+
+    Item Sauromatae_vc_Text_01
+        Uninhibitable
+        Verbosity  0
+        Threshold  1
+        MaxRepeats  0
+        RepeatInterval  1
+        Attitude Normal
+        Presentation Default
+        Title Sauromatae_vc_Text_01_Title
+        Text Sauromatae_vc_Text_01_Text1
+
+;------------------------------------------
+
+AdviceThread Sauromatae_raid_Thread
+    GameArea Campaign
+
+    Item Sauromatae_raid_Text_01
+        Uninhibitable
+        Verbosity  0
+        Threshold  1
+        MaxRepeats  0
+        RepeatInterval  1
+        Attitude Normal
+        Presentation Default
+        Title Sauromatae_raid_Text_01_Title
+        Text Sauromatae_raid_Text_01_Text1
+
+;------------------------------------------
+
+AdviceThread Sweboz_vc_Thread
+    GameArea Campaign
+
+    Item Sweboz_vc_Text_01
+        Uninhibitable
+        Verbosity  0
+        Threshold  1
+        MaxRepeats  0
+        RepeatInterval  1
+        Attitude Normal
+        Presentation Default
+        Title Sweboz_vc_Text_01_Title
+        Text Sweboz_vc_Text_01_Text1
+
+;------------------------------------------
+
+AdviceThread Sweboz_raid_Thread
+    GameArea Campaign
+
+    Item Sweboz_raid_Text_01
+        Uninhibitable
+        Verbosity  0
+        Threshold  1
+        MaxRepeats  0
+        RepeatInterval  1
+        Attitude Normal
+        Presentation Default
+        Title Sweboz_raid_Text_01_Title
+        Text Sweboz_raid_Text_01_Text1
+
+;------------------------------------------
+
+AdviceThread Tsorim_vc_Thread
+    GameArea Campaign
+
+    Item Tsorim_vc_Text_01
+        Uninhibitable
+        Verbosity  0
+        Threshold  1
+        MaxRepeats  0
+        RepeatInterval  1
+        Attitude Normal
+        Presentation Default
+        Title Tsorim_vc_Text_01_Title
+        Text Tsorim_vc_Text_01_Text1
+
+;------------------------------------------
+
+AdviceThread Tsorim_raid_Thread
+    GameArea Campaign
+
+    Item Tsorim_raid_Text_01
+        Uninhibitable
+        Verbosity  0
+        Threshold  1
+        MaxRepeats  0
+        RepeatInterval  1
+        Attitude Normal
+        Presentation Default
+        Title Tsorim_raid_Text_01_Title
+        Text Tsorim_raid_Text_01_Text1
+
+;------------------------------------------
+
+AdviceThread Baktria_vc_Thread
+    GameArea Campaign
+
+    Item Baktria_vc_Text_01
+        Uninhibitable
+        Verbosity  0
+        Threshold  1
+        MaxRepeats  0
+        RepeatInterval  1
+        Attitude Normal
+        Presentation Default
+        Title Baktria_vc_Text_01_Title
+        Text Baktria_vc_Text_01_Text1
+
+;------------------------------------------
+
+AdviceThread Ptolemaioi_vc_Thread
+    GameArea Campaign
+
+    Item Ptolemaioi_vc_Text_01
+        Uninhibitable
+        Verbosity  0
+        Threshold  1
+        MaxRepeats  0
+        RepeatInterval  1
+        Attitude Normal
+        Presentation Default
+        Title Ptolemaioi_vc_Text_01_Title
+        Text Ptolemaioi_vc_Text_01_Text1
+
+;------------------------------------------
+
+AdviceThread Seleukid_vc_Thread
+    GameArea Campaign
+
+    Item Seleukid_vc_Text_01
+        Uninhibitable
+        Verbosity  0
+        Threshold  1
+        MaxRepeats  0
+        RepeatInterval  1
+        Attitude Normal
+        Presentation Default
+        Title Seleukid_vc_Text_01_Title
+        Text Seleukid_vc_Text_01_Text1
+
+;------------------------------------------
+
+AdviceThread Makedon_vc_Thread
+    GameArea Campaign
+
+    Item Makedon_vc_Text_01
+        Uninhibitable
+        Verbosity  0
+        Threshold  1
+        MaxRepeats  0
+        RepeatInterval  1
+        Attitude Normal
+        Presentation Default
+        Title Makedon_vc_Text_01_Title
+        Text Makedon_vc_Text_01_Text1
+
+;------------------------------------------
+
+AdviceThread Koinon_vc_Thread
+    GameArea Campaign
+
+    Item Koinon_vc_Text_01
+        Uninhibitable
+        Verbosity  0
+        Threshold  1
+        MaxRepeats  0
+        RepeatInterval  1
+        Attitude Normal
+        Presentation Default
+        Title Koinon_vc_Text_01_Title
+        Text Koinon_vc_Text_01_Text1
+
+;------------------------------------------
+
+AdviceThread Epeiros_vc_Thread
+    GameArea Campaign
+
+    Item Epeiros_vc_Text_01
+        Uninhibitable
+        Verbosity  0
+        Threshold  1
+        MaxRepeats  0
+        RepeatInterval  1
+        Attitude Normal
+        Presentation Default
+        Title Epeiros_vc_Text_01_Title
+        Text Epeiros_vc_Text_01_Text1
+
+;------------------------------------------
+
+AdviceThread Yuezhi_vc_Thread
+    GameArea Campaign
+
+    Item Yuezhi_vc_Text_01
+        Uninhibitable
+        Verbosity  0
+        Threshold  1
+        MaxRepeats  0
+        RepeatInterval  1
+        Attitude Normal
+        Presentation Default
+        Title Yuezhi_vc_Text_01_Title
+        Text Yuezhi_vc_Text_01_Text1
+
+;------------------------------------------
+
+AdviceThread Romani_vc_Thread
+    GameArea Campaign
+
+    Item Romani_vc_Text_01
+        Uninhibitable
+        Verbosity  0
+        Threshold  1
+        MaxRepeats  0
+        RepeatInterval  1
+        Attitude Normal
+        Presentation Default
+        Title Romani_vc_Text_01_Title
+        Text Romani_vc_Text_01_Text1
+
+;------------------------------------------
+
+AdviceThread Romani_raid_Thread
+    GameArea Campaign
+
+    Item Romani_raid_Text_01
+        Uninhibitable
+        Verbosity  0
+        Threshold  1
+        MaxRepeats  0
+        RepeatInterval  1
+        Attitude Normal
+        Presentation Default
+        Title Romani_raid_Text_01_Title
+        Text Romani_raid_Text_01_Text1
+
+;------------------------------------------
+
+AdviceThread Saka_vc_Thread
+    GameArea Campaign
+
+    Item Saka_vc_Text_01
+        Uninhibitable
+        Verbosity  0
+        Threshold  1
+        MaxRepeats  0
+        RepeatInterval  1
+        Attitude Normal
+        Presentation Default
+        Title Saka_vc_Text_01_Title
+        Text Saka_vc_Text_01_Text1
+
+;------------------------------------------
+
+AdviceThread Saba_vc_Thread
+    GameArea Campaign
+
+    Item Saba_vc_Text_01
+        Uninhibitable
+        Verbosity  0
+        Threshold  1
+        MaxRepeats  0
+        RepeatInterval  1
+        Attitude Normal
+        Presentation Default
+        Title Saba_vc_Text_01_Title
+        Text Saba_vc_Text_01_Text1
+
+;------------------------------------------
+
+AdviceThread Chersonesos_Event_1_Thread
+    GameArea Campaign
+
+    Item Chersonesos_Event_1_Text_01
+        Uninhibitable
+        Verbosity  0
+        Threshold  1
+        MaxRepeats  0
+        RepeatInterval  1
+        Attitude Normal
+        Presentation Default
+        Title Chersonesos_Event_1_Text_01_Title
+        Text Chersonesos_Event_1_Text_01_Text1
+
+;------------------------------------------
+
+AdviceThread Chersonesos_Event_2_Thread
+    GameArea Campaign
+
+    Item Chersonesos_Event_2_Text_01
+        Uninhibitable
+        Verbosity  0
+        Threshold  1
+        MaxRepeats  0
+        RepeatInterval  1
+        Attitude Normal
+        Presentation Default
+        Title Chersonesos_Event_2_Text_01_Title
+        Text Chersonesos_Event_2_Text_01_Text1
+
+;------------------------------------------
+
+AdviceThread Chersonesos_Event_End_Thread
+    GameArea Campaign
+
+    Item Chersonesos_Event_End_Text_01
+        Uninhibitable
+        Verbosity  0
+        Threshold  1
+        MaxRepeats  0
+        RepeatInterval  1
+        Attitude Normal
+        Presentation Default
+        Title Chersonesos_Event_3_Text_01_Title
+        Text Chersonesos_Event_3_Text_01_Text1
+
+
+;========= Epirus-Gaul interaction =========
+;-------------------------------------------
+AdviceThread Epeirote_Invitation_Thread
+    GameArea Campaign
+
+    Item Near_Chersonesos_Text_01
+	Uninhibitable
+	Verbosity  0
+	Threshold  1
+	MaxRepeats  0
+	RepeatInterval  1
+	Attitude Normal
+	Presentation Default
+	Title Epeirote_Invitation_Text_01_Title
+	Text Epeirote_Invitation_Text_01_Text1
+;-------------------------------------------
+AdviceThread Epeirote_Invitation_End_Gallic_Thread
+    GameArea Campaign
+
+    Item Epeirote_Invitation_End_Gallic_Text_01
+	Uninhibitable
+	Verbosity  0
+	Threshold  1
+	MaxRepeats  0
+	RepeatInterval  1
+	Attitude Normal
+	Presentation Default
+	Title Epeirote_Invitation_End_Gallic_Text_01_Title
+	Text Epeirote_Invitation_End_Gallic_Text_01_Text1
+;-------------------------------------------
+AdviceThread Epeirote_Invitation_End_Epirote_Thread
+    GameArea Campaign
+
+    Item Epeirote_Invitation_End_Epirote_Text_01
+	Uninhibitable
+	Verbosity  0
+	Threshold  1
+	MaxRepeats  0
+	RepeatInterval  1
+	Attitude Normal
+	Presentation Default
+	Title Near_Chersonesos_Text_01_Title
+	Text Near_Chersonesos_Text_01_Text1
+
+;=============Celtiberian Alliance======================
+;-------------------------------------------
+AdviceThread Rome_Near_Numantia_Thread
+    GameArea Campaign
+
+    Item Rome_Near_Numantia_Text_01
+	Uninhibitable
+	Verbosity  0
+	Threshold  1
+	MaxRepeats  0
+	RepeatInterval  1
+	Attitude Normal
+	Presentation Default
+	Title Rome_Near_Numantia_Text_01_Title
+	Text Rome_Near_Numantia_Text_01_Text1
+
+
+;-------------------------------------------
+AdviceThread Lusotana_Near_Numantia_Thread
+    GameArea Campaign
+
+    Item Lusotana_Near_Numantia_Text_01
+	Uninhibitable
+	Verbosity  0
+	Threshold  1
+	MaxRepeats  0
+	RepeatInterval  1
+	Attitude Normal
+	Presentation Default
+	Title Lusotana_Near_Numantia_Text_01_Title
+	Text Lusotana_Near_Numantia_Text_01_Text1
+
+
+;-------------------------------------------
+AdviceThread Lusotana_Attacks_Numantia_Thread
+    GameArea Campaign
+
+    Item Lusotana_Attacks_Numantia_Text_01
+	Uninhibitable
+	Verbosity  0
+	Threshold  1
+	MaxRepeats  0
+	RepeatInterval  1
+	Attitude Normal
+	Presentation Default
+	Title Lusotana_Attacks_Numantia_Text_01_Title
+	Text Lusotana_Attacks_Numantia_Text_01_Text1
+
+
+;-------------------------------------------
+AdviceThread Celtiberi_Aid_Lusotana_Thread
+    GameArea Campaign
+
+    Item Celtiberi_Aid_Lusotana_Text_01
+	Uninhibitable
+	Verbosity  0
+	Threshold  1
+	MaxRepeats  0
+	RepeatInterval  1
+	Attitude Normal
+	Presentation Default
+	Title Celtiberi_Aid_Lusotana_Text_01_Title
+	Text Celtiberi_Aid_Lusotana_Text_01_Text1
+
+
+;-------------------------------------------
+AdviceThread Arverni_Near_Numantia_Thread
+    GameArea Campaign
+
+    Item Arverni_Near_Numantia_Text_01
+	Uninhibitable
+	Verbosity  0
+	Threshold  1
+	MaxRepeats  0
+	RepeatInterval  1
+	Attitude Normal
+	Presentation Default
+	Title Arverni_Near_Numantia_Text_01_Title
+	Text Arverni_Near_Numantia_Text_01_Text1
+
+
+;-------------------------------------------
+AdviceThread Aedui_Near_Numantia_Thread
+    GameArea Campaign
+
+    Item Aedui_Near_Numantia_Text_01
+	Uninhibitable
+	Verbosity  0
+	Threshold  1
+	MaxRepeats  0
+	RepeatInterval  1
+	Attitude Normal
+	Presentation Default
+	Title Aedui_Near_Numantia_Text_01_Title
+	Text Aedui_Near_Numantia_Text_01_Text1
+
+
+;-------------------------------------------
+AdviceThread Qarthadast_Near_Numantia_Thread
+    GameArea Campaign
+
+    Item Qarthadast_Near_Numantia_Text_01
+	Uninhibitable
+	Verbosity  0
+	Threshold  1
+	MaxRepeats  0
+	RepeatInterval  1
+	Attitude Normal
+	Presentation Default
+	Title Qarthadast_Near_Numantia_Text_01_Title
+	Text Qarthadast_Near_Numantia_Text_01_Text1
+
+
+;-------------------------------------------
+AdviceThread Casse_Near_Numantia_Thread
+    GameArea Campaign
+
+    Item Casse_Near_Numantia_Text_01
+	Uninhibitable
+	Verbosity  0
+	Threshold  1
+	MaxRepeats  0
+	RepeatInterval  1
+	Attitude Normal
+	Presentation Default
+	Title Casse_Near_Numantia_Text_01_Title
+	Text Casse_Near_Numantia_Text_01_Text1
+
+
+;-------------------------------------------
+AdviceThread Rome_Near_Messana_Thread
+    GameArea Campaign
+
+    Item Rome_Near_Messana_Text_01
+	Uninhibitable
+	Verbosity  0
+	Threshold  1
+	MaxRepeats  0
+	RepeatInterval  1
+	Attitude Normal
+	Presentation Default
+	Title Rome_Near_Messana_Text_01_Title
+	Text Rome_Near_Messana_Text_01_Text1
+
+
+;-------------------------------------------
+AdviceThread Yuezhi_Invasion_Thread
+    GameArea Campaign
+
+    Item Yuezhi_Invasion_Text_01
+	Uninhibitable
+	Verbosity  0
+	Threshold  1
+	MaxRepeats  0
+	RepeatInterval  1
+	Attitude Normal
+	Presentation Default
+	Title Yuezhi_Invasion_Text_01_Title
+	Text Yuezhi_Invasion_Text_01_Text1
+
+
+;-------------------------------------------
+AdviceThread Yuezhi_Near_Chighu_Thread
+    GameArea Campaign
+
+    Item Yuezhi_Near_Chighu_Text_01
+	Uninhibitable
+	Verbosity  0
+	Threshold  1
+	MaxRepeats  0
+	RepeatInterval  1
+	Attitude Normal
+	Presentation Default
+	Title Yuezhi_Near_Chighu_Text_01_Title
+	Text Yuezhi_Near_Chighu_Text_01_Text1
+
+
+;-------------------------------------------
+AdviceThread Rhegion_Rebel_Reminder_Thread
+    GameArea Campaign
+
+    Item Rhegion_Rebel_Reminder_Text_01
+	Uninhibitable
+	Verbosity  0
+	Threshold  1
+	MaxRepeats  0
+	RepeatInterval  1
+	Attitude Normal
+	Presentation Default
+	Title Rhegion_Rebel_Reminder_Text_01_Title
+	Text Rhegion_Rebel_Reminder_Text_01_Text1
+
+
+;-------------------------------------------
+AdviceThread Near_Rhegion_Rebel_Reminder_Thread
+    GameArea Campaign
+
+    Item Near_Rhegion_Rebel_Reminder_Text_01
+	Uninhibitable
+	Verbosity  0
+	Threshold  1
+	MaxRepeats  0
+	RepeatInterval  1
+	Attitude Normal
+	Presentation Default
+	Title Near_Rhegion_Rebel_Reminder_Text_01_Title
+	Text Near_Rhegion_Rebel_Reminder_Text_01_Text1
+
+
+;-------------------------------------------
+AdviceThread Rhegion_Rebel_Captured_Thread
+    GameArea Campaign
+
+    Item Rhegion_Rebel_Captured_Text_01
+	Uninhibitable
+	Verbosity  0
+	Threshold  1
+	MaxRepeats  0
+	RepeatInterval  1
+	Attitude Normal
+	Presentation Default
+	Title Rhegion_Rebel_Captured_Text_01_Title
+	Text Rhegion_Rebel_Captured_Text_01_Text1
+
+
+;-------------------------------------------
+AdviceThread Polybian_Reforms_Thread
+    GameArea Campaign
+
+    Item Polybian_Reforms_Text_01
+	Uninhibitable
+	Verbosity  0
+	Threshold  1
+	MaxRepeats  0
+	RepeatInterval  1
+	Attitude Normal
+	Presentation Default
+	Title Polybian_Reforms_Text_01_Title
+	Text Polybian_Reforms_Text_01_Text1
+
+
+;-------------------------------------------
+AdviceThread Marian_Reforms_Thread
+    GameArea Campaign
+
+    Item Marian_Reforms_Text_01
+	Uninhibitable
+	Verbosity  0
+	Threshold  1
+	MaxRepeats  0
+	RepeatInterval  1
+	Attitude Normal
+	Presentation Default
+	Title Marian_Reforms_Text_01_Title
+	Text Marian_Reforms_Text_01_Text1
+
+
+;-------------------------------------------
+AdviceThread Augustan_Reforms_Thread
+    GameArea Campaign
+
+    Item Augustan_Reforms_Text_01
+	Uninhibitable
+	Verbosity  0
+	Threshold  1
+	MaxRepeats  0
+	RepeatInterval  1
+	Attitude Normal
+	Presentation Default
+	Title Augustan_Reforms_Text_01_Title
+	Text Augustan_Reforms_Text_01_Text1
+
+
+;-------------------------------------------
+AdviceThread Aedui_Celt_Reform_1
+    GameArea Campaign
+
+    Item Aedui_Celt_Reform_1_Text_01
+	Uninhibitable
+	Verbosity  0
+	Threshold  1
+	MaxRepeats  0
+	RepeatInterval  1
+	Attitude Normal
+	Presentation Default
+	Title Aedui_Celt_Reform_1_Text_01_Title
+	Text Aedui_Celt_Reform_1_Text_01_Text1
+
+
+;-------------------------------------------
+AdviceThread Arverni_Celt_Reform_1
+    GameArea Campaign
+
+    Item Aedui_Celt_Reform_1_Text_01
+	Uninhibitable
+	Verbosity  0
+	Threshold  1
+	MaxRepeats  0
+	RepeatInterval  1
+	Attitude Normal
+	Presentation Default
+	Title Aedui_Celt_Reform_1_Text_01_Title
+	Text Aedui_Celt_Reform_1_Text_01_Text1
+
+
+;-------------------------------------------
+AdviceThread Casse_Celt_Reform_1
+    GameArea Campaign
+
+    Item Aedui_Celt_Reform_1_Text_01
+	Uninhibitable
+	Verbosity  0
+	Threshold  1
+	MaxRepeats  0
+	RepeatInterval  1
+	Attitude Normal
+	Presentation Default
+	Title Aedui_Celt_Reform_1_Text_01_Title
+	Text Aedui_Celt_Reform_1_Text_01_Text1
+
+
+;-------------------------------------------
+AdviceThread Aedui_Celt_Reform_2
+    GameArea Campaign
+
+    Item Aedui_Celt_Reform_2_Text_01
+	Uninhibitable
+	Verbosity  0
+	Threshold  1
+	MaxRepeats  0
+	RepeatInterval  1
+	Attitude Normal
+	Presentation Default
+	Title Aedui_Celt_Reform_2_Text_01_Title
+	Text Aedui_Celt_Reform_2_Text_01_Text1
+
+
+;-------------------------------------------
+AdviceThread Arverni_Celt_Reform_2
+    GameArea Campaign
+
+    Item Aedui_Celt_Reform_2_Text_01
+	Uninhibitable
+	Verbosity  0
+	Threshold  1
+	MaxRepeats  0
+	RepeatInterval  1
+	Attitude Normal
+	Presentation Default
+	Title Aedui_Celt_Reform_2_Text_01_Title
+	Text Aedui_Celt_Reform_2_Text_01_Text1
+
+
+;-------------------------------------------
+AdviceThread Casse_Celt_Reform_2
+    GameArea Campaign
+
+    Item Aedui_Celt_Reform_2_Text_01
+	Uninhibitable
+	Verbosity  0
+	Threshold  1
+	MaxRepeats  0
+	RepeatInterval  1
+	Attitude Normal
+	Presentation Default
+	Title Aedui_Celt_Reform_2_Text_01_Title
+	Text Aedui_Celt_Reform_2_Text_01_Text1
+
+
+;-------------------------------------------
+AdviceThread Saka_Reforms_Message
+    GameArea Campaign
+
+    Item Saka_Reforms_Message_Text_01
+	Uninhibitable
+	Verbosity  0
+	Threshold  1
+	MaxRepeats  0
+	RepeatInterval  1
+	Attitude Normal
+	Presentation Default
+	Title Saka_Reforms_Message_Text_01_Title
+	Text Saka_Reforms_Message_Text_01_Text1
+
+
+;-------------------------------------------
+AdviceThread Comes_Of_Age_Agoge_Advisor_Thread 
+    GameArea Campaign
+
+    Item Comes_Of_Age_Agoge_Advisor_Text_01
+	Uninhibitable
+	Verbosity  0
+	Threshold  1
+	MaxRepeats  0
+	RepeatInterval  1
+	Attitude Normal
+	Presentation Default
+	Title Comes_Of_Age_Agoge_Advisor_Text_01_Title
+	Text Comes_Of_Age_Agoge_Advisor_Text_01_Text1
+
+
+;-------------------------------------------
+AdviceThread Character_Begins_Agoge_Thread
+    GameArea Campaign
+
+    Item Character_Begins_Agoge_Text_01
+	Uninhibitable
+	Verbosity  0
+	Threshold  1
+	MaxRepeats  0
+	RepeatInterval  1
+	Attitude Normal
+	Presentation Default
+	Title Character_Begins_Agoge_Text_01_Title
+	Text Character_Begins_Agoge_Text_01_Text1
+
+
+;-------------------------------------------
+AdviceThread Character_Begins_Paidiskos_Thread
+    GameArea Campaign
+
+    Item Character_Begins_Paidiskos_Text_01
+	Uninhibitable
+	Verbosity  0
+	Threshold  1
+	MaxRepeats  0
+	RepeatInterval  1
+	Attitude Normal
+	Presentation Default
+	Title Character_Begins_Paidiskos_Text_01_Title
+	Text Character_Begins_Paidiskos_Text_01_Text1
+
+
+;-------------------------------------------
+AdviceThread Character_Begins_Krypteia_Thread
+    GameArea Campaign
+
+    Item Character_Begins_Krypteia_Text_01
+	Uninhibitable
+	Verbosity  0
+	Threshold  1
+	MaxRepeats  0
+	RepeatInterval  1
+	Attitude Normal
+	Presentation Default
+	Title Character_Begins_Krypteia_Text_01_Title
+	Text Character_Begins_Krypteia_Text_01_Text1
+
+
+;-------------------------------------------
+AdviceThread Character_Completes_Agoge_Thread
+    GameArea Campaign
+
+    Item Character_Completes_Agoge_Text_01
+	Uninhibitable
+	Verbosity  0
+	Threshold  1
+	MaxRepeats  0
+	RepeatInterval  1
+	Attitude Normal
+	Presentation Default
+	Title Character_Completes_Agoge_Text_01_Title
+	Text Character_Completes_Agoge_Text_01_Text1
+
+
+;--------Xanthippus------------------------
+AdviceThread Xanthippus_Thread
+    GameArea Campaign
+
+    Item Xanthippus_Text_01
+        Uninhibitable
+        Verbosity  0
+        Threshold  1
+        MaxRepeats  0
+        RepeatInterval  1
+        Attitude Normal
+        Presentation Default
+        Title Xanthippus_Text_01_Title
+        Text Xanthippus_Text_01_Text1
+
+
+;-------------------------------------------
+AdviceThread Naravas_Thread
+    GameArea Campaign
+
+    Item Naravas_Text_01
+        Uninhibitable
+        Verbosity  0
+        Threshold  1
+        MaxRepeats  0
+        RepeatInterval  1
+        Attitude Normal
+        Presentation Default
+        Title Naravas_Text_01_Title
+        Text Naravas_Text_01_Text1
+
+
+;-------------------------------------------
+AdviceThread Shahanshah_Thread
+    GameArea Campaign
+
+    Item Shahanshah_Text_01
+	Uninhibitable
+	Verbosity  0
+	Threshold  1
+	MaxRepeats  0
+	RepeatInterval  1
+	Attitude Normal
+	Presentation Default
+	Title Shahanshah_Text_01_Title
+	Text Shahanshah_Text_01_Text1
+
+
+;------------------------------------------
+
+;=======================================================
+;==  TRIGGER DATA STARTS HERE
+;=======================================================
+
+
+;------------------------------------------
+Trigger 2156_Generic_Script_Trigger
+    WhenToTest ScrollAdviceRequested
+
+    Condition ScrollAdviceRequested help_scroll
+
+    AdviceThread Generic_Script_Thread  0 
+
+;------------------------------------------
+
+Trigger 2150_EBBS_Trigger1
+    WhenToTest ButtonPressed
+
+    Condition ButtonPressed faction_button
+
+    AdviceThread EBBS_Thread  1
+
+;------------------------------------------
+
+Trigger 2151_EBBS_Trigger2
+    WhenToTest ButtonPressed
+
+    Condition ButtonPressed end_turn
+
+    AdviceThread EBBS_Thread  1
+
+;------------------------------------------
+
+Trigger 2152_EBBS_Trigger3
+    WhenToTest ButtonPressed
+
+    Condition ButtonPressed construction_button
+
+    AdviceThread EBBS_Thread  1
+
+;------------------------------------------
+
+Trigger 2153_EBBS_Trigger4
+    WhenToTest ButtonPressed
+
+    Condition ButtonPressed recruitment_button
+
+    AdviceThread EBBS_Thread  1
+
+;------------------------------------------
+
+Trigger 2154_EBBS_Trigger5
+    WhenToTest SettlementSelected
+
+    AdviceThread EBBS_Thread  1
+
+;------------------------------------------
+
+Trigger 2155_EBBS_Trigger6
+    WhenToTest FactionTurnStart
+
+    Condition FactionIsLocal
+	and I_TurnNumber != 0
+
+    AdviceThread EBBS_Thread  1

@@ -1,0 +1,101 @@
+script
+
+	prepare_for_battle
+		
+	label_unit 1 0 0 general
+	label_unit 1 0 1 peltastai
+	label_unit 1 0 2 phalanx
+	label_unit 1 0 3 phalanx1
+	label_unit 1 0 4 phalanx2
+	label_unit 1 0 5 phalanx3
+	label_unit 1 0 6 phalanx4
+	label_unit 1 0 7 phalanx5
+	label_unit 1 0 8 hoplitai
+	label_unit 1 0 9 hetairoi
+	label_unit 1 0 10 thess
+	label_unit 1 0 11 prod
+	label_unit 1 0 12 skirm
+	label_unit 1 0 13 hillmen
+	label_unit 1 0 14 archers
+	label_unit 1 0 15 shuban
+	label_unit 1 0 16 ekdromoi
+	label_unit 1 0 17 ekdromoi1
+	label_unit 1 0 18 elephants
+	label_unit 1 0 19 elephants1
+		
+	while ! I_BattleStarted
+	end_while
+
+	ai_active_set off
+	camera_restrictions_set off
+
+;	battle_wait 2
+;	define_unit_group antigonos general peltastai phalanx phalanx1 phalanx2 phalanx3 phalanx4 phalanx5 hoplitai hetairoi thess prod skirm hillmen archers shuban ekdromoi ekdromoi1 elephants elephants1
+;
+;	battle_wait 1
+;	unit_group_order_relative_move_formed antigonos 0 500
+;	
+;	battle_wait 30
+;	release_unit general
+;	release_unit peltastai
+;	release_unit phalanx
+;	release_unit phalanx1
+;	release_unit phalanx2
+;	release_unit phalanx3
+;	release_unit phalanx4
+;	release_unit phalanx5
+;	release_unit hoplitai
+;	release_unit hetairoi
+;	release_unit thess
+;	release_unit prod
+;	release_unit skirm
+;	release_unit hillmen
+;	release_unit archers
+;	release_unit shuban
+;	release_unit ekdromoi
+;	release_unit ekdromoi1
+;	release_unit elephants
+;	release_unit elephants1
+
+	monitor_conditions I_UnitEnemyUnitInRadius hillmen 150
+		battle_wait 1
+		release_unit general
+		release_unit peltastai
+		release_unit phalanx
+		release_unit phalanx1
+		release_unit phalanx2
+		release_unit phalanx3
+		release_unit phalanx4
+		release_unit phalanx5
+		release_unit hoplitai
+		release_unit hetairoi
+		release_unit thess
+		release_unit prod
+		release_unit skirm
+		release_unit hillmen
+	end_monitor
+
+	monitor_conditions I_UnitEnemyUnitInRadius archers 200
+		battle_wait 1
+		release_unit archers
+	end_monitor
+	
+	monitor_conditions I_UnitEnemyUnitInRadius shuban 200
+		battle_wait 1
+		release_unit shuban
+	end_monitor
+	
+	monitor_conditions I_UnitEnemyUnitInRadius elephants 200
+		battle_wait 1
+		release_unit ekdromoi
+		release_unit elephants
+	end_monitor
+	
+	monitor_conditions I_UnitEnemyUnitInRadius elephants1 200
+		battle_wait 1
+		release_unit ekdromoi1
+		release_unit elephants1
+	end_monitor
+	
+
+end_script

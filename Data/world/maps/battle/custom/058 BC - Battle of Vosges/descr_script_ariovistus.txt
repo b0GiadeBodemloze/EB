@@ -1,0 +1,207 @@
+script
+
+	prepare_for_battle
+
+
+; *********************************************************************************************
+;	SPQR - Alliance 0
+; *********************************************************************************************
+
+;Caivs
+	label_unit 0 0 0 consul
+        label_unit 0 0 1 legio
+	label_unit 0 0 2 legio1
+	label_unit 0 0 3 legio2
+	label_unit 0 0 4 legio3
+	label_unit 0 0 5 legio4
+	label_unit 0 0 6 legio5
+	label_unit 0 0 7 legio6
+	label_unit 0 0 8 legio7
+	label_unit 0 0 9 legio8
+	label_unit 0 0 10 legio9
+	label_unit 0 0 11 legio10
+	label_unit 0 0 12 legio11
+	label_unit 0 0 13 gaul
+	label_unit 0 0 14 gaul1
+	
+
+
+; *********************************************************************************************
+;	Pontus - Alliance 1
+; *********************************************************************************************
+
+;Ariovistus
+	label_unit 1 0 0 chief
+	label_unit 1 0 1 spear
+	label_unit 1 0 2 spear1
+	label_unit 1 0 3 spear2
+	label_unit 1 0 4 young
+	label_unit 1 0 5 young1
+	label_unit 1 0 6 vets
+	label_unit 1 0 7 vets1
+	label_unit 1 0 8 guard
+	label_unit 1 0 9 levy
+	label_unit 1 0 10 sword
+	label_unit 1 0 11 cav
+	label_unit 1 0 12 cav1
+	label_unit 1 0 13 cav2
+	label_unit 1 0 14 cav3
+	label_unit 1 0 15 club
+        label_unit 1 0 16 club1
+        label_unit 1 0 17 club2
+        label_unit 1 0 18 sword1
+        
+
+; *********************************************************************************************
+;	INITIALISATION
+; *********************************************************************************************
+
+	while ! I_BattleStarted					; Wait for deployment
+	end_while
+	ai_active_set off
+	camera_restrictions_set off
+	
+
+; *********************************************************************************************
+
+	
+	while I_InBattle
+ 
+        if I_LocalFaction germans
+
+        battle_wait 1
+
+        unit_set_skirmish_mode gaul off
+        unit_set_skirmish_mode gaul1 off
+        unit_set_skirmish_mode cav off
+        unit_set_skirmish_mode cav1 off
+        unit_set_skirmish_mode cav2 off
+        unit_set_skirmish_mode cav3 off
+        unit_set_skirmish_mode young off
+        unit_set_skirmish_mode young1 off
+
+
+
+        battle_wait 2
+
+	unit_order_attack_unit gaul1 cav2 run
+	unit_order_attack_unit legio3 levy run
+        unit_order_attack_unit legio2 spear1 run
+	unit_order_attack_unit legio1 spear2 run
+	unit_order_attack_unit legio sword run
+	unit_order_attack_unit gaul cav run
+        
+
+        battle_wait 2
+
+	unit_order_attack_unit legio4 sword run
+	unit_order_attack_unit legio5 young1 run
+        unit_order_attack_unit legio6 young run
+	unit_order_attack_unit legio7 levy run
+	
+
+
+        battle_wait 30
+
+	unit_order_attack_unit legio8 sword1 run
+	unit_order_attack_unit legio9 sword1 run
+        unit_order_attack_unit legio10 cav3 run
+	unit_order_attack_unit legio11 club2 run
+
+        battle_wait 15
+
+        release_unit consul
+	release_unit gaul
+	release_unit gaul1
+	release_unit legio
+        release_unit legio1
+	release_unit legio2
+	release_unit legio3
+        release_unit legio4
+	release_unit legio5
+        release_unit legio6
+        release_unit legio7
+	release_unit legio8
+	release_unit legio9
+        release_unit legio10
+	release_unit legio11
+       
+        end_if
+
+
+
+	if I_LocalFaction seleucid
+
+        battle_wait 1
+
+        unit_set_skirmish_mode cav off
+        unit_set_skirmish_mode cav1 off
+        unit_set_skirmish_mode cav2 off
+        unit_set_skirmish_mode cav3 off
+        unit_set_skirmish_mode young off
+        unit_set_skirmish_mode young1 off
+        unit_set_skirmish_mode gaul off
+        unit_set_skirmish_mode gaul1 off
+
+        
+        battle_wait 2
+
+	unit_order_attack_unit cav  gaul run
+	unit_order_attack_unit cav1 gaul run
+        unit_order_attack_unit cav2 gaul1 run
+	unit_order_attack_unit cav3 gaul1 run
+	unit_order_attack_unit club gaul run
+	unit_order_attack_unit club1 gaul run
+        unit_order_attack_unit club2 gaul1 run
+	unit_order_attack_unit sword1 gaul1 run
+
+        battle_wait 1
+
+	unit_order_attack_unit spear1 legio2 run
+	unit_order_attack_unit spear2 legio1 run
+        unit_order_attack_unit spear legio1 run
+	unit_order_attack_unit young legio2 run
+	unit_order_attack_unit young1 legio1 run
+        unit_order_attack_unit levy legio3 run
+	unit_order_attack_unit sword legio run
+
+        battle_wait 20
+
+	unit_order_attack_unit vets legio2 run
+	unit_order_attack_unit vets1 legio1 run
+        unit_order_attack_unit guard legio6 run
+	unit_order_attack_unit chief legio5 run
+
+        battle_wait 50
+
+        release_unit chief
+	release_unit cav
+	release_unit cav1
+	release_unit cav2
+        release_unit cav3
+	release_unit spear
+	release_unit spear1
+        release_unit spear2
+	release_unit young
+        release_unit young1
+        release_unit levy
+	release_unit sword
+	release_unit vets
+        release_unit vets1
+	release_unit guard
+        release_unit club
+	release_unit club1
+        release_unit club2
+	release_unit sword1
+
+
+        end_if
+
+		
+
+	
+		
+
+	end_while
+
+end_script

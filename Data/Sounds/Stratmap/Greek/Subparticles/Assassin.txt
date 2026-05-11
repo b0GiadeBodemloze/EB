@@ -1,0 +1,84 @@
+		type Assassin
+			vocal Death_Cry
+				event delay 0
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Greek_Assassin_Death_Cry_1.wav
+					Greek_Assassin_Death_Cry_2.wav
+					Greek_Assassin_Death_Cry_3.wav
+				end
+			vocal Entering_City
+				event delay 0 pref SFX volume 0
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					door_close.wav
+					door_close.wav
+					door_close.wav
+				end
+			vocal Exiting_City
+				event delay 0 pref SFX volume 0
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					door_open.wav
+					door_open.wav
+					door_open.wav
+				end
+			vocal Joins_Army
+				event 
+					folder eb/data/sounds/Stratmap/Greek/Assasin
+					Assasin_joins_army_1.wav
+					Assasin_joins_army_2.wav
+					Assasin_joins_army_3.wav
+				end
+			vocal Leaves_Army
+				event 
+					folder eb/data/sounds/Stratmap/Greek/Assasin
+					Assasin_leaves_army_1.wav
+					Assasin_leaves_army_2.wav
+					Assasin_leaves_army_3.wav
+				end
+			vocal Movement_BlackOps
+				event 
+					folder eb/data/sounds/Stratmap/Greek/Assasin
+					Assasin_movement_blackops_1.wav
+					Assasin_movement_blackops_2.wav
+					Assasin_movement_blackops_3.wav
+					Assasin_movement_blackops_4.wav
+					Assasin_movement_blackops_5.wav
+				end
+			vocal Movement_Completed
+				event 
+					folder eb/data/sounds/Stratmap/Greek/Assasin
+					Assasin_movement_completed_1.wav
+					Assasin_movement_completed_2.wav
+					Assasin_movement_completed_3.wav
+				end
+			vocal Movement_Disembark
+				event 
+					folder eb/data/sounds/Stratmap/Greek/Assasin
+					Assasin_movement_disembark_1.wav
+					Assasin_movement_disembark_2.wav
+				end
+			vocal Movement_Embark
+				event 
+					folder eb/data/sounds/Stratmap/Greek/Assasin
+					Assasin_movement_embark_1.wav
+					Assasin_movement_embark_2.wav
+					Assasin_movement_embark_3.wav
+				end
+			vocal Movement_Ordered
+				event 
+					folder eb/data/sounds/Stratmap/Greek/Assasin
+					Assasin_movement_ordered.wav
+				end
+			vocal Movement_Ordered_Illegal_Move
+				event 
+					folder eb/data/sounds/Stratmap/Greek/Assasin
+					Assasin_movement_ordered_illegal_1.wav
+					Assasin_movement_ordered_illegal_2.wav
+					Assasin_movement_ordered_illegal_3.wav
+				end
+			vocal Selected
+				event 
+					folder eb/data/sounds/Stratmap/Greek/Assasin
+					Assasin_selected_1.wav
+					Assasin_selected_2.wav
+					Assasin_selected_3.wav
+				end

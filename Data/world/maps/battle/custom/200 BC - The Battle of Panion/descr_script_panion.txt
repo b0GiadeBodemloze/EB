@@ -1,0 +1,81 @@
+script
+
+	prepare_for_battle	
+; *********************************************************************************************
+;	Arche Seleukeia - Alliance 0
+; *********************************************************************************************
+
+;Megas
+	label_unit 0 0 0 soma_as_megas
+	label_unit 0 0 1 kataphraktoi_as
+	label_unit 0 0 2 argyraspidai_as
+	label_unit 0 0 3 argyraspidai_as1
+	label_unit 0 0 4 klerouch_as
+	label_unit 0 0 5 klerouch_as1
+	label_unit 0 0 6 hypaspistai_as
+	label_unit 0 0 7 sphen_as
+	label_unit 0 0 8 elephants_as
+	label_unit 0 0 9 elephants_as1
+	label_unit 0 0 10 than_as
+	label_unit 0 0 11 than_as1
+	label_unit 0 0 12 tarentines_as
+
+;Antiochos
+	label_unit 0 1 0 soma_as_antiochos
+	label_unit 0 1 1 lonchophoroi_as
+	label_unit 0 1 2 t_argyraspidai_as
+	label_unit 0 1 3 thureophoroi_as
+	label_unit 0 1 4 keltohellenikoi_as
+	label_unit 0 1 5 thorakitai_as
+	label_unit 0 1 6 elephant_as2
+	label_unit 0 1 7 kata_elephant_as
+	label_unit 0 1 8 elephant_as3
+	label_unit 0 1 9 peltastai_as
+
+; *********************************************************************************************
+;	Ptolemaioi - Alliance 1
+; *********************************************************************************************
+
+;Skopas
+	label_unit 1 0 0 soma_ptol_skopas
+	label_unit 1 0 1 klerouchagemata_ptol
+	label_unit 1 0 2 pez_ptol
+	label_unit 1 0 3 pez_ptol1
+	label_unit 1 0 4 cretans_ptol
+	label_unit 1 0 5 aele_ptol
+	label_unit 1 0 6 aele_ptol1
+	label_unit 1 0 7 hippeis_ptol
+	label_unit 1 0 8 klerouch_ptol
+	label_unit 1 0 9 klerouch_ptol1
+	label_unit 1 0 10 cretans_ptol1
+	label_unit 1 0 11 cretans_ptol2
+
+;Aigyptios
+	label_unit 1 1 0 soma_ptol_aigyptios
+	label_unit 1 1 1 lonchoporoi_ptol1
+	label_unit 1 1 2 hoplitai_ptol
+	label_unit 1 1 3 hoplitai_ptol1
+	label_unit 1 1 4 hoplitai_ptol2
+	label_unit 1 1 5 thureophoroi_ptol
+	label_unit 1 1 6 thorakitai_ptol
+	label_unit 1 1 7 thorakitai_ptol1
+	label_unit 1 1 8 peltastai_ptol
+	label_unit 1 1 9 peltastai_ptol1
+	label_unit 1 1 10 peltastai_ptol2	
+	
+	
+	while ! I_BattleStarted
+	end_while
+	ai_active_set off
+	camera_restrictions_set off
+
+
+
+	while I_InBattle
+	
+	
+	end_while
+	
+
+
+end_script

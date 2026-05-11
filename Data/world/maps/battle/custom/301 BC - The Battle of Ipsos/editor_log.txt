@@ -1,0 +1,88 @@
+Loading from file EB/data/world/maps/battle/custom/301 BC - The Battle of Ipsos/descr_battle.txt
+Created faction romans_julii from file
+	Creating army controlled by Seleukos Nikator at 0x2e0620e0 from script
+		Creating unit (Somatophylakes Strategou (Hellenic Bodyguard Cavalry)) at 0x2dabb2d8
+		Creating unit (Hypaspistai (Hellenistic Royal Guard)) at 0x2dabb9b0
+		Creating unit (Argyraspides (Hellenic Elite Phalanx)) at 0x2e69f930
+		Creating unit (Pezhetairoi (Hellenic Medium Phalanx)) at 0x2d0eb878
+		Creating unit (Pezhetairoi (Hellenic Medium Phalanx)) at 0x2e0f7e98
+		Creating unit (Misthophoroi Hoplitai (Mercenary Greek Classical Hoplites)) at 0x2eb46f28
+		Creating unit (Hetairoi (Companion Cavalry)) at 0x2cfd4c10
+		Creating unit (Prodromoi (Successor Medium Cavalry)) at 0x2cfd9158
+		Creating unit (Hetairoi (Companion Cavalry)) at 0x2df88880
+		Creating unit (Asabârân-î Mâdâën (Median Medium Cavalry)) at 0x2dc0d770
+		Creating unit (Gund-î Paltâ (Eastern Skirmishers)) at 0x2cfd49c8
+		Creating unit (Kôfyârên-î Kâvakâzâ (Baktrian Light Infantry)) at 0x2cfd93a0
+		Creating unit (Misthophoroi Toxotai Kretikoi (Mercenary Cretan Archers)) at 0x2d0bc740
+		Creating unit (Ekdromoi Hoplitai (Greek Light Hoplites)) at 0x2d0bc988
+		Creating unit (Ekdromoi Hoplitai (Greek Light Hoplites)) at 0x2e140910
+		Creating unit (Elephantes Indikoi (Indian Elephants)) at 0x2e18a208
+		Creating unit (Elephantes Indikoi (Indian Elephants)) at 0x2e174410
+		Creating unit (Elephantes Indikoi (Indian Elephants)) at 0x2d9287f0
+		Creating unit (Elephantes Indikoi (Indian Elephants)) at 0x2d1adcf0
+		Creating unit (Daha Baexdzhyntae (Dahae Riders)) at 0x2f2d8ff0
+Created faction macedon from file
+	Creating army controlled by Antigonos Argeades at 0x2e061f60 from script
+		Creating unit (Somatophylakes Strategou (Hellenic Bodyguard Cavalry)) at 0x2f2d9238
+		Creating unit (Peltastai Makedonikoi (Hellenistic Elite Infantry)) at 0x2d8ca480
+		Creating unit (Argyraspides (Hellenic Elite Phalanx)) at 0x2d1ada80
+		Creating unit (Pezhetairoi (Hellenic Medium Phalanx)) at 0x2d078518
+		Creating unit (Pezhetairoi (Hellenic Medium Phalanx)) at 0x2d078760
+		Creating unit (Pezhetairoi (Hellenic Medium Phalanx)) at 0x2cd27718
+		Creating unit (Phalangitai Deuteroi (Hellenic Levy Phalanx)) at 0x2d078088
+		Creating unit (Phalangitai Deuteroi (Hellenic Levy Phalanx)) at 0x2d0782d0
+		Creating unit (Misthophoroi Hoplitai (Mercenary Greek Classical Hoplites)) at 0x2cd27988
+		Creating unit (Hetairoi (Companion Cavalry)) at 0x2dd8f8c8
+		Creating unit (Hippeis Thessalikoi (Thessalian Heavy Cavalry)) at 0x2d9f3088
+		Creating unit (Prodromoi (Successor Medium Cavalry)) at 0x2ee7b6e8
+		Creating unit (Asiatikoi Hippakontistai (Eastern Light Cavalry)) at 0x2c622c10
+		Creating unit (Anatolikoi Phyletai (Anatolian Hillmen)) at 0x2dd8f3d8
+		Creating unit (Toxotai Syriakoi (Syrian Archers)) at 0x2f3b53e8
+		Creating unit (Shûbân-î Fradâkhshânâ (Eastern Slingers)) at 0x2e19c088
+		Creating unit (Ekdromoi Hoplitai (Greek Light Hoplites)) at 0x2e064a60
+		Creating unit (Ekdromoi Hoplitai (Greek Light Hoplites)) at 0x2ee7cd30
+		Creating unit (Elephantes Indikoi (Indian Elephants)) at 0x2ee7cf78
+		Creating unit (Elephantes Indikoi (Indian Elephants)) at 0x2e097320
+Adding unit (Somatophylakes Strategou (Hellenic Bodyguard Cavalry)) at 0x2dabb2d8 to deployment area at 0x30d0370
+Adding unit (Hypaspistai (Hellenistic Royal Guard)) at 0x2dabb9b0 to deployment area at 0x30d0370
+Adding unit (Argyraspides (Hellenic Elite Phalanx)) at 0x2e69f930 to deployment area at 0x30d0370
+Adding unit (Pezhetairoi (Hellenic Medium Phalanx)) at 0x2d0eb878 to deployment area at 0x30d0370
+Adding unit (Pezhetairoi (Hellenic Medium Phalanx)) at 0x2e0f7e98 to deployment area at 0x30d0370
+Adding unit (Misthophoroi Hoplitai (Mercenary Greek Classical Hoplites)) at 0x2eb46f28 to deployment area at 0x30d0370
+Adding unit (Hetairoi (Companion Cavalry)) at 0x2cfd4c10 to deployment area at 0x30d0370
+Adding unit (Prodromoi (Successor Medium Cavalry)) at 0x2cfd9158 to deployment area at 0x30d0370
+Adding unit (Hetairoi (Companion Cavalry)) at 0x2df88880 to deployment area at 0x30d0370
+Adding unit (Asabârân-î Mâdâën (Median Medium Cavalry)) at 0x2dc0d770 to deployment area at 0x30d0370
+Adding unit (Gund-î Paltâ (Eastern Skirmishers)) at 0x2cfd49c8 to deployment area at 0x30d0370
+Adding unit (Kôfyârên-î Kâvakâzâ (Baktrian Light Infantry)) at 0x2cfd93a0 to deployment area at 0x30d0370
+Adding unit (Misthophoroi Toxotai Kretikoi (Mercenary Cretan Archers)) at 0x2d0bc740 to deployment area at 0x30d0370
+Adding unit (Ekdromoi Hoplitai (Greek Light Hoplites)) at 0x2d0bc988 to deployment area at 0x30d0370
+Adding unit (Ekdromoi Hoplitai (Greek Light Hoplites)) at 0x2e140910 to deployment area at 0x30d0370
+Adding unit (Elephantes Indikoi (Indian Elephants)) at 0x2e18a208 to deployment area at 0x30d0370
+Adding unit (Elephantes Indikoi (Indian Elephants)) at 0x2e174410 to deployment area at 0x30d0370
+Adding unit (Elephantes Indikoi (Indian Elephants)) at 0x2d9287f0 to deployment area at 0x30d0370
+Adding unit (Elephantes Indikoi (Indian Elephants)) at 0x2d1adcf0 to deployment area at 0x30d0370
+Adding unit (Daha Baexdzhyntae (Dahae Riders)) at 0x2f2d8ff0 to deployment area at 0x30d0370
+Adding unit (Somatophylakes Strategou (Hellenic Bodyguard Cavalry)) at 0x2f2d9238 to deployment area at 0x30d03ac
+Adding unit (Peltastai Makedonikoi (Hellenistic Elite Infantry)) at 0x2d8ca480 to deployment area at 0x30d03ac
+Adding unit (Argyraspides (Hellenic Elite Phalanx)) at 0x2d1ada80 to deployment area at 0x30d03ac
+Adding unit (Pezhetairoi (Hellenic Medium Phalanx)) at 0x2d078518 to deployment area at 0x30d03ac
+Adding unit (Pezhetairoi (Hellenic Medium Phalanx)) at 0x2d078760 to deployment area at 0x30d03ac
+Adding unit (Pezhetairoi (Hellenic Medium Phalanx)) at 0x2cd27718 to deployment area at 0x30d03ac
+Adding unit (Phalangitai Deuteroi (Hellenic Levy Phalanx)) at 0x2d078088 to deployment area at 0x30d03ac
+Adding unit (Phalangitai Deuteroi (Hellenic Levy Phalanx)) at 0x2d0782d0 to deployment area at 0x30d03ac
+Adding unit (Misthophoroi Hoplitai (Mercenary Greek Classical Hoplites)) at 0x2cd27988 to deployment area at 0x30d03ac
+Adding unit (Hetairoi (Companion Cavalry)) at 0x2dd8f8c8 to deployment area at 0x30d03ac
+Adding unit (Hippeis Thessalikoi (Thessalian Heavy Cavalry)) at 0x2d9f3088 to deployment area at 0x30d03ac
+Adding unit (Prodromoi (Successor Medium Cavalry)) at 0x2ee7b6e8 to deployment area at 0x30d03ac
+Adding unit (Asiatikoi Hippakontistai (Eastern Light Cavalry)) at 0x2c622c10 to deployment area at 0x30d03ac
+Adding unit (Anatolikoi Phyletai (Anatolian Hillmen)) at 0x2dd8f3d8 to deployment area at 0x30d03ac
+Adding unit (Toxotai Syriakoi (Syrian Archers)) at 0x2f3b53e8 to deployment area at 0x30d03ac
+Adding unit (Shûbân-î Fradâkhshânâ (Eastern Slingers)) at 0x2e19c088 to deployment area at 0x30d03ac
+Adding unit (Ekdromoi Hoplitai (Greek Light Hoplites)) at 0x2e064a60 to deployment area at 0x30d03ac
+Adding unit (Ekdromoi Hoplitai (Greek Light Hoplites)) at 0x2ee7cd30 to deployment area at 0x30d03ac
+Adding unit (Elephantes Indikoi (Indian Elephants)) at 0x2ee7cf78 to deployment area at 0x30d03ac
+Adding unit (Elephantes Indikoi (Indian Elephants)) at 0x2e097320 to deployment area at 0x30d03ac
+Load finished **************************
+
+

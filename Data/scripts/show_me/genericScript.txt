@@ -1,0 +1,8 @@
+;
+; This is a placeholder script. Its purpose is to provide a valid
+; but completely safe script to resolve the Script command in
+; the Generic_Script_Thread. See EXPORT_DESCR_ADVICE.TXT.
+;
+script
+    console_command toggle_perfect_spy
+end_script

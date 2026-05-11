@@ -1,0 +1,76 @@
+Loading from file EB/data/world/maps/battle/custom/058 BC - Battle of Vosges/descr_battle.txt
+Created faction seleucid from file
+	Creating army controlled by Caivs at 0x2c6784c0 from script
+		Creating unit (Eqvites Consvlares (Republican Consular Guard Cavalry)) at 0x2c84ade0
+		Creating unit (Cohors Reformata (Post Marian Legionary Cohort)) at 0x2ca84088
+		Creating unit (Cohors Reformata (Post Marian Legionary Cohort)) at 0x2ca842d0
+		Creating unit (Cohors Reformata (Post Marian Legionary Cohort)) at 0x2c9609f0
+		Creating unit (Cohors Reformata (Post Marian Legionary Cohort)) at 0x2c960c38
+		Creating unit (Cohors Reformata (Post Marian Legionary Cohort)) at 0x2c906680
+		Creating unit (Cohors Reformata (Post Marian Legionary Cohort)) at 0x2c9068c8
+		Creating unit (Cohors Reformata (Post Marian Legionary Cohort)) at 0x2c906b10
+		Creating unit (Cohors Reformata (Post Marian Legionary Cohort)) at 0x2c906d58
+		Creating unit (Cohors Reformata (Post Marian Legionary Cohort)) at 0x2c84c508
+		Creating unit (Cohors Reformata (Post Marian Legionary Cohort)) at 0x2c84d270
+		Creating unit (Cohors Reformata (Post Marian Legionary Cohort)) at 0x2c84db60
+		Creating unit (Cohors Reformata (Post Marian Legionary Cohort)) at 0x2c84e450
+		Creating unit (Eqvites Gallorvm (Gallic Auxiliary Cavalry) ) at 0x2c84ed40
+		Creating unit (Eqvites Gallorvm (Gallic Auxiliary Cavalry) ) at 0x2c84f630
+Created faction germans from file
+	Creating army controlled by Arágisáláz at 0x2c84ef88 from script
+		Creating unit (HerthaganautMz (Germanic Bodyguard Infantry)) at 0x2c84f878
+		Creating unit (Speutagardaz (Germanic Pikemen)) at 0x2c8505e8
+		Creating unit (Speutagardaz (Germanic Pikemen)) at 0x2c8515a0
+		Creating unit (Speutagardaz (Germanic Pikemen)) at 0x2c851b10
+		Creating unit (Jugunthiz (Germanic Skirmishers)) at 0x2c852080
+		Creating unit (Jugunthiz (Germanic Skirmishers)) at 0x2c8522c8
+		Creating unit (Dugunthiz (Germanic Spearmen)) at 0x2c852510
+		Creating unit (Dugunthiz (Germanic Spearmen)) at 0x2c852f58
+		Creating unit (ThegnMz Drugul (Germanic Heavy Infantry)) at 0x2c8531a0
+		Creating unit (GaizMz Frij (Germanic Levy Spearmen)) at 0x2c854558
+		Creating unit (HerunautMz (Germanic Swordsmen)) at 0x2c854ec0
+		Creating unit (Ridanz (Germanic Light Cavalry)) at 0x2c855108
+		Creating unit (Ridanz (Germanic Light Cavalry)) at 0x2c855b50
+		Creating unit (Ridanz (Germanic Light Cavalry)) at 0x2c855d98
+		Creating unit (Ridanz (Germanic Light Cavalry)) at 0x2c856c98
+		Creating unit (Slaganz (Germanic Club Infantry)) at 0x2c856ee0
+		Creating unit (Slaganz (Germanic Club Infantry)) at 0x2c857ac0
+		Creating unit (Slaganz (Germanic Club Infantry)) at 0x2c857d08
+		Creating unit (HerunautMz (Germanic Swordsmen)) at 0x2c8588e8
+Adding unit (Eqvites Consvlares (Republican Consular Guard Cavalry)) at 0x2c84ade0 to deployment area at 0x3280010
+Adding unit (Cohors Reformata (Post Marian Legionary Cohort)) at 0x2ca84088 to deployment area at 0x3280010
+Adding unit (Cohors Reformata (Post Marian Legionary Cohort)) at 0x2ca842d0 to deployment area at 0x3280010
+Adding unit (Cohors Reformata (Post Marian Legionary Cohort)) at 0x2c9609f0 to deployment area at 0x3280010
+Adding unit (Cohors Reformata (Post Marian Legionary Cohort)) at 0x2c960c38 to deployment area at 0x3280010
+Adding unit (Cohors Reformata (Post Marian Legionary Cohort)) at 0x2c906680 to deployment area at 0x3280010
+Adding unit (Cohors Reformata (Post Marian Legionary Cohort)) at 0x2c9068c8 to deployment area at 0x3280010
+Adding unit (Cohors Reformata (Post Marian Legionary Cohort)) at 0x2c906b10 to deployment area at 0x3280010
+Adding unit (Cohors Reformata (Post Marian Legionary Cohort)) at 0x2c906d58 to deployment area at 0x3280010
+Adding unit (Cohors Reformata (Post Marian Legionary Cohort)) at 0x2c84c508 to deployment area at 0x3280010
+Adding unit (Cohors Reformata (Post Marian Legionary Cohort)) at 0x2c84d270 to deployment area at 0x3280010
+Adding unit (Cohors Reformata (Post Marian Legionary Cohort)) at 0x2c84db60 to deployment area at 0x3280010
+Adding unit (Cohors Reformata (Post Marian Legionary Cohort)) at 0x2c84e450 to deployment area at 0x3280010
+Adding unit (Eqvites Gallorvm (Gallic Auxiliary Cavalry) ) at 0x2c84ed40 to deployment area at 0x3280010
+Adding unit (Eqvites Gallorvm (Gallic Auxiliary Cavalry) ) at 0x2c84f630 to deployment area at 0x3280010
+Adding unit (HerthaganautMz (Germanic Bodyguard Infantry)) at 0x2c84f878 to deployment area at 0x328004c
+Adding unit (Speutagardaz (Germanic Pikemen)) at 0x2c8505e8 to deployment area at 0x328004c
+Adding unit (Speutagardaz (Germanic Pikemen)) at 0x2c8515a0 to deployment area at 0x328004c
+Adding unit (Speutagardaz (Germanic Pikemen)) at 0x2c851b10 to deployment area at 0x328004c
+Adding unit (Jugunthiz (Germanic Skirmishers)) at 0x2c852080 to deployment area at 0x328004c
+Adding unit (Jugunthiz (Germanic Skirmishers)) at 0x2c8522c8 to deployment area at 0x328004c
+Adding unit (Dugunthiz (Germanic Spearmen)) at 0x2c852510 to deployment area at 0x328004c
+Adding unit (Dugunthiz (Germanic Spearmen)) at 0x2c852f58 to deployment area at 0x328004c
+Adding unit (ThegnMz Drugul (Germanic Heavy Infantry)) at 0x2c8531a0 to deployment area at 0x328004c
+Adding unit (GaizMz Frij (Germanic Levy Spearmen)) at 0x2c854558 to deployment area at 0x328004c
+Adding unit (HerunautMz (Germanic Swordsmen)) at 0x2c854ec0 to deployment area at 0x328004c
+Adding unit (Ridanz (Germanic Light Cavalry)) at 0x2c855108 to deployment area at 0x328004c
+Adding unit (Ridanz (Germanic Light Cavalry)) at 0x2c855b50 to deployment area at 0x328004c
+Adding unit (Ridanz (Germanic Light Cavalry)) at 0x2c855d98 to deployment area at 0x328004c
+Adding unit (Ridanz (Germanic Light Cavalry)) at 0x2c856c98 to deployment area at 0x328004c
+Adding unit (Slaganz (Germanic Club Infantry)) at 0x2c856ee0 to deployment area at 0x328004c
+Adding unit (Slaganz (Germanic Club Infantry)) at 0x2c857ac0 to deployment area at 0x328004c
+Adding unit (Slaganz (Germanic Club Infantry)) at 0x2c857d08 to deployment area at 0x328004c
+Adding unit (HerunautMz (Germanic Swordsmen)) at 0x2c8588e8 to deployment area at 0x328004c
+Load finished **************************
+
+

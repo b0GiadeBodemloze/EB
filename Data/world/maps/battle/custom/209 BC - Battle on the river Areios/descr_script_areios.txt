@@ -1,0 +1,108 @@
+script
+
+	prepare_for_battle
+	
+	label_unit 0 0 0 soma_antiochos
+	label_unit 0 0 1 hetairoi
+	label_unit 0 0 2 hetairoi1
+	label_unit 0 0 3 prodromoi
+	label_unit 0 0 4 hypaspistai
+	label_unit 0 0 5 argyraspides
+	label_unit 0 0 6 argyraspides1
+	label_unit 0 0 7 argyraspides2
+	label_unit 0 0 8 argyraspides3
+	label_unit 0 0 9 hypaspistai1
+	label_unit 0 0 10 archers
+	label_unit 0 0 11 archers1
+	label_unit 0 0 12 hippakontistai
+	
+	label_unit 1 0 0 baktrioi
+	label_unit 1 0 1 baktrioi1
+	
+	label_unit 1 1 0 soma_euthydemos
+	label_unit 1 1 1 kataphraktoi
+	label_unit 1 1 2 kataphraktoi1
+	label_unit 1 1 3 kataphraktoi2
+	label_unit 1 1 4 kataphraktoi3
+	label_unit 1 1 5 kataphraktoi4
+	label_unit 1 1 6 kataphraktoi5
+	label_unit 1 1 7 toxotai
+	label_unit 1 1 8 toxotai1
+		
+	while ! I_BattleStarted
+	end_while
+
+	ai_active_set off
+	camera_restrictions_set off
+
+	battle_wait 0.5
+	define_unit_group as_army prodromoi hypaspistai argyraspides argyraspides1 argyraspides2 argyraspides3 hypaspistai1 archers archers1 hippakontistai 
+
+	if I_LocalFaction romans_brutii
+		battle_wait 0.5
+		unit_group_immediate_place as_army 285 -225 0
+		
+		battle_wait 0.5
+		unit_order_attack_unit soma_antiochos baktrioi run
+		unit_order_attack_unit hetairoi baktrioi1 run
+		unit_order_attack_unit hetairoi1 baktrioi run
+	end_if
+	
+	if I_LocalFaction romans_julii
+		battle_wait 0.5
+		unit_set_armour_upgrade baktrioi 3
+		unit_set_armour_upgrade baktrioi1 3
+		
+		battle_wait 0.5
+		unit_set_weapon_upgrade baktrioi 2
+		unit_set_weapon_upgrade baktrioi 2
+	end_if
+
+	battle_wait 1
+	release_unit prodromoi
+	release_unit hypaspistai
+	release_unit argyraspides
+	release_unit argyraspides1
+	release_unit argyraspides2
+	release_unit argyraspides3
+	release_unit hypaspistai1
+	release_unit archers
+	release_unit archers1
+	release_unit hippakontistai
+	unit_order_attack_unit baktrioi hetairoi1 run
+	unit_order_attack_unit baktrioi1 hetairoi run
+	release_unit soma_euthydemos
+	release_unit kataphraktoi
+	release_unit kataphraktoi1
+	release_unit kataphraktoi2
+	release_unit kataphraktoi3
+	release_unit kataphraktoi4
+	release_unit kataphraktoi5
+	release_unit toxotai
+	release_unit toxotai1
+		
+	while I_InBattle
+	end_while
+
+	monitor_conditions I_IsUnitRouting hetairoi
+		battle_wait 1
+		release_unit baktrioi1
+	end_monitor
+
+	monitor_conditions I_IsUnitRouting hetairoi1
+		battle_wait 1
+		release_unit baktrioi
+	end_monitor
+	
+	monitor_conditions I_IsUnitRouting baktrioi
+		battle_wait 1
+		release_unit soma_antiochos
+		release_unit hetairoi1
+	end_monitor
+	
+	monitor_conditions I_IsUnitRouting baktrioi1
+		battle_wait 1
+		release_unit hetairoi
+	end_monitor
+	
+end_script

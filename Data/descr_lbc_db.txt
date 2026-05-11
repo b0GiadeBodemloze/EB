@@ -1,0 +1,62 @@
+faction romans_julii
+model greek_artillery_crew			 100
+
+faction romans_brutii
+model greek_artillery_crew			 100
+
+faction romans_scipii
+model greek_artillery_crew			 100
+
+faction saba
+model greek_artillery_crew			 100
+
+faction macedon
+model greek_artillery_crew			 100
+
+faction egypt
+model greek_artillery_crew			 100
+
+faction seleucid
+model greek_artillery_crew			 100
+
+faction carthage
+model greek_artillery_crew			 100
+
+faction parthia
+model greek_artillery_crew			 100
+
+faction pontus
+model greek_artillery_crew			 100
+
+faction gauls
+model greek_artillery_crew			 100
+
+faction germans
+model greek_artillery_crew			 100
+
+faction britons
+model greek_artillery_crew			 100
+
+faction armenia
+model greek_artillery_crew			 100
+
+faction dacia
+model greek_artillery_crew			 100
+
+faction greek_cities
+model greek_artillery_crew			 100
+
+faction numidia
+model greek_artillery_crew			 100
+
+faction scythia
+model greek_artillery_crew			 100
+
+faction spain
+model greek_artillery_crew			 100
+
+faction thrace
+model greek_artillery_crew			 100
+
+faction slaves
+model greek_artillery_crew			 100

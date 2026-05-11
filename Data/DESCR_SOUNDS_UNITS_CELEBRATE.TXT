@@ -1,0 +1,11 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;
+;; Units routing bank
+;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+DEFAULT: 3d mindist 5 priority 170 fadein 1 fadeout 3
+DEFAULT: minpitch .9 maxpitch 1.0 volume -20 probability 1
+DEFAULT: distancepriority -1 randomdelay 1  effect_level .5 pref SFX
+
+BANK: unit_celebrate

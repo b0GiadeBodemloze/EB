@@ -1,0 +1,1853 @@
+BANK: battle_events
+	cultures Carthaginian,Eastern
+			notification Allied_Army_Leader_Killed 1
+				event
+				end
+			notification Allied_Army_Leader_Killed 2
+				event
+				end
+			notification Allied_Army_Leader_Killed 3
+				event
+				end
+			notification Allied_Army_Routed 1
+				event
+				end
+			notification Allied_Army_Routed 2
+				event
+				end
+			notification Allied_Army_Routed 3
+				event
+				end
+			notification Allied_General_Routed 1
+				event
+				end
+			notification Allied_General_Routed 2
+				event
+				end
+			notification Allied_General_Routed 3
+				event
+				end
+			notification Enemy_Army_Routing 1
+				event
+				end
+			notification Enemy_Army_Routing 2
+				event
+				end
+			notification Enemy_Army_Routing 3
+				event
+				end
+			notification Enemy_General_Killed 1
+				event
+				end
+			notification Enemy_General_Killed 2
+				event
+				end
+			notification Enemy_General_Killed 3
+				event
+				end
+			notification Enemy_General_Routing 1
+				event
+				end
+			notification Enemy_General_Routing 2
+				event
+				end
+			notification Enemy_General_Routing 3
+				event
+				end
+			notification Enemy_King_Killed 1
+				event
+				end
+			notification Enemy_King_Killed 2
+				event
+				end
+			notification Enemy_King_Killed 3
+				event
+				end
+			notification Enemy_King_Routing 1
+				event
+				end
+			notification Enemy_King_Routing 2
+				event
+				end
+			notification Enemy_King_Routing 3
+				event
+				end
+			notification Enemy_Ladders_Attacking_Walls 1
+				event
+				end
+			notification Enemy_Ladders_Attacking_Walls 2
+				event
+				end
+			notification Enemy_Ladders_Attacking_Walls 3
+				event
+				end
+			notification Enemy_Reinforcements_Arrive 1
+				event
+				end
+			notification Enemy_Reinforcements_Arrive 2
+				event
+				end
+			notification Enemy_Reinforcements_Arrive 3
+				event
+				end
+			notification Enemy_Roman_Leader_Killed 1
+				event
+				end
+			notification Enemy_Roman_Leader_Killed 2
+				event
+				end
+			notification Enemy_Roman_Leader_Killed 3
+				event
+				end
+			notification Enemy_Roman_Leader_Routing 1
+				event
+				end
+			notification Enemy_Roman_Leader_Routing 2
+				event
+				end
+			notification Enemy_Roman_Leader_Routing 3
+				event
+				end
+			notification Enemy_Sapping_Damaged 1
+				event
+				end
+			notification Enemy_Sapping_Damaged 2
+				event
+				end
+			notification Enemy_Sapping_Damaged 3
+				event
+				end
+			notification Enemy_Siege_Towers_Attacking_Walls 1
+				event
+				end
+			notification Enemy_Siege_Towers_Attacking_Walls 2
+				event
+				end
+			notification Enemy_Siege_Towers_Attacking_Walls 3
+				event
+				end
+			notification Enemy_Siege_Towers_Destroyed 1
+				event
+				end
+			notification Enemy_Siege_Towers_Destroyed 2
+				event
+				end
+			notification Enemy_Siege_Towers_Destroyed 3
+				event
+				end
+			notification Enemy_Walls_Breached_By_Player 1
+				event
+				end
+			notification Enemy_Walls_Breached_By_Player 2
+				event
+				end
+			notification Enemy_Walls_Breached_By_Player 3
+				event
+				end
+			notification Enemy_Walls_Captured_By_Player 1
+				event
+				end
+			notification Enemy_Walls_Captured_By_Player 2
+				event
+				end
+			notification Enemy_Walls_Undermined_By_Player 1
+				event
+				end
+			notification Enemy_Walls_Undermined_By_Player 2
+				event
+				end
+			notification Enemy_Walls_Undermined_By_Player 3
+				event
+				end
+			notification Player_Army_Routing 1
+				event
+				end
+			notification Player_Army_Routing 2
+				event
+				end
+			notification Player_Army_Routing 3
+				event
+				end
+			notification Player_Defeat_Average 1
+				event
+				end
+			notification Player_Defeat_Average 2
+				event
+				end
+			notification Player_Defeat_Average 3
+				event
+				end
+			notification Player_Defeat_Clear 1
+				event
+				end
+			notification Player_Defeat_Clear 2
+				event
+				end
+			notification Player_Defeat_Clear 3
+				event
+				end
+			notification Player_Defeat_Close 1
+				event
+				end
+			notification Player_Defeat_Close 2
+				event
+				end
+			notification Player_Defeat_Close 3
+				event
+				end
+			notification Player_Defeat_Crushing 1
+				event
+				end
+			notification Player_Defeat_Crushing 2
+				event
+				end
+			notification Player_Defeat_Crushing 3
+				event
+				end
+			notification Player_Draw 1
+				event
+				end
+			notification Player_Draw 2
+				event
+				end
+			notification Player_Draw 3
+				event
+				end
+			notification Player_General_Killed 1
+				event
+				end
+			notification Player_General_Killed 2
+				event
+				end
+			notification Player_General_Killed 3
+				event
+				end
+			notification Player_General_Routing 1
+				event
+				end
+			notification Player_General_Routing 2
+				event
+				end
+			notification Player_General_Routing 3
+				event
+				end
+			notification Player_Ladders_Attacking_Walls 1
+				event
+				end
+			notification Player_Ladders_Attacking_Walls 2
+				event
+				end
+			notification Player_Ladders_Attacking_Walls 3
+				event
+				end
+			notification Player_Leader_Killed 1
+				event
+				end
+			notification Player_Leader_Killed 2
+				event
+				end
+			notification Player_Leader_Killed 3
+				event
+				end
+			notification Player_Leader_Routing 1
+				event
+				end
+			notification Player_Leader_Routing 2
+				event
+				end
+			notification Player_Leader_Routing 3
+				event
+				end
+			notification Player_Ram_Attacking_Gate 1
+				event
+				end
+			notification Player_Ram_Attacking_Gate 2
+				event
+				end
+			notification Player_Ram_Attacking_Walls 1
+				event
+				end
+			notification Player_Ram_Breached_Gate 1
+				event
+				end
+			notification Player_Ram_Breached_Gate 2
+				event
+				end
+			notification Player_Ram_Breached_Walls 1
+				event
+				end
+			notification Player_Reinforcements_Arrive 1
+				event
+				end
+			notification Player_Reinforcements_Arrive 2
+				event
+				end
+			notification Player_Reinforcements_Arrive 3
+				event
+				end
+			notification Player_Sapping_Begun 1
+				event
+				end
+			notification Player_Sapping_Begun 2
+				event
+				end
+			notification Player_Sapping_Begun 3
+				event
+				end
+			notification Player_Sapping_Complete 1
+				event
+				end
+			notification Player_Sapping_Damaged 1
+				event
+				end
+			notification Player_Sapping_Damaged 2
+				event
+				end
+			notification Player_Sapping_Damaged 3
+				event
+				end
+			notification Player_Sapping_Failed 1
+				event
+				end
+			notification Player_Sapping_Failed 2
+				event
+				end
+			notification Player_Siege_Towers_Attacking_Walls 1
+				event
+				end
+			notification Player_Siege_Towers_Attacking_Walls 2
+				event
+				end
+			notification Player_Siege_Towers_Attacking_Walls 3
+				event
+				end
+			notification Player_Siege_Towers_Destroyed 1
+				event
+				end
+			notification Player_Siege_Towers_Destroyed 2
+				event
+				end
+			notification Player_Time_Limit_Expired_Defeat_Average 1
+				event
+				end
+			notification Player_Time_Limit_Expired_Defeat_Average 2
+				event
+				end
+			notification Player_Time_Limit_Expired_Defeat_Clear 1
+				event
+				end
+			notification Player_Time_Limit_Expired_Defeat_Clear 2
+				event
+				end
+			notification Player_Time_Limit_Expired_Defeat_Clear 3
+				event
+				end
+			notification Player_Time_Limit_Expired_Defeat_Close 1
+				event
+				end
+			notification Player_Time_Limit_Expired_Defeat_Close 2
+				event
+				end
+			notification Player_Time_Limit_Expired_Defeat_Close 3
+				event
+				end
+			notification Player_Time_Limit_Expired_Defeat_Crushing 1
+				event
+				end
+			notification Player_Time_Limit_Expired_Defeat_Crushing 2
+				event
+				end
+			notification Player_Time_Limit_Expired_Defeat_Crushing 3
+				event
+				end
+			notification Player_Time_Limit_Expired_Draw 1
+				event
+				end
+			notification Player_Time_Limit_Expired_Draw 2
+				event
+				end
+			notification Player_Time_Limit_Expired_Draw 3
+				event
+				end
+			notification Player_Time_Limit_Expired_Victory_Average 1
+				event
+				end
+			notification Player_Time_Limit_Expired_Victory_Average 2
+				event
+				end
+			notification Player_Time_Limit_Expired_Victory_Average 3
+				event
+				end
+			notification Player_Time_Limit_Expired_Victory_Clear 1
+				event
+				end
+			notification Player_Time_Limit_Expired_Victory_Clear 2
+				event
+				end
+			notification Player_Time_Limit_Expired_Victory_Clear 3
+				event
+				end
+			notification Player_Time_Limit_Expired_Victory_Close 1
+				event
+				end
+			notification Player_Time_Limit_Expired_Victory_Close 2
+				event
+				end
+			notification Player_Time_Limit_Expired_Victory_Close 3
+				event
+				end
+			notification Player_Time_Limit_Expired_Victory_Crushing 1
+				event
+				end
+			notification Player_Time_Limit_Expired_Victory_Crushing 2
+				event
+				end
+			notification Player_Time_Limit_Expired_Victory_Crushing 3
+				event
+				end
+			notification Player_Victory_Average 1
+				event
+				end
+			notification Player_Victory_Average 2
+				event
+				end
+			notification Player_Victory_Average 3
+				event
+				end
+			notification Player_Victory_Clear 1
+				event
+				end
+			notification Player_Victory_Clear 2
+				event
+				end
+			notification Player_Victory_Clear 3
+				event
+				end
+			notification Player_Victory_Close 1
+				event
+				end
+			notification Player_Victory_Close 2
+				event
+				end
+			notification Player_Victory_Close 3
+				event
+				end
+			notification Player_Victory_Crushing 1
+				event
+				end
+			notification Player_Victory_Crushing 2
+				event
+				end
+			notification Player_Victory_Crushing 3
+				event
+				end
+			notification Player_Walls_Breached_By_Enemy 1
+				event
+				end
+			notification Player_Walls_Breached_By_Enemy 2
+				event
+				end
+			notification Player_Walls_Breached_By_Enemy 3
+				event
+				end
+			notification Player_Walls_Captured_By_Enemy 1
+				event
+				end
+			notification Player_Walls_Captured_By_Enemy 2
+				event
+				end
+			notification Player_Walls_Undermined_By_Enemy 1
+				event
+				end
+			notification Player_Walls_Undermined_By_Enemy 2
+				event	
+				end
+	cultures Nomad,Barbarian
+			notification Allied_Army_Leader_Killed 1
+				event
+				end
+			notification Allied_Army_Leader_Killed 2
+				event
+				end
+			notification Allied_Army_Leader_Killed 3
+				event
+				end
+			notification Allied_Army_Routed 1
+				event
+				end
+			notification Allied_Army_Routed 2
+				event
+				end
+			notification Allied_Army_Routed 3
+				event
+				end
+			notification Allied_General_Routed 1
+				event
+				end
+			notification Allied_General_Routed 2
+				event
+				end
+			notification Allied_General_Routed 3
+				event
+				end
+			notification Enemy_Army_Routing 1
+				event
+				end
+			notification Enemy_Army_Routing 2
+				event
+				end
+			notification Enemy_Army_Routing 3
+				event
+				end
+			notification Enemy_General_Killed 1
+				event
+				end
+			notification Enemy_General_Killed 2
+				event
+				end
+			notification Enemy_General_Killed 3
+				event
+				end
+			notification Enemy_General_Routing 1
+				event
+				end
+			notification Enemy_General_Routing 2
+				event
+				end
+			notification Enemy_General_Routing 3
+				event
+				end
+			notification Enemy_King_Killed 1
+				event
+				end
+			notification Enemy_King_Killed 2
+				event
+				end
+			notification Enemy_King_Killed 3
+				event
+				end
+			notification Enemy_King_Routing 1
+				event
+				end
+			notification Enemy_King_Routing 2
+				event
+				end
+			notification Enemy_King_Routing 3
+				event
+				end
+			notification Enemy_Ladders_Attacking_Walls 1
+				event
+				end
+			notification Enemy_Ladders_Attacking_Walls 2
+				event
+				end
+			notification Enemy_Ladders_Attacking_Walls 3
+				event
+				end
+			notification Enemy_Reinforcements_Arrive 1
+				event
+				end
+			notification Enemy_Reinforcements_Arrive 2
+				event
+				end
+			notification Enemy_Reinforcements_Arrive 3
+				event
+				end
+			notification Enemy_Roman_Leader_Killed 1
+				event
+				end
+			notification Enemy_Roman_Leader_Killed 2
+				event
+				end
+			notification Enemy_Roman_Leader_Killed 3
+				event
+				end
+			notification Enemy_Roman_Leader_Routing 1
+				event					
+				end
+			notification Enemy_Roman_Leader_Routing 2
+				event
+				end
+			notification Enemy_Roman_Leader_Routing 3
+				event
+				end
+			notification Enemy_Sapping_Damaged 1
+				event
+				end
+			notification Enemy_Sapping_Damaged 2
+				event
+				end
+			notification Enemy_Sapping_Damaged 3
+				event
+				end
+			notification Enemy_Siege_Towers_Attacking_Walls 1
+				event
+				end
+			notification Enemy_Siege_Towers_Attacking_Walls 2
+				event
+				end
+			notification Enemy_Siege_Towers_Attacking_Walls 3
+				event
+				end
+			notification Enemy_Siege_Towers_Destroyed 1
+				event
+				end
+			notification Enemy_Siege_Towers_Destroyed 2
+				event
+				end
+			notification Enemy_Siege_Towers_Destroyed 3
+				event
+				end
+			notification Enemy_Walls_Breached_By_Player 1
+				event
+				end
+			notification Enemy_Walls_Breached_By_Player 2
+				event
+				end
+			notification Enemy_Walls_Breached_By_Player 3
+				event
+				end
+			notification Enemy_Walls_Captured_By_Player 1
+				event
+				end
+			notification Enemy_Walls_Captured_By_Player 2
+				event
+				end
+			notification Enemy_Walls_Undermined_By_Player 1
+				event
+				end
+			notification Enemy_Walls_Undermined_By_Player 2
+				event
+				end
+			notification Enemy_Walls_Undermined_By_Player 3
+				event
+				end
+			notification Player_Army_Routing 1
+				event
+				end
+			notification Player_Army_Routing 2
+				event
+				end
+			notification Player_Army_Routing 3
+				event
+				end
+			notification Player_Defeat_Average 1
+				event
+				end
+			notification Player_Defeat_Average 2
+				event
+				end
+			notification Player_Defeat_Average 3
+				event
+				end
+			notification Player_Defeat_Clear 1
+				event
+				end
+			notification Player_Defeat_Clear 2
+				event
+				end
+			notification Player_Defeat_Clear 3
+				event
+				end
+			notification Player_Defeat_Close 1
+				event
+				end
+			notification Player_Defeat_Close 2
+				event
+				end
+			notification Player_Defeat_Close 3
+				event
+				end
+			notification Player_Defeat_Crushing 1
+				event
+				end
+			notification Player_Defeat_Crushing 2
+				event
+				end
+			notification Player_Defeat_Crushing 3
+				event
+				end
+			notification Player_Draw 1
+				event
+				end
+			notification Player_Draw 2
+				event
+				end
+			notification Player_Draw 3
+				event
+				end
+			notification Player_General_Killed 1
+				event
+				end
+			notification Player_General_Killed 2
+				event
+				end
+			notification Player_General_Killed 3
+				event
+				end
+			notification Player_General_Routing 1
+				event
+				end
+			notification Player_General_Routing 2
+				event
+				end
+			notification Player_General_Routing 3
+				event
+				end
+			notification Player_Ladders_Attacking_Walls 1
+				event
+				end
+			notification Player_Ladders_Attacking_Walls 2
+				event
+				end
+			notification Player_Ladders_Attacking_Walls 3
+				event
+				end
+			notification Player_Leader_Killed 1
+				event
+				end
+			notification Player_Leader_Killed 2
+				event
+				end
+			notification Player_Leader_Killed 3
+				event
+				end
+			notification Player_Leader_Routing 1
+				event
+				end
+			notification Player_Leader_Routing 2
+				event
+				end
+			notification Player_Leader_Routing 3
+				event
+				end
+			notification Player_Ram_Attacking_Gate 1
+				event
+				end
+			notification Player_Ram_Attacking_Gate 2
+				event
+				end
+			notification Player_Ram_Attacking_Walls 1
+				event
+				end
+			notification Player_Ram_Breached_Gate 1
+				event
+				end
+			notification Player_Ram_Breached_Gate 2
+				event
+				end
+			notification Player_Ram_Breached_Walls 1
+				event
+				end
+			notification Player_Reinforcements_Arrive 1
+				event
+				end
+			notification Player_Reinforcements_Arrive 2
+				event
+				end
+			notification Player_Reinforcements_Arrive 3
+				event
+				end
+			notification Player_Sapping_Begun 1
+				event
+				end
+			notification Player_Sapping_Begun 2
+				event
+				end
+			notification Player_Sapping_Begun 3
+				event
+				end
+			notification Player_Sapping_Complete 1
+				event
+				end
+			notification Player_Sapping_Damaged 1
+				event
+				end
+			notification Player_Sapping_Damaged 2
+				event
+				end
+			notification Player_Sapping_Damaged 3
+				event
+				end
+			notification Player_Sapping_Failed 1
+				event
+				end
+			notification Player_Sapping_Failed 2
+				event
+				end
+			notification Player_Siege_Towers_Attacking_Walls 1
+				event
+				end
+			notification Player_Siege_Towers_Attacking_Walls 2
+				event
+				end
+			notification Player_Siege_Towers_Attacking_Walls 3
+				event
+				end
+			notification Player_Siege_Towers_Destroyed 1
+				event
+				end
+			notification Player_Siege_Towers_Destroyed 2
+				event
+				end
+			notification Player_Time_Limit_Expired_Defeat_Average 1
+				event
+				end
+			notification Player_Time_Limit_Expired_Defeat_Average 2
+				event
+				end
+			notification Player_Time_Limit_Expired_Defeat_Clear 1
+				event
+				end
+			notification Player_Time_Limit_Expired_Defeat_Clear 2
+				event
+				end
+			notification Player_Time_Limit_Expired_Defeat_Clear 3
+				event
+				end
+			notification Player_Time_Limit_Expired_Defeat_Close 1
+				event
+				end
+			notification Player_Time_Limit_Expired_Defeat_Close 2
+				event
+				end
+			notification Player_Time_Limit_Expired_Defeat_Close 3
+				event
+				end
+			notification Player_Time_Limit_Expired_Defeat_Crushing 1
+				event
+				end
+			notification Player_Time_Limit_Expired_Defeat_Crushing 2
+				event
+				end
+			notification Player_Time_Limit_Expired_Defeat_Crushing 3
+				event
+				end
+			notification Player_Time_Limit_Expired_Draw 1
+				event
+				end
+			notification Player_Time_Limit_Expired_Draw 2
+				event
+				end
+			notification Player_Time_Limit_Expired_Draw 3
+				event
+				end
+			notification Player_Time_Limit_Expired_Victory_Average 1
+				event
+				end
+			notification Player_Time_Limit_Expired_Victory_Average 2
+				event
+				end
+			notification Player_Time_Limit_Expired_Victory_Average 3
+				event
+				end
+			notification Player_Time_Limit_Expired_Victory_Clear 1
+				event
+				end
+			notification Player_Time_Limit_Expired_Victory_Clear 2
+				event
+				end
+			notification Player_Time_Limit_Expired_Victory_Clear 3
+				event
+				end
+			notification Player_Time_Limit_Expired_Victory_Close 1
+				event
+				end
+			notification Player_Time_Limit_Expired_Victory_Close 2
+				event
+				end
+			notification Player_Time_Limit_Expired_Victory_Close 3
+				event
+				end
+			notification Player_Time_Limit_Expired_Victory_Crushing 1
+				event
+				end
+			notification Player_Time_Limit_Expired_Victory_Crushing 2
+				event
+				end
+			notification Player_Time_Limit_Expired_Victory_Crushing 3
+				event
+				end
+			notification Player_Victory_Average 1
+				event
+				end
+			notification Player_Victory_Average 2
+				event
+				end
+			notification Player_Victory_Average 3
+				event
+				end
+			notification Player_Victory_Clear 1
+				event
+				end
+			notification Player_Victory_Clear 2
+				event
+				end
+			notification Player_Victory_Clear 3
+				event
+				end
+			notification Player_Victory_Close 1
+				event
+				end
+			notification Player_Victory_Close 2
+				event
+				end
+			notification Player_Victory_Close 3
+				event
+				end
+			notification Player_Victory_Crushing 1
+				event
+				end
+			notification Player_Victory_Crushing 2
+				event
+				end
+			notification Player_Victory_Crushing 3
+				event
+				end
+			notification Player_Walls_Breached_By_Enemy 1
+				event
+				end
+			notification Player_Walls_Breached_By_Enemy 2
+				event
+				end
+			notification Player_Walls_Breached_By_Enemy 3
+				event
+				end
+			notification Player_Walls_Captured_By_Enemy 1
+				event
+				end
+			notification Player_Walls_Captured_By_Enemy 2
+				event
+				end
+			notification Player_Walls_Undermined_By_Enemy 1
+				event
+				end
+			notification Player_Walls_Undermined_By_Enemy 2
+				event
+				end
+	cultures Egyptian,Greek
+			notification Allied_Army_Leader_Killed 1
+				event
+				end
+			notification Allied_Army_Leader_Killed 2
+				event
+				end
+			notification Allied_Army_Leader_Killed 3
+				event
+				end
+			notification Allied_Army_Routed 1
+				event
+				end
+			notification Allied_Army_Routed 2
+				event
+				end
+			notification Allied_Army_Routed 3
+				event
+				end
+			notification Allied_General_Routed 1
+				event
+				end
+			notification Allied_General_Routed 2
+				event
+				end
+			notification Allied_General_Routed 3
+				event
+				end
+			notification Enemy_Army_Routing 1
+				event
+				end
+			notification Enemy_Army_Routing 2
+				event
+				end
+			notification Enemy_Army_Routing 3
+				event
+				end
+			notification Enemy_General_Killed 1
+				event
+				end
+			notification Enemy_General_Killed 2
+				event
+				end
+			notification Enemy_General_Killed 3
+				event
+				end
+			notification Enemy_General_Routing 1
+				event
+				end
+			notification Enemy_General_Routing 2
+				event
+				end
+			notification Enemy_General_Routing 3
+				event
+				end
+			notification Enemy_King_Killed 1
+				event
+				end
+			notification Enemy_King_Killed 2
+				event
+				end
+			notification Enemy_King_Killed 3
+				event
+				end
+			notification Enemy_King_Routing 1
+				event
+				end
+			notification Enemy_King_Routing 2
+				event
+				end
+			notification Enemy_King_Routing 3
+				event
+				end
+			notification Enemy_Ladders_Attacking_Walls 1
+				event
+				end
+			notification Enemy_Ladders_Attacking_Walls 2
+				event
+				end
+			notification Enemy_Ladders_Attacking_Walls 3
+				event
+				end
+			notification Enemy_Reinforcements_Arrive 1
+				event
+				end
+			notification Enemy_Reinforcements_Arrive 2
+				event
+				end
+			notification Enemy_Reinforcements_Arrive 3
+				event
+				end
+			notification Enemy_Roman_Leader_Killed 1
+				event
+				end
+			notification Enemy_Roman_Leader_Killed 2
+				event
+				end
+			notification Enemy_Roman_Leader_Killed 3
+				event
+				end
+			notification Enemy_Roman_Leader_Routing 1
+				event
+				end
+			notification Enemy_Roman_Leader_Routing 2
+				event
+				end
+			notification Enemy_Roman_Leader_Routing 3
+				event
+				end
+			notification Enemy_Sapping_Damaged 1
+				event
+				end
+			notification Enemy_Sapping_Damaged 2
+				event
+				end
+			notification Enemy_Sapping_Damaged 3
+				event
+				end
+			notification Enemy_Siege_Towers_Attacking_Walls 1
+				event
+				end
+			notification Enemy_Siege_Towers_Attacking_Walls 2
+				event
+				end
+			notification Enemy_Siege_Towers_Attacking_Walls 3
+				event
+				end
+			notification Enemy_Siege_Towers_Destroyed 1
+				event
+				end
+			notification Enemy_Siege_Towers_Destroyed 2
+				event
+				end
+			notification Enemy_Siege_Towers_Destroyed 3
+				event
+				end
+			notification Enemy_Walls_Breached_By_Player 1
+				event
+				end
+			notification Enemy_Walls_Breached_By_Player 2
+				event
+				end
+			notification Enemy_Walls_Breached_By_Player 3
+				event
+				end
+			notification Enemy_Walls_Captured_By_Player 1
+				event
+				end
+			notification Enemy_Walls_Captured_By_Player 2
+				event
+				end
+			notification Enemy_Walls_Undermined_By_Player 1
+				event
+				end
+			notification Enemy_Walls_Undermined_By_Player 2
+				event
+				end
+			notification Enemy_Walls_Undermined_By_Player 3
+				event
+				end
+			notification Player_Army_Routing 1
+				event
+				end
+			notification Player_Army_Routing 2
+				event
+				end
+			notification Player_Army_Routing 3
+				event
+				end
+			notification Player_Defeat_Average 1
+				event
+				end
+			notification Player_Defeat_Average 2
+				event
+				end
+			notification Player_Defeat_Average 3
+				event
+				end
+			notification Player_Defeat_Clear 1
+				event
+				end
+			notification Player_Defeat_Clear 2
+				event
+				end
+			notification Player_Defeat_Clear 3
+				event
+				end
+			notification Player_Defeat_Close 1
+				event
+				end
+			notification Player_Defeat_Close 2
+				event
+				end
+			notification Player_Defeat_Close 3
+				event
+				end
+			notification Player_Defeat_Crushing 1
+				event
+				end
+			notification Player_Defeat_Crushing 2
+				event
+				end
+			notification Player_Defeat_Crushing 3
+				event
+				end
+			notification Player_Draw 1
+				event
+				end
+			notification Player_Draw 2
+				event
+				end
+			notification Player_Draw 3
+				event
+				end
+			notification Player_General_Killed 1
+				event
+				end
+			notification Player_General_Killed 2
+				event
+				end
+			notification Player_General_Killed 3
+				event
+				end
+			notification Player_General_Routing 1
+				event
+				end
+			notification Player_General_Routing 2
+				event
+				end
+			notification Player_General_Routing 3
+				event
+				end
+			notification Player_Ladders_Attacking_Walls 1
+				event
+				end
+			notification Player_Ladders_Attacking_Walls 2
+				event
+				end
+			notification Player_Ladders_Attacking_Walls 3
+				event
+				end
+			notification Player_Leader_Killed 1
+				event
+				end
+			notification Player_Leader_Killed 2
+				event
+				end
+			notification Player_Leader_Killed 3
+				event
+				end
+			notification Player_Leader_Routing 1
+				event
+				end
+			notification Player_Leader_Routing 2
+				event
+				end
+			notification Player_Leader_Routing 3
+				event
+				end
+			notification Player_Ram_Attacking_Gate 1
+				event
+				end
+			notification Player_Ram_Attacking_Gate 2
+				event
+				end
+			notification Player_Ram_Attacking_Walls 1
+				event
+				end
+			notification Player_Ram_Breached_Gate 1
+				event
+				end
+			notification Player_Ram_Breached_Gate 2
+				event
+				end
+			notification Player_Ram_Breached_Walls 1
+				event
+				end
+			notification Player_Reinforcements_Arrive 1
+				event
+				end
+			notification Player_Reinforcements_Arrive 2
+				event
+				end
+			notification Player_Reinforcements_Arrive 3
+				event
+				end
+			notification Player_Sapping_Begun 1
+				event
+				end
+			notification Player_Sapping_Begun 2
+				event
+				end
+			notification Player_Sapping_Begun 3
+				event
+				end
+			notification Player_Sapping_Complete 1
+				event
+				end
+			notification Player_Sapping_Damaged 1
+				event
+				end
+			notification Player_Sapping_Damaged 2
+				event
+				end
+			notification Player_Sapping_Damaged 3
+				event
+				end
+			notification Player_Sapping_Failed 1
+				event
+				end
+			notification Player_Sapping_Failed 2
+				event
+				end
+			notification Player_Siege_Towers_Attacking_Walls 1
+				event
+				end
+			notification Player_Siege_Towers_Attacking_Walls 2
+				event
+				end
+			notification Player_Siege_Towers_Attacking_Walls 3
+				event
+				end
+			notification Player_Siege_Towers_Destroyed 1
+				event
+				end
+			notification Player_Siege_Towers_Destroyed 2
+				event
+				end
+			notification Player_Time_Limit_Expired_Defeat_Average 1
+				event
+				end
+			notification Player_Time_Limit_Expired_Defeat_Average 2
+				event
+				end
+			notification Player_Time_Limit_Expired_Defeat_Clear 1
+				event
+				end
+			notification Player_Time_Limit_Expired_Defeat_Clear 2
+				event
+				end
+			notification Player_Time_Limit_Expired_Defeat_Clear 3
+				event
+				end
+			notification Player_Time_Limit_Expired_Defeat_Close 1
+				event
+				end
+			notification Player_Time_Limit_Expired_Defeat_Close 2
+				event
+				end
+			notification Player_Time_Limit_Expired_Defeat_Close 3
+				event
+				end
+			notification Player_Time_Limit_Expired_Defeat_Crushing 1
+				event
+				end
+			notification Player_Time_Limit_Expired_Defeat_Crushing 2
+				event
+				end
+			notification Player_Time_Limit_Expired_Defeat_Crushing 3
+				event
+				end
+			notification Player_Time_Limit_Expired_Draw 1
+				event
+				end
+			notification Player_Time_Limit_Expired_Draw 2
+				event
+				end
+			notification Player_Time_Limit_Expired_Draw 3
+				event
+				end
+			notification Player_Time_Limit_Expired_Victory_Average 1
+				event
+				end
+			notification Player_Time_Limit_Expired_Victory_Average 2
+				event
+				end
+			notification Player_Time_Limit_Expired_Victory_Average 3
+				event
+				end
+			notification Player_Time_Limit_Expired_Victory_Clear 1
+				event
+				end
+			notification Player_Time_Limit_Expired_Victory_Clear 2
+				event
+				end
+			notification Player_Time_Limit_Expired_Victory_Clear 3
+				event
+				end
+			notification Player_Time_Limit_Expired_Victory_Close 1
+				event
+				end
+			notification Player_Time_Limit_Expired_Victory_Close 2
+				event
+				end
+			notification Player_Time_Limit_Expired_Victory_Close 3
+				event
+				end
+			notification Player_Time_Limit_Expired_Victory_Crushing 1
+				event
+				end
+			notification Player_Time_Limit_Expired_Victory_Crushing 2
+				event
+				end
+			notification Player_Time_Limit_Expired_Victory_Crushing 3
+				event
+				end
+			notification Player_Victory_Average 1
+				event
+				end
+			notification Player_Victory_Average 2
+				event
+				end
+			notification Player_Victory_Average 3
+				event
+				end
+			notification Player_Victory_Clear 1
+				event
+				end
+			notification Player_Victory_Clear 2
+				event
+				end
+			notification Player_Victory_Clear 3
+				event
+				end
+			notification Player_Victory_Close 1
+				event
+				end
+			notification Player_Victory_Close 2
+				event
+				end
+			notification Player_Victory_Close 3
+				event
+				end
+			notification Player_Victory_Crushing 1
+				event
+				end
+			notification Player_Victory_Crushing 2
+				event
+				end
+			notification Player_Victory_Crushing 3
+				event
+				end
+			notification Player_Walls_Breached_By_Enemy 1
+				event
+				end
+			notification Player_Walls_Breached_By_Enemy 2
+				event
+				end
+			notification Player_Walls_Breached_By_Enemy 3
+				event
+				end
+			notification Player_Walls_Captured_By_Enemy 1
+				event
+				end
+			notification Player_Walls_Captured_By_Enemy 2
+				event
+				end
+			notification Player_Walls_Undermined_By_Enemy 1
+				event
+				end
+			notification Player_Walls_Undermined_By_Enemy 2
+				event
+				end
+	cultures Roman
+			notification Allied_Army_Leader_Killed 1
+				event
+				end
+			notification Allied_Army_Leader_Killed 2
+				event
+				end
+			notification Allied_Army_Leader_Killed 3
+				event
+				end
+			notification Allied_Army_Routed 1
+				event
+				end
+			notification Allied_Army_Routed 2
+				event
+				end
+			notification Allied_Army_Routed 3
+				event
+				end
+			notification Allied_General_Routed 1
+				event
+				end
+			notification Allied_General_Routed 2
+				event
+				end
+			notification Allied_General_Routed 3
+				event
+				end
+			notification Enemy_Army_Routing 1
+				event
+				end
+			notification Enemy_Army_Routing 2
+				event
+				end
+			notification Enemy_Army_Routing 3
+				event
+				end
+			notification Enemy_General_Killed 1
+				event
+				end
+			notification Enemy_General_Killed 2
+				event
+				end
+			notification Enemy_General_Killed 3
+				event
+				end
+			notification Enemy_General_Routing 1
+				event
+				end
+			notification Enemy_General_Routing 2
+				event
+				end
+			notification Enemy_General_Routing 3
+				event
+				end
+			notification Enemy_King_Killed 1
+				event
+				end
+			notification Enemy_King_Killed 2
+				event
+				end
+			notification Enemy_King_Killed 3
+				event
+				end
+			notification Enemy_King_Routing 1
+				event
+				end
+			notification Enemy_King_Routing 2
+				event
+				end
+			notification Enemy_King_Routing 3
+				event
+				end
+			notification Enemy_Ladders_Attacking_Walls 1
+				event
+				end
+			notification Enemy_Ladders_Attacking_Walls 2
+				event
+				end
+			notification Enemy_Ladders_Attacking_Walls 3
+				event
+				end
+			notification Enemy_Reinforcements_Arrive 1
+				event
+				end
+			notification Enemy_Reinforcements_Arrive 2
+				event
+				end
+			notification Enemy_Reinforcements_Arrive 3
+				event
+				end
+			notification Enemy_Roman_Leader_Killed 1
+				event
+				end
+			notification Enemy_Roman_Leader_Killed 2
+				event
+				end
+			notification Enemy_Roman_Leader_Killed 3
+				event
+				end
+			notification Enemy_Roman_Leader_Routing 1
+				event
+				end
+			notification Enemy_Roman_Leader_Routing 2
+				event
+				end
+			notification Enemy_Roman_Leader_Routing 3
+				event
+				end
+			notification Enemy_Sapping_Damaged 1
+				event
+				end
+			notification Enemy_Sapping_Damaged 2
+				event
+				end
+			notification Enemy_Sapping_Damaged 3
+				event
+				end
+			notification Enemy_Siege_Towers_Attacking_Walls 1
+				event
+				end
+			notification Enemy_Siege_Towers_Attacking_Walls 2
+				event
+				end
+			notification Enemy_Siege_Towers_Attacking_Walls 3
+				event
+				end
+			notification Enemy_Siege_Towers_Destroyed 1
+				event
+				end
+			notification Enemy_Siege_Towers_Destroyed 2
+				event
+				end
+			notification Enemy_Siege_Towers_Destroyed 3
+				event
+				end
+			notification Enemy_Walls_Breached_By_Player 1
+				event
+				end
+			notification Enemy_Walls_Breached_By_Player 2
+				event
+				end
+			notification Enemy_Walls_Breached_By_Player 3
+				event
+				end
+			notification Enemy_Walls_Captured_By_Player 1
+				event
+				end
+			notification Enemy_Walls_Captured_By_Player 2
+				event
+				end
+			notification Enemy_Walls_Undermined_By_Player 1
+				event
+				end
+			notification Enemy_Walls_Undermined_By_Player 2
+				event
+				end
+			notification Enemy_Walls_Undermined_By_Player 3
+				event
+				end
+			notification Player_Army_Routing 1
+				event
+				end
+			notification Player_Army_Routing 2
+				event
+				end
+			notification Player_Army_Routing 3
+				event
+				end
+			notification Player_Defeat_Average 1
+				event
+				end
+			notification Player_Defeat_Average 2
+				event
+				end
+			notification Player_Defeat_Average 3
+				event
+				end
+			notification Player_Defeat_Clear 1
+				event
+				end
+			notification Player_Defeat_Clear 2
+				event
+				end
+			notification Player_Defeat_Clear 3
+				event
+				end
+			notification Player_Defeat_Close 1
+				event
+				end
+			notification Player_Defeat_Close 2
+				event
+				end
+			notification Player_Defeat_Close 3
+				event
+				end
+			notification Player_Defeat_Crushing 1
+				event
+				end
+			notification Player_Defeat_Crushing 2
+				event
+				end
+			notification Player_Defeat_Crushing 3
+				event
+				end
+			notification Player_Draw 1
+				event
+				end
+			notification Player_Draw 2
+				event
+				end
+			notification Player_Draw 3
+				event
+				end
+			notification Player_General_Killed 1
+				event
+				end
+			notification Player_General_Killed 2
+				event
+				end
+			notification Player_General_Killed 3
+				event
+				end
+			notification Player_General_Routing 1
+				event
+				end
+			notification Player_General_Routing 2
+				event
+				end
+			notification Player_General_Routing 3
+				event
+				end
+			notification Player_Ladders_Attacking_Walls 1
+				event
+				end
+			notification Player_Ladders_Attacking_Walls 2
+				event
+				end
+			notification Player_Ladders_Attacking_Walls 3
+				event
+				end
+			notification Player_Leader_Killed 1
+				event
+				end
+			notification Player_Leader_Killed 2
+				event
+				end
+			notification Player_Leader_Killed 3
+				event
+				end
+			notification Player_Leader_Routing 1
+				event
+				end
+			notification Player_Leader_Routing 2
+				event
+				end
+			notification Player_Leader_Routing 3
+				event
+				end
+			notification Player_Ram_Attacking_Gate 1
+				event
+				end
+			notification Player_Ram_Attacking_Gate 2
+				event
+				end
+			notification Player_Ram_Attacking_Walls 1
+				event
+				end
+			notification Player_Ram_Breached_Gate 1
+				event
+				end
+			notification Player_Ram_Breached_Gate 2
+				event
+				end
+			notification Player_Ram_Breached_Walls 1
+				event
+				end
+			notification Player_Reinforcements_Arrive 1
+				event
+				end
+			notification Player_Reinforcements_Arrive 2
+				event
+				end
+			notification Player_Reinforcements_Arrive 3
+				event
+				end
+			notification Player_Sapping_Begun 1
+				event
+				end
+			notification Player_Sapping_Begun 2
+				event
+				end
+			notification Player_Sapping_Begun 3
+				event
+				end
+			notification Player_Sapping_Complete 1
+				event
+				end
+			notification Player_Sapping_Damaged 1
+				event
+				end
+			notification Player_Sapping_Damaged 2
+				event
+				end
+			notification Player_Sapping_Damaged 3
+				event
+				end
+			notification Player_Sapping_Failed 1
+				event
+				end
+			notification Player_Sapping_Failed 2
+				event
+				end
+			notification Player_Siege_Towers_Attacking_Walls 1
+				event
+				end
+			notification Player_Siege_Towers_Attacking_Walls 2
+				event
+				end
+			notification Player_Siege_Towers_Attacking_Walls 3
+				event
+				end
+			notification Player_Siege_Towers_Destroyed 1
+				event
+				end
+			notification Player_Siege_Towers_Destroyed 2
+				event
+				end
+			notification Player_Time_Limit_Expired_Defeat_Average 1
+				event
+				end
+			notification Player_Time_Limit_Expired_Defeat_Average 2
+				event
+				end
+			notification Player_Time_Limit_Expired_Defeat_Clear 1
+				event
+				end
+			notification Player_Time_Limit_Expired_Defeat_Clear 2
+				event
+				end
+			notification Player_Time_Limit_Expired_Defeat_Clear 3
+				event
+				end
+			notification Player_Time_Limit_Expired_Defeat_Close 1
+				event
+				end
+			notification Player_Time_Limit_Expired_Defeat_Close 2
+				event
+				end
+			notification Player_Time_Limit_Expired_Defeat_Close 3
+				event
+				end
+			notification Player_Time_Limit_Expired_Defeat_Crushing 1
+				event
+				end
+			notification Player_Time_Limit_Expired_Defeat_Crushing 2
+				event
+				end
+			notification Player_Time_Limit_Expired_Defeat_Crushing 3
+				event
+				end
+			notification Player_Time_Limit_Expired_Draw 1
+				event
+				end
+			notification Player_Time_Limit_Expired_Draw 2
+				event
+				end
+			notification Player_Time_Limit_Expired_Draw 3
+				event
+				end
+			notification Player_Time_Limit_Expired_Victory_Average 1
+				event
+				end
+			notification Player_Time_Limit_Expired_Victory_Average 2
+				event
+				end
+			notification Player_Time_Limit_Expired_Victory_Average 3
+				event
+				end
+			notification Player_Time_Limit_Expired_Victory_Clear 1
+				event
+				end
+			notification Player_Time_Limit_Expired_Victory_Clear 2
+				event
+				end
+			notification Player_Time_Limit_Expired_Victory_Clear 3
+				event
+				end
+			notification Player_Time_Limit_Expired_Victory_Close 1
+				event
+				end
+			notification Player_Time_Limit_Expired_Victory_Close 2
+				event
+				end
+			notification Player_Time_Limit_Expired_Victory_Close 3
+				event
+				end
+			notification Player_Time_Limit_Expired_Victory_Crushing 1
+				event
+				end
+			notification Player_Time_Limit_Expired_Victory_Crushing 2
+				event
+				end
+			notification Player_Time_Limit_Expired_Victory_Crushing 3
+				event
+				end
+			notification Player_Victory_Average 1
+				event
+				end
+			notification Player_Victory_Average 2
+				event
+				end
+			notification Player_Victory_Average 3
+				event
+				end
+			notification Player_Victory_Clear 1
+				event
+				end
+			notification Player_Victory_Clear 2
+				event
+				end
+			notification Player_Victory_Clear 3
+				event
+				end
+			notification Player_Victory_Close 1
+				event
+				end
+			notification Player_Victory_Close 2
+				event
+				end
+			notification Player_Victory_Close 3
+				event
+				end
+			notification Player_Victory_Crushing 1
+				event
+				end
+			notification Player_Victory_Crushing 2
+				event
+				end
+			notification Player_Victory_Crushing 3
+				event
+				end
+			notification Player_Walls_Breached_By_Enemy 1
+				event
+				end
+			notification Player_Walls_Breached_By_Enemy 2
+				event
+				end
+			notification Player_Walls_Breached_By_Enemy 3
+				event
+				end
+			notification Player_Walls_Captured_By_Enemy 1
+				event
+				end
+			notification Player_Walls_Captured_By_Enemy 2
+				event
+				end
+			notification Player_Walls_Undermined_By_Enemy 1
+				event
+				end
+			notification Player_Walls_Undermined_By_Enemy 2
+				event
+				end

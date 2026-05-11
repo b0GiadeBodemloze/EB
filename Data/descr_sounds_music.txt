@@ -1,0 +1,1254 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;MUSIC
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+DEFAULT: priority 9999 randomdelay 0 pan .5
+DEFAULT: dry_level 1.0 wet_level 0.0
+DEFAULT: pref MUSIC STREAMED
+
+required_samples_cutoff 3
+
+;; music events timeout in seconds
+;; music state will change to the previous one if no events occured within the time out
+music_timeout   60
+music_retrigger 20
+
+;; music events fade time in seconds
+;; fading is used when the music changes from one state to another
+music_fade_in 0
+music_fade_out 3
+music_fade_out_timeout 10
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+event Prologue_Campaign_Battle_Music fadeout 3
+	folder data/sounds/music
+	CampaignBattle1-Time_2_Kill.mp3
+end
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+event TEUTOBURG_INTRO_MUSIC fadeout 3
+	folder data/sounds/music
+	Tension3-Death_Approaches.mp3
+end
+
+event TEUTOBURG_BATTLE_MUSIC fadeout 3
+	folder data/sounds/music
+	Battle3-Melee_Cafe.mp3
+end
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+DEFAULT: streamed
+
+BANK: music_bank
+
+;#####################################################################################			
+;################################# ROMAN MUSIC #######################################			
+;#####################################################################################	
+
+;;; FRONTEND
+
+	culture roman
+		state MUSIC_FRONTEND
+			event
+				folder data/sounds/music
+				EB_Main_Theme_WIP.mp3
+			end
+
+
+;;; BATTLE MAP			
+						
+			
+		state MUSIC_BATTLE_TENSION
+			event
+				folder data/sounds/music
+				EB_Tension.mp3
+			end
+			
+			
+		state MUSIC_BATTLE_MOBILIZE
+			event
+				folder data/sounds/music
+				Rom_Mobilize1.mp3
+				EB_Roman_Mobilize.mp3
+				EB_Western_Greek_Mobilization.mp3
+				EB_Roman_Mobilize.mp3
+				EB_Semitic_Mobilize.mp3
+			end
+		state MUSIC_BATTLE_BATTLE
+			event
+				folder data/sounds/music
+				EB_Roman_Battle_Theme.mp3
+				EB_Western_Greek_Battle_Theme.mp3
+				EB_Roman_Battle_Theme.mp3
+				EB_Semitic_Battle_Theme.mp3
+			end
+
+
+;;; BATTLE MAP RESULT			
+			
+					
+		state MUSIC_RESULT_WIN_CLOSE
+			event
+				folder data/sounds/music
+				EB_Victory.mp3
+			end
+		state MUSIC_RESULT_WIN_AVERAGE
+			event
+				folder data/sounds/music
+				EB_Victory.mp3
+			end
+		state MUSIC_RESULT_WIN_CRUSHING
+			event
+				folder data/sounds/music
+				EB_Victory.mp3
+			end
+		state MUSIC_RESULT_LOSE_CLOSE
+			event
+				folder data/sounds/music
+				EB_Defeat.mp3
+			end
+		state MUSIC_RESULT_LOSE_AVERAGE
+			event
+				folder data/sounds/music
+				EB_Defeat.mp3
+			end
+		state MUSIC_RESULT_LOSE_CRUSHING
+			event
+				folder data/sounds/music
+				EB_Defeat.mp3
+			end
+		state MUSIC_RESULT_DRAW
+			event
+				folder data/sounds/music
+				EB_Defeat.mp3
+			end
+
+			
+;;; CAMPMAP			
+			
+			
+			
+		state MUSIC_STRATMAP_SUMMER
+			event delay 5 volume -40
+				folder data/sounds/music
+				Rom_Camp1.mp3
+				Rom_Camp2.mp3
+				EB_Roman_Theme.mp3
+				Rom_Camp3.mp3
+				Rom_Camp4.mp3
+				Rom_Camp5.mp3
+			end	
+			
+		state MUSIC_CAMPAIGN_LOADING
+			event
+				folder data/sounds/music
+				EB_Main_Theme_Loop.mp3
+			end	
+			
+		
+		state MUSIC_PREBATTLE_SCROLL
+			event fadeout 0
+				folder data/sounds/music
+				EB_Roman_Mobilize.mp3
+			end
+			
+			
+			
+			
+		state MUSIC_RESULT_STRAT_WIN_CLOSE
+			event
+				folder data/sounds/music
+				EB_Victory.mp3		
+			end
+		state MUSIC_RESULT_STRAT_WIN_AVERAGE
+			event
+				folder data/sounds/music
+				EB_Victory.mp3		
+			end
+		state MUSIC_RESULT_STRAT_WIN_CRUSHING
+			event
+				folder data/sounds/music
+				EB_Victory.mp3		
+			end
+		state MUSIC_RESULT_STRAT_LOSE_CLOSE
+			event
+				folder data/sounds/music
+				EB_Defeat.mp3			
+			end
+		state MUSIC_RESULT_STRAT_LOSE_AVERAGE
+			event
+				folder data/sounds/music
+				EB_Defeat.mp3			
+			end
+		state MUSIC_RESULT_STRAT_LOSE_CRUSHING
+			event
+				folder data/sounds/music
+				EB_Defeat.mp3			
+			end
+		state MUSIC_RESULT_STRAT_DRAW
+			event
+				folder data/sounds/music
+				EB_Defeat.mp3			
+			end	
+
+			
+;;; CAMPAIGN RESULT				
+			
+			
+		state MUSIC_CAMPAIGN_VICTORY
+			event looped
+				folder data/sounds/music
+				EB_Victory.mp3		
+			end	
+		state MUSIC_CAMPAIGN_DEFEAT
+			event looped
+				folder data/sounds/music
+				EB_Defeat.mp3			
+			end	
+			
+
+;;; CREDITS
+
+	state MUSIC_CREDITS1 delay 3
+			event
+				folder data/sounds/music
+				EB_Main_Theme_WIP.mp3			
+			end	
+			
+	state MUSIC_CREDITS2
+			event
+				folder data/sounds/music
+				EB_Main_Theme_WIP.mp3		
+			end				
+						
+			
+;#####################################################################################			
+;############################# BARBARIAN MUSIC #######################################			
+;#####################################################################################		
+						
+	culture barbarian
+			
+;;; BATTLE MAP			
+			
+			
+		state MUSIC_BATTLE_TENSION
+			event
+				folder data/sounds/music
+				EB_Tension.mp3
+				BarbBattle18.mp3
+				BarbBattle11.mp3
+				BarbBattle34.mp3
+				EB_Tension.mp3
+				BarbBattle40.mp3
+				BarbBattle43.mp3
+			end
+			
+			
+		state MUSIC_BATTLE_MOBILIZE
+			event
+				folder data/sounds/music
+				BarbBattle3.mp3
+				EB_Barbarian_Mobilize2.mp3
+				BarbBattle3.mp3
+			end
+		state MUSIC_BATTLE_BATTLE
+			event
+				folder data/sounds/music
+				EB_Barbarian_Battle_Theme2.mp3
+				BarbBattleLong1.mp3
+				BarbBattleLong2.mp3
+				EB_Barbarian_Battle_Theme2.mp3
+				BarbBattle40.mp3
+				BarbBattle43.mp3
+			end
+
+
+;;; BATTLE MAP RESULT			
+			
+					
+		state MUSIC_RESULT_WIN_CLOSE
+			event
+				folder data/sounds/music
+				EB_Victory.mp3
+			end
+		state MUSIC_RESULT_WIN_AVERAGE
+			event
+				folder data/sounds/music
+				EB_Victory.mp3
+			end
+		state MUSIC_RESULT_WIN_CRUSHING
+			event
+				folder data/sounds/music
+				EB_Victory.mp3
+			end
+		state MUSIC_RESULT_LOSE_CLOSE
+			event
+				folder data/sounds/music
+				EB_Defeat.mp3
+			end
+		state MUSIC_RESULT_LOSE_AVERAGE
+			event
+				folder data/sounds/music
+				EB_Defeat.mp3
+			end
+		state MUSIC_RESULT_LOSE_CRUSHING
+			event
+				folder data/sounds/music
+				EB_Defeat.mp3
+			end
+		state MUSIC_RESULT_DRAW
+			event
+				folder data/sounds/music
+				EB_Defeat.mp3
+			end
+
+			
+;;; CAMPMAP
+
+
+		state MUSIC_STRATMAP_SUMMER 
+			event delay 5 volume -1
+				folder data/sounds/music
+				EB_Barbarian_Theme.mp3
+				Barb_CNH43.mp3
+				Barb_CNH45.mp3
+				Barb_PIM1.mp3
+				EB_Barbarian_Theme.mp3
+				Barb_PIM9.mp3
+				Barb_OTN4.mp3
+				Barb_OTN7.mp3
+			end
+
+		state MUSIC_CAMPAIGN_LOADING
+			event
+				folder data/sounds/music
+				EB_Main_Theme_Loop.mp3
+			end	
+					
+				
+		state MUSIC_PREBATTLE_SCROLL
+			event fadeout 0 volume 5
+				folder data/sounds/music
+				EB_Barbarian_Mobilize2.mp3
+			end
+			
+			
+			
+			
+		state MUSIC_RESULT_STRAT_WIN_CLOSE
+			event
+				folder data/sounds/music
+				EB_Victory.mp3			
+			end
+		state MUSIC_RESULT_STRAT_WIN_AVERAGE
+			event
+				folder data/sounds/music
+				EB_Victory.mp3			
+			end
+		state MUSIC_RESULT_STRAT_WIN_CRUSHING
+			event
+				folder data/sounds/music
+				EB_Victory.mp3			
+			end
+		state MUSIC_RESULT_STRAT_LOSE_CLOSE
+			event
+				folder data/sounds/music
+				EB_Defeat.mp3			
+			end
+		state MUSIC_RESULT_STRAT_LOSE_AVERAGE
+			event
+				folder data/sounds/music
+				EB_Defeat.mp3			
+			end
+		state MUSIC_RESULT_STRAT_LOSE_CRUSHING
+			event
+				folder data/sounds/music
+				EB_Defeat.mp3			
+			end
+		state MUSIC_RESULT_STRAT_DRAW
+			event
+				folder data/sounds/music
+				EB_Defeat.mp3			
+			end	
+
+			
+;;; CAMPAIGN RESULT			
+			
+			
+		state MUSIC_CAMPAIGN_VICTORY
+			event looped
+				folder data/sounds/music
+				EB_Victory.mp3			
+			end	
+		state MUSIC_CAMPAIGN_DEFEAT
+			event looped
+				folder data/sounds/music
+				EB_Defeat.mp3			
+			end
+			
+;#####################################################################################			
+;############################### SEMITIC MUSIC #######################################			
+;#####################################################################################	
+					
+	culture carthaginian
+			
+			
+;;; BATTLE MAP			
+			
+			
+		state MUSIC_BATTLE_TENSION
+			event
+				folder data/sounds/music
+				EB_Tension.mp3
+			end
+			
+		state MUSIC_BATTLE_MOBILIZE
+			event
+				folder data/sounds/music
+				EB_Semitic_Mobilize.mp3
+				EB_Eastern_Mobilize.mp3
+				EB_Semitic_Mobilize.mp3
+				EB_Eastern_Greek_Mobilize.mp3
+			end
+			
+		state MUSIC_BATTLE_BATTLE
+			event
+				folder data/sounds/music
+				EB_Semitic_Battle_Theme.mp3
+				EB_Eastern_Battle_Theme.mp3
+				EB_Semitic_Battle_Theme.mp3
+				EB_Eastern_Greek_Battle_Theme.mp3
+			end
+
+			
+;;;; BATTLE MAP RESULT			
+			
+		
+		state MUSIC_RESULT_WIN_CLOSE
+			event
+				folder data/sounds/music
+				EB_Victory.mp3
+			end
+		state MUSIC_RESULT_WIN_AVERAGE
+			event
+				folder data/sounds/music
+				EB_Victory.mp3
+			end
+		state MUSIC_RESULT_WIN_CRUSHING
+			event
+				folder data/sounds/music
+				EB_Victory.mp3
+			end
+		state MUSIC_RESULT_LOSE_CLOSE
+			event
+				folder data/sounds/music
+				EB_Defeat.mp3
+			end
+		state MUSIC_RESULT_LOSE_AVERAGE
+			event
+				folder data/sounds/music
+				EB_Defeat.mp3
+			end
+		state MUSIC_RESULT_LOSE_CRUSHING
+			event
+				folder data/sounds/music
+				EB_Defeat.mp3
+			end
+		state MUSIC_RESULT_DRAW
+			event
+				folder data/sounds/music
+				EB_Defeat.mp3
+			end
+
+			
+			
+;;; CAMPMAP
+						
+			
+			
+		state MUSIC_STRATMAP_SUMMER
+			event delay 5 volume -40
+				folder data/sounds/music
+				EB_Semitic_Theme.mp3
+				EB_Eastern_Theme.mp3
+				EB_Semitic_Theme.mp3
+				EB_Eastern_Greek_Theme.mp3
+			end			
+
+
+		state MUSIC_CAMPAIGN_LOADING
+			event
+				folder data/sounds/music
+				EB_Main_Theme_Loop.mp3
+			end							
+						
+			
+		state MUSIC_PREBATTLE_SCROLL
+			event fadeout 0
+				folder data/sounds/music
+				EB_Semitic_Mobilize.mp3
+			end
+			
+			
+			
+			
+		state MUSIC_RESULT_STRAT_WIN_CLOSE
+			event
+				folder data/sounds/music
+				EB_Victory.mp3			
+			end
+		state MUSIC_RESULT_STRAT_WIN_AVERAGE
+			event
+				folder data/sounds/music
+				EB_Victory.mp3			
+			end
+		state MUSIC_RESULT_STRAT_WIN_CRUSHING
+			event
+				folder data/sounds/music
+				EB_Victory.mp3			
+			end
+		state MUSIC_RESULT_STRAT_LOSE_CLOSE
+			event
+				folder data/sounds/music
+				EB_Defeat.mp3			
+			end
+		state MUSIC_RESULT_STRAT_LOSE_AVERAGE
+			event
+				folder data/sounds/music
+				EB_Defeat.mp3			
+			end
+		state MUSIC_RESULT_STRAT_LOSE_CRUSHING
+			event
+				folder data/sounds/music
+				EB_Defeat.mp3			
+			end
+		state MUSIC_RESULT_STRAT_DRAW
+			event
+				folder data/sounds/music
+				EB_Defeat.mp3		
+			end					
+
+			
+;;; CAMPAIGN RESULT			
+			
+			
+			
+		state MUSIC_CAMPAIGN_VICTORY
+			event looped
+				folder data/sounds/music
+				EB_Victory.mp3			
+			end	
+		state MUSIC_CAMPAIGN_DEFEAT
+			event looped
+				folder data/sounds/music
+				EB_Defeat.mp3			
+			end	
+
+;#####################################################################################			
+;############################### EASTERN MUSIC #######################################			
+;#####################################################################################	
+					
+	culture eastern
+			
+			
+;;; BATTLE MAP			
+			
+			
+		state MUSIC_BATTLE_TENSION
+			event
+				folder data/sounds/music
+;				EB_Tension.mp3
+				Eastern_TPC_Tension1_GloriousTrumpet.mp3
+			end
+			
+		state MUSIC_BATTLE_MOBILIZE
+			event
+				folder data/sounds/music
+				EB_Eastern_Mobilize.mp3
+				Eastern_TPC_Mobilize1_MovingFist.mp3
+				Eastern_TPC_Mobilize2_TheMeeting.mp3
+				Eastern_TPC_Mobilize1_MovingFist.mp3
+				Eastern_TPC_Mobilize2_TheMeeting.mp3
+			end
+			
+		state MUSIC_BATTLE_BATTLE
+			event
+				folder data/sounds/music
+				EB_Eastern_Battle_Theme.mp3
+				Eastern_TPC_Battle1_FuriousDemonsDrum.mp3
+				Eastern_TPC_Battle2_MelodyofRuin.mp3
+				Eastern_TPC_Battle3_OrderandChaos.mp3
+			end
+
+			
+;;;; BATTLE MAP RESULT			
+			
+		
+		state MUSIC_RESULT_WIN_CLOSE
+			event
+				folder data/sounds/music
+				EB_Victory.mp3
+			end
+		state MUSIC_RESULT_WIN_AVERAGE
+			event
+				folder data/sounds/music
+				EB_Victory.mp3
+			end
+		state MUSIC_RESULT_WIN_CRUSHING
+			event
+				folder data/sounds/music
+				EB_Victory.mp3
+			end
+		state MUSIC_RESULT_LOSE_CLOSE
+			event
+				folder data/sounds/music
+				EB_Defeat.mp3
+			end
+		state MUSIC_RESULT_LOSE_AVERAGE
+			event
+				folder data/sounds/music
+				EB_Defeat.mp3
+			end
+		state MUSIC_RESULT_LOSE_CRUSHING
+			event
+				folder data/sounds/music
+				EB_Defeat.mp3
+			end
+		state MUSIC_RESULT_DRAW
+			event
+				folder data/sounds/music
+				EB_Defeat.mp3
+			end
+
+			
+			
+;;; CAMPMAP
+						
+			
+			
+		state MUSIC_STRATMAP_SUMMER
+			event delay 5 volume -40
+				folder data/sounds/music
+				EB_Eastern_Theme.mp3
+				Eastern_TPC_Eastern1_SpellAnahita.mp3
+				Eastern_TPC_Eastern2_ApricotMt.mp3
+				Eastern_TPC_Eastern3_AncientHymn.mp3
+				Eastern_TPC_Eastern4_SpringsofArmenia.mp3
+				Eastern_TPC_Eastern5_SusianFieldsSugar.mp3
+				Eastern_TPC_Eastern6_CityOrder.mp3
+				Eastern_TPC_Eastern7_SacredLakeGazaca.mp3
+				EastGreek_TPC_EG1_TheRasaDance.mp3
+			end			
+
+
+		state MUSIC_CAMPAIGN_LOADING
+			event
+				folder data/sounds/music
+				EB_Main_Theme_Loop.mp3
+			end							
+						
+			
+		state MUSIC_PREBATTLE_SCROLL
+			event fadeout 0
+				folder data/sounds/music
+				EB_Eastern_Mobilize.mp3
+			end
+			
+			
+			
+			
+		state MUSIC_RESULT_STRAT_WIN_CLOSE
+			event
+				folder data/sounds/music
+				EB_Victory.mp3			
+			end
+		state MUSIC_RESULT_STRAT_WIN_AVERAGE
+			event
+				folder data/sounds/music
+				EB_Victory.mp3			
+			end
+		state MUSIC_RESULT_STRAT_WIN_CRUSHING
+			event
+				folder data/sounds/music
+				EB_Victory.mp3			
+			end
+		state MUSIC_RESULT_STRAT_LOSE_CLOSE
+			event
+				folder data/sounds/music
+				EB_Defeat.mp3			
+			end
+		state MUSIC_RESULT_STRAT_LOSE_AVERAGE
+			event
+				folder data/sounds/music
+				EB_Defeat.mp3			
+			end
+		state MUSIC_RESULT_STRAT_LOSE_CRUSHING
+			event
+				folder data/sounds/music
+				EB_Defeat.mp3			
+			end
+		state MUSIC_RESULT_STRAT_DRAW
+			event
+				folder data/sounds/music
+				EB_Defeat.mp3		
+			end					
+
+			
+;;; CAMPAIGN RESULT			
+			
+			
+			
+		state MUSIC_CAMPAIGN_VICTORY
+			event looped
+				folder data/sounds/music
+				EB_Victory.mp3			
+			end	
+		state MUSIC_CAMPAIGN_DEFEAT
+			event looped
+				folder data/sounds/music
+				EB_Defeat.mp3			
+			end	
+			
+;#####################################################################################			
+;################################# NOMAD MUSIC #######################################			
+;#####################################################################################	
+					
+	culture nomad
+			
+			
+;;; BATTLE MAP			
+			
+			
+		state MUSIC_BATTLE_TENSION
+			event
+				folder data/sounds/music
+				EB_Tension.mp3
+			end
+			
+		state MUSIC_BATTLE_MOBILIZE
+			event
+				folder data/sounds/music
+				EB_Nomadic_Mobilize.mp3
+				EB_Eastern_Mobilize.mp3
+				EB_Nomadic_Mobilize.mp3
+				Eastern_TPC_Mobilize1_MovingFist.mp3
+				Eastern_TPC_Mobilize2_TheMeeting.mp3
+			end
+			
+		state MUSIC_BATTLE_BATTLE
+			event
+				folder data/sounds/music
+				EB_Nomadic_Battle_Theme.mp3
+				EB_Eastern_Battle_Theme.mp3
+				EB_Nomadic_Battle_Theme.mp3
+				Eastern_TPC_Battle1_FuriousDemonsDrum.mp3
+				Eastern_TPC_Battle2_MelodyofRuin.mp3
+				Eastern_TPC_Battle3_OrderandChaos.mp3
+			end
+
+			
+;;;; BATTLE MAP RESULT			
+			
+		
+		state MUSIC_RESULT_WIN_CLOSE
+			event
+				folder data/sounds/music
+				EB_Victory.mp3
+			end
+		state MUSIC_RESULT_WIN_AVERAGE
+			event
+				folder data/sounds/music
+				EB_Victory.mp3
+			end
+		state MUSIC_RESULT_WIN_CRUSHING
+			event
+				folder data/sounds/music
+				EB_Victory.mp3
+			end
+		state MUSIC_RESULT_LOSE_CLOSE
+			event
+				folder data/sounds/music
+				EB_Defeat.mp3
+			end
+		state MUSIC_RESULT_LOSE_AVERAGE
+			event
+				folder data/sounds/music
+				EB_Defeat.mp3
+			end
+		state MUSIC_RESULT_LOSE_CRUSHING
+			event
+				folder data/sounds/music
+				EB_Defeat.mp3
+			end
+		state MUSIC_RESULT_DRAW
+			event
+				folder data/sounds/music
+				EB_Defeat.mp3
+			end
+
+			
+			
+;;; CAMPMAP
+						
+			
+			
+		state MUSIC_STRATMAP_SUMMER
+			event delay 5 volume -40
+				folder data/sounds/music
+				EB_Nomadic_Theme2.mp3
+				Nomad_TPC_Nomad1_LandoftheEphedra.mp3
+				Nomad_TPC_Nomad2_WatchingtheHerd.mp3
+				Nomad_TPC_Nomad3_MightySteppe.mp3
+			end			
+
+
+		state MUSIC_CAMPAIGN_LOADING
+			event
+				folder data/sounds/music
+				EB_Main_Theme_Loop.mp3
+			end							
+						
+			
+		state MUSIC_PREBATTLE_SCROLL
+			event fadeout 0
+				folder data/sounds/music
+				EB_Main_Theme_WIP.mp3
+			end
+			
+			
+			
+			
+		state MUSIC_RESULT_STRAT_WIN_CLOSE
+			event
+				folder data/sounds/music
+				EB_Victory.mp3			
+			end
+		state MUSIC_RESULT_STRAT_WIN_AVERAGE
+			event
+				folder data/sounds/music
+				EB_Victory.mp3			
+			end
+		state MUSIC_RESULT_STRAT_WIN_CRUSHING
+			event
+				folder data/sounds/music
+				EB_Victory.mp3			
+			end
+		state MUSIC_RESULT_STRAT_LOSE_CLOSE
+			event
+				folder data/sounds/music
+				EB_Defeat.mp3			
+			end
+		state MUSIC_RESULT_STRAT_LOSE_AVERAGE
+			event
+				folder data/sounds/music
+				EB_Defeat.mp3			
+			end
+		state MUSIC_RESULT_STRAT_LOSE_CRUSHING
+			event
+				folder data/sounds/music
+				EB_Defeat.mp3			
+			end
+		state MUSIC_RESULT_STRAT_DRAW
+			event
+				folder data/sounds/music
+				EB_Defeat.mp3			
+			end					
+
+			
+;;; CAMPAIGN RESULT			
+			
+			
+			
+		state MUSIC_CAMPAIGN_VICTORY
+			event looped
+				folder data/sounds/music
+				EB_Victory.mp3			
+			end	
+		state MUSIC_CAMPAIGN_DEFEAT
+			event looped
+				folder data/sounds/music
+				EB_Defeat.mp3			
+			end	
+			
+
+;#####################################################################################			
+;############################# EASTERN GREEK MUSIC ###################################			
+;#####################################################################################	
+					
+	culture egyptian
+			
+			
+;;; BATTLE MAP			
+			
+			
+		state MUSIC_BATTLE_TENSION
+			event
+				folder data/sounds/music
+				EB_Tension.mp3
+			end
+			
+		state MUSIC_BATTLE_MOBILIZE
+			event
+				folder data/sounds/music
+				EB_Eastern_Greek_Mobilize.mp3
+				EB_Western_Greek_Mobilization.mp3
+				EB_Eastern_Mobilize.mp3
+				EB_Eastern_Greek_Mobilize.mp3
+				EB_Semitic_Mobilize.mp3
+			end
+			
+		state MUSIC_BATTLE_BATTLE
+			event
+				folder data/sounds/music
+				EB_Eastern_Greek_Battle_Theme.mp3
+				EB_Eastern_Battle_Theme.mp3
+				EB_Western_Greek_Battle_Theme.mp3
+				EB_Eastern_Greek_Battle_Theme.mp3
+				EB_Semitic_Battle_Theme.mp3
+			end
+
+			
+;;;; BATTLE MAP RESULT			
+			
+		
+		state MUSIC_RESULT_WIN_CLOSE
+			event
+				folder data/sounds/music
+				EB_Victory.mp3
+			end
+		state MUSIC_RESULT_WIN_AVERAGE
+			event
+				folder data/sounds/music
+				EB_Victory.mp3
+			end
+		state MUSIC_RESULT_WIN_CRUSHING
+			event
+				folder data/sounds/music
+				EB_Victory.mp3
+			end
+		state MUSIC_RESULT_LOSE_CLOSE
+			event
+				folder data/sounds/music
+				EB_Defeat.mp3
+			end
+		state MUSIC_RESULT_LOSE_AVERAGE
+			event
+				folder data/sounds/music
+				EB_Defeat.mp3
+			end
+		state MUSIC_RESULT_LOSE_CRUSHING
+			event
+				folder data/sounds/music
+				EB_Defeat.mp3
+			end
+		state MUSIC_RESULT_DRAW
+			event
+				folder data/sounds/music
+				EB_Defeat.mp3
+			end
+
+			
+			
+;;; CAMPMAP
+						
+			
+			
+		state MUSIC_STRATMAP_SUMMER
+			event delay 5 volume -20
+				folder data/sounds/music
+				EastGreek_TPC_EG1_TheRasaDance.mp3
+				EastGreek_TPC_EG2_Egypt.mp3
+				EastGreek_TPC_EG3_DesertsoftheWest.mp3
+				EB_Eastern_Greek_Theme.mp3
+				EB_Western_Greek_Theme2.mp3
+				EB_Eastern_Theme.mp3
+				EastGreek_TPC_EG1_TheRasaDance.mp3
+				EastGreek_TPC_EG2_Egypt.mp3
+				EastGreek_TPC_EG3_DesertsoftheWest.mp3
+			end			
+
+
+		state MUSIC_CAMPAIGN_LOADING
+			event
+				folder data/sounds/music
+				EB_Main_Theme_Loop.mp3
+			end							
+						
+			
+		state MUSIC_PREBATTLE_SCROLL
+			event fadeout 0 volume 10
+				folder data/sounds/music
+				EB_Eastern_Greek_Mobilize.mp3
+;				EB_Main_Theme_WIP.mp3
+			end
+			
+			
+			
+			
+		state MUSIC_RESULT_STRAT_WIN_CLOSE
+			event
+				folder data/sounds/music
+				EB_Victory.mp3			
+			end
+		state MUSIC_RESULT_STRAT_WIN_AVERAGE
+			event
+				folder data/sounds/music
+				EB_Victory.mp3			
+			end
+		state MUSIC_RESULT_STRAT_WIN_CRUSHING
+			event
+				folder data/sounds/music
+				EB_Victory.mp3			
+			end
+		state MUSIC_RESULT_STRAT_LOSE_CLOSE
+			event
+				folder data/sounds/music
+				EB_Defeat.mp3			
+			end
+		state MUSIC_RESULT_STRAT_LOSE_AVERAGE
+			event
+				folder data/sounds/music
+				EB_Defeat.mp3			
+			end
+		state MUSIC_RESULT_STRAT_LOSE_CRUSHING
+			event
+				folder data/sounds/music
+				EB_Defeat.mp3			
+			end
+		state MUSIC_RESULT_STRAT_DRAW
+			event
+				folder data/sounds/music
+				EB_Defeat.mp3			
+			end					
+
+			
+;;; CAMPAIGN RESULT			
+			
+			
+			
+		state MUSIC_CAMPAIGN_VICTORY
+			event looped
+				folder data/sounds/music
+				EB_Victory.mp3		
+			end	
+		state MUSIC_CAMPAIGN_DEFEAT
+			event looped
+				folder data/sounds/music
+				EB_Defeat.mp3			
+			end	
+			
+
+;#####################################################################################			
+;############################# WESTERN GREEK MUSIC ###################################			
+;#####################################################################################	
+					
+	culture greek
+			
+			
+;;; BATTLE MAP			
+			
+			
+		state MUSIC_BATTLE_TENSION
+			event
+				folder data/sounds/music
+				EB_Tension.mp3
+			end
+			
+		state MUSIC_BATTLE_MOBILIZE
+			event
+				folder data/sounds/music
+				EB_Western_Greek_Mobilization.mp3
+				EB_Eastern_Greek_Mobilize.mp3
+				EB_Western_Greek_Mobilization.mp3
+				EB_Roman_Mobilize.mp3
+			end
+			
+		state MUSIC_BATTLE_BATTLE
+			event
+				folder data/sounds/music
+				EB_Western_Greek_Battle_Theme.mp3
+				EB_Eastern_Greek_Battle_Theme.mp3
+				EB_Western_Greek_Battle_Theme.mp3
+				EB_Roman_Battle_Theme.mp3
+			end
+
+			
+;;;; BATTLE MAP RESULT			
+			
+		
+		state MUSIC_RESULT_WIN_CLOSE
+			event
+				folder data/sounds/music
+				EB_Victory.mp3
+			end
+		state MUSIC_RESULT_WIN_AVERAGE
+			event
+				folder data/sounds/music
+				EB_Victory.mp3
+			end
+		state MUSIC_RESULT_WIN_CRUSHING
+			event
+				folder data/sounds/music
+				EB_Victory.mp3
+			end
+		state MUSIC_RESULT_LOSE_CLOSE
+			event
+				folder data/sounds/music
+				EB_Defeat.mp3
+			end
+		state MUSIC_RESULT_LOSE_AVERAGE
+			event
+				folder data/sounds/music
+				EB_Defeat.mp3
+			end
+		state MUSIC_RESULT_LOSE_CRUSHING
+			event
+				folder data/sounds/music
+				EB_Defeat.mp3
+			end
+		state MUSIC_RESULT_DRAW
+			event
+				folder data/sounds/music
+				EB_Defeat.mp3
+			end
+
+			
+			
+;;; CAMPMAP
+						
+			
+			
+		state MUSIC_STRATMAP_SUMMER
+			event delay 5 volume -1
+				folder data/sounds/music
+				EB_Western_Greek_Theme2.mp3
+				EB_Eastern_Greek_Theme.mp3
+				EB_Western_Greek_Theme2.mp3
+				EB_Roman_Theme.mp3
+			end			
+
+
+		state MUSIC_CAMPAIGN_LOADING
+			event
+				folder data/sounds/music
+				EB_Main_Theme_Loop.mp3
+			end							
+						
+			
+		state MUSIC_PREBATTLE_SCROLL
+			event fadeout 0
+				folder data/sounds/music
+				EB_Western_Greek_Mobilization.mp3
+			end
+			
+			
+			
+			
+		state MUSIC_RESULT_STRAT_WIN_CLOSE
+			event
+				folder data/sounds/music
+				EB_Victory.mp3			
+			end
+		state MUSIC_RESULT_STRAT_WIN_AVERAGE
+			event
+				folder data/sounds/music
+				EB_Victory.mp3			
+			end
+		state MUSIC_RESULT_STRAT_WIN_CRUSHING
+			event
+				folder data/sounds/music
+				EB_Victory.mp3			
+			end
+		state MUSIC_RESULT_STRAT_LOSE_CLOSE
+			event
+				folder data/sounds/music
+				EB_Defeat.mp3			
+			end
+		state MUSIC_RESULT_STRAT_LOSE_AVERAGE
+			event
+				folder data/sounds/music
+				EB_Defeat.mp3			
+			end
+		state MUSIC_RESULT_STRAT_LOSE_CRUSHING
+			event
+				folder data/sounds/music
+				EB_Defeat.mp3			
+			end
+		state MUSIC_RESULT_STRAT_DRAW
+			event
+				folder data/sounds/music
+				EB_Defeat.mp3			
+			end					
+
+			
+;;; CAMPAIGN RESULT			
+			
+			
+			
+		state MUSIC_CAMPAIGN_VICTORY
+			event looped
+				folder data/sounds/music
+				EB_Victory.mp3			
+			end	
+		state MUSIC_CAMPAIGN_DEFEAT
+			event looped
+				folder data/sounds/music
+				EB_Defeat.mp3			
+			end	
+			
+			
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+BANK: living_city_music
+	culture roman
+		event looped volume -20
+				folder eb/data/sounds/music
+				EB_Roman_Theme.mp3
+		end	
+			
+	culture barbarian
+		event looped volume -20
+				folder eb/data/sounds/music
+				EB_Barbarian_Theme.mp3
+		end
+		
+	culture carthaginian
+		event looped volume -20
+				folder eb/data/sounds/music
+				EB_Semitic_Theme.mp3
+		end
+	culture greek
+		event looped volume -20
+				folder eb/data/sounds/music
+				EB_Western_Greek_Theme2.mp3
+		end
+	culture egyptian
+		event looped volume -20
+				folder eb/data/sounds/music
+				EB_Eastern_Greek_Theme.mp3
+
+		end
+	culture eastern
+		event looped volume -20
+				folder eb/data/sounds/music
+				EB_Eastern_Theme.mp3
+		end
+
+	culture nomad
+		event looped volume -20
+				folder eb/data/sounds/music
+				EB_Nomadic_Theme2.mp3
+		end

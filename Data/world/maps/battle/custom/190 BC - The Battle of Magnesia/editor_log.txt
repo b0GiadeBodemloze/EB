@@ -1,0 +1,88 @@
+Loading from file EB/data/world/maps/battle/custom/190 BC - The Battle of Magnesia/descr_battle.txt
+Created faction romans_julii from file
+	Creating army controlled by Antiochos Megas at 0x2c767128 from script
+		Creating unit (Somatophylakes Strategou (Hellenic Bodyguard Cavalry)) at 0x2c895db8
+		Creating unit (Hellenikoi Kataphraktoi (Hellenic Cataphracts)) at 0x2c7bf550
+		Creating unit (Argyraspides (Hellenic Elite Phalanx)) at 0x2c7bff28
+		Creating unit (Hypaspistai (Hellenistic Royal Guard)) at 0x2c79e320
+		Creating unit (Galatikoi Kuarothoroi (Galatian Heavy Spearmen)) at 0x2c79e568
+		Creating unit (Pezhetairoi (Hellenic Medium Phalanx)) at 0x2c6ae480
+		Creating unit (Pezhetairoi (Hellenic Medium Phalanx)) at 0x2c6ae6c8
+		Creating unit (Galatikoi Kuarothoroi (Galatian Heavy Spearmen)) at 0x2c6ae910
+		Creating unit (Galatikoi Kluddolon (Galatian Shortswordsmen)) at 0x2c6aed40
+		Creating unit (Uazali (Karian Warband)) at 0x2c6afd60
+		Creating unit (Hellenikoi Kataphraktoi (Hellenic Cataphracts)) at 0x2c6affa8
+		Creating unit (Hetairoi (Companion Cavalry)) at 0x2c6b01f0
+		Creating unit (Galatikoi Lavotuxri (Galatian Heavy Cavalry)) at 0x2c6b12b0
+		Creating unit (Misthophoroi Toxotai Kretikoi (Mercenary Cretan Archers)) at 0x2c6b1b48
+		Creating unit (Akontistai (Hellenic Skirmishers)) at 0x2c6b20b8
+		Creating unit (Thanvarê Payâhdag (Persian Archers)) at 0x2c6b2300
+		Creating unit (Ekdromoi Hoplitai (Greek Light Hoplites)) at 0x2c6b2548
+		Creating unit (Elephantes Indikoi (Indian Elephants)) at 0x2c6b2ed0
+		Creating unit (Daha Baexdzhyntae (Dahae Riders)) at 0x2c6b3118
+		Creating unit (Harmata Drepanephora (Scythed Chariots)) at 0x2c6b3360
+Created faction seleucid from file
+	Creating army controlled by Lvcivs at 0x2c6b42e0 from script
+		Creating unit (Eqvites Consvlares (Republican Consular Guard Cavalry)) at 0x2c6b43c8
+		Creating unit (Velites (Polybian Skirmishers)) at 0x2c6b4610
+		Creating unit (Pedites Extraordinarii (Elite Heavy Infantry of the Italic Allies)) at 0x2c6b4858
+		Creating unit (Hastati (Polybian Medium Infantry Maniple)) at 0x2c6b5e68
+		Creating unit (Hastati (Polybian Medium Infantry Maniple)) at 0x2c6b60b0
+		Creating unit (Hastati (Polybian Medium Infantry Maniple)) at 0x2c6b6c08
+		Creating unit (Hastati (Polybian Medium Infantry Maniple)) at 0x2c6b7198
+		Creating unit (Pedites Extraordinarii (Elite Heavy Infantry of the Italic Allies)) at 0x2c6b73e0
+		Creating unit (Principes (Polybian Heavy Infantry Maniple)) at 0x2c6b7f38
+		Creating unit (Principes (Polybian Heavy Infantry Maniple)) at 0x2c6b8180
+		Creating unit (Principes (Polybian Heavy Infantry Maniple)) at 0x2c6b8cd8
+		Creating unit (Principes (Polybian Heavy Infantry Maniple)) at 0x2c6b9268
+		Creating unit (Triarii (Polybian Heavy-Spear Maniple)) at 0x2c6b94b0
+		Creating unit (Triarii (Polybian Heavy-Spear Maniple)) at 0x2c6b9cc0
+		Creating unit (Triarii (Polybian Heavy-Spear Maniple)) at 0x2c6b9f08
+		Creating unit (Triarii (Polybian Heavy-Spear Maniple)) at 0x2c6ba318
+		Creating unit (Misthophoroi Peltastai (Mercenary Hellenic Heavy Skirmishers)) at 0x2c6ba768
+		Creating unit (Eqvites Romani (Polybian Roman Citizen Cavalry)) at 0x2c6ba9b0
+		Creating unit (Eqvites Extraordinarii (Elite Heavy Cavalry of the Italic Allies)) at 0x2c6babf8
+		Creating unit (Misthophoroi Toxotai Kretikoi (Mercenary Cretan Archers)) at 0x2c6bb3c0
+Adding unit (Somatophylakes Strategou (Hellenic Bodyguard Cavalry)) at 0x2c895db8 to deployment area at 0x30d0370
+Adding unit (Hellenikoi Kataphraktoi (Hellenic Cataphracts)) at 0x2c7bf550 to deployment area at 0x30d0370
+Adding unit (Argyraspides (Hellenic Elite Phalanx)) at 0x2c7bff28 to deployment area at 0x30d0370
+Adding unit (Hypaspistai (Hellenistic Royal Guard)) at 0x2c79e320 to deployment area at 0x30d0370
+Adding unit (Galatikoi Kuarothoroi (Galatian Heavy Spearmen)) at 0x2c79e568 to deployment area at 0x30d0370
+Adding unit (Pezhetairoi (Hellenic Medium Phalanx)) at 0x2c6ae480 to deployment area at 0x30d0370
+Adding unit (Pezhetairoi (Hellenic Medium Phalanx)) at 0x2c6ae6c8 to deployment area at 0x30d0370
+Adding unit (Galatikoi Kuarothoroi (Galatian Heavy Spearmen)) at 0x2c6ae910 to deployment area at 0x30d0370
+Adding unit (Galatikoi Kluddolon (Galatian Shortswordsmen)) at 0x2c6aed40 to deployment area at 0x30d0370
+Adding unit (Uazali (Karian Warband)) at 0x2c6afd60 to deployment area at 0x30d0370
+Adding unit (Hellenikoi Kataphraktoi (Hellenic Cataphracts)) at 0x2c6affa8 to deployment area at 0x30d0370
+Adding unit (Hetairoi (Companion Cavalry)) at 0x2c6b01f0 to deployment area at 0x30d0370
+Adding unit (Galatikoi Lavotuxri (Galatian Heavy Cavalry)) at 0x2c6b12b0 to deployment area at 0x30d0370
+Adding unit (Misthophoroi Toxotai Kretikoi (Mercenary Cretan Archers)) at 0x2c6b1b48 to deployment area at 0x30d0370
+Adding unit (Akontistai (Hellenic Skirmishers)) at 0x2c6b20b8 to deployment area at 0x30d0370
+Adding unit (Thanvarê Payâhdag (Persian Archers)) at 0x2c6b2300 to deployment area at 0x30d0370
+Adding unit (Ekdromoi Hoplitai (Greek Light Hoplites)) at 0x2c6b2548 to deployment area at 0x30d0370
+Adding unit (Elephantes Indikoi (Indian Elephants)) at 0x2c6b2ed0 to deployment area at 0x30d0370
+Adding unit (Daha Baexdzhyntae (Dahae Riders)) at 0x2c6b3118 to deployment area at 0x30d0370
+Adding unit (Harmata Drepanephora (Scythed Chariots)) at 0x2c6b3360 to deployment area at 0x30d0370
+Adding unit (Eqvites Consvlares (Republican Consular Guard Cavalry)) at 0x2c6b43c8 to deployment area at 0x30d03ac
+Adding unit (Velites (Polybian Skirmishers)) at 0x2c6b4610 to deployment area at 0x30d03ac
+Adding unit (Pedites Extraordinarii (Elite Heavy Infantry of the Italic Allies)) at 0x2c6b4858 to deployment area at 0x30d03ac
+Adding unit (Hastati (Polybian Medium Infantry Maniple)) at 0x2c6b5e68 to deployment area at 0x30d03ac
+Adding unit (Hastati (Polybian Medium Infantry Maniple)) at 0x2c6b60b0 to deployment area at 0x30d03ac
+Adding unit (Hastati (Polybian Medium Infantry Maniple)) at 0x2c6b6c08 to deployment area at 0x30d03ac
+Adding unit (Hastati (Polybian Medium Infantry Maniple)) at 0x2c6b7198 to deployment area at 0x30d03ac
+Adding unit (Pedites Extraordinarii (Elite Heavy Infantry of the Italic Allies)) at 0x2c6b73e0 to deployment area at 0x30d03ac
+Adding unit (Principes (Polybian Heavy Infantry Maniple)) at 0x2c6b7f38 to deployment area at 0x30d03ac
+Adding unit (Principes (Polybian Heavy Infantry Maniple)) at 0x2c6b8180 to deployment area at 0x30d03ac
+Adding unit (Principes (Polybian Heavy Infantry Maniple)) at 0x2c6b8cd8 to deployment area at 0x30d03ac
+Adding unit (Principes (Polybian Heavy Infantry Maniple)) at 0x2c6b9268 to deployment area at 0x30d03ac
+Adding unit (Triarii (Polybian Heavy-Spear Maniple)) at 0x2c6b94b0 to deployment area at 0x30d03ac
+Adding unit (Triarii (Polybian Heavy-Spear Maniple)) at 0x2c6b9cc0 to deployment area at 0x30d03ac
+Adding unit (Triarii (Polybian Heavy-Spear Maniple)) at 0x2c6b9f08 to deployment area at 0x30d03ac
+Adding unit (Triarii (Polybian Heavy-Spear Maniple)) at 0x2c6ba318 to deployment area at 0x30d03ac
+Adding unit (Misthophoroi Peltastai (Mercenary Hellenic Heavy Skirmishers)) at 0x2c6ba768 to deployment area at 0x30d03ac
+Adding unit (Eqvites Romani (Polybian Roman Citizen Cavalry)) at 0x2c6ba9b0 to deployment area at 0x30d03ac
+Adding unit (Eqvites Extraordinarii (Elite Heavy Cavalry of the Italic Allies)) at 0x2c6babf8 to deployment area at 0x30d03ac
+Adding unit (Misthophoroi Toxotai Kretikoi (Mercenary Cretan Archers)) at 0x2c6bb3c0 to deployment area at 0x30d03ac
+Load finished **************************
+
+

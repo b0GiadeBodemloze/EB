@@ -1,0 +1,316 @@
+
+; historical events and when they occur
+;
+; Events are followed by a category, and a label
+; labels are used as lookups into historic_events.txt for title and body strings,
+; and also as image names for the event picture
+; 
+; Currently supported categories are:
+; historic - Just generates a message
+; volcano  - triggers a volcano if there is one on the map at the position specified
+; plague   - triggers a plague in settlements at the specified positions
+; emergent_faction - triggers the emergence of the given faction.  This faction must be marked
+;	as emergent in descr_strat.txt
+;
+; event descriptions are followed by a date (year as offset from starting date, and season, summer/winter)
+; and either a list of positions, or list of regions.  Each position/region specification must appear on 
+; a seperate line below the date
+
+event	historic	yih_announce
+date	0 winter
+
+event	historic	yih_272
+date	0 winter
+
+event	historic	yih_271
+date	1 winter
+
+event	historic	yih_270
+date	2 winter
+
+event	historic	yih_269
+date	3 winter
+
+event	historic	yih_268
+date	4 winter
+
+event	historic	yih_267
+date	5 winter
+
+event	historic	yih_266
+date	6 winter
+
+event	historic	yih_265
+date	7 winter
+
+event	historic	yih_264
+date	8 winter
+
+event	historic	yih_263
+date	9 winter
+
+event	historic	yih_262
+date	10 winter
+
+event	historic	yih_261
+date	11 winter
+
+event	historic	yih_260
+date	12 winter
+
+event	historic	yih_259
+date	13 winter
+
+event	historic	yih_258
+date	14 winter
+
+;event	plague		plague_in_macedonia
+;date	14 winter
+;position	138, 67
+
+;event	historic	stoic_philosophy
+;date	14 summer
+
+;event	historic	hand_pump_invented
+;date	14 winter
+
+event	historic	yih_257
+date	15 winter
+
+event	historic	yih_256
+date	16 winter
+
+event	historic	yih_255
+date	17 winter
+
+event	historic	yih_254
+date	18 winter
+
+event	historic	yih_253
+date	19 winter
+
+event	historic	yih_252
+date	20 winter
+
+event	historic	yih_251
+date	21 winter
+
+event	historic	yih_250
+date	22 winter
+
+event	historic	yih_249
+date	23 winter
+
+event	historic	yih_248
+date	24 winter
+
+event	historic	yih_247
+date	25 winter
+
+event	historic	yih_246
+date	26 winter
+
+event	historic	yih_245
+date	27 winter
+
+event	historic	yih_244
+date	28 winter
+
+event	historic	yih_243
+date	29 winter
+
+event	historic	yih_242
+date	30 winter
+
+; Asoka's edicts in about 242 BC so 30 years in
+;event	historic	a_new_religion
+;date	30 summer
+
+event	historic	yih_241
+date	31 winter
+
+event	historic	yih_240
+date	32 winter
+
+event	historic	yih_239
+date	33 winter
+
+event	historic	yih_238
+date	34 winter
+
+;event	historic	through_a_glass_clearly
+;date	34 summer
+
+event	historic	yih_237
+date	35 winter
+
+event	historic	yih_236
+date	36 winter
+
+event	historic	yih_235
+date	37 winter
+
+event	historic	yih_234
+date	38 winter
+
+event	historic	yih_233
+date	39 winter
+
+event	historic	yih_232
+date	40 winter
+
+event	historic	yih_231
+date	41 winter
+
+event	historic	yih_230
+date	42 winter
+
+event	historic	yih_229
+date	43 winter
+
+event	historic	yih_228
+date	44 winter
+
+;event	historic	archimedes_screw
+;date	44 winter
+
+event	historic	yih_227
+date	45 winter
+
+event	historic	yih_226
+date	46 winter
+
+event	historic	yih_225
+date	47 winter
+
+event	historic	yih_224
+date	48 winter
+
+event	historic	yih_223
+date	49 winter
+
+event	historic	yih_222
+date	50 winter
+
+event	historic	yih_221
+date	51 winter
+
+event	historic	yih_220
+date	52 winter
+
+event	historic	yih_219
+date	53 winter
+
+event	historic	yih_218
+date	54 winter
+
+;event	historic	greek_logic
+;date	54 summer
+
+event	historic	yih_217
+date	55 winter
+
+event	historic	yih_216
+date	56 winter
+
+event	historic	yih_215
+date	57 winter
+
+event	historic	yih_214
+date	58 winter
+
+event	historic	yih_213
+date	59 winter
+
+event	historic	yih_212
+date	60 winter
+
+;event	historic	star_catalogue
+;date	64 winter
+
+;event	plague		plague_in_alexandria
+;date	64 summer
+;position	178, 19
+
+; event	historic	rites_of_bacchus_banned
+; date	78 winter
+
+;event	historic	earthquake_in_pontus
+;date	84 summer
+
+;event	historic	concrete_invented
+;date	94 winter
+
+;event	volcano		eruption_at_vesuvius
+;date	99 summer
+;position	103, 65
+
+;event	historic	philosophy_is_foppish
+;date	103 winter
+
+;event	historic	astronomy_advances
+;date	114 summer
+
+;event	historic	lex_aebutia
+;date	114 winter
+
+;event	historic	roman_stoicism
+;date	120 summer
+
+;event	historic	lex_papira
+;date	120 winter
+
+;event	volcano		eruption_at_etna
+;date	131 summer
+;position	104, 105
+
+;event	plague		plague_in_italy
+;date	144 summer
+;position	96, 82
+;position	95, 71
+;position	102, 68
+;position	114, 63
+
+
+;event	historic	vestal_virgin_struck_down
+;date	150 winter
+
+;event	historic	de_rerum_natura
+;date	166 winter
+
+;event	plague		plague_in_asia_minor
+;date	173 summer
+;position	192, 68
+;position	200, 55
+;position	190, 80
+
+;event	historic	lex_pompeia
+;date	175 winter
+
+;event	plague		plague_in_italy
+;date	204 winter
+;position	96, 82
+;position	95, 71
+;position	102, 68
+;position	114, 63
+
+;event	historic	de_materia_medica
+;date	214 summer
+
+;event	historic	julian_calendar
+;date	218 winter
+
+;event	historic	earthquake_in_iberia
+;date	258 summer
+
+;event	historic	the_aeneid
+;date	269 winter
+
+;event	historic	lex_adulteriis_coercendis
+;date	271 summer
+
+;event	historic	trouble_in_judea
+;date	284 winter
+
+;event	historic	lex_fufia_caninia
+;date	286 summer

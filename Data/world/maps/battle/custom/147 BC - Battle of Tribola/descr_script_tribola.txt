@@ -1,0 +1,92 @@
+script
+
+	prepare_for_battle
+
+
+; *********************************************************************************************
+;	Lusitania - Alliance 0
+; *********************************************************************************************
+
+;Viriatos
+	label_unit 0 0 0 chief
+        label_unit 0 0 1 ambakaro
+	label_unit 0 0 2 gesti
+	label_unit 0 0 3 caetra
+	label_unit 0 0 4 scorta
+	label_unit 0 0 5 caetra1
+	label_unit 0 0 6 caetra2
+	label_unit 0 0 7 scorta1
+	label_unit 0 0 8 gesti1
+	label_unit 0 0 9 gesti2
+	
+        
+
+; *********************************************************************************************
+;	Rome - Alliance 1
+; *********************************************************************************************
+
+;Caivs
+	label_unit 1 0 0 consul
+	label_unit 1 0 1 hastati
+	label_unit 1 0 2 principes
+	label_unit 1 0 3 triarii
+	label_unit 1 0 4 hastati1
+	label_unit 1 0 5 principes1
+	label_unit 1 0 6 triarii1
+	label_unit 1 0 7 equites
+	label_unit 1 0 8 velites
+	label_unit 1 0 9 velites1
+	
+
+; *********************************************************************************************
+;	INITIALISATION
+; *********************************************************************************************
+
+	while ! I_BattleStarted					; Wait for deployment
+	end_while
+	ai_active_set off
+	camera_restrictions_set off
+	
+
+; *********************************************************************************************
+
+	
+	while I_InBattle
+ 
+        if I_LocalFaction spain
+
+        battle_wait 1
+
+        unit_order_attack_unit consul chief
+	unit_order_attack_unit hastati chief
+	unit_order_attack_unit principes chief
+	unit_order_attack_unit triarii chief
+        unit_order_attack_unit hastati1 chief
+	unit_order_attack_unit principes1 chief
+	unit_order_attack_unit triarii1 chief
+	unit_order_attack_unit equites chief
+        unit_order_attack_unit velites chief
+	unit_order_attack_unit velites1 chief
+	
+        
+        battle_wait 100
+        
+        release_unit consul
+        release_unit hastati
+        release_unit principes
+        release_unit triarii
+        release_unit hastati1
+        release_unit principes1
+        release_unit triarii1
+        release_unit equites
+        release_unit velites
+        release_unit velites1
+       
+    
+        end_if
+
+	
+
+	end_while
+
+end_script

@@ -1,0 +1,84 @@
+Loading from file EB/data/world/maps/battle/custom/200 BC - The Battle of Panion/descr_battle.txt
+Created faction romans_julii from file
+	Creating army controlled by Antiochos Megas at 0x2c74d3e0 from script
+		Creating unit (Somatophylakes Strategou (Hellenic Bodyguard Cavalry)) at 0x2c984d50
+		Creating unit (Hypaspistai (Hellenistic Royal Guard)) at 0x2c984f98
+		Creating unit (Argyraspides (Hellenic Elite Phalanx)) at 0x2c6b01b8
+		Creating unit (Pezhetairoi (Hellenic Medium Phalanx)) at 0x2c7e8cc8
+		Creating unit (Pezhetairoi (Hellenic Medium Phalanx)) at 0x2c7e8f10
+		Creating unit (Hippeis Tarantinoi (Tarantine Elite Cavalry)) at 0x2c6b0400
+		Creating unit (Thanvarê Payâhdag (Persian Archers)) at 0x2c6b0648
+		Creating unit (Shûbân-î Fradâkhshânâ (Eastern Slingers)) at 0x2c6b0890
+		Creating unit (Elephantes Indikoi (Indian Elephants)) at 0x2c6b0ad8
+		Creating unit (Hellenikoi Kataphraktoi (Hellenic Cataphracts)) at 0x2c6b2720
+		Creating unit (Hetairoi (Companion Cavalry)) at 0x2c6b30f8
+		Creating unit (Thorakitai (Hellenic Heavy Spearmen)) at 0x2c6b3488
+		Creating unit (Ekdromoi Hoplitai (Greek Light Hoplites)) at 0x2c6b36d0
+		Creating unit (Thureophoroi (Hellenic Spearmen)) at 0x2c6b40e0
+		Creating unit (Ekdromoi Hoplitai (Greek Light Hoplites)) at 0x2c6b4328
+		Creating unit (Keltohellenikoi Hoplitai (Celto-Hellenic Infantry)) at 0x2c6b4570
+		Creating unit (Gund-î Paltâ (Eastern Skirmishers)) at 0x2c6b4d38
+		Creating unit (Prodromoi (Successor Medium Cavalry)) at 0x2c6b4f80
+		Creating unit (Elephantes Kataphraktoi Indikoi (Armoured Indian Elephants)) at 0x2c6b5d98
+		Creating unit (Elephantes Indikoi (Indian Elephants)) at 0x2c6b5fe0
+Created faction numidia from file
+	Creating army controlled by Soter at 0x2c6b63b8 from script
+		Creating unit (Somatophylakes Strategou (Hellenic Bodyguard Cavalry)) at 0x2c6b64a0
+		Creating unit (Klerouchon Agema (Ptolemaic Elite Phalanx)) at 0x2c6b6830
+		Creating unit (Pezhetairoi (Hellenic Medium Phalanx)) at 0x2c6b6a78
+		Creating unit (Pezhetairoi (Hellenic Medium Phalanx)) at 0x2c6b6cc0
+		Creating unit (Pezhetairoi (Hellenic Medium Phalanx)) at 0x2c6b6f08
+		Creating unit (Pezhetairoi (Hellenic Medium Phalanx)) at 0x2c6b7988
+		Creating unit (Lonchophoroi Hippeis (Hellenic Medium Cavalry)) at 0x2c6b7bd0
+		Creating unit (Misthophoroi Toxotai Kretikoi (Mercenary Cretan Archers)) at 0x2c6b7e18
+		Creating unit (Pilei Ya'ar Libim (African Forest Elephants)) at 0x2c6b9c78
+		Creating unit (Pilei Ya'ar Libim (African Forest Elephants)) at 0x2c6ba6b8
+		Creating unit (Lonchophoroi Hippeis (Hellenic Medium Cavalry)) at 0x2c6ba900
+		Creating unit (Misthophoroi Hoplitai (Mercenary Greek Classical Hoplites)) at 0x2c6bb710
+		Creating unit (Thureophoroi (Hellenic Spearmen)) at 0x2c6bb958
+		Creating unit (Misthophoroi Thureophoroi (Mercenary Hellenic Spearmen)) at 0x2c6bbba0
+		Creating unit (Thorakitai (Hellenic Heavy Spearmen)) at 0x2c6bbde8
+		Creating unit (Peltastai (Hellenic Heavy Skirmishers)) at 0x2c6bd138
+		Creating unit (Misthophoroi Peltastai (Mercenary Hellenic Heavy Skirmishers)) at 0x2c6bdf08
+Adding unit (Somatophylakes Strategou (Hellenic Bodyguard Cavalry)) at 0x2c984d50 to deployment area at 0x30d0370
+Adding unit (Hypaspistai (Hellenistic Royal Guard)) at 0x2c984f98 to deployment area at 0x30d0370
+Adding unit (Argyraspides (Hellenic Elite Phalanx)) at 0x2c6b01b8 to deployment area at 0x30d0370
+Adding unit (Pezhetairoi (Hellenic Medium Phalanx)) at 0x2c7e8cc8 to deployment area at 0x30d0370
+Adding unit (Pezhetairoi (Hellenic Medium Phalanx)) at 0x2c7e8f10 to deployment area at 0x30d0370
+Adding unit (Hippeis Tarantinoi (Tarantine Elite Cavalry)) at 0x2c6b0400 to deployment area at 0x30d0370
+Adding unit (Thanvarê Payâhdag (Persian Archers)) at 0x2c6b0648 to deployment area at 0x30d0370
+Adding unit (Shûbân-î Fradâkhshânâ (Eastern Slingers)) at 0x2c6b0890 to deployment area at 0x30d0370
+Adding unit (Elephantes Indikoi (Indian Elephants)) at 0x2c6b0ad8 to deployment area at 0x30d0370
+Adding unit (Hellenikoi Kataphraktoi (Hellenic Cataphracts)) at 0x2c6b2720 to deployment area at 0x30d0370
+Adding unit (Hetairoi (Companion Cavalry)) at 0x2c6b30f8 to deployment area at 0x30d0370
+Adding unit (Thorakitai (Hellenic Heavy Spearmen)) at 0x2c6b3488 to deployment area at 0x30d0370
+Adding unit (Ekdromoi Hoplitai (Greek Light Hoplites)) at 0x2c6b36d0 to deployment area at 0x30d0370
+Adding unit (Thureophoroi (Hellenic Spearmen)) at 0x2c6b40e0 to deployment area at 0x30d0370
+Adding unit (Ekdromoi Hoplitai (Greek Light Hoplites)) at 0x2c6b4328 to deployment area at 0x30d0370
+Adding unit (Keltohellenikoi Hoplitai (Celto-Hellenic Infantry)) at 0x2c6b4570 to deployment area at 0x30d0370
+Adding unit (Gund-î Paltâ (Eastern Skirmishers)) at 0x2c6b4d38 to deployment area at 0x30d0370
+Adding unit (Prodromoi (Successor Medium Cavalry)) at 0x2c6b4f80 to deployment area at 0x30d0370
+Adding unit (Elephantes Kataphraktoi Indikoi (Armoured Indian Elephants)) at 0x2c6b5d98 to deployment area at 0x30d0370
+Adding unit (Elephantes Indikoi (Indian Elephants)) at 0x2c6b5fe0 to deployment area at 0x30d0370
+Adding unit (Somatophylakes Strategou (Hellenic Bodyguard Cavalry)) at 0x2c6b64a0 to deployment area at 0x30d03ac
+Adding unit (Klerouchon Agema (Ptolemaic Elite Phalanx)) at 0x2c6b6830 to deployment area at 0x30d03ac
+Adding unit (Pezhetairoi (Hellenic Medium Phalanx)) at 0x2c6b6a78 to deployment area at 0x30d03ac
+Adding unit (Pezhetairoi (Hellenic Medium Phalanx)) at 0x2c6b6cc0 to deployment area at 0x30d03ac
+Adding unit (Pezhetairoi (Hellenic Medium Phalanx)) at 0x2c6b6f08 to deployment area at 0x30d03ac
+Adding unit (Pezhetairoi (Hellenic Medium Phalanx)) at 0x2c6b7988 to deployment area at 0x30d03ac
+Adding unit (Lonchophoroi Hippeis (Hellenic Medium Cavalry)) at 0x2c6b7bd0 to deployment area at 0x30d03ac
+Adding unit (Misthophoroi Toxotai Kretikoi (Mercenary Cretan Archers)) at 0x2c6b7e18 to deployment area at 0x30d03ac
+Adding unit (Pilei Ya'ar Libim (African Forest Elephants)) at 0x2c6b9c78 to deployment area at 0x30d03ac
+Adding unit (Pilei Ya'ar Libim (African Forest Elephants)) at 0x2c6ba6b8 to deployment area at 0x30d03ac
+Adding unit (Lonchophoroi Hippeis (Hellenic Medium Cavalry)) at 0x2c6ba900 to deployment area at 0x30d03ac
+Adding unit (Misthophoroi Hoplitai (Mercenary Greek Classical Hoplites)) at 0x2c6bb710 to deployment area at 0x30d03ac
+Adding unit (Thureophoroi (Hellenic Spearmen)) at 0x2c6bb958 to deployment area at 0x30d03ac
+Adding unit (Misthophoroi Thureophoroi (Mercenary Hellenic Spearmen)) at 0x2c6bbba0 to deployment area at 0x30d03ac
+Adding unit (Thorakitai (Hellenic Heavy Spearmen)) at 0x2c6bbde8 to deployment area at 0x30d03ac
+Adding unit (Peltastai (Hellenic Heavy Skirmishers)) at 0x2c6bd138 to deployment area at 0x30d03ac
+Adding unit (Misthophoroi Peltastai (Mercenary Hellenic Heavy Skirmishers)) at 0x2c6bdf08 to deployment area at 0x30d03ac
+Load finished **************************
+
+
+Adding unit (Misthophoroi Phalangitai (Mercenary Hellenic Medium Phalanx)) at 0x2d4b6638 to deployment area at 0x30d03ac
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Misthophoroi Phalangitai (Mercenary Hellenic Medium Phalanx)) at 0x2d4b6638 - Deployed at (-108.938768, 424.62144) in deployment area at 0x30d03ac

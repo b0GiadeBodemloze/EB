@@ -1,0 +1,507 @@
+************** STARTING BATTLE EDITOR
+
+************** STARTING BATTLE EDITOR
+
+Loading from file eb/data/world/maps/battle/custom/Zela/descr_battle.txt
+Created faction seleucid from file
+	Creating army controlled by Caivs at 0x2d706eb0 from script
+		Creating unit (Eqvites Consvlares (Republican Consular Guard Cavalry)) at 0x2d8eff38
+		Creating unit (Eqvites Gallorvm (Gallic Auxiliary Cavalry) ) at 0x2ceb1e48
+		Creating unit (Eqvites Gallorvm (Gallic Auxiliary Cavalry) ) at 0x2ceb2090
+		Creating unit (Cohors Reformata (Post Marian Legionary Cohort)) at 0x2ceb3fc0
+		Creating unit (Galatikoi Kuarothoroi (Galatian Heavy Spearmen)) at 0x2ceb1c00
+		Creating unit (Galatikoi Kuarothoroi (Galatian Heavy Spearmen)) at 0x2ceb19b8
+		Creating unit (Cohors Reformata (Post Marian Legionary Cohort)) at 0x2cb232c0
+		Creating unit (Galatikoi Kuarothoroi (Galatian Heavy Spearmen)) at 0x2dac5380
+		Creating unit (Galatikoi Kuarothoroi (Galatian Heavy Spearmen)) at 0x2dac6a30
+		Creating unit (Galatikoi Kuarothoroi (Galatian Heavy Spearmen)) at 0x2dacb7b0
+		Creating unit (Galatikoi Kuarothoroi (Galatian Heavy Spearmen)) at 0x2dac4aa8
+		Creating unit (Cohors Reformata (Post Marian Legionary Cohort)) at 0x2daab310
+		Creating unit (Cohors Reformata (Post Marian Legionary Cohort)) at 0x2daafb40
+Created faction carthage from file
+	Creating army controlled by Pharnakes at 0x2d71f610 from script
+		Creating unit (Pontikoi Strategoi (Pontos Late Bodyguard)) at 0x2dab31f0
+		Creating unit (Harmata Drepanephora (Scythed Chariots)) at 0x2dab1b40
+		Creating unit (Harmata Drepanephora (Scythed Chariots)) at 0x2dac3d90
+		Creating unit (Harmata Drepanephora (Scythed Chariots)) at 0x2d964bd8
+		Creating unit (Doryphoroi Pontikoi (Pontic Light Spearmen)) at 0x2daaff08
+		Creating unit (Doryphoroi Pontikoi (Pontic Light Spearmen)) at 0x2c512938
+		Creating unit (Doryphoroi Pontikoi (Pontic Light Spearmen)) at 0x2c82a7e8
+		Creating unit (Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2c5126f0
+		Creating unit (Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2cb23078
+		Creating unit (Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2c82a358
+		Creating unit (Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2dac5b10
+		Creating unit (Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2daccb80
+		Creating unit (Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2d749e20
+		Creating unit (Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2d8f0180
+		Creating unit (Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2d964990
+		Creating unit (Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2dac5ed8
+		Creating unit (Asiatikoi Hippeis (Medium Eastern Cavalry)) at 0x2c9b7978
+		Creating unit (Asiatikoi Hippeis (Medium Eastern Cavalry)) at 0x2cec8570
+		Creating unit (Skuda Fistaeg Fat Aexsdzhytae (Scythian Foot Archers)) at 0x2ceae2d0
+		Creating unit (Skuda Fistaeg Fat Aexsdzhytae (Scythian Foot Archers)) at 0x2ceb7b50
+Adding unit (Eqvites Consvlares (Republican Consular Guard Cavalry)) at 0x2d8eff38 to deployment area at 0x3280010
+Adding unit (Eqvites Gallorvm (Gallic Auxiliary Cavalry) ) at 0x2ceb1e48 to deployment area at 0x3280010
+Adding unit (Eqvites Gallorvm (Gallic Auxiliary Cavalry) ) at 0x2ceb2090 to deployment area at 0x3280010
+Adding unit (Cohors Reformata (Post Marian Legionary Cohort)) at 0x2ceb3fc0 to deployment area at 0x3280010
+Adding unit (Galatikoi Kuarothoroi (Galatian Heavy Spearmen)) at 0x2ceb1c00 to deployment area at 0x3280010
+Adding unit (Galatikoi Kuarothoroi (Galatian Heavy Spearmen)) at 0x2ceb19b8 to deployment area at 0x3280010
+Adding unit (Cohors Reformata (Post Marian Legionary Cohort)) at 0x2cb232c0 to deployment area at 0x3280010
+Adding unit (Galatikoi Kuarothoroi (Galatian Heavy Spearmen)) at 0x2dac5380 to deployment area at 0x3280010
+Adding unit (Galatikoi Kuarothoroi (Galatian Heavy Spearmen)) at 0x2dac6a30 to deployment area at 0x3280010
+Adding unit (Galatikoi Kuarothoroi (Galatian Heavy Spearmen)) at 0x2dacb7b0 to deployment area at 0x3280010
+Adding unit (Galatikoi Kuarothoroi (Galatian Heavy Spearmen)) at 0x2dac4aa8 to deployment area at 0x3280010
+Adding unit (Cohors Reformata (Post Marian Legionary Cohort)) at 0x2daab310 to deployment area at 0x3280010
+Adding unit (Cohors Reformata (Post Marian Legionary Cohort)) at 0x2daafb40 to deployment area at 0x3280010
+Adding unit (Pontikoi Strategoi (Pontos Late Bodyguard)) at 0x2dab31f0 to deployment area at 0x328004c
+Adding unit (Harmata Drepanephora (Scythed Chariots)) at 0x2dab1b40 to deployment area at 0x328004c
+Adding unit (Harmata Drepanephora (Scythed Chariots)) at 0x2dac3d90 to deployment area at 0x328004c
+Adding unit (Harmata Drepanephora (Scythed Chariots)) at 0x2d964bd8 to deployment area at 0x328004c
+Adding unit (Doryphoroi Pontikoi (Pontic Light Spearmen)) at 0x2daaff08 to deployment area at 0x328004c
+Adding unit (Doryphoroi Pontikoi (Pontic Light Spearmen)) at 0x2c512938 to deployment area at 0x328004c
+Adding unit (Doryphoroi Pontikoi (Pontic Light Spearmen)) at 0x2c82a7e8 to deployment area at 0x328004c
+Adding unit (Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2c5126f0 to deployment area at 0x328004c
+Adding unit (Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2cb23078 to deployment area at 0x328004c
+Adding unit (Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2c82a358 to deployment area at 0x328004c
+Adding unit (Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2dac5b10 to deployment area at 0x328004c
+Adding unit (Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2daccb80 to deployment area at 0x328004c
+Adding unit (Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2d749e20 to deployment area at 0x328004c
+Adding unit (Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2d8f0180 to deployment area at 0x328004c
+Adding unit (Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2d964990 to deployment area at 0x328004c
+Adding unit (Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2dac5ed8 to deployment area at 0x328004c
+Adding unit (Asiatikoi Hippeis (Medium Eastern Cavalry)) at 0x2c9b7978 to deployment area at 0x328004c
+Adding unit (Asiatikoi Hippeis (Medium Eastern Cavalry)) at 0x2cec8570 to deployment area at 0x328004c
+Adding unit (Skuda Fistaeg Fat Aexsdzhytae (Scythian Foot Archers)) at 0x2ceae2d0 to deployment area at 0x328004c
+Adding unit (Skuda Fistaeg Fat Aexsdzhytae (Scythian Foot Archers)) at 0x2ceb7b50 to deployment area at 0x328004c
+Load finished **************************
+
+
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (seleucid:Eqvites Gallorvm (Gallic Auxiliary Cavalry) ) at 0x2ceb1e48 from (-441.677664, 328.88928) to (-449.46, 335.609984)
+	 with rotation -.03068 and width 5.365716 - now residing in deployment area at 0x3280010
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (seleucid:Eqvites Gallorvm (Gallic Auxiliary Cavalry) ) at 0x2ceb1e48 from (-444.407744, 328.931968) to (-449.516352, 340.586336)
+	 with rotation -.03068 and width 5.365716 - now residing in deployment area at 0x3280010
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (seleucid:Eqvites Gallorvm (Gallic Auxiliary Cavalry) ) at 0x2ceb1e48 from (-447.004288, 333.254848) to (-449.49136, 341.473984)
+	 with rotation -.03068 and width 5.365716 - now residing in deployment area at 0x3280010
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (seleucid:Eqvites Gallorvm (Gallic Auxiliary Cavalry) ) at 0x2ceb1e48 from (-446.432, 340.74896) to (-449.480832, 340.171776)
+	 with rotation -.03068 and width 5.365716 - now residing in deployment area at 0x3280010
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (seleucid:Eqvites Gallorvm (Gallic Auxiliary Cavalry) ) at 0x2ceb1e48 from (-446.674112, 334.697696) to (-449.480832, 340.171616)
+	 with rotation -.010163 and width 22.434984 - now residing in deployment area at 0x3280010
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (seleucid:Eqvites Gallorvm (Gallic Auxiliary Cavalry) ) at 0x2ceb1e48 from (-444.693088, 339.082336) to (-449.98448, 341.506112)
+	 with rotation -.010163 and width 22.434984 - now residing in deployment area at 0x3280010
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (seleucid:Cohors Reformata (Post Marian Legionary Cohort)) at 0x2cb232c0 from (-411.9112, 330.226368) to (-426.493216, 343.177504)
+	 with rotation -.008245 and width 22.702686 - now residing in deployment area at 0x3280010
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (seleucid:Galatikoi Kuarothoroi (Galatian Heavy Spearmen)) at 0x2ceb19b8 from (-382.763008, 328.485728) to (-403.278464, 344.160288)
+	 with rotation -.034898 and width 12.798 - now residing in deployment area at 0x3280010
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (seleucid:Galatikoi Kuarothoroi (Galatian Heavy Spearmen)) at 0x2ceb19b8 from (-394.94304, 341.352992) to (-403.278464, 344.160288)
+	 with rotation .011601 and width 15.419776 - now residing in deployment area at 0x3280010
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (seleucid:Galatikoi Kuarothoroi (Galatian Heavy Spearmen)) at 0x2ceb19b8 from (-393.348256, 342.514144) to (-403.241024, 344.533536)
+	 with rotation .001822 and width 15.872492 - now residing in deployment area at 0x3280010
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (seleucid:Cohors Reformata (Post Marian Legionary Cohort)) at 0x2cb232c0 from (-415.890176, 338.461888) to (-426.834304, 343.624096)
+	 with rotation -.008245 and width 22.702686 - now residing in deployment area at 0x3280010
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (seleucid:Galatikoi Kuarothoroi (Galatian Heavy Spearmen)) at 0x2ceb1c00 from (-364.488, 331.322592) to (-383.068896, 344.573472)
+	 with rotation -.017449 and width 12.6 - now residing in deployment area at 0x3280010
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (seleucid:Galatikoi Kuarothoroi (Galatian Heavy Spearmen)) at 0x2ceb1c00 from (-377.965472, 341.932) to (-377.965472, 341.932)
+	 with rotation -.000575 and width 15.878084 - now residing in deployment area at 0x3280010
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (seleucid:Galatikoi Kuarothoroi (Galatian Heavy Spearmen)) at 0x2ceb1c00 from (-367.472672, 340.333664) to (-388.481696, 344.432096)
+	 with rotation -.000575 and width 15.878084 - now residing in deployment area at 0x3280010
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (seleucid:Galatikoi Kuarothoroi (Galatian Heavy Spearmen)) at 0x2ceb1c00 from (-379.147136, 342.323552) to (-386.757664, 344.551296)
+	 with rotation -.002684 and width 15.707852 - now residing in deployment area at 0x3280010
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (seleucid:Galatikoi Kuarothoroi (Galatian Heavy Spearmen)) at 0x2ceb1c00 from (-377.156192, 342.206656) to (-383.30112, 344.46592)
+	 with rotation -.002684 and width 15.707852 - now residing in deployment area at 0x3280010
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (seleucid:Cohors Reformata (Post Marian Legionary Cohort)) at 0x2ceb3fc0 from (-347.418688, 332.63344) to (-363.820992, 345.747008)
+	 with rotation -.034898 and width 17.719 - now residing in deployment area at 0x3280010
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (seleucid:Cohors Reformata (Post Marian Legionary Cohort)) at 0x2ceb3fc0 from (-356.136, 343.638464) to (-363.820928, 345.747008)
+	 with rotation -.03461 and width 13.920762 - now residing in deployment area at 0x3280010
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (seleucid:Cohors Reformata (Post Marian Legionary Cohort)) at 0x2ceb3fc0 from (-354.504768, 342.230144) to (-363.88512, 343.354944)
+	 with rotation -.03461 and width 13.920762 - now residing in deployment area at 0x3280010
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (seleucid:Cohors Reformata (Post Marian Legionary Cohort)) at 0x2ceb3fc0 from (-357.309856, 342.042656) to (-363.885088, 343.354944)
+	 with rotation -.011025 and width 23.674806 - now residing in deployment area at 0x3280010
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (seleucid:Cohors Reformata (Post Marian Legionary Cohort)) at 0x2ceb3fc0 from (-353.660768, 342.43344) to (-363.873664, 343.545056)
+	 with rotation -.011025 and width 23.674806 - now residing in deployment area at 0x3280010
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (seleucid:Cohors Reformata (Post Marian Legionary Cohort)) at 0x2ceb3fc0 from (-354.983424, 342.822464) to (-363.873664, 343.545056)
+	 with rotation -.015819 and width 28.478246 - now residing in deployment area at 0x3280010
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (seleucid:Eqvites Gallorvm (Gallic Auxiliary Cavalry) ) at 0x2ceb2090 from (-305.670368, 330.98512) to (-336.899168, 342.773312)
+	 with rotation .087245 and width 22.245 - now residing in deployment area at 0x3280010
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (seleucid:Eqvites Gallorvm (Gallic Auxiliary Cavalry) ) at 0x2ceb2090 from (-329.795456, 337.41552) to (-336.899168, 342.773312)
+	 with rotation -.004985 and width 21.946932 - now residing in deployment area at 0x3280010
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (seleucid:Eqvites Gallorvm (Gallic Auxiliary Cavalry) ) at 0x2ceb2090 from (-330.20576, 339.564864) to (-336.905472, 341.99664)
+	 with rotation -.004985 and width 21.946932 - now residing in deployment area at 0x3280010
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Asiatikoi Hippeis (Medium Eastern Cavalry)) at 0x2cec8570 from (-479.328608, 492.07584) to (-471.993024, 490.697984)
+	 with rotation 3.128554 and width 22.839902 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Doryphoroi Pontikoi (Pontic Light Spearmen)) at 0x2c82a7e8 from (-440.14944, 485.732192) to (-421.924576, 487.672928)
+	 with rotation 3.089246 and width 38.217 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Doryphoroi Pontikoi (Pontic Light Spearmen)) at 0x2c82a7e8 from (-439.846816, 488.79424) to (-439.846816, 488.79424)
+	 with rotation -3.131622 and width 38.228292 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Doryphoroi Pontikoi (Pontic Light Spearmen)) at 0x2c82a7e8 from (-456.640128, 489.035808) to (-425.064032, 487.981792)
+	 with rotation -3.131622 and width 38.228292 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Doryphoroi Pontikoi (Pontic Light Spearmen)) at 0x2c512938 from (-399.962176, 487.5864) to (-384.658848, 488.10688)
+	 with rotation -3.141593 and width 38.571 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Doryphoroi Pontikoi (Pontic Light Spearmen)) at 0x2c512938 from (-399.438048, 488.777376) to (-384.658848, 488.10688)
+	 with rotation -3.140922 and width 38.595588 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Doryphoroi Pontikoi (Pontic Light Spearmen)) at 0x2daaff08 from (-364.3584, 487.689088) to (-345.9824, 486.888256)
+	 with rotation -3.106695 and width 38.525 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Doryphoroi Pontikoi (Pontic Light Spearmen)) at 0x2daaff08 from (-351.54496, 488.782624) to (-345.605472, 486.98528)
+	 with rotation -3.138621 and width 38.31386 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Doryphoroi Pontikoi (Pontic Light Spearmen)) at 0x2daaff08 from (-364.04176, 490.146752) to (-345.290336, 488.05456)
+	 with rotation -3.138621 and width 38.31386 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Doryphoroi Pontikoi (Pontic Light Spearmen)) at 0x2c512938 from (-403.258752, 488.839328) to (-383.583552, 488.158464)
+	 with rotation -3.140922 and width 38.595588 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Doryphoroi Pontikoi (Pontic Light Spearmen)) at 0x2c82a7e8 from (-432.523456, 489.637472) to (-421.798496, 488.131488)
+	 with rotation -3.131622 and width 38.228292 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Asiatikoi Hippeis (Medium Eastern Cavalry)) at 0x2c9b7978 from (-308.032672, 506.637376) to (-319.520448, 491.400736)
+	 with rotation 3.054348 and width 22.596 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Asiatikoi Hippeis (Medium Eastern Cavalry)) at 0x2c9b7978 from (-325.57184, 498.724928) to (-325.57184, 498.724928)
+	 with rotation 3.132773 and width 21.543748 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Asiatikoi Hippeis (Medium Eastern Cavalry)) at 0x2c9b7978 from (-337.27504, 498.190944) to (-321.2608, 491.102432)
+	 with rotation 3.132773 and width 21.543748 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Asiatikoi Hippeis (Medium Eastern Cavalry)) at 0x2cec8570 from (-473.00832, 494.445472) to (-463.947936, 490.248192)
+	 with rotation 3.128554 and width 22.839902 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Doryphoroi Pontikoi (Pontic Light Spearmen)) at 0x2daaff08 from (-352.446336, 490.859424) to (-341.091232, 488.650816)
+	 with rotation -3.138621 and width 38.31386 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Doryphoroi Pontikoi (Pontic Light Spearmen)) at 0x2c512938 from (-391.267392, 489.91792) to (-379.373088, 488.037568)
+	 with rotation -3.140922 and width 38.595588 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Doryphoroi Pontikoi (Pontic Light Spearmen)) at 0x2c82a7e8 from (-427.532608, 488.656608) to (-417.965952, 487.1592)
+	 with rotation -3.131622 and width 38.228292 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Asiatikoi Hippeis (Medium Eastern Cavalry)) at 0x2cec8570 from (-473.395328, 492.100384) to (-458.11072, 490.710272)
+	 with rotation 3.128554 and width 22.839902 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Skuda Fistaeg Fat Aexsdzhytae (Scythian Foot Archers)) at 0x2ceae2d0 from (-368.519296, 459.248512) to (-383.37808, 458.94576)
+	 with rotation 3.12261 and width 23.052242 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Skuda Fistaeg Fat Aexsdzhytae (Scythian Foot Archers)) at 0x2ceae2d0 from (-387.51616, 461.107648) to (-362.75856, 469.4384)
+	 with rotation 3.12261 and width 23.052242 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Skuda Fistaeg Fat Aexsdzhytae (Scythian Foot Archers)) at 0x2ceae2d0 from (-366.948992, 469.606048) to (-362.75856, 469.4384)
+	 with rotation 3.125198 and width 33.571444 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Skuda Fistaeg Fat Aexsdzhytae (Scythian Foot Archers)) at 0x2ceae2d0 from (-371.097088, 470.914304) to (-362.305888, 470.451936)
+	 with rotation 3.125198 and width 33.571444 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Skuda Fistaeg Fat Aexsdzhytae (Scythian Foot Archers)) at 0x2ceb7b50 from (-407.614912, 460.995296) to (-388.6448, 469.474912)
+	 with rotation -3.089246 and width 23.149 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Skuda Fistaeg Fat Aexsdzhytae (Scythian Foot Archers)) at 0x2ceb7b50 from (-399.228032, 471.364896) to (-388.6448, 469.474912)
+	 with rotation 3.126253 and width 43.99424 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Skuda Fistaeg Fat Aexsdzhytae (Scythian Foot Archers)) at 0x2ceb7b50 from (-401.060192, 471.493792) to (-392.78432, 470.264032)
+	 with rotation 3.126253 and width 43.99424 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Doryphoroi Pontikoi (Pontic Light Spearmen)) at 0x2daaff08 from (-357.25856, 489.6144) to (-341.156352, 487.773664)
+	 with rotation -3.138621 and width 38.31386 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2d8f0180 from (-353.424576, 529.658688) to (-344.393312, 541.569088)
+	 with rotation 3.054348 and width 26.037 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2d8f0180 from (-351.176544, 544.102656) to (-351.176544, 544.102656)
+	 with rotation -3.121364 and width 21.209862 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2d8f0180 from (-365.262752, 545.873856) to (-341.535552, 538.944832)
+	 with rotation -3.121364 and width 21.209862 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2d8f0180 from (-347.192608, 541.453952) to (-341.53568, 538.944832)
+	 with rotation -3.139867 and width 26.61494 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2d964990 from (-402.252096, 527.275264) to (-368.606464, 538.492096)
+	 with rotation -3.124144 and width 27.156 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2d964990 from (-378.534688, 540.193536) to (-368.606464, 538.492096)
+	 with rotation 3.13632 and width 26.784888 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2d964990 from (-385.522784, 541.604672) to (-368.330464, 538.927616)
+	 with rotation 3.13632 and width 26.784888 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2dac5ed8 from (-431.787488, 527.114304) to (-394.60528, 538.909312)
+	 with rotation 3.106695 and width 26.146 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2dac5ed8 from (-402.748512, 540.0304) to (-394.605504, 538.909312)
+	 with rotation 3.123281 and width 26.789586 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2d8f0180 from (-352.688288, 541.28512) to (-344.099008, 552.266432)
+	 with rotation -3.139867 and width 26.61494 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2d964990 from (-380.661056, 541.469632) to (-376.231456, 553.090112)
+	 with rotation 3.13632 and width 26.784888 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2dac5ed8 from (-403.862144, 540.105856) to (-407.200448, 553.638336)
+	 with rotation 3.123281 and width 26.789586 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Skuda Fistaeg Fat Aexsdzhytae (Scythian Foot Archers)) at 0x2ceb7b50 from (-403.53024, 470.977472) to (-400.148064, 470.57584)
+	 with rotation 3.126253 and width 43.99424 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2d749e20 from (-432.705888, 510.009344) to (-417.03648, 540.697152)
+	 with rotation 3.089246 and width 27.017 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2d749e20 from (-420.108832, 541.995264) to (-417.036384, 540.697152)
+	 with rotation 3.132101 and width 26.652872 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2daccb80 from (-401.615904, 510.755904) to (-381.64304, 541.70848)
+	 with rotation 3.106695 and width 26.228 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2daccb80 from (-388.300608, 542.167744) to (-381.643008, 541.70848)
+	 with rotation 3.135936 and width 26.03854 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2daccb80 from (-391.67296, 543.5328) to (-381.957504, 539.78656)
+	 with rotation 3.134882 and width 26.386698 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2dac5b10 from (-354.468384, 516.811936) to (-344.26832, 541.464128)
+	 with rotation 3.002001 and width 26.699 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2dac5b10 from (-351.732864, 542.599424) to (-344.26832, 541.464128)
+	 with rotation -3.125294 and width 27.927438 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2dac5b10 from (-359.047328, 543.076736) to (-343.555168, 539.534976)
+	 with rotation -3.125294 and width 27.927438 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2dac5b10 from (-355.33072, 540.64352) to (-343.555168, 539.534976)
+	 with rotation -3.130088 and width 26.531476 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2dac5b10 from (-359.564032, 541.403584) to (-349.611616, 539.697536)
+	 with rotation -3.130088 and width 26.531476 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2dac5b10 from (-357.041952, 542.093504) to (-343.099456, 543.79488)
+	 with rotation -3.130088 and width 26.531476 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2dac5b10 from (-350.529824, 546.190848) to (-350.529824, 546.190848)
+	 with rotation 3.129321 and width 26.238698 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2dac5b10 from (-364.829824, 546.953536) to (-347.976288, 539.687936)
+	 with rotation 3.129321 and width 26.238698 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2dac5b10 from (-355.981728, 540.695296) to (-342.801888, 543.322944)
+	 with rotation 3.129321 and width 26.238698 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2daccb80 from (-389.257888, 542.321664) to (-376.687424, 543.037952)
+	 with rotation 3.134882 and width 26.386698 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2d749e20 from (-423.746432, 543.62464) to (-409.494304, 543.00288)
+	 with rotation 3.132101 and width 26.652872 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2d8f0180 from (-353.901248, 555.819648) to (-339.367904, 564.10784)
+	 with rotation -3.139867 and width 26.61494 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2dac5b10 from (-355.29456, 546.278656) to (-339.126496, 552.906176)
+	 with rotation 3.129321 and width 26.238698 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2d964990 from (-382.970208, 557.660544) to (-375.605824, 567.331328)
+	 with rotation 3.13632 and width 26.784888 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2d964990 from (-382.344608, 571.90176) to (-373.56864, 564.417088)
+	 with rotation 3.13632 and width 26.784888 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2daccb80 from (-388.574144, 544.082624) to (-373.528096, 553.46848)
+	 with rotation 3.134882 and width 26.386698 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2dac5ed8 from (-416.090048, 557.38816) to (-405.250752, 563.385024)
+	 with rotation 3.123281 and width 26.789586 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2d749e20 from (-422.27984, 543.913344) to (-407.039648, 553.210048)
+	 with rotation 3.132101 and width 26.652872 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2c5126f0 from (-361.530752, 503.687136) to (-342.007424, 541.962752)
+	 with rotation 3.036899 and width 26.454 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2c5126f0 from (-347.250624, 541.744832) to (-342.133664, 541.080768)
+	 with rotation 3.140826 and width 34.967632 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2c5126f0 from (-363.672672, 541.295232) to (-341.922176, 539.53888)
+	 with rotation 3.140826 and width 34.967632 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2c5126f0 from (-362.936224, 540.840448) to (-334.86304, 539.465728)
+	 with rotation 3.140826 and width 34.967632 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2cb23078 from (-393.753184, 500.192928) to (-371.616544, 539.598656)
+	 with rotation -3.124144 and width 26.878 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2cb23078 from (-379.3448, 540.200128) to (-371.627936, 539.597312)
+	 with rotation 3.122706 and width 34.983736 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2c82a358 from (-439.832896, 498.739328) to (-409.381376, 540.058368)
+	 with rotation 3.106695 and width 26.478 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2c82a358 from (-417.442368, 541.068288) to (-409.381376, 540.058368)
+	 with rotation 3.135457 and width 34.809948 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2c82a358 from (-432.545568, 541.061952) to (-409.381376, 540.058368)
+	 with rotation 3.141305 and width 35.307524 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2c82a358 from (-420.671776, 543.542144) to (-400.637792, 500.731296)
+	 with rotation 3.141305 and width 35.307524 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2c5126f0 from (-357.9472, 538.904768) to (-334.86304, 539.465728)
+	 with rotation 3.140826 and width 34.967632 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2cb23078 from (-383.273504, 541.962304) to (-371.631232, 539.595904)
+	 with rotation 3.127787 and width 26.237196 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2c5126f0 from (-345.486912, 543.126784) to (-360.988352, 539.848128)
+	 with rotation -3.126924 and width 26.128104 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2c5126f0 from (-370.96304, 543.652224) to (-336.321408, 539.569856)
+	 with rotation -3.126924 and width 26.128104 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2c82a358 from (-410.728224, 502.415648) to (-401.148576, 540.615104)
+	 with rotation 3.141305 and width 35.307524 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2c82a358 from (-409.460608, 541.671616) to (-401.144384, 540.616)
+	 with rotation 3.130376 and width 26.024436 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2cb23078 from (-386.520096, 538.143168) to (-386.25456, 502.922304)
+	 with rotation 3.127787 and width 26.237196 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2c82a358 from (-413.602208, 542.352896) to (-419.43232, 502.731936)
+	 with rotation 3.130376 and width 26.024436 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2c5126f0 from (-354.252576, 538.577536) to (-347.859072, 504.358048)
+	 with rotation -3.126924 and width 26.128104 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2daccb80 from (-392.729408, 553.55552) to (-386.65936, 516.15936)
+	 with rotation 3.134882 and width 26.386698 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2d964990 from (-392.99472, 564.868928) to (-386.928896, 528.627744)
+	 with rotation 3.13632 and width 26.784888 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2d749e20 from (-416.314624, 556.713536) to (-418.825088, 516.103744)
+	 with rotation 3.132101 and width 26.652872 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2dac5ed8 from (-419.83104, 565.857344) to (-418.352192, 527.427296)
+	 with rotation 3.123281 and width 26.789586 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2dac5b10 from (-357.31232, 551.886016) to (-347.192896, 519.4088)
+	 with rotation 3.129321 and width 26.238698 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2d8f0180 from (-359.338464, 565.582656) to (-346.279584, 531.036384)
+	 with rotation -3.139867 and width 26.61494 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2c5126f0 from (-356.612864, 509.314816) to (-349.1312, 501.894688)
+	 with rotation -3.126924 and width 26.128104 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2dac5b10 from (-357.628608, 522.348096) to (-347.26112, 516.212768)
+	 with rotation 3.129321 and width 26.238698 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2d964990 from (-399.711776, 531.290112) to (-386.163456, 527.43408)
+	 with rotation 3.13632 and width 26.784888 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2d8f0180 from (-349.714336, 532.446336) to (-346.007968, 526.8432)
+	 with rotation -3.139867 and width 26.61494 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Harmata Drepanephora (Scythed Chariots)) at 0x2dac3d90 from (-386.565952, 439.5248) to (-382.120032, 441.723968)
+	 with rotation 3.137566 and width 9.183698 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Harmata Drepanephora (Scythed Chariots)) at 0x2dac3d90 from (-391.535616, 446.386848) to (-380.518656, 454.880704)
+	 with rotation 3.137566 and width 9.183698 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Harmata Drepanephora (Scythed Chariots)) at 0x2d964bd8 from (-429.096448, 449.180672) to (-420.667968, 455.252768)
+	 with rotation -3.089246 and width 57.298 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Harmata Drepanephora (Scythed Chariots)) at 0x2dab1b40 from (-357.764192, 444.821728) to (-341.403616, 454.367264)
+	 with rotation -3.106695 and width 25.423 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Harmata Drepanephora (Scythed Chariots)) at 0x2dab1b40 from (-358.337824, 457.566944) to (-342.017632, 454.517088)
+	 with rotation -3.106695 and width 25.423 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Harmata Drepanephora (Scythed Chariots)) at 0x2dab1b40 from (-360.953504, 454.846496) to (-341.746144, 454.068832)
+	 with rotation -3.106695 and width 25.423 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Harmata Drepanephora (Scythed Chariots)) at 0x2dac3d90 from (-389.518976, 455.144288) to (-373.51952, 454.787616)
+	 with rotation 3.137566 and width 9.183698 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Harmata Drepanephora (Scythed Chariots)) at 0x2dab1b40 from (-356.992384, 455.149856) to (-335.267392, 453.202752)
+	 with rotation -3.106695 and width 25.423 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Harmata Drepanephora (Scythed Chariots)) at 0x2d964bd8 from (-425.542272, 457.265792) to (-412.932864, 455.185056)
+	 with rotation -3.089246 and width 57.298 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Skuda Fistaeg Fat Aexsdzhytae (Scythian Foot Archers)) at 0x2ceae2d0 from (-371.045952, 470.57168) to (-354.31424, 470.134336)
+	 with rotation 3.125198 and width 33.571444 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Skuda Fistaeg Fat Aexsdzhytae (Scythian Foot Archers)) at 0x2ceb7b50 from (-407.917632, 473.567008) to (-400.148064, 470.57584)
+	 with rotation 3.126253 and width 43.99424 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Skuda Fistaeg Fat Aexsdzhytae (Scythian Foot Archers)) at 0x2ceb7b50 from (-408.209536, 471.904256) to (-394.407232, 470.829696)
+	 with rotation 3.126253 and width 43.99424 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Skuda Fistaeg Fat Aexsdzhytae (Scythian Foot Archers)) at 0x2ceae2d0 from (-365.10064, 471.875552) to (-354.949248, 470.147584)
+	 with rotation 3.125198 and width 33.571444 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Asiatikoi Hippeis (Medium Eastern Cavalry)) at 0x2c9b7978 from (-330.644544, 496.815136) to (-317.00464, 490.854208)
+	 with rotation 3.132773 and width 21.543748 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Doryphoroi Pontikoi (Pontic Light Spearmen)) at 0x2daaff08 from (-350.350624, 490.721504) to (-337.37776, 488.200832)
+	 with rotation -3.138621 and width 38.31386 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2c5126f0 from (-357.375456, 503.797056) to (-343.922784, 501.23952)
+	 with rotation -3.126924 and width 26.128104 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2dac5b10 from (-355.596096, 516.439456) to (-344.15104, 515.954848)
+	 with rotation 3.129321 and width 26.238698 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2d8f0180 from (-356.671616, 527.339776) to (-344.016, 527.212224)
+	 with rotation -3.139867 and width 26.61494 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Doryphoroi Pontikoi (Pontic Light Spearmen)) at 0x2c512938 from (-392.871904, 491.274496) to (-375.553344, 488.382944)
+	 with rotation -3.140922 and width 38.595588 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Asiatikoi Hippeis (Medium Eastern Cavalry)) at 0x2c9b7978 from (-331.883872, 501.500192) to (-302.809312, 493.569536)
+	 with rotation 3.132773 and width 21.543748 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Doryphoroi Pontikoi (Pontic Light Spearmen)) at 0x2daaff08 from (-357.791712, 493.611456) to (-328.856256, 487.508928)
+	 with rotation -3.138621 and width 38.31386 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Doryphoroi Pontikoi (Pontic Light Spearmen)) at 0x2c512938 from (-386.374272, 492.80144) to (-368.105376, 487.842688)
+	 with rotation -3.140922 and width 38.595588 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Doryphoroi Pontikoi (Pontic Light Spearmen)) at 0x2c512938 from (-378.926304, 492.261184) to (-367.320576, 487.579008)
+	 with rotation -3.140922 and width 38.595588 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Doryphoroi Pontikoi (Pontic Light Spearmen)) at 0x2c82a7e8 from (-434.057664, 491.187744) to (-405.858112, 486.651264)
+	 with rotation -3.131622 and width 38.228292 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Doryphoroi Pontikoi (Pontic Light Spearmen)) at 0x2c82a7e8 from (-414.753792, 490.476448) to (-406.419008, 486.591904)
+	 with rotation -3.131622 and width 38.228292 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Doryphoroi Pontikoi (Pontic Light Spearmen)) at 0x2c512938 from (-396.316512, 491.621568) to (-367.704896, 487.542784)
+	 with rotation -3.140922 and width 38.595588 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2cb23078 from (-399.406048, 501.836704) to (-376.446272, 501.280448)
+	 with rotation 3.127787 and width 26.237196 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2daccb80 from (-396.724096, 516.808032) to (-375.161504, 515.562816)
+	 with rotation 3.134882 and width 26.386698 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2daccb80 from (-385.22624, 516.211488) to (-376.247904, 515.241824)
+	 with rotation 3.134882 and width 26.386698 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2d964990 from (-392.805248, 528.151904) to (-375.392832, 527.725024)
+	 with rotation 3.13632 and width 26.784888 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2c5126f0 from (-354.094176, 505.72816) to (-335.022912, 501.759552)
+	 with rotation -3.126924 and width 26.128104 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2dac5b10 from (-351.097728, 516.533568) to (-335.260416, 516.673408)
+	 with rotation 3.129321 and width 26.238698 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2d8f0180 from (-351.372256, 527.549568) to (-335.305184, 528.68128)
+	 with rotation -3.139867 and width 26.61494 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Asiatikoi Hippeis (Medium Eastern Cavalry)) at 0x2cec8570 from (-462.896736, 500.141504) to (-453.728256, 489.125216)
+	 with rotation 3.128554 and width 22.839902 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2c82a358 from (-432.727904, 503.808448) to (-415.952832, 502.326368)
+	 with rotation 3.130376 and width 26.024436 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2d749e20 from (-429.804096, 517.750656) to (-415.274592, 516.27392)
+	 with rotation 3.132101 and width 26.652872 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2dac5ed8 from (-429.18736, 529.963424) to (-414.292128, 527.584896)
+	 with rotation 3.123281 and width 26.789586 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2c82a358 from (-431.2776, 505.90384) to (-413.563072, 501.836032)
+	 with rotation 3.130376 and width 26.024436 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2d749e20 from (-427.94688, 517.390304) to (-412.673728, 516.326304)
+	 with rotation 3.132101 and width 26.652872 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2dac5ed8 from (-428.916448, 528.848096) to (-411.500928, 527.253248)
+	 with rotation 3.123281 and width 26.789586 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2cb23078 from (-389.627744, 505.62096) to (-373.421344, 501.611296)
+	 with rotation 3.127787 and width 26.237196 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2daccb80 from (-386.93536, 515.811232) to (-373.286336, 515.66784)
+	 with rotation 3.134882 and width 26.386698 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2d964990 from (-386.4648, 528.375616) to (-372.313632, 528.4264)
+	 with rotation 3.13632 and width 26.784888 - now residing in deployment area at 0x328004c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Pontikoi Strategoi (Pontos Late Bodyguard)) at 0x2dab31f0 from (-460.220928, 521.566112) to (-445.405184, 519.19616)
+	 with rotation 2.949654 and width 13.031 - now residing in deployment area at 0x328004c
+Trying to remove unit (Pontikoi Strategoi (Pontos Late Bodyguard)) at 0x2dab31f0 from deployment area at 0x328004c and the unit wasn't found
+Trying to remove unit (Harmata Drepanephora (Scythed Chariots)) at 0x2dab1b40 from deployment area at 0x328004c and the unit wasn't found
+Trying to remove unit (Harmata Drepanephora (Scythed Chariots)) at 0x2dac3d90 from deployment area at 0x328004c and the unit wasn't found
+Trying to remove unit (Harmata Drepanephora (Scythed Chariots)) at 0x2d964bd8 from deployment area at 0x328004c and the unit wasn't found
+Trying to remove unit (Doryphoroi Pontikoi (Pontic Light Spearmen)) at 0x2daaff08 from deployment area at 0x328004c and the unit wasn't found
+Trying to remove unit (Doryphoroi Pontikoi (Pontic Light Spearmen)) at 0x2c512938 from deployment area at 0x328004c and the unit wasn't found
+Trying to remove unit (Doryphoroi Pontikoi (Pontic Light Spearmen)) at 0x2c82a7e8 from deployment area at 0x328004c and the unit wasn't found
+Trying to remove unit (Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2c5126f0 from deployment area at 0x328004c and the unit wasn't found
+Trying to remove unit (Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2cb23078 from deployment area at 0x328004c and the unit wasn't found
+Trying to remove unit (Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2c82a358 from deployment area at 0x328004c and the unit wasn't found
+Trying to remove unit (Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2dac5b10 from deployment area at 0x328004c and the unit wasn't found
+Trying to remove unit (Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2daccb80 from deployment area at 0x328004c and the unit wasn't found
+Trying to remove unit (Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2d749e20 from deployment area at 0x328004c and the unit wasn't found
+Trying to remove unit (Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2d8f0180 from deployment area at 0x328004c and the unit wasn't found
+Trying to remove unit (Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2d964990 from deployment area at 0x328004c and the unit wasn't found
+Trying to remove unit (Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2dac5ed8 from deployment area at 0x328004c and the unit wasn't found
+Trying to remove unit (Asiatikoi Hippeis (Medium Eastern Cavalry)) at 0x2c9b7978 from deployment area at 0x328004c and the unit wasn't found
+Trying to remove unit (Asiatikoi Hippeis (Medium Eastern Cavalry)) at 0x2cec8570 from deployment area at 0x328004c and the unit wasn't found
+Trying to remove unit (Skuda Fistaeg Fat Aexsdzhytae (Scythian Foot Archers)) at 0x2ceae2d0 from deployment area at 0x328004c and the unit wasn't found
+Trying to remove unit (Skuda Fistaeg Fat Aexsdzhytae (Scythian Foot Archers)) at 0x2ceb7b50 from deployment area at 0x328004c and the unit wasn't found
+Trying to remove unit (Eqvites Consvlares (Republican Consular Guard Cavalry)) at 0x2d8eff38 from deployment area at 0x3280010 and the unit wasn't found
+Trying to remove unit (Eqvites Gallorvm (Gallic Auxiliary Cavalry) ) at 0x2ceb1e48 from deployment area at 0x3280010 and the unit wasn't found
+Trying to remove unit (Eqvites Gallorvm (Gallic Auxiliary Cavalry) ) at 0x2ceb2090 from deployment area at 0x3280010 and the unit wasn't found
+Trying to remove unit (Cohors Reformata (Post Marian Legionary Cohort)) at 0x2ceb3fc0 from deployment area at 0x3280010 and the unit wasn't found
+Trying to remove unit (Galatikoi Kuarothoroi (Galatian Heavy Spearmen)) at 0x2ceb1c00 from deployment area at 0x3280010 and the unit wasn't found
+Trying to remove unit (Galatikoi Kuarothoroi (Galatian Heavy Spearmen)) at 0x2ceb19b8 from deployment area at 0x3280010 and the unit wasn't found
+Trying to remove unit (Cohors Reformata (Post Marian Legionary Cohort)) at 0x2cb232c0 from deployment area at 0x3280010 and the unit wasn't found
+Trying to remove unit (Galatikoi Kuarothoroi (Galatian Heavy Spearmen)) at 0x2dac5380 from deployment area at 0x3280010 and the unit wasn't found
+Trying to remove unit (Galatikoi Kuarothoroi (Galatian Heavy Spearmen)) at 0x2dac6a30 from deployment area at 0x3280010 and the unit wasn't found
+Trying to remove unit (Galatikoi Kuarothoroi (Galatian Heavy Spearmen)) at 0x2dacb7b0 from deployment area at 0x3280010 and the unit wasn't found
+Trying to remove unit (Galatikoi Kuarothoroi (Galatian Heavy Spearmen)) at 0x2dac4aa8 from deployment area at 0x3280010 and the unit wasn't found
+Trying to remove unit (Cohors Reformata (Post Marian Legionary Cohort)) at 0x2daab310 from deployment area at 0x3280010 and the unit wasn't found
+Trying to remove unit (Cohors Reformata (Post Marian Legionary Cohort)) at 0x2daafb40 from deployment area at 0x3280010 and the unit wasn't found
+Loading from file eb/data/world/maps/battle/custom/Zela/descr_battle.txt
+Created faction seleucid from file
+	Creating army controlled by Caivs at 0x2c8d53a8 from script
+		Creating unit (Eqvites Consvlares (Republican Consular Guard Cavalry)) at 0x2dacb7b0
+		Creating unit (Eqvites Gallorvm (Gallic Auxiliary Cavalry) ) at 0x2dac6a30
+		Creating unit (Eqvites Gallorvm (Gallic Auxiliary Cavalry) ) at 0x2dac5380
+		Creating unit (Cohors Reformata (Post Marian Legionary Cohort)) at 0x2cb232c0
+		Creating unit (Galatikoi Kuarothoroi (Galatian Heavy Spearmen)) at 0x2ceb19b8
+		Creating unit (Galatikoi Kuarothoroi (Galatian Heavy Spearmen)) at 0x2ceb1c00
+		Creating unit (Cohors Reformata (Post Marian Legionary Cohort)) at 0x2ceb3fc0
+		Creating unit (Galatikoi Kuarothoroi (Galatian Heavy Spearmen)) at 0x2ceb2090
+		Creating unit (Galatikoi Kuarothoroi (Galatian Heavy Spearmen)) at 0x2ceb1e48
+		Creating unit (Galatikoi Kuarothoroi (Galatian Heavy Spearmen)) at 0x2d8eff38
+		Creating unit (Galatikoi Kuarothoroi (Galatian Heavy Spearmen)) at 0x2ceb7b50
+		Creating unit (Cohors Reformata (Post Marian Legionary Cohort)) at 0x2ceae2d0
+		Creating unit (Cohors Reformata (Post Marian Legionary Cohort)) at 0x2cec8570
+Created faction carthage from file
+	Creating army controlled by Pharnakes at 0x2d466388 from script
+		Creating unit (Pontikoi Strategoi (Pontos Late Bodyguard)) at 0x2c9b7978
+		Creating unit (Harmata Drepanephora (Scythed Chariots)) at 0x2dac5ed8
+		Creating unit (Harmata Drepanephora (Scythed Chariots)) at 0x2d964990
+		Creating unit (Harmata Drepanephora (Scythed Chariots)) at 0x2d8f0180
+		Creating unit (Doryphoroi Pontikoi (Pontic Light Spearmen)) at 0x2d749e20
+		Creating unit (Doryphoroi Pontikoi (Pontic Light Spearmen)) at 0x2daccb80
+		Creating unit (Doryphoroi Pontikoi (Pontic Light Spearmen)) at 0x2dac5b10
+		Creating unit (Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2c82a358
+		Creating unit (Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2cb23078
+		Creating unit (Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2c5126f0
+		Creating unit (Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2c82a7e8
+		Creating unit (Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2c512938
+		Creating unit (Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2daaff08
+		Creating unit (Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2d964bd8
+		Creating unit (Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2dac3d90
+		Creating unit (Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2dab1b40
+		Creating unit (Asiatikoi Hippeis (Medium Eastern Cavalry)) at 0x2dab31f0
+		Creating unit (Asiatikoi Hippeis (Medium Eastern Cavalry)) at 0x2cf88660
+		Creating unit (Skuda Fistaeg Fat Aexsdzhytae (Scythian Foot Archers)) at 0x2d52cd68
+		Creating unit (Skuda Fistaeg Fat Aexsdzhytae (Scythian Foot Archers)) at 0x2d548e50
+Adding unit (Eqvites Consvlares (Republican Consular Guard Cavalry)) at 0x2dacb7b0 to deployment area at 0x3280010
+Adding unit (Eqvites Gallorvm (Gallic Auxiliary Cavalry) ) at 0x2dac6a30 to deployment area at 0x3280010
+Adding unit (Eqvites Gallorvm (Gallic Auxiliary Cavalry) ) at 0x2dac5380 to deployment area at 0x3280010
+Adding unit (Cohors Reformata (Post Marian Legionary Cohort)) at 0x2cb232c0 to deployment area at 0x3280010
+Adding unit (Galatikoi Kuarothoroi (Galatian Heavy Spearmen)) at 0x2ceb19b8 to deployment area at 0x3280010
+Adding unit (Galatikoi Kuarothoroi (Galatian Heavy Spearmen)) at 0x2ceb1c00 to deployment area at 0x3280010
+Adding unit (Cohors Reformata (Post Marian Legionary Cohort)) at 0x2ceb3fc0 to deployment area at 0x3280010
+Adding unit (Galatikoi Kuarothoroi (Galatian Heavy Spearmen)) at 0x2ceb2090 to deployment area at 0x3280010
+Adding unit (Galatikoi Kuarothoroi (Galatian Heavy Spearmen)) at 0x2ceb1e48 to deployment area at 0x3280010
+Adding unit (Galatikoi Kuarothoroi (Galatian Heavy Spearmen)) at 0x2d8eff38 to deployment area at 0x3280010
+Adding unit (Galatikoi Kuarothoroi (Galatian Heavy Spearmen)) at 0x2ceb7b50 to deployment area at 0x3280010
+Adding unit (Cohors Reformata (Post Marian Legionary Cohort)) at 0x2ceae2d0 to deployment area at 0x3280010
+Adding unit (Cohors Reformata (Post Marian Legionary Cohort)) at 0x2cec8570 to deployment area at 0x3280010
+Adding unit (Pontikoi Strategoi (Pontos Late Bodyguard)) at 0x2c9b7978 to deployment area at 0x328004c
+Adding unit (Harmata Drepanephora (Scythed Chariots)) at 0x2dac5ed8 to deployment area at 0x328004c
+Adding unit (Harmata Drepanephora (Scythed Chariots)) at 0x2d964990 to deployment area at 0x328004c
+Adding unit (Harmata Drepanephora (Scythed Chariots)) at 0x2d8f0180 to deployment area at 0x328004c
+Adding unit (Doryphoroi Pontikoi (Pontic Light Spearmen)) at 0x2d749e20 to deployment area at 0x328004c
+Adding unit (Doryphoroi Pontikoi (Pontic Light Spearmen)) at 0x2daccb80 to deployment area at 0x328004c
+Adding unit (Doryphoroi Pontikoi (Pontic Light Spearmen)) at 0x2dac5b10 to deployment area at 0x328004c
+Adding unit (Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2c82a358 to deployment area at 0x328004c
+Adding unit (Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2cb23078 to deployment area at 0x328004c
+Adding unit (Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2c5126f0 to deployment area at 0x328004c
+Adding unit (Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2c82a7e8 to deployment area at 0x328004c
+Adding unit (Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2c512938 to deployment area at 0x328004c
+Adding unit (Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2daaff08 to deployment area at 0x328004c
+Adding unit (Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2d964bd8 to deployment area at 0x328004c
+Adding unit (Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2dac3d90 to deployment area at 0x328004c
+Adding unit (Pontikoi Thorakitai (Pontic Elite Infantry)) at 0x2dab1b40 to deployment area at 0x328004c
+Adding unit (Asiatikoi Hippeis (Medium Eastern Cavalry)) at 0x2dab31f0 to deployment area at 0x328004c
+Adding unit (Asiatikoi Hippeis (Medium Eastern Cavalry)) at 0x2cf88660 to deployment area at 0x328004c
+Adding unit (Skuda Fistaeg Fat Aexsdzhytae (Scythian Foot Archers)) at 0x2d52cd68 to deployment area at 0x328004c
+Adding unit (Skuda Fistaeg Fat Aexsdzhytae (Scythian Foot Archers)) at 0x2d548e50 to deployment area at 0x328004c
+Load finished **************************
+
+

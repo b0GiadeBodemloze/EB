@@ -1,0 +1,210 @@
+Loading from file eb/data/world/maps/battle/custom/207 BC - Battle of Metaurus/descr_battle.txt
+Created faction egypt from file
+	Creating army controlled by Hasdrubal Barca at 0x2c8d20b0 from script
+		Creating unit (Somrei Ros haSopet (Carthaginian Bodyguard)) at 0x2c96fa28
+		Creating unit (Iberi Caetrati (Iberian Light Infantry)) at 0x2c96fd18
+		Creating unit (Iberi Scutari (Iberian Medium Spearmen)) at 0x2c843610
+		Creating unit (Dorkim Lubim-Ponnim Mookdamim (Liby-Phoenician Infantry)) at 0x2c844260
+		Creating unit (Dorkim Lubim-Ponnim Mookdamim (Liby-Phoenician Infantry)) at 0x2c93f9e0
+		Creating unit (Dorkim Lubim-Ponnim Mookdamim (Liby-Phoenician Infantry)) at 0x2c93fc28
+		Creating unit (Gaemile Liguriae (Ligurian Infantry)) at 0x2c8444a8
+		Creating unit (Gaeroas (Celtic Spearmen)) at 0x2c8446f0
+		Creating unit (Enoci Curoas (Southern Gallic Mercenary Swordsmen)) at 0x2c844938
+		Creating unit (Elephantes Hulaioi Liboukoi (African Forest Elephants)) at 0x2c844b80
+		Creating unit (Elephantes Hulaioi Liboukoi (African Forest Elephants)) at 0x2c8460e0
+Created faction seleucid from file
+	Creating army controlled by Caivs at 0x2c678cb8 from script
+		Creating unit (Eqvites Consvlares (Republican Consular Guard Cavalry)) at 0x2c8464b8
+		Creating unit (Hastati (Polybian Medium Infantry Maniple)) at 0x2c846700
+		Creating unit (Hastati (Polybian Medium Infantry Maniple)) at 0x2c846948
+		Creating unit (Hastati (Polybian Medium Infantry Maniple)) at 0x2c848cc0
+		Creating unit (Hastati (Polybian Medium Infantry Maniple)) at 0x2c848f08
+		Creating unit (Principes (Polybian Heavy Infantry Maniple)) at 0x2c849150
+		Creating unit (Principes (Polybian Heavy Infantry Maniple)) at 0x2c84a358
+		Creating unit (Principes (Polybian Heavy Infantry Maniple)) at 0x2c84a5a0
+		Creating unit (Principes (Polybian Heavy Infantry Maniple)) at 0x2c84a7e8
+		Creating unit (Triarii (Polybian Heavy-Spear Maniple)) at 0x2c84c178
+		Creating unit (Triarii (Polybian Heavy-Spear Maniple)) at 0x2c84e360
+		Creating unit (Triarii (Polybian Heavy-Spear Maniple)) at 0x2c84e970
+		Creating unit (Triarii (Polybian Heavy-Spear Maniple)) at 0x2c84ef80
+		Creating unit (Eqvites Romani (Polybian Roman Citizen Cavalry)) at 0x2c84f590
+		Creating unit (Eqvites Romani (Polybian Roman Citizen Cavalry)) at 0x2c84fe28
+		Creating unit (Velites (Polybian Skirmishers)) at 0x2c850398
+		Creating unit (Velites (Polybian Skirmishers)) at 0x2c8505e0
+		Creating unit (Velites (Polybian Skirmishers)) at 0x2c850828
+Adding unit (Somrei Ros haSopet (Carthaginian Bodyguard)) at 0x2c96fa28 to deployment area at 0x3280010
+Adding unit (Iberi Caetrati (Iberian Light Infantry)) at 0x2c96fd18 to deployment area at 0x3280010
+Adding unit (Iberi Scutari (Iberian Medium Spearmen)) at 0x2c843610 to deployment area at 0x3280010
+Adding unit (Dorkim Lubim-Ponnim Mookdamim (Liby-Phoenician Infantry)) at 0x2c844260 to deployment area at 0x3280010
+Adding unit (Dorkim Lubim-Ponnim Mookdamim (Liby-Phoenician Infantry)) at 0x2c93f9e0 to deployment area at 0x3280010
+Adding unit (Dorkim Lubim-Ponnim Mookdamim (Liby-Phoenician Infantry)) at 0x2c93fc28 to deployment area at 0x3280010
+Adding unit (Gaemile Liguriae (Ligurian Infantry)) at 0x2c8444a8 to deployment area at 0x3280010
+Adding unit (Gaeroas (Celtic Spearmen)) at 0x2c8446f0 to deployment area at 0x3280010
+Adding unit (Enoci Curoas (Southern Gallic Mercenary Swordsmen)) at 0x2c844938 to deployment area at 0x3280010
+Adding unit (Elephantes Hulaioi Liboukoi (African Forest Elephants)) at 0x2c844b80 to deployment area at 0x3280010
+Adding unit (Elephantes Hulaioi Liboukoi (African Forest Elephants)) at 0x2c8460e0 to deployment area at 0x3280010
+Adding unit (Eqvites Consvlares (Republican Consular Guard Cavalry)) at 0x2c8464b8 to deployment area at 0x328004c
+Adding unit (Hastati (Polybian Medium Infantry Maniple)) at 0x2c846700 to deployment area at 0x328004c
+Adding unit (Hastati (Polybian Medium Infantry Maniple)) at 0x2c846948 to deployment area at 0x328004c
+Adding unit (Hastati (Polybian Medium Infantry Maniple)) at 0x2c848cc0 to deployment area at 0x328004c
+Adding unit (Hastati (Polybian Medium Infantry Maniple)) at 0x2c848f08 to deployment area at 0x328004c
+Adding unit (Principes (Polybian Heavy Infantry Maniple)) at 0x2c849150 to deployment area at 0x328004c
+Adding unit (Principes (Polybian Heavy Infantry Maniple)) at 0x2c84a358 to deployment area at 0x328004c
+Adding unit (Principes (Polybian Heavy Infantry Maniple)) at 0x2c84a5a0 to deployment area at 0x328004c
+Adding unit (Principes (Polybian Heavy Infantry Maniple)) at 0x2c84a7e8 to deployment area at 0x328004c
+Adding unit (Triarii (Polybian Heavy-Spear Maniple)) at 0x2c84c178 to deployment area at 0x328004c
+Adding unit (Triarii (Polybian Heavy-Spear Maniple)) at 0x2c84e360 to deployment area at 0x328004c
+Adding unit (Triarii (Polybian Heavy-Spear Maniple)) at 0x2c84e970 to deployment area at 0x328004c
+Adding unit (Triarii (Polybian Heavy-Spear Maniple)) at 0x2c84ef80 to deployment area at 0x328004c
+Adding unit (Eqvites Romani (Polybian Roman Citizen Cavalry)) at 0x2c84f590 to deployment area at 0x328004c
+Adding unit (Eqvites Romani (Polybian Roman Citizen Cavalry)) at 0x2c84fe28 to deployment area at 0x328004c
+Adding unit (Velites (Polybian Skirmishers)) at 0x2c850398 to deployment area at 0x328004c
+Adding unit (Velites (Polybian Skirmishers)) at 0x2c8505e0 to deployment area at 0x328004c
+Adding unit (Velites (Polybian Skirmishers)) at 0x2c850828 to deployment area at 0x328004c
+Load finished **************************
+
+
+Trying to remove unit (Eqvites Consvlares (Republican Consular Guard Cavalry)) at 0x2c8464b8 from deployment area at 0x328004c and the unit wasn't found
+Trying to remove unit (Hastati (Polybian Medium Infantry Maniple)) at 0x2c846700 from deployment area at 0x328004c and the unit wasn't found
+Trying to remove unit (Hastati (Polybian Medium Infantry Maniple)) at 0x2c846948 from deployment area at 0x328004c and the unit wasn't found
+Trying to remove unit (Hastati (Polybian Medium Infantry Maniple)) at 0x2c848cc0 from deployment area at 0x328004c and the unit wasn't found
+Trying to remove unit (Hastati (Polybian Medium Infantry Maniple)) at 0x2c848f08 from deployment area at 0x328004c and the unit wasn't found
+Trying to remove unit (Principes (Polybian Heavy Infantry Maniple)) at 0x2c849150 from deployment area at 0x328004c and the unit wasn't found
+Trying to remove unit (Principes (Polybian Heavy Infantry Maniple)) at 0x2c84a358 from deployment area at 0x328004c and the unit wasn't found
+Trying to remove unit (Principes (Polybian Heavy Infantry Maniple)) at 0x2c84a5a0 from deployment area at 0x328004c and the unit wasn't found
+Trying to remove unit (Principes (Polybian Heavy Infantry Maniple)) at 0x2c84a7e8 from deployment area at 0x328004c and the unit wasn't found
+Trying to remove unit (Triarii (Polybian Heavy-Spear Maniple)) at 0x2c84c178 from deployment area at 0x328004c and the unit wasn't found
+Trying to remove unit (Triarii (Polybian Heavy-Spear Maniple)) at 0x2c84e360 from deployment area at 0x328004c and the unit wasn't found
+Trying to remove unit (Triarii (Polybian Heavy-Spear Maniple)) at 0x2c84e970 from deployment area at 0x328004c and the unit wasn't found
+Trying to remove unit (Triarii (Polybian Heavy-Spear Maniple)) at 0x2c84ef80 from deployment area at 0x328004c and the unit wasn't found
+Trying to remove unit (Eqvites Romani (Polybian Roman Citizen Cavalry)) at 0x2c84f590 from deployment area at 0x328004c and the unit wasn't found
+Trying to remove unit (Eqvites Romani (Polybian Roman Citizen Cavalry)) at 0x2c84fe28 from deployment area at 0x328004c and the unit wasn't found
+Trying to remove unit (Velites (Polybian Skirmishers)) at 0x2c850398 from deployment area at 0x328004c and the unit wasn't found
+Trying to remove unit (Velites (Polybian Skirmishers)) at 0x2c8505e0 from deployment area at 0x328004c and the unit wasn't found
+Trying to remove unit (Velites (Polybian Skirmishers)) at 0x2c850828 from deployment area at 0x328004c and the unit wasn't found
+Trying to remove unit (Somrei Ros haSopet (Carthaginian Bodyguard)) at 0x2c96fa28 from deployment area at 0x3280010 and the unit wasn't found
+Trying to remove unit (Iberi Caetrati (Iberian Light Infantry)) at 0x2c96fd18 from deployment area at 0x3280010 and the unit wasn't found
+Trying to remove unit (Iberi Scutari (Iberian Medium Spearmen)) at 0x2c843610 from deployment area at 0x3280010 and the unit wasn't found
+Trying to remove unit (Dorkim Lubim-Ponnim Mookdamim (Liby-Phoenician Infantry)) at 0x2c844260 from deployment area at 0x3280010 and the unit wasn't found
+Trying to remove unit (Dorkim Lubim-Ponnim Mookdamim (Liby-Phoenician Infantry)) at 0x2c93f9e0 from deployment area at 0x3280010 and the unit wasn't found
+Trying to remove unit (Dorkim Lubim-Ponnim Mookdamim (Liby-Phoenician Infantry)) at 0x2c93fc28 from deployment area at 0x3280010 and the unit wasn't found
+Trying to remove unit (Gaemile Liguriae (Ligurian Infantry)) at 0x2c8444a8 from deployment area at 0x3280010 and the unit wasn't found
+Trying to remove unit (Gaeroas (Celtic Spearmen)) at 0x2c8446f0 from deployment area at 0x3280010 and the unit wasn't found
+Trying to remove unit (Enoci Curoas (Southern Gallic Mercenary Swordsmen)) at 0x2c844938 from deployment area at 0x3280010 and the unit wasn't found
+Trying to remove unit (Elephantes Hulaioi Liboukoi (African Forest Elephants)) at 0x2c844b80 from deployment area at 0x3280010 and the unit wasn't found
+Trying to remove unit (Elephantes Hulaioi Liboukoi (African Forest Elephants)) at 0x2c8460e0 from deployment area at 0x3280010 and the unit wasn't found
+Loading from file eb/data/world/maps/battle/custom/225 BC - Battle of Telamon/descr_battle.txt
+Created faction seleucid from file
+	Creating army controlled by Caivs   at 0x2c9a3748 from script
+		Creating unit (Eqvites Consvlares (Republican Consular Guard Cavalry)) at 0x2cf9a640
+		Creating unit (Eqvites Romani (Polybian Roman Citizen Cavalry)) at 0x2cf54088
+		Creating unit (Eqvites Extraordinarii (Elite Heavy Cavalry of the Italic Allies)) at 0x2cf9a3f8
+		Creating unit (Velites (Polybian Skirmishers)) at 0x2cead580
+		Creating unit (Velites (Polybian Skirmishers)) at 0x2cf54518
+		Creating unit (Hastati (Polybian Medium Infantry Maniple)) at 0x2cf9a088
+		Creating unit (Hastati (Polybian Medium Infantry Maniple)) at 0x2cead338
+		Creating unit (Hastati (Polybian Medium Infantry Maniple)) at 0x2cead7c8
+		Creating unit (Hastati (Polybian Medium Infantry Maniple)) at 0x2cf54760
+		Creating unit (Principes (Polybian Heavy Infantry Maniple)) at 0x2cf542d0
+		Creating unit (Principes (Polybian Heavy Infantry Maniple)) at 0x2cf65288
+		Creating unit (Principes (Polybian Heavy Infantry Maniple)) at 0x2cf654d0
+		Creating unit (Principes (Polybian Heavy Infantry Maniple)) at 0x2cf63fa8
+		Creating unit (Triarii (Polybian Heavy-Spear Maniple)) at 0x2cf64c80
+		Creating unit (Triarii (Polybian Heavy-Spear Maniple)) at 0x2cf64a38
+		Creating unit (Triarii (Polybian Heavy-Spear Maniple)) at 0x2cf63d60
+		Creating unit (Triarii (Polybian Heavy-Spear Maniple)) at 0x2cf63b18
+	Creating army controlled by Lvcivs at 0x2c9a3660 from script
+		Creating unit (Eqvites Consvlares (Republican Consular Guard Cavalry)) at 0x2cf60050
+		Creating unit (Eqvites Romani (Polybian Roman Citizen Cavalry)) at 0x2cf638d0
+		Creating unit (Velites (Polybian Skirmishers)) at 0x2cf61ab0
+		Creating unit (Velites (Polybian Skirmishers)) at 0x2cf61cf8
+		Creating unit (Hastati (Polybian Medium Infantry Maniple)) at 0x2cf60ea0
+		Creating unit (Hastati (Polybian Medium Infantry Maniple)) at 0x2cf610e8
+		Creating unit (Hastati (Polybian Medium Infantry Maniple)) at 0x2d3c06b0
+		Creating unit (Hastati (Polybian Medium Infantry Maniple)) at 0x2c8460e0
+		Creating unit (Principes (Polybian Heavy Infantry Maniple)) at 0x2c844b80
+		Creating unit (Principes (Polybian Heavy Infantry Maniple)) at 0x2c844938
+		Creating unit (Principes (Polybian Heavy Infantry Maniple)) at 0x2c8446f0
+		Creating unit (Principes (Polybian Heavy Infantry Maniple)) at 0x2c8444a8
+		Creating unit (Triarii (Polybian Heavy-Spear Maniple)) at 0x2c93fc28
+		Creating unit (Triarii (Polybian Heavy-Spear Maniple)) at 0x2c93f9e0
+		Creating unit (Triarii (Polybian Heavy-Spear Maniple)) at 0x2c844260
+		Creating unit (Triarii (Polybian Heavy-Spear Maniple)) at 0x2c843610
+		Creating unit (Equites Campanici (Campanian Cavalry)) at 0x2c96fd18
+Created faction gauls from file
+	Creating army controlled by Cocolitanos at 0x2cbbc630 from script
+		Creating unit (Brihentin (Gallic Noble Cavalry)) at 0x2c96fa28
+		Creating unit (Cidainh (Celtic Chariots)) at 0x2c850828
+		Creating unit (Cidainh (Celtic Chariots)) at 0x2c8505e0
+		Creating unit (Curepos (Gallic Mercenary Light Cavalry)) at 0x2c850398
+		Creating unit (Leuce Epos (Gallic Light Cavalry)) at 0x2c84fe28
+		Creating unit (Leuce Epos (Gallic Light Cavalry)) at 0x2c84f590
+		Creating unit (Gaesatae (Gallic "Naked Fanatic" Infantry)) at 0x2c84ef80
+		Creating unit (Gaesatae (Gallic "Naked Fanatic" Infantry)) at 0x2c84e970
+		Creating unit (Enoci Curoas (Southern Gallic Mercenary Swordsmen)) at 0x2c84e360
+		Creating unit (Enoci Curoas (Southern Gallic Mercenary Swordsmen)) at 0x2c84c178
+		Creating unit (Gaeroas (Celtic Spearmen)) at 0x2c84a7e8
+		Creating unit (Gaeroas (Celtic Spearmen)) at 0x2c84a5a0
+		Creating unit (Botroas (Southern Gallic Swordsmen)) at 0x2c84a358
+		Creating unit (Gaelaiche (Celtic Spearmen)) at 0x2c849150
+		Creating unit (Uirodusios (Celtic Naked Spearmen)) at 0x2c848f08
+		Creating unit (Teceitos (Celtic Axemen)) at 0x2c848cc0
+		Creating unit (Noricene Gaecori (Noricum Spearmen)) at 0x2c846948
+		Creating unit (Gaeroas (Celtic Spearmen)) at 0x2c846700
+		Creating unit (Botroas (Southern Gallic Swordsmen)) at 0x2c8464b8
+Adding unit (Eqvites Consvlares (Republican Consular Guard Cavalry)) at 0x2cf9a640 to deployment area at 0x3280010
+Adding unit (Eqvites Romani (Polybian Roman Citizen Cavalry)) at 0x2cf54088 to deployment area at 0x3280010
+Adding unit (Eqvites Extraordinarii (Elite Heavy Cavalry of the Italic Allies)) at 0x2cf9a3f8 to deployment area at 0x3280010
+Adding unit (Velites (Polybian Skirmishers)) at 0x2cead580 to deployment area at 0x3280010
+Adding unit (Velites (Polybian Skirmishers)) at 0x2cf54518 to deployment area at 0x3280010
+Adding unit (Hastati (Polybian Medium Infantry Maniple)) at 0x2cf9a088 to deployment area at 0x3280010
+Adding unit (Hastati (Polybian Medium Infantry Maniple)) at 0x2cead338 to deployment area at 0x3280010
+Adding unit (Hastati (Polybian Medium Infantry Maniple)) at 0x2cead7c8 to deployment area at 0x3280010
+Adding unit (Hastati (Polybian Medium Infantry Maniple)) at 0x2cf54760 to deployment area at 0x3280010
+Adding unit (Principes (Polybian Heavy Infantry Maniple)) at 0x2cf542d0 to deployment area at 0x3280010
+Adding unit (Principes (Polybian Heavy Infantry Maniple)) at 0x2cf65288 to deployment area at 0x3280010
+Adding unit (Principes (Polybian Heavy Infantry Maniple)) at 0x2cf654d0 to deployment area at 0x3280010
+Adding unit (Principes (Polybian Heavy Infantry Maniple)) at 0x2cf63fa8 to deployment area at 0x3280010
+Adding unit (Triarii (Polybian Heavy-Spear Maniple)) at 0x2cf64c80 to deployment area at 0x3280010
+Adding unit (Triarii (Polybian Heavy-Spear Maniple)) at 0x2cf64a38 to deployment area at 0x3280010
+Adding unit (Triarii (Polybian Heavy-Spear Maniple)) at 0x2cf63d60 to deployment area at 0x3280010
+Adding unit (Triarii (Polybian Heavy-Spear Maniple)) at 0x2cf63b18 to deployment area at 0x3280010
+Adding unit (Eqvites Consvlares (Republican Consular Guard Cavalry)) at 0x2cf60050 to deployment area at 0x328004c
+Adding unit (Eqvites Romani (Polybian Roman Citizen Cavalry)) at 0x2cf638d0 to deployment area at 0x328004c
+Adding unit (Velites (Polybian Skirmishers)) at 0x2cf61ab0 to deployment area at 0x328004c
+Adding unit (Velites (Polybian Skirmishers)) at 0x2cf61cf8 to deployment area at 0x328004c
+Adding unit (Hastati (Polybian Medium Infantry Maniple)) at 0x2cf60ea0 to deployment area at 0x328004c
+Adding unit (Hastati (Polybian Medium Infantry Maniple)) at 0x2cf610e8 to deployment area at 0x328004c
+Adding unit (Hastati (Polybian Medium Infantry Maniple)) at 0x2d3c06b0 to deployment area at 0x328004c
+Adding unit (Hastati (Polybian Medium Infantry Maniple)) at 0x2c8460e0 to deployment area at 0x328004c
+Adding unit (Principes (Polybian Heavy Infantry Maniple)) at 0x2c844b80 to deployment area at 0x328004c
+Adding unit (Principes (Polybian Heavy Infantry Maniple)) at 0x2c844938 to deployment area at 0x328004c
+Adding unit (Principes (Polybian Heavy Infantry Maniple)) at 0x2c8446f0 to deployment area at 0x328004c
+Adding unit (Principes (Polybian Heavy Infantry Maniple)) at 0x2c8444a8 to deployment area at 0x328004c
+Adding unit (Triarii (Polybian Heavy-Spear Maniple)) at 0x2c93fc28 to deployment area at 0x328004c
+Adding unit (Triarii (Polybian Heavy-Spear Maniple)) at 0x2c93f9e0 to deployment area at 0x328004c
+Adding unit (Triarii (Polybian Heavy-Spear Maniple)) at 0x2c844260 to deployment area at 0x328004c
+Adding unit (Triarii (Polybian Heavy-Spear Maniple)) at 0x2c843610 to deployment area at 0x328004c
+Adding unit (Equites Campanici (Campanian Cavalry)) at 0x2c96fd18 to deployment area at 0x328004c
+Adding unit (Brihentin (Gallic Noble Cavalry)) at 0x2c96fa28 to deployment area at 0x3280088
+Adding unit (Cidainh (Celtic Chariots)) at 0x2c850828 to deployment area at 0x3280088
+Adding unit (Cidainh (Celtic Chariots)) at 0x2c8505e0 to deployment area at 0x3280088
+Adding unit (Curepos (Gallic Mercenary Light Cavalry)) at 0x2c850398 to deployment area at 0x3280088
+Adding unit (Leuce Epos (Gallic Light Cavalry)) at 0x2c84fe28 to deployment area at 0x3280088
+Adding unit (Leuce Epos (Gallic Light Cavalry)) at 0x2c84f590 to deployment area at 0x3280088
+Adding unit (Gaesatae (Gallic "Naked Fanatic" Infantry)) at 0x2c84ef80 to deployment area at 0x3280088
+Adding unit (Gaesatae (Gallic "Naked Fanatic" Infantry)) at 0x2c84e970 to deployment area at 0x3280088
+Adding unit (Enoci Curoas (Southern Gallic Mercenary Swordsmen)) at 0x2c84e360 to deployment area at 0x3280088
+Adding unit (Enoci Curoas (Southern Gallic Mercenary Swordsmen)) at 0x2c84c178 to deployment area at 0x3280088
+Adding unit (Gaeroas (Celtic Spearmen)) at 0x2c84a7e8 to deployment area at 0x3280088
+Adding unit (Gaeroas (Celtic Spearmen)) at 0x2c84a5a0 to deployment area at 0x3280088
+Adding unit (Botroas (Southern Gallic Swordsmen)) at 0x2c84a358 to deployment area at 0x3280088
+Adding unit (Gaelaiche (Celtic Spearmen)) at 0x2c849150 to deployment area at 0x3280088
+Adding unit (Uirodusios (Celtic Naked Spearmen)) at 0x2c848f08 to deployment area at 0x3280088
+Adding unit (Teceitos (Celtic Axemen)) at 0x2c848cc0 to deployment area at 0x3280088
+Adding unit (Noricene Gaecori (Noricum Spearmen)) at 0x2c846948 to deployment area at 0x3280088
+Adding unit (Gaeroas (Celtic Spearmen)) at 0x2c846700 to deployment area at 0x3280088
+Adding unit (Botroas (Southern Gallic Swordsmen)) at 0x2c8464b8 to deployment area at 0x3280088
+Load finished **************************
+
+

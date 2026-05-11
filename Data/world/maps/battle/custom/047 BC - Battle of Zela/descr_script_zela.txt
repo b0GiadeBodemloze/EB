@@ -1,0 +1,112 @@
+script
+
+	prepare_for_battle
+
+
+; *********************************************************************************************
+;	SPQR - Alliance 0
+; *********************************************************************************************
+
+;Caivs
+	label_unit 0 0 0 consul
+        label_unit 0 0 1 equites_gaul
+	label_unit 0 0 2 equites_gaul1
+	label_unit 0 0 3 legio
+	label_unit 0 0 4 galatian
+	label_unit 0 0 5 galatian1
+	label_unit 0 0 6 legio1
+	label_unit 0 0 7 galatian2
+	label_unit 0 0 8 galatian3
+	label_unit 0 0 9 galatian4
+	label_unit 0 0 10 galatian5
+	label_unit 0 0 11 legio2
+	label_unit 0 0 12 legio3
+	
+	
+
+
+; *********************************************************************************************
+;	Pontus - Alliance 1
+; *********************************************************************************************
+
+;Pharnakes
+	label_unit 1 0 0 pontos_general
+	label_unit 1 0 1 chariot
+	label_unit 1 0 2 chariot1
+	label_unit 1 0 3 chariot2
+	label_unit 1 0 4 spear
+	label_unit 1 0 5 spear1
+	label_unit 1 0 6 spear2
+	label_unit 1 0 7 thorakitai
+	label_unit 1 0 8 thorakitai1
+	label_unit 1 0 9 thorakitai2
+	label_unit 1 0 10 thorakitai3
+	label_unit 1 0 11 thorakitai4
+	label_unit 1 0 12 thorakitai5
+	label_unit 1 0 13 thorakitai6
+	label_unit 1 0 14 thorakitai7
+	label_unit 1 0 15 thorakitai8
+	label_unit 1 0 16 asiatic_cav
+	label_unit 1 0 17 asiatic_cav1
+	label_unit 1 0 18 archer
+	label_unit 1 0 19 archer1
+
+; *********************************************************************************************
+;	INITIALISATION
+; *********************************************************************************************
+
+	while ! I_BattleStarted					; Wait for deployment
+	end_while
+	ai_active_set off
+	camera_restrictions_set off
+	
+
+; *********************************************************************************************
+
+	
+	while I_InBattle
+
+        battle_wait 3
+        unit_order_attack_unit chariot galatian run
+	unit_order_attack_unit chariot1 galatian1 run
+	unit_order_attack_unit chariot2 galatian1 run
+        unit_set_skirmish_mode archer off
+        unit_set_skirmish_mode archer1 off
+        
+        
+
+        
+        battle_wait 2
+	unit_order_attack_unit spear legio run
+	unit_order_attack_unit spear1 galatian run
+	unit_order_attack_unit spear2 legio1 run
+	unit_order_attack_unit asiatic_cav equites_gaul run
+	unit_order_attack_unit asiatic_cav1 equites_gaul1 run
+	
+        
+        battle_wait 10
+        unit_order_attack_unit thorakitai legio run
+	unit_order_attack_unit thorakitai1 galatian run
+	unit_order_attack_unit thorakitai2 legio1 run
+        
+        battle_wait 20
+	unit_order_attack_unit thorakitai3 legio run
+	unit_order_attack_unit thorakitai4 legio run
+        unit_order_attack_unit thorakitai5 galatian run
+	unit_order_attack_unit thorakitai6 galatian1 run
+	unit_order_attack_unit thorakitai7 legio1 run
+	unit_order_attack_unit thorakitai8 legio1 run
+	
+
+       
+
+	
+
+		
+
+	
+		
+
+	end_while
+
+end_script

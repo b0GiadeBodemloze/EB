@@ -1,0 +1,185 @@
+script
+
+	prepare_for_battle
+
+; *********************************************************************************************
+;	Gaul - Alliance 0
+; *********************************************************************************************
+
+;Cocolitanos
+	label_unit 0 0 0 chief
+	label_unit 0 0 1 chariot
+	label_unit 0 0 2 chariot1
+	label_unit 0 0 3 cav
+	label_unit 0 0 4 cav1
+	label_unit 0 0 5 cav2
+	label_unit 0 0 6 nude
+	label_unit 0 0 7 nude1
+	label_unit 0 0 8 merc
+	label_unit 0 0 9 merc1
+	label_unit 0 0 10 spear
+        label_unit 0 0 11 spear1
+        label_unit 0 0 12 botroas
+        label_unit 0 0 13 gaelaiche
+        label_unit 0 0 14 uri
+        label_unit 0 0 15 teceitos
+        label_unit 0 0 16 gaecori
+        label_unit 0 0 15 spear2
+        label_unit 0 0 16 botroas1
+
+
+
+; *********************************************************************************************
+;	Rome - Alliance 1
+; *********************************************************************************************
+
+;Caivs
+	label_unit 1 0 0 consul
+        label_unit 1 0 1 equites
+	label_unit 1 0 2 auxilia_cav
+	label_unit 1 0 3 velites
+	label_unit 1 0 4 velites1
+	label_unit 1 0 5 hastati
+	label_unit 1 0 6 hastati1
+	label_unit 1 0 7 hastati2
+	label_unit 1 0 8 hastati3
+	label_unit 1 0 9 principes
+	label_unit 1 0 10 principes1
+	label_unit 1 0 11 principes2
+	label_unit 1 0 12 principes3
+	label_unit 1 0 13 triarii
+	label_unit 1 0 14 triarii1
+	label_unit 1 0 15 triarii2
+	label_unit 1 0 16 triarii3
+
+;Lvcivs
+	label_unit 1 1 0 consul1
+	label_unit 1 1 1 equites1
+	label_unit 1 1 2 velites2
+	label_unit 1 1 3 velites3
+	label_unit 1 1 4 hastati4
+        label_unit 1 1 5 hastati5
+	label_unit 1 1 6 hastati6
+	label_unit 1 1 7 hastati7
+	label_unit 1 1 8 principes4
+	label_unit 1 1 9 principes5
+        label_unit 1 1 10 principes6
+        label_unit 1 1 11 principes7
+	label_unit 1 1 12 triarii4
+	label_unit 1 1 13 triarii5
+	label_unit 1 1 14 triarii6
+	label_unit 1 1 15 triarii7
+        label_unit 1 1 16 campania_cav
+        
+
+
+
+; *********************************************************************************************
+;	INITIALISATION
+; *********************************************************************************************
+
+	while ! I_BattleStarted					; Wait for deployment
+	end_while
+	ai_active_set off
+	camera_restrictions_set off
+	
+
+; *********************************************************************************************
+
+	
+	while I_InBattle
+
+        if I_LocalFaction gaul
+        
+        battle_wait 1
+
+	unit_order_attack_unit equites cav2 run
+	unit_order_attack_unit auxilia_cav chariot1 run
+        unit_set_fire_at_will_mode velites on
+        unit_set_fire_at_will_mode velites1 on
+
+        battle_wait 1
+
+        unit_order_attack_unit consul cav2 run
+        unit_order_attack_unit hastati botroas run
+	unit_order_attack_unit hastati1 teceitos run
+	unit_order_attack_unit hastati2 gaelaiche run
+	unit_order_attack_unit hastati3 botroas1 run
+	unit_order_attack_unit principes spear2 run
+        unit_order_attack_unit principes1 spear1 run
+	unit_order_attack_unit principes2 gaecori run
+	unit_order_attack_unit principes3 nude1 run
+        unit_order_attack_unit equites1 cav run
+
+        battle_wait 1
+
+        unit_set_fire_at_will_mode hastati4 on
+        unit_set_fire_at_will_mode hastati5 on
+        unit_set_fire_at_will_mode hastati6 on
+        unit_set_fire_at_will_mode hastati7 on
+        unit_set_fire_at_will_mode principes4 on
+        unit_set_fire_at_will_mode principes5 on
+        unit_set_fire_at_will_mode principes6 on
+        unit_set_fire_at_will_mode principes7 on
+        
+        battle_wait 1
+
+        unit_order_attack_unit velites2 nude run
+	unit_order_attack_unit velites3 nude2 run
+
+        battle_wait 5
+
+        unit_order_attack_unit hastati4 nude run
+	unit_order_attack_unit hastati5 uri run
+	unit_order_attack_unit hastati6 uri run
+	unit_order_attack_unit hastati7 nude1 run
+	unit_order_attack_unit principes4 nude run
+        unit_order_attack_unit principes5 nude run
+	unit_order_attack_unit principes6 uri run
+	unit_order_attack_unit principes7 nude1 run
+	unit_order_attack_unit campania_cav chief run
+
+        battle_wait 60
+
+        release_unit consul
+	release_unit equites
+	release_unit auxilia_cav
+	release_unit velites
+        release_unit velites1
+	release_unit hastati
+	release_unit hastati1
+        release_unit hastati2
+	release_unit hastati3
+        release_unit principes
+	release_unit principes1
+	release_unit principes2
+	release_unit principes3
+        release_unit triarii
+	release_unit triarii1
+	release_unit triarii2
+        release_unit triarii3
+
+        battle_wait 1
+	release_unit consul1
+        release_unit equites1
+        release_unit velites2
+        release_unit velites3
+	release_unit hastati4
+	release_unit hastati5
+        release_unit hastati6
+	release_unit hastati7
+        release_unit principes4
+	release_unit principes5
+	release_unit principes6
+	release_unit principes7
+        release_unit triarii4
+	release_unit triarii5
+	release_unit triarii6
+        release_unit triarii7
+        release_unit campania_cav
+       
+	end_if
+
+	end_while
+
+end_script
