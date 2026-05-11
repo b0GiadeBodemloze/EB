@@ -1290,7 +1290,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 2088, 522, 95, 311, 2088
-ownership        thrace, macedon, romans_julii, greek_cities, numidia, slave, egypt, carthage, romans_scipii, gauls, britons, scythia, dacia, spain, armenia, pontus, seleucid, saba
+ownership        thrace, macedon, romans_julii, greek_cities, numidia, slave, egypt, carthage, romans_scipii, gauls, britons, scythia, dacia, spain, armenia, pontus, seleucid, saba, germans, parthia, romans_brutii
 
 ;514
 type             african infantry machimoi
@@ -4505,7 +4505,7 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 618, 155, 40, 70, 618
-ownership        romans_brutii, parthia, armenia, romans_scipii, germans, spain, seleucid, pontus, carthage, gauls, britons, scythia, dacia, egypt, numidia, romans_julii, thrace, greek_cities, macedon
+ownership        romans_brutii, parthia, armenia, romans_scipii, germans, spain, seleucid, pontus, carthage, gauls, britons, scythia, dacia, egypt, numidia, romans_julii, thrace, greek_cities, macedon, slave
 
 ;114
 type             eastern missile eransahr arshtbara merc
@@ -7797,7 +7797,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 1337, 334, 70, 498, 1337
-ownership        romans_julii, greek_cities, macedon, carthage, numidia, romans_brutii, gauls, britons, scythia, dacia, spain, parthia, thrace, romans_scipii
+ownership        romans_julii, greek_cities, macedon, carthage, numidia, romans_brutii, gauls, britons, scythia, dacia, spain, parthia, thrace, romans_scipii, slave
 
 ;180
 type             hellenistic infantry thureophoroi mercenary
@@ -9893,7 +9893,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 13000, 3250, 270, 400, 13000
-ownership        thrace, macedon, numidia, romans_julii, romans_brutii, pontus, parthia, slave, saba
+ownership        thrace, macedon, numidia, romans_julii, romans_brutii, pontus, parthia, slave, saba, egypt
 
 ;;;;;;;;;;;;;;;;;;;;;; EB Roman ;;;;;;;;;;;;;;;;;;;;;
 
@@ -11175,7 +11175,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 1323, 331, 60, 90, 1323
-ownership        parthia, romans_julii, romans_brutii, numidia, macedon, thrace, greek_cities, egypt, carthage, gauls, britons, scythia, seleucid, pontus, saba, dacia, spain, germans
+ownership        parthia, romans_julii, romans_brutii, numidia, macedon, thrace, greek_cities, egypt, carthage, gauls, britons, scythia, seleucid, pontus, saba, dacia, spain, germans, armenia
 
 ;110
 type             steppe missile cavalry ragon sauromatae uaezdaettae
@@ -12353,7 +12353,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 2088, 522, 95, 311, 2088
-ownership        thrace, macedon, romans_julii, greek_cities, numidia, slave, egypt, carthage, romans_scipii, gauls, britons, scythia, dacia, spain, armenia, pontus, seleucid, saba
+ownership        armenia, parthia, carthage, romans_scipii, gauls, britons, scythia, dacia, slave, pontus, spain, germans, egypt, saba, romans_brutii, numidia, romans_julii, thrace, greek_cities, macedon, seleucid
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;EB Siege;;;;;;;;;;;;;

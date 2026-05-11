@@ -6265,12 +6265,12 @@ character	Phrapates ofparthia, named character, leader, command 0, influence 0, 
 traits NaturalIntelligence 4 , NaturalCharisma 4 , NaturalEnergy 3 , Selflessness 3 , Temperament 2 , Loyalty 4 , PahlavanDaha 1 , PhrapatesBiography 1 , Settled 1 , TurnsAlive 6 , CommandExperience 4 , GoodTactician 1 , GoodLeader 1 , PublicFaith 1 , GoodAdministrator 2 , Austere 1 , AcquireFoodtaster 1 , NumAncillariesAcquired 2 , Father 3 , FamilyMember 1
 ancillaries foodtaster , family_retainer
 army
-unit            steppe missile cavalry sphanvade				exp 1 armour 0 weapon_lvl 0
-unit            steppe missile cavalry pahlava shivatir				exp 0 armour 0 weapon_lvl 0
-unit            steppe missile cavalry pahlava shivatir				exp 0 armour 0 weapon_lvl 0
-unit            steppe missile cavalry daha baexdzhyntae				exp 0 armour 0 weapon_lvl 0
-unit		eastern missile thanvare payahdag				exp 0 armour 0 weapon_lvl 0
-unit		eastern missile thanvare payahdag				exp 0 armour 0 weapon_lvl 0
+unit	steppe missile cavalry sphanvade				exp 1 armour 0 weapon_lvl 0
+unit	steppe missile cavalry pahlava shivatir				exp 0 armour 0 weapon_lvl 0
+unit	steppe missile cavalry pahlava shivatir				exp 0 armour 0 weapon_lvl 0
+unit	steppe missile cavalry daha baexdzhyntae				exp 0 armour 0 weapon_lvl 0
+unit	eastern missile thanvare payahdag				exp 0 armour 0 weapon_lvl 0
+unit	eastern missile thanvare payahdag				exp 0 armour 0 weapon_lvl 0
 
 
 ; City: Khiva
@@ -6280,9 +6280,9 @@ character	Arshak ofparthia, named character, heir, command 0, influence 0, manag
 traits NaturalIntelligence 3 , NaturalCharisma 4 , NaturalEnergy 4 , Selflessness 3 , Temperament 4 , Loyalty 4 , PahlavanDaha 1 , ArsacesElderBiography 1 , Settled 1 , TurnsAlive 4 , CommandExperience 3 , GoodCavalryGeneral 2 , PublicFaith 1 , GoodAdministrator 1 , AcquireGalloper 1 , Father 3 , FirstBorn 1 , FamilyMember 1
 ancillaries galloper_eastern , family_retainer
 army
-unit            steppe missile cavalry sphanvade				exp 1 armour 0 weapon_lvl 0
-unit            steppe missile cavalry pahlava shivatir				exp 0 armour 0 weapon_lvl 0
-unit            steppe skirmisher cavalry daha rog baexdzhyn aefsad				exp 0 armour 0 weapon_lvl 0
+unit	steppe missile cavalry sphanvade				exp 1 armour 0 weapon_lvl 0
+unit	steppe missile cavalry pahlava shivatir				exp 0 armour 0 weapon_lvl 0
+unit	steppe skirmisher cavalry daha rog baexdzhyn aefsad				exp 0 armour 0 weapon_lvl 0
 
 
 ; City: Nisa
@@ -6292,8 +6292,8 @@ character	ArshakA ofparthia, named character, command 0, influence 0, management
 traits NaturalIntelligence 2 , NaturalCharisma 5 , NaturalEnergy 3 , Selflessness 4 , Temperament 4 , Loyalty 4 , PahlavanAshkani 1 , ArsacesBiography 1 , Settled 1 , TurnsAlive 3 , PublicFaith 2 , GoodAdministrator 1 , AcquireZaotar_Priest 1 , FamilyMember 1
 ancillaries zaotar_priest , clerk
 army
-unit            steppe missile cavalry sphanvade				exp 1 armour 0 weapon_lvl 0
-unit            steppe missile cavalry pahlava shivatir				exp 0 armour 0 weapon_lvl 0
+unit	steppe missile cavalry sphanvade				exp 1 armour 0 weapon_lvl 0
+unit	steppe missile cavalry pahlava shivatir				exp 0 armour 0 weapon_lvl 0
 
 ; Region: Dahyu_Daha
 ; --------------------
@@ -6301,9 +6301,9 @@ character	Harasp of_Nisa, named character, command 0, influence 0, management 0,
 traits NaturalIntelligence 6 , NaturalCharisma 5 , NaturalEnergy 4 , Selflessness 3 , Temperament 5 , Loyalty 4 , PahlavanDaha 1 , Nomad 1 , TurnsAlive 3 , CommandExperience 2 , PublicFaith 2 , GoodAdministrator 2 , GoodCavalryGeneral 1 , AcquireMerchant 1 , FamilyMember 1
 ancillaries merchant_eastern , family_retainer
 army
-unit            steppe missile cavalry sphanvade				exp 1 armour 0 weapon_lvl 0
-unit            steppe missile cavalry pahlava shivatir				exp 0 armour 0 weapon_lvl 0
-unit            steppe missile cavalry daha baexdzhyntae
+unit	steppe missile cavalry sphanvade				exp 1 armour 0 weapon_lvl 0
+unit	steppe missile cavalry pahlava shivatir				exp 0 armour 0 weapon_lvl 0
+unit	steppe missile cavalry daha baexdzhyntae			exp 0 armour 0 weapon_lvl 0
 
 ; Region: Dahyu_Daha
 ; --------------------
@@ -6730,7 +6730,7 @@ character_record	Cunoarda, 	female, command 0, influence 0, management 0, subter
 relative 	Cocolitanos ofaedu,	Roibhan,	Tancogeistla ofaedu,	Malac ofaedu,	Dennoros ofaedu,	Catamantaloedis ofaedu,	end
 relative 	Tancogeistla ofaedu,	Uctia,	end
 relative 	Malac ofaedu,	Cannoda,	end
-relative 	Dennoros ofaedu,	Faran	end
+relative 	Dennoros ofaedu,	Faran,	end
 relative 	Catamantaloedis ofaedu,	Cunoarda,	end
 
 
@@ -12512,7 +12512,7 @@ unit		steppe cavalry saka lancers						exp 1 armour 0 weapon_lvl 0
 unit		steppe missile cavalry saka riders					exp 1 armour 0 weapon_lvl 0
 unit		steppe missile cavalry saka riders					exp 1 armour 0 weapon_lvl 0
 unit		steppe missile cavalry saka horse archer		                exp 1 armour 0 weapon_lvl 0
-unit		steppe missile cavalry saka horse archer                        	exp 1 armour 0 weapon_lvl 0
+unit		steppe missile cavalry saka horse archer	exp 1 armour 0 weapon_lvl 0
 unit		eastern infantry kavakaza kofyaren					exp 1 armour 0 weapon_lvl 0
 
 ; Region: Dahyu_Haomavarga
@@ -12550,7 +12550,7 @@ unit		hellenistic infantry misthophoroi phalangitai			exp 3 armour 0 weapon_lvl 
 unit		greek skirmisher peltastai				        exp 3 armour 0 weapon_lvl 0
 unit		hellenistic infantry hoplitai			                exp 1 armour 0 weapon_lvl 0
 unit		hellenistic infantry hoplitai			                exp 1 armour 0 weapon_lvl 0
-unit		hellenistic cavalry thrakioi hippeis		         	exp 1 armour 0 weapon_lvl 0
+units	hellenistic cavalry thrakioi hippeis	exp 1 armour 0 weapon_lvl 0
 unit		greek missile sphendenotai		                        exp 1 armour 0 weapon_lvl 0
 
 ; Region: Caledryn
@@ -12570,7 +12570,7 @@ character, sub_faction britons,	Casticos, named character, command 0, influence 
 traits YearsPassed 4 , FamilyMember 1
 army
 unit		celtic infantry siluri			        exp 3 armour 0 weapon_lvl 0
-unit		celtic infantry siluri        			exp 1 armour 0 weapon_lvl 0
+unit		celtic infantry siluri	exp 1 armour 0 weapon_lvl 0
 unit		celtic infantry teceitos			exp 1 armour 0 weapon_lvl 0
 unit		celtic infantry teceitos			exp 2 armour 0 weapon_lvl 0
 unit		celtic infantry uirodusios			exp 2 armour 0 weapon_lvl 0
@@ -12692,7 +12692,7 @@ character, sub_faction numidia,	Philon, named character, command 0, influence 0,
 traits YearsPassed 4 , FamilyMember 1
 army
 unit		hellenistic cavalry machimoi hippeis			exp 1 armour 0 weapon_lvl 0
-unit		hellenistic infantry hoplitai      			exp 2 armour 0 weapon_lvl 0
+unit		hellenistic infantry hoplitai	exp 2 armour 0 weapon_lvl 0
 unit		hellenistic infantry hoplitai				exp 1 armour 0 weapon_lvl 0
 unit		greek skirmisher akontistai				exp 0 armour 0 weapon_lvl 0
 unit		greek skirmisher akontistai				exp 0 armour 0 weapon_lvl 0
@@ -12721,7 +12721,7 @@ army
 unit		hellenistic cavalry machimoi hippeis				exp 2 armour 0 weapon_lvl 0
 unit		greek skirmisher akontistai				exp 2 armour 0 weapon_lvl 0
 unit		greek missile sphendenotai				exp 2 armour 0 weapon_lvl 0
-unit		hellenistic infantry pantodapoi       			exp 1 armour 0 weapon_lvl 0
+unit		hellenistic infantry pantodapoi	exp 1 armour 0 weapon_lvl 0
 unit		hellenistic infantry pantodapoi				exp 1 armour 0 weapon_lvl 0
 unit		hellenistic infantry pantodapoi				exp 3 armour 0 weapon_lvl 0
 unit		hellenistic infantry pantodapoi				exp 1 armour 0 weapon_lvl 0
@@ -12846,7 +12846,7 @@ unit		celtic infantry gaeroas				exp 1 armour 0 weapon_lvl 0
 unit		celtic infantry gaeroas				exp 1 armour 0 weapon_lvl 0
 unit		celtic infantry gaesatae				exp 2 armour 0 weapon_lvl 0
 unit		celtic infantry gaesatae				exp 2 armour 0 weapon_lvl 0
-unit		celtic missile iaosatae	regional                    	exp 2 armour 0 weapon_lvl 0
+unit		celtic missile iaosatae regional		exp 2 armour 0 weapon_lvl 0
 
 ; City: Patavium
 ; Region: Venetia
@@ -12863,7 +12863,7 @@ unit		celtic infantry botroas				                exp 2 armour 0 weapon_lvl 0
 unit		celtic infantry gaeroas			                        exp 2 armour 0 weapon_lvl 0
 unit		celtic infantry gaeroas			                        exp 2 armour 0 weapon_lvl 0
 unit		celtic infantry gaeroas			                        exp 2 armour 0 weapon_lvl 0
-unit		celtic missile iaosatae	regional	                    	exp 2 armour 0 weapon_lvl 0
+unit		celtic missile iaosatae regional		exp 2 armour 0 weapon_lvl 0
 
 
 
@@ -12882,7 +12882,7 @@ unit		celtic infantry appea gaedotos				exp 1 armour 0 weapon_lvl 0
 unit		celtic infantry appea gaedotos				exp 1 armour 0 weapon_lvl 0
 unit		celtic infantry kluddacorii				exp 1 armour 0 weapon_lvl 0
 unit		celtic infantry kluddacorii				exp 1 armour 0 weapon_lvl 0
-unit		celtic missile iaosatae	regional	               	exp 1 armour 0 weapon_lvl 0
+unit		celtic missile iaosatae regional		exp 1 armour 0 weapon_lvl 0
 
 ; City: Eburonum
 ; Region: Mrogbonna
@@ -12904,7 +12904,7 @@ unit		celtic infantry gaeroas					exp 1 armour 0 weapon_lvl 0
 unit		celtic infantry gaeroas					exp 1 armour 0 weapon_lvl 0
 unit		celtic infantry uirodusios				exp 2 armour 0 weapon_lvl 0
 unit		celtic infantry uirodusios				exp 2 armour 0 weapon_lvl 0
-unit		celtic missile iaosatae	regional	               	exp 1 armour 0 weapon_lvl 0
+unit		celtic missile iaosatae regional		exp 1 armour 0 weapon_lvl 0
 
 
 
@@ -12946,8 +12946,8 @@ army
 unit		celtic skirmisher cavalry leuce epos			exp 2 armour 0 weapon_lvl 0
 unit		celtic skirmisher cavalry leuce epos			exp 1 armour 0 weapon_lvl 0
 unit		celtic infantry boii				exp 1 armour 0 weapon_lvl 0
-unit		celtic infantry botroas 				exp 1 armour 0 weapon_lvl 0
-unit		celtic infantry botroas 				exp 1 armour 0 weapon_lvl 0
+unit		celtic infantry botroas	exp 1 armour 0 weapon_lvl 0
+unit		celtic infantry botroas	exp 1 armour 0 weapon_lvl 0
 unit		celtic infantry teceitos				exp 1 armour 0 weapon_lvl 0
 unit		celtic infantry teceitos				exp 1 armour 0 weapon_lvl 0
 unit		celtic infantry uirodusios				exp 1 armour 0 weapon_lvl 0
@@ -12960,12 +12960,12 @@ unit		celtic infantry lugoae				        exp 1 armour 0 weapon_lvl 0
 character, sub_faction gauls,	Ceanatis, named character, command 0, influence 0, management 0, subterfuge 0, age 20, , x 117, y 136
 traits ImmobileRebel 1 , YearsPassed 4 , FamilyMember 1
 army
-unit		hellenistic cavalry illyrioihippeis        			exp 1 armour 0 weapon_lvl 0
+unit		hellenistic cavalry illyrioihippeis	exp 1 armour 0 weapon_lvl 0
 unit		hellenistic infantry illyrian thureophoroi			exp 1 armour 0 weapon_lvl 0
 unit		hellenistic infantry illyrian thureophoroi		        exp 1 armour 0 weapon_lvl 0
-unit		hellenistic infantry illyrian pirate    			exp 1 armour 0 weapon_lvl 0
-unit		hellenistic infantry illyrian pirate    			exp 1 armour 0 weapon_lvl 0
-unit		greek missile sphendenotai                			exp 1 armour 0 weapon_lvl 0
+unit		hellenistic infantry illyrian pirate	exp 1 armour 0 weapon_lvl 0
+unit		hellenistic infantry illyrian pirate	exp 1 armour 0 weapon_lvl 0
+unit		greek missile sphendenotai	exp 1 armour 0 weapon_lvl 0
 ;unit		hellenistic infantry illyrian thureophoroi			exp 1 armour 0 weapon_lvl 0
 ;unit		hellenistic infantry illyrian pirate    			exp 1 armour 0 weapon_lvl 0
 
@@ -12976,8 +12976,8 @@ unit		greek missile sphendenotai                			exp 1 armour 0 weapon_lvl 0
 character, sub_faction gauls,	Cintugnatos, named character, command 0, influence 0, management 0, subterfuge 0, age 20, , x 130, y 167
 traits ImmobileRebel 1 , YearsPassed 4 , FamilyMember 1
 army
-unit		celtic infantry teceitos               			exp 2 armour 0 weapon_lvl 0
-unit		celtic infantry teceitos               			exp 2 armour 0 weapon_lvl 0
+unit		celtic infantry teceitos	exp 2 armour 0 weapon_lvl 0
+unit		celtic infantry teceitos	exp 2 armour 0 weapon_lvl 0
 unit		celtic infantry aljazgae				exp 1 armour 0 weapon_lvl 0
 unit		celtic infantry aljazgae				exp 1 armour 0 weapon_lvl 0
 unit		celtic infantry aljazgae				exp 1 armour 0 weapon_lvl 0
@@ -13031,7 +13031,7 @@ unit		celtic infantry bataroas			                exp 2 armour 0 weapon_lvl 0
 unit		celtic infantry bataroas			                exp 1 armour 0 weapon_lvl 0
 unit		iberian missile northern skirmisher			        exp 2 armour 0 weapon_lvl 0
 unit		iberian missile northern skirmisher			        exp 2 armour 0 weapon_lvl 0
-unit		celtic missile sotaroas merc              		        exp 2 armour 0 weapon_lvl 0
+unit		celtic missile sotaroas merc	exp 2 armour 0 weapon_lvl 0
 
 
 ; City: Vindelicoppidos
@@ -13043,10 +13043,10 @@ army
 unit		celtic skirmisher cavalry leuce epos				exp 2 armour 0 weapon_lvl 0
 unit		celtic cavalry celtogermanic			exp 1 armour 0 weapon_lvl 0
 unit		celtic infantry kluddacorii			exp 1 armour 0 weapon_lvl 0
-unit		celtic infantry gaesatae                	exp 1 armour 0 weapon_lvl 0
+unit		celtic infantry gaesatae	exp 1 armour 0 weapon_lvl 0
 unit		celtic infantry gaelaiche			exp 1 armour 0 weapon_lvl 0
 unit		celtic infantry gaelaiche			exp 1 armour 0 weapon_lvl 0
-unit		celtic infantry lugoae  			exp 1 armour 0 weapon_lvl 0
+unit		celtic infantry lugoae	exp 1 armour 0 weapon_lvl 0
 unit		celtic missile iaosatae regional		exp 1 armour 0 weapon_lvl 0
 
 
@@ -13061,8 +13061,8 @@ unit		celtic skirmisher cavalry leuce epos			exp 1 armour 0 weapon_lvl 0
 unit		celtic infantry kluddacorii				exp 2 armour 0 weapon_lvl 0
 unit		celtic infantry kluddacorii				exp 1 armour 0 weapon_lvl 0
 unit		celtic infantry caturiges				exp 1 armour 0 weapon_lvl 0
-unit		celtic infantry mori gaesum			   	exp 2 armour 0 weapon_lvl 0
-unit		celtic infantry mori gaesum			   	exp 2 armour 0 weapon_lvl 0
+unit		celtic infantry mori gaesum				exp 2 armour 0 weapon_lvl 0
+unit		celtic infantry mori gaesum				exp 2 armour 0 weapon_lvl 0
 
 
 ; City: Lemonum
@@ -13118,9 +13118,9 @@ character, sub_faction gauls,	Custennyn, named character, command 0, influence 0
 traits ImmobileRebel 1 , YearsPassed 4 , FamilyMember 1
 army
 unit		celtic infantry cwmyr					exp 2 armour 0 weapon_lvl 0
-unit		celtic cavalry myrcharn 				exp 2 armour 0 weapon_lvl 0
+unit		celtic cavalry myrcharn	exp 2 armour 0 weapon_lvl 0
 unit		celtic infantry teceitos				exp 2 armour 0 weapon_lvl 0
-unit		celtic infantry teceitos               			exp 2 armour 0 weapon_lvl 0
+unit		celtic infantry teceitos	exp 2 armour 0 weapon_lvl 0
 unit		celtic infantry uirodusios				exp 1 armour 0 weapon_lvl 0
 unit		celtic infantry uirodusios				exp 1 armour 0 weapon_lvl 0
 unit		celtic infantry lugoae					exp 1 armour 0 weapon_lvl 0
@@ -13326,7 +13326,7 @@ army
 unit		steppe cavalry scythian nobles				        exp 2 armour 0 weapon_lvl 0
 unit		steppe missile cavalry skuda fat aexsdzhytae			exp 1 armour 0 weapon_lvl 0
 unit		steppe missile cavalry skuda baexdzhyntae			exp 1 armour 0 weapon_lvl 0
-unit		steppe infantry voinu spearmen          			exp 1 armour 0 weapon_lvl 0
+unit		steppe infantry voinu spearmen	exp 1 armour 0 weapon_lvl 0
 unit		steppe missile scythianfootarchers				exp 1 armour 0 weapon_lvl 0
 ;script for Sauromatae
 ;unit		steppe missile cavalry skuda fat aexsdzhytae			exp 1 armour 0 weapon_lvl 0
@@ -13626,7 +13626,7 @@ traits ImmobileRebel 1 , YearsPassed 4 , FamilyMember 1
 army
 unit		iberian cavalry heavy lancearii slave	        exp 1 armour 0 weapon_lvl 0
 unit		iberian cavalry light curisii	                exp 1 armour 0 weapon_lvl 0
-unit		iberian infantry loricati scutarii        	exp 1 armour 0 weapon_lvl 0
+unit		iberian infantry loricati scutarii	exp 1 armour 0 weapon_lvl 0
 unit		iberian infantry medium scutarii		exp 1 armour 0 weapon_lvl 0
 unit		iberian infantry light caetratii		exp 1 armour 0 weapon_lvl 0
 unit		iberian infantry light caetratii		exp 1 armour 0 weapon_lvl 0
@@ -13689,7 +13689,7 @@ unit		dacian missile peltastaithrakioi			exp 1 armour 0 weapon_lvl 0
 unit		dacian missile peltastaithrakioi			exp 1 armour 0 weapon_lvl 0
 unit		dacian infantry thraikioi doryphoroi			exp 0 armour 0 weapon_lvl 0
 unit		greek infantry taxeis hoplitai				exp 1 armour 0 weapon_lvl 0
-unit		greek missile sphendenotai            			exp 1 armour 0 weapon_lvl 0
+unit		greek missile sphendenotai	exp 1 armour 0 weapon_lvl 0
 ;script for Getai and Epeiros and Maks
 ;unit		dacian infantry getikoi stratiotai			exp 1 armour 0 weapon_lvl 0
 ;unit           greek infantry taxeis hoplitai                          exp 0 armour 0 weapon_lvl 0
@@ -13772,9 +13772,9 @@ unit		germanic infantry karas viras				exp 2 armour 0 weapon_lvl 0
 unit		germanic infantry kirslininkas				exp 1 armour 0 weapon_lvl 0
 unit		germanic infantry kirslininkas				exp 1 armour 0 weapon_lvl 0
 unit		germanic missile medininkas				exp 1 armour 0 weapon_lvl 0
-unit		steppe infantry voinu spearmen   			exp 1 armour 0 weapon_lvl 0
-unit		steppe infantry voinu spearmen   			exp 1 armour 0 weapon_lvl 0
-unit		steppe infantry voinu spearmen   			exp 1 armour 0 weapon_lvl 0
+unit		steppe infantry voinu spearmen	exp 1 armour 0 weapon_lvl 0
+unit		steppe infantry voinu spearmen	exp 1 armour 0 weapon_lvl 0
+unit		steppe infantry voinu spearmen	exp 1 armour 0 weapon_lvl 0
 
 ; City: Kallatis
 ; Region: Mikra_Skythia
@@ -13942,7 +13942,7 @@ army
 unit		eastern skirmisher cavalry harauvatish asabara				exp 3 armour 1 weapon_lvl 0
 unit		eastern skirmisher cavalry harauvatish asabara				exp 2 armour 0 weapon_lvl 0
 unit		hellenistic infantry thureophoroi				        exp 1 armour 0 weapon_lvl 0
-unit		greek skirmisher peltastai                            			exp 1 armour 0 weapon_lvl 0
+unit		greek skirmisher peltastai	exp 1 armour 0 weapon_lvl 0
 unit		eastern infantry nizag gund						exp 1 armour 0 weapon_lvl 0
 unit		hellenistic infantry pantodapoi						exp 1 armour 0 weapon_lvl 0
 unit		eastern skirmisher artishpada						exp 1 armour 0 weapon_lvl 0
@@ -13975,8 +13975,8 @@ unit		arabian infantry assilinmodarra				        exp 2 armour 0 weapon_lvl 0
 unit		arabian missile cavalry tribal levies				exp 1 armour 0 weapon_lvl 0
 unit		arabian infantry saba citizen spearmen				exp 1 armour 0 weapon_lvl 0
 unit		arabian infantry east coast levies				exp 1 armour 0 weapon_lvl 0
-unit		arabian missile sabean archers     				exp 1 armour 0 weapon_lvl 0
-unit		arabian missile arab slingers        				exp 1 armour 0 weapon_lvl 0
+unit		arabian missile sabean archers	exp 1 armour 0 weapon_lvl 0
+unit		arabian missile arab slingers	exp 1 armour 0 weapon_lvl 0
 
 
 ; City: Ubar
@@ -13985,13 +13985,13 @@ unit		arabian missile arab slingers        				exp 1 armour 0 weapon_lvl 0
 character, sub_faction saba,	Murthid, named character, command 0, influence 0, management 0, subterfuge 0, age 20, , x 304, y 41
 traits ImmobileRebel 1 , YearsPassed 4 , FamilyMember 1
 army
-unit		arabian infantry assilinmodarra 				exp 1 armour 0 weapon_lvl 0
+unit		arabian infantry assilinmodarra	exp 1 armour 0 weapon_lvl 0
 unit		arabian missile cavalry tribal levies				exp 1 armour 0 weapon_lvl 0
 unit		arabian infantry saba citizen spearmen				exp 2 armour 0 weapon_lvl 0
 unit		arabian skirmisher tribal levies				exp 2 armour 0 weapon_lvl 0
 unit		arabian infantry east coast levies				exp 1 armour 0 weapon_lvl 0
-unit		arabian missile sabean archers     				exp 1 armour 0 weapon_lvl 0
-unit		arabian missile arab slingers        				exp 1 armour 0 weapon_lvl 0
+unit		arabian missile sabean archers	exp 1 armour 0 weapon_lvl 0
+unit		arabian missile arab slingers	exp 1 armour 0 weapon_lvl 0
 
 
 ; City: Sabata
@@ -14000,12 +14000,12 @@ unit		arabian missile arab slingers        				exp 1 armour 0 weapon_lvl 0
 character, sub_faction saba,	Luhayath, named character, command 0, influence 0, management 0, subterfuge 0, age 20, , x 282, y 24
 traits ImmobileRebel 1 , YearsPassed 4 , FamilyMember 1
 army
-unit		arabian infantry assilinmodarra			        	exp 1 armour 0 weapon_lvl 0
+unit		arabian infantry assilinmodarra						exp 1 armour 0 weapon_lvl 0
 unit		arabian cavalry saba citizen cavalry				exp 1 armour 0 weapon_lvl 0
 unit		african infantry ethiopian swordsmen				exp 1 armour 0 weapon_lvl 0
 unit		arabian infantry ethiopian spearmen				exp 1 armour 0 weapon_lvl 0
-unit		arabian missile sabean archers     				exp 1 armour 0 weapon_lvl 0
-unit		arabian missile arab slingers			         	exp 1 armour 0 weapon_lvl 0
+unit		arabian missile sabean archers	exp 1 armour 0 weapon_lvl 0
+unit		arabian missile arab slingers						exp 1 armour 0 weapon_lvl 0
 ;script for Saba
 unit		arabian skirmisher tribal levies				exp 1 armour 0 weapon_lvl 0
 unit		arabian infantry saba citizen spearmen				exp 1 armour 0 weapon_lvl 0
@@ -14016,12 +14016,12 @@ unit		arabian infantry saba citizen spearmen				exp 1 armour 0 weapon_lvl 0
 character, sub_faction saba,	Karab, named character, command 0, influence 0, management 0, subterfuge 0, age 20, , x 272, y 18
 traits ImmobileRebel 1 , YearsPassed 4 , FamilyMember 1
 army
-unit		arabian infantry assilinmodarra			        	exp 1 armour 0 weapon_lvl 0
+unit		arabian infantry assilinmodarra						exp 1 armour 0 weapon_lvl 0
 unit		arabian missile cavalry tribal levies				exp 1 armour 0 weapon_lvl 0
 unit		arabian skirmisher tribal levies				exp 1 armour 0 weapon_lvl 0
 unit		arabian infantry ethiopian spearmen				exp 1 armour 0 weapon_lvl 0
-unit		arabian missile sabean archers     				exp 1 armour 0 weapon_lvl 0
-unit		arabian missile arab slingers        				exp 1 armour 0 weapon_lvl 0
+unit		arabian missile sabean archers	exp 1 armour 0 weapon_lvl 0
+unit		arabian missile arab slingers	exp 1 armour 0 weapon_lvl 0
 unit		african missile ethiopian archers			exp 1 armour 0 weapon_lvl 0
 ;script for Saba
 ;unit		arabian skirmisher tribal levies				exp 1 armour 0 weapon_lvl 0
@@ -14040,7 +14040,7 @@ unit		arabian skirmisher tribal levies				exp 2 armour 0 weapon_lvl 0
 unit		arabian skirmisher tribal levies				exp 1 armour 0 weapon_lvl 0
 unit		arabian infantry ethiopian spearmen				exp 1 armour 0 weapon_lvl 0
 unit		african infantry ethiopian swordsmen				exp 1 armour 0 weapon_lvl 0
-unit		arabian missile sabean archers     				exp 1 armour 0 weapon_lvl 0
+unit		arabian missile sabean archers	exp 1 armour 0 weapon_lvl 0
 unit		african missile ethiopian archers			exp 1 armour 0 weapon_lvl 0
 ;script for Saba
 ;unit		arabian skirmisher tribal levies				exp 1 armour 0 weapon_lvl 0
@@ -14052,7 +14052,7 @@ unit		african missile ethiopian archers			exp 1 armour 0 weapon_lvl 0
 character, sub_faction parthia,	YazdabanA, named character, command 0, influence 0, management 0, subterfuge 0, age 20, , x 350, y 146
 traits ImmobileRebel 1 , YearsPassed 4 , FamilyMember 1
 army
-unit		greek infantry kleruchoi hoplitai                	        exp 1 armour 0 weapon_lvl 0
+unit		greek infantry kleruchoi hoplitai	exp 1 armour 0 weapon_lvl 0
 unit		eastern cavalry taxilan agema					exp 1 armour 0 weapon_lvl 0
 unit		eastern missile eransahr arshtbara merc			        exp 1 armour 0 weapon_lvl 0
 unit		eastern missile shubanfradakshana			        exp 1 armour 0 weapon_lvl 0
@@ -14072,8 +14072,9 @@ unit		arabian infantry saba citizen spearmen				exp 1 armour 0 weapon_lvl 0
 unit		arabian infantry east coast levies				exp 1 armour 0 weapon_lvl 0
 unit		arabian infantry east coast levies				exp 1 armour 0 weapon_lvl 0
 unit		arabian infantry east coast levies				exp 1 armour 0 weapon_lvl 0
-unit		arabian missile arab slingers			        	exp 1 armour 0 weapon_lvl 0
-unit		arabian missile arab slingers			        	exp 1 armour 0 weapon_lvl 0
+unit		arabian missile arab slingers					exp1 1 armour 0 weapon_lvl 0
+unit		arabian missile arab slingers					exp1 1 armour 0 weapon_lvl 0
+
     
 
 ; City: Tanais
@@ -14116,7 +14117,7 @@ traits ImmobileRebel 1 , YearsPassed 4 , FamilyMember 1
 army
 unit		celtic cavalry chieftain brihentin					exp 1 armour 0 weapon_lvl 0
 unit		celtic infantry enoci curoas merc				        exp 1 armour 0 weapon_lvl 0
-unit		celtic infantry gaeroas                        				exp 1 armour 0 weapon_lvl 0
+unit		celtic infantry gaeroas	exp 1 armour 0 weapon_lvl 0
 unit		dacian infantry galathraikes regional					exp 1 armour 0 weapon_lvl 0
 unit		dacian infantry galathraikes regional							exp 2 armour 0 weapon_lvl 0
 unit		dacian missile peltastaithrakioi					exp 1 armour 0 weapon_lvl 0
@@ -14308,7 +14309,7 @@ unit		african skirmisher javelinmen				exp 1 armour 0 weapon_lvl 0
 ; City: Sala
 ; Region: Mauretania
 ; --------------------
-character, sub_faction egypt	Zamolxis, named character, command 0, influence 0, management 0, subterfuge 0, age 20, , x 3, y 98
+character, sub_faction egypt,	Zamolxis, named character, command 0, influence 0, management 0, subterfuge 0, age 20, , x 3, y 98
 traits ImmobileRebel 1 , YearsPassed 4 , FamilyMember 1
 army
 unit		african cavalry numidian nobles				exp 2 armour 0 weapon_lvl 0
@@ -14441,7 +14442,7 @@ unit		african missile numidian archers			exp 1 armour 0 weapon_lvl 0
 character, sub_faction numidia,	Aristoboulos, named character, command 0, influence 0, management 0, subterfuge 0, age 20, , x 211, y 32
 traits ImmobileRebel 1 , YearsPassed 4 , FamilyMember 1
 army
-unit		african cavalry ethiopian        				exp 1 armour 0 weapon_lvl 0
+unit		african cavalry ethiopian	exp 1 armour 0 weapon_lvl 0
 unit		african infantry ethiopian swordsmen				exp 1 armour 0 weapon_lvl 0
 unit		hellenistic infantry red sea hoplites				exp 1 armour 0 weapon_lvl 0
 unit		hellenistic infantry red sea hoplites				exp 1 armour 0 weapon_lvl 0
@@ -14535,7 +14536,7 @@ traits ImmobileRebel 1 , YearsPassed 4 , FamilyMember 1
 army
 unit		iberian cavalry equites cantabrii		                exp 1 armour 0 weapon_lvl 0
 unit		iberian cavalry equites cantabrii		                exp 1 armour 0 weapon_lvl 0
-unit		iberian infantry asturian axemen		 	        exp 1 armour 0 weapon_lvl 0
+unit	iberian infantry asturian axemen	exp 1 armour 0 weapon_lvl 0
 unit		iberian infantry gestikapoinann			                exp 1 armour 0 weapon_lvl 0
 unit		iberian infantry gestikapoinann			                exp 1 armour 0 weapon_lvl 0
 unit		iberian missile northern skirmisher			        exp 1 armour 0 weapon_lvl 0
@@ -14694,7 +14695,7 @@ character_record	Ardaxcashca,	female, command 0, influence 0, management 0, subt
 character_record	Arkha,	female, command 0, influence 0, management 0, subterfuge 0, age 20, alive, never_a_leader
 character_record	Ariyamna,	female, command 0, influence 0, management 0, subterfuge 0, age 20, alive, never_a_leader
 character_record	Arshaka,	female, command 0, influence 0, management 0, subterfuge 0, age 20, alive, never_a_leader
-character_record	Haywat	female, command 0, influence 0, management 0, subterfuge 0, age 20, alive, never_a_leader
+character_record	Haywat,	female, command 0, influence 0, management 0, subterfuge 0, age 20, alive, never_a_leader
 character_record	Kabab,	female, command 0, influence 0, management 0, subterfuge 0, age 20, alive, never_a_leader
 character_record	Hanium,	female, command 0, influence 0, management 0, subterfuge 0, age 20, alive, never_a_leader
 character_record	Naamat,	female, command 0, influence 0, management 0, subterfuge 0, age 20, alive, never_a_leader

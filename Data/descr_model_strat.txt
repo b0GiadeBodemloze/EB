@@ -90,7 +90,7 @@ texture				romans_scipii, data/models_strat/textures/diplomat_numidia.tga
 texture				dacia, data/models_strat/textures/diplomat_dacia.tga
 texture				greek_cities, eb/data/models_strat/textures/diplomat_koinon_hellonon.tga
 texture				romans_brutii, eb/data/models_strat/textures/diplomat_baktria.tga
-texture				armenia, data/models_strat/textures/diplomat_sauromatae.tga
+texture				armenia, eb/data/models_strat/textures/diplomat_sauromatae.tga
 ;texture				armenia, data/models_strat/textures/diplomat_slave.tga
 texture				spain, data/models_strat/textures/diplomat_spain.tga
 texture				thrace, eb/data/models_strat/textures/diplomat_epirote.tga
@@ -738,7 +738,7 @@ shadow_model_flexi	eb/data/models_strat/navy_greek_shadow.cas, max
 type				greek_cities_admiral
 skeleton			strat_navy
 indiv_range			40
-texture				greek_cities, data/models_strat/textures/navy.tga
+texture				greek_cities, eb/data/models_strat/textures/navy.tga
 model_flexi			eb/data/models_strat/navy_greek.cas, max
 shadow_model_flexi	eb/data/models_strat/navy_greek_shadow.cas, max
 
