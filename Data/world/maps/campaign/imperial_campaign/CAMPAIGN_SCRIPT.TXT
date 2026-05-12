@@ -1,7 +1,7 @@
 ;Helix 4 build
 ;Khelvan's edits
 ;-fixed precursortype 2 issue to be gov2
-
+script
 suspend_during_battle on
 declare_timer script_timer
 declare_counter blib
