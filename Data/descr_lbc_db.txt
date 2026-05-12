@@ -58,5 +58,5 @@ model greek_artillery_crew			 100
 faction thrace
 model greek_artillery_crew			 100
 
-faction slaves
+faction slave
 model greek_artillery_crew			 100

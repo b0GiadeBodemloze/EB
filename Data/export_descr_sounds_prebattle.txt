@@ -1,7 +1,7 @@
 BANK: prebattle_speech
 	cultures Roman
 		element VNV_OPENING
-			VnV BadCommander 1
+			VnV BadLeader 1
 				event
 					folder data/sounds/Voice/Human/Localized/Pre_Battle_Speech
 					Roman_Intro_01_1.mp3
@@ -41,7 +41,7 @@ BANK: prebattle_speech
 					folder data/sounds/Voice/Human/Localized/Pre_Battle_Speech
 					Roman_Intro_07_1.mp3
 				end
-			VnV GoodCommander 1
+			VnV GoodLeader 1
 				event
 					folder data/sounds/Voice/Human/Localized/Pre_Battle_Speech
 					Roman_Intro_08_1.mp3
@@ -1505,7 +1505,7 @@ BANK: prebattle_speech
 					folder data/sounds/Voice/Human/Localized/Pre_Battle_Speech
 					Roman_Comments_14_1.mp3
 				end
-			VnV GoodDefender 4
+			VnV GoodDefender 3
 				event
 					folder data/sounds/Voice/Human/Localized/Pre_Battle_Speech
 					Roman_Comments_14_4.mp3
@@ -1807,7 +1807,7 @@ BANK: prebattle_speech
 				end
 	cultures Greek,Egyptian
 		element VNV_OPENING
-			VnV BadCommander 1
+			VnV BadLeader 1
 				event
 					folder data/sounds/Voice/Human/Localized/Pre_Battle_Speech
 				end
@@ -1839,7 +1839,7 @@ BANK: prebattle_speech
 				event
 					folder data/sounds/Voice/Human/Localized/Pre_Battle_Speech
 				end
-			VnV GoodCommander 1
+			VnV GoodLeader 1
 				event
 					folder data/sounds/Voice/Human/Localized/Pre_Battle_Speech
 				end
@@ -2743,7 +2743,7 @@ BANK: prebattle_speech
 				event
 					folder data/sounds/Voice/Human/Localized/Pre_Battle_Speech
 				end
-			VnV GoodDefender 4
+			VnV GoodDefender 3
 				event
 					folder data/sounds/Voice/Human/Localized/Pre_Battle_Speech
 				end
@@ -2899,7 +2899,7 @@ BANK: prebattle_speech
 				end
 	cultures Barbarian,Nomad
 		element VNV_OPENING
-			VnV BadCommander 1
+			VnV BadLeader 1
 				event
 					folder data/sounds/Voice/Human/Localized/Pre_Battle_Speech
 				end
@@ -2931,7 +2931,7 @@ BANK: prebattle_speech
 				event
 					folder data/sounds/Voice/Human/Localized/Pre_Battle_Speech
 				end
-			VnV GoodCommander 1
+			VnV GoodLeader 1
 				event
 					folder data/sounds/Voice/Human/Localized/Pre_Battle_Speech
 				end
@@ -3835,7 +3835,7 @@ BANK: prebattle_speech
 				event
 					folder data/sounds/Voice/Human/Localized/Pre_Battle_Speech
 				end
-			VnV GoodDefender 4
+			VnV GoodDefender 3
 				event
 					folder data/sounds/Voice/Human/Localized/Pre_Battle_Speech
 				end
@@ -3991,7 +3991,7 @@ BANK: prebattle_speech
 				end
 	cultures Eastern,Carthaginian
 		element VNV_OPENING
-			VnV BadCommander 1
+			VnV BadLeader 1
 				event
 					folder data/sounds/Voice/Human/Localized/Pre_Battle_Speech
 				end
@@ -4023,7 +4023,7 @@ BANK: prebattle_speech
 				event
 					folder data/sounds/Voice/Human/Localized/Pre_Battle_Speech
 				end
-			VnV GoodCommander 1
+			VnV GoodLeader 1
 				event
 					folder data/sounds/Voice/Human/Localized/Pre_Battle_Speech
 				end
@@ -4927,7 +4927,7 @@ BANK: prebattle_speech
 				event
 					folder data/sounds/Voice/Human/Localized/Pre_Battle_Speech
 				end
-			VnV GoodDefender 4
+			VnV GoodDefender 3
 				event
 					folder data/sounds/Voice/Human/Localized/Pre_Battle_Speech
 				end

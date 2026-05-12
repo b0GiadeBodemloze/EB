@@ -5805,7 +5805,7 @@ Trigger acquire_Governor_of_Sicily_Messana
           and RemainingMPPercentage = 100
           and IsGeneral
           and SettlementName Messana
-          and I_SettlementOwner Syracuse = seleucid
+          and I_SettlementOwner Syrakousai = seleucid
           and I_SettlementOwner Lilibeo = seleucid
           and SettlementBuildingExists > gov4
           and SettlementBuildingExists < govparthian
@@ -5879,7 +5879,7 @@ Trigger acquire_Governor_of_Africa_Vetus_Adrumentum
           and RemainingMPPercentage = 100
           and IsGeneral
           and SettlementName Adrumeto
-          and I_SettlementOwner Kart_Hadast = seleucid
+          and I_SettlementOwner Kart-Hadast = seleucid
           and I_SettlementOwner Atiqa = seleucid
           and SettlementBuildingExists > gov4
           and SettlementBuildingExists < govparthian
@@ -5956,7 +5956,7 @@ Trigger acquire_Governor_of_Hispania_Citerior_Emporium
           and IsGeneral
           and SettlementName Emporion
           and I_SettlementOwner Mastia = seleucid
-          and I_SettlementOwner Arse = seleucid
+          and I_SettlementOwner Arsé = seleucid
           and SettlementBuildingExists > gov4
           and SettlementBuildingExists < govparthian
           and Attribute Electability < 11
@@ -5975,7 +5975,7 @@ Trigger acquire_Governor_of_Hispania_Citerior_Mastia
           and IsGeneral
           and SettlementName Mastia
           and I_SettlementOwner Emporion = seleucid
-          and I_SettlementOwner Arse = seleucid
+          and I_SettlementOwner Arsé = seleucid
           and SettlementBuildingExists > gov4
           and SettlementBuildingExists < govparthian
           and Attribute Electability < 11
@@ -5992,7 +5992,7 @@ Trigger acquire_Governor_of_Hispania_Citerior_Arse
           and EndedInSettlement
           and RemainingMPPercentage = 100
           and IsGeneral
-          and SettlementName Ars�
+          and SettlementName Arsé
           and I_SettlementOwner Mastia = seleucid
           and I_SettlementOwner Emporion = seleucid
           and SettlementBuildingExists > gov4
@@ -6106,7 +6106,7 @@ Trigger acquire_Governor_of_Macedonia_Pella
           and IsGeneral
           and SettlementName Pella
           and I_SettlementOwner Demetrias = seleucid
-	        and I_SettlementOwner Apollonia = seleucid
+	        and I_SettlementOwner Ambrakia = seleucid
           and I_SettlementOwner Thermon = seleucid
           and SettlementBuildingExists > gov4
           and SettlementBuildingExists < govparthian
@@ -6126,7 +6126,7 @@ Trigger acquire_Governor_of_Macedonia_Demetrias
           and IsGeneral
           and SettlementName Demetrias
           and I_SettlementOwner Pella = seleucid
-	        and I_SettlementOwner Apollonia = seleucid
+	        and I_SettlementOwner Ambrakia = seleucid
           and I_SettlementOwner Thermon = seleucid
           and SettlementBuildingExists > gov4
           and SettlementBuildingExists < govparthian
@@ -6166,7 +6166,7 @@ Trigger acquire_Governor_of_Macedonia_Thermon
           and IsGeneral
           and SettlementName Thermon
           and I_SettlementOwner Pella = seleucid
-	        and I_SettlementOwner Apollonia = seleucid
+	        and I_SettlementOwner Ambrakia = seleucid
           and I_SettlementOwner Demetrias = seleucid
           and SettlementBuildingExists > gov4
           and SettlementBuildingExists < govparthian

@@ -1814,7 +1814,7 @@ Trait Warlord
 
 ;Mod445 - 02/25 : doubled threshold
 ;Mod30b - 10/21 : Levels 2 and 4 - reduced command stars, added troop morale. added influence levels 4 and 5
-;Mod30a - 10/21 : Added AntiTrait "Coward, BadCommander"
+;Mod30a - 10/21 : Added AntiTrait "Coward" replaced deprecated BadCommander with BadLeader
 ;------------------------------------------
 ;Trait: VictorRomanVirtue
 ; o Vanquisher (10) - <PersonalSecurity> -1, <Influence> 1
@@ -25817,7 +25817,7 @@ Trait AntiBarcid
 ;Trait: AeduiVictoryConditions
 ; AeduiVictoryConditions:
 ; o Own Tyde, Pallantia, Numantia, Emporion, Tolosa, Burdigala, Gergovia, Lemonum, Darioritum, Cenabum, Avaricum, Bibracte, Bratosporios, Vesontio, Vindelicoppidos, Aventicos, Viennos, Massalia, Mediolanum, Patavium, Veldideno, Bagacos, Camulosadae, Ictis, Iuvavum, Eburonum, Vindobona, Bononia
-; o Raid Rome
+; o Raid Roma
 ; o Factions destroyed: Arverni
 
 Trait AeduiVictoryConditions
@@ -25831,8 +25831,8 @@ Trait AeduiVictoryConditions
 ;------------------------------------------
 ;Trait: ArverniVictoryConditions
 ; ArverniVictoryConditions:
-; o Own Emporion, Tolosa, Burdigala, Gergovia, Lemonum, Darioritum, Cenabum, Avaricum, Bibracte, Bratosporios, Vesontio, Vindelicoppidos, Aventicos, Viennos, Massalia, Mediolanum, Patavium, Veldideno, Bagacos, Iuvavum, Vindobona, Lucarottea, Ak_Ink, Singidunum, Naissus, Segesta
-; o Raid Rome
+; o Own Emporion, Tolosa, Burdigala, Gergovia, Lemonum, Darioritum, Cenabum, Avaricum, Bibracte, Bratosporios, Vesontio, Vindelicoppidos, Aventicos, Viennos, Massalia, Mediolanum, Patavium, Veldideno, Bagacos, Iuvavum, Vindobona, Lucarottea, Ak-Ink, Singidunum, Naissus, Segesta
+; o Raid Roma
 ; o Factions destroyed: Arverni
 
 Trait ArverniVictoryConditions
@@ -25846,7 +25846,7 @@ Trait ArverniVictoryConditions
 ;------------------------------------------
 ;Trait: CassiVictoryConditions
 ; CassiVictoryConditions:
-; o Own Attuaca, Emain_Macha, Ivernis, Caern_Brigantae, Ynys_Mon, Ratae, Ictis, Camulosadae, Bratosporios, Bagacos, Darioritum, Cenabum, Lemonum, Avaricum, Bibracte, Vesontio, Burdigala, Gergovia, Viennos, Tolosa, Tyde, Pallantia, Vellika
+; o Own Attuaca, Emain-Macha, Ivernis, Caern-Brigantae, Ynys-Mon, Ratae, Ictis, Camulosadae, Bratosporios, Bagacos, Darioritum, Cenabum, Lemonum, Avaricum, Bibracte, Vesontio, Burdigala, Gergovia, Viennos, Tolosa, Tyde, Pallantia, Vellika
 
 Trait CassiVictoryConditions
     Characters family
@@ -25887,7 +25887,7 @@ Trait HayasdanVictoryConditions
 ;------------------------------------------
 ;Trait: PahlavaVictoryConditions
 ; PahlavaVictoryConditions:
-; o Own Arbela, Kabalaka, Alexandropolis, Alexandreia_Ariana, Armavir, Ani-Kamah, Edessa, Asaak, Phraaspa, Seleukeia, Babylon, Baktra, Juni, Charax, Apameia, Khiva, Prophthasia, Susa, Alexandriea_Eschate, Gabai, Ankyra, Pura, Zadrakata, Hierosolyma, Amaseia, Mazaka, Karmana, Tarsos, Antiocheia_Margiane, Ekbatana, Gava_Haomavarga, Side, Kophen, Hekarompylos, Persepolis, Sidon, Ipsos, Palmyra, Marakanda, Karkathiokerta, Antiocheia, Damaskos, Gava_Alanna, Gava_Aursa, Gelonus, Nisa, Gava_Yazyga, Gava_Yugra, Gava_Mazsakata, Gava_Roxsalanna, Gava_Saka, and Uspe.
+; o Own Arbela, Kabalaka, Alexandropolis, Alexandreia-Ariana, Armavir, Ani-Kamah, Edessa, Asaak, Phraaspa, Seleukeia, Babylon, Baktra, Juni, Charax, Apameia, Khiva, Prophthasia, Susa, Alexandriea_Eschate, Gabai, Ankyra, Pura, Zadrakata, Hierosolyma, Amaseia, Mazaka, Karmana, Tarsos, Antiocheia-Margiane, Ekbatana, Gava-Haomavarga, Side, Kophen, Hekarompylos, Persepolis, Sidon, Ipsos, Palmyra, Marakanda, Karkathiokerta, Antiocheia, Damaskos, Gava-Alanna, Gava-Aursa, Gelonus, Nisa, Gava-Yazyga, Gava-Yugra, Gava-Mazsakata, Gava-Roxsalanna, Gava-Saka, and Uspe.
 ; o Destroy the Seleukid faction
 
 Trait PahlavaVictoryConditions
@@ -25901,7 +25901,7 @@ Trait PahlavaVictoryConditions
 ;------------------------------------------
 ;Trait: PontosVictoryConditions
 ; PontosVictoryConditions:
-; o Own Korinthos, Arbela, Thermon, Kabalaka, Armavir, Ani-Kamah, Edessa, Phraaspa, Athenai, Nikomedia, Pantikapaion, Byzantion, Sarmiszegethusa, Epidamnos, Serdike, Ambrakia, Ankyra, Buridava, Mtskheta, Segestica, Hierosolyma, Melitene, Amaseia, Halicarnassos, Tarsos, Kotais, Sparte, Sardis, Tanais, Pella, Kallatis, Pergamon, Tylis, Side, Vindobona, Sinope, Sidon, Ipsos, Trapezous, Palmyra, Olbia, Karkathiokerta, Antiocheia, Damaskos, Chersonesos, Demetrias, Naissus, Gawjam_Bastarnoz, Ak_Ink, and Singidunum.
+; o Own Korinthos, Arbela, Thermon, Kabalaka, Armavir, Ani-Kamah, Edessa, Phraaspa, Athenai, Nikomedia, Pantikapaion, Byzantion, Sarmiszegethusa, Epidamnos, Serdike, Ambrakia, Ankyra, Buridava, Mtskheta, Segestica, Hierosolyma, Melitene, Amaseia, Halicarnassos, Tarsos, Kotais, Sparte, Sardis, Tanais, Pella, Kallatis, Pergamon, Tylis, Side, Vindobona, Sinope, Sidon, Ipsos, Trapezous, Palmyra, Olbia, Karkathiokerta, Antiocheia, Damaskos, Chersonesos, Demetrias, Naissus, Gáwjám~Bastarnoz, Ak-Ink, and Singidunum.
 
 Trait PontosVictoryConditions
     Characters family
@@ -25914,7 +25914,7 @@ Trait PontosVictoryConditions
 ;------------------------------------------
 ;Trait: SauromataeVictoryConditions
 ; SauromataeVictoryConditions:
-; o Own Gava_Yazyga, Gava_Roxsalanna, Campus_Aorsi, Upse, Tanais, Gelonus, Olbia, Chersonesos, Pantikapaion, Kallatis, Gordu_Neuriji, Gawjam_Bastarnoz, Lucarottea, Ascaucalis, Gava_Thissakata, Ak_Ink, Vindobona, Singidunum, Gava_Alanna, Gava_Yugra, Gava_Mazsakata, Nisa, Khiva, Marakanda, Antiocheia_Margiane, Gava_Saka, Chighu, Gava_Haomavarga, Kotais, Kabalaka, Mtskheta, Armavir, Phraaspa, Mazaka, Ankyra, Ani-Kamah, Zadrakata, Asaak, Hekarompylos, Alexandreia_Ariana, Baktra, Ekbatana, Naissus, Tanais, Tylis, Byzantion, Alexandreia_Eschate, Juni, Sulek, Taksashila.
+; o Own Gava-Yazyga, Gava-Roxsalanna, Campus_Aorsi, Upse, Tanais, Gelonus, Olbia, Chersonesos, Pantikapaion, Kallatis, Gordu-Neuriji, Gáwjám~Bastarnoz, Lucarottea, Ascaucalis, Gava-Thissakata, Ak-Ink, Vindobona, Singidunum, Gava-Alanna, Gava-Yugra, Gava-Mazsakata, Nisa, Khiva, Marakanda, Antiocheia-Margiane, Gava-Saka, Chighu, Gava-Haomavarga, Kotais, Kabalaka, Mtskheta, Armavir, Phraaspa, Mazaka, Ankyra, Ani-Kamah, Zadrakata, Asaak, Hekarompylos, Alexandreia-Ariana, Baktra, Ekbatana, Naissus, Tanais, Tylis, Byzantion, Alexandreia-Eschate, Juni, Sulek, Taksashila.
 ; o Raids: Susa, Persepolis, Seleukeia, Babylon, Antiocheia, Pella, Demetrias, Segestica, Patavium, Bononia, Arctaunon, Vesontio, Teotoburgum.
 
 Trait SauromataeVictoryConditions
@@ -25928,7 +25928,7 @@ Trait SauromataeVictoryConditions
 ;------------------------------------------
 ;Trait: SwebozVictoryConditions
 ; SwebozVictoryConditions:
-; o Own Swebotraustastamnoz, Gawjam_Heruskoz, Gawjam_Habukoz, Arctaunon, Gawjam_Kimbroz, Gawjam_Rugoz, Gawjam_Skandzawarjoz, Gawjam_Gotanoz, Eburonum, Gawjam_Silengoz, Bibracte, Vicus_Vendelicum, Vesontio, Bagacos, Bratosporios, and Gawjam_Bastarnoz
+; o Own Swebotráustástámnoz, Gáwjám~Heruskoz, Gáwjám~Hábukoz, Arctaunon, Gáwjám~Kimbroz, Gáwjám~Rugoz, Gáwjám~Skándzáwárjoz, Gáwjám~Gotánoz, Eburonum, Gáwjám~Silengoz, Bibracte, Vicus_Vendelicum, Vesontio, Bagacos, Bratosporios, and Gáwjám~Bastarnoz
 ; o Raids: Aventicos, Veldideno, Iuvavoaeta, Carrodunum, Viennos, Patavium, and Ascaucalis
 
 Trait SwebozVictoryConditions
@@ -25942,7 +25942,7 @@ Trait SwebozVictoryConditions
 ;------------------------------------------
 ;Trait: TsorimVictoryConditions
 ; TsorimVictoryConditions:
-; o Own Tyde, Pallantia, Vellika, Numantia, Emporion, Oxtraca, Baikor, Arse, Gader, Mastia, Segesta, Bononia, Arretium, Ariminum, Roma, Capua, Cannae, Taras, Rhegion, Lilibeo, Messana, Syrakousai, Sidon, Bocchoris, Ippone, Alalia, Karali, Kart_Hadast, Adrumeto, and Lepki.
+; o Own Tyde, Pallantia, Vellika, Numantia, Emporion, Oxtraca, Baikor, Arse, Gader, Mastia, Segesta, Bononia, Arretium, Ariminum, Roma, Capua, Cannae, Taras, Rhegion, Lilibeo, Messana, Syrakousai, Sidon, Bocchoris, Ippone, Alalia, Karali, Kart-Hadast, Adrumeto, and Lepki.
 
 Trait TsorimVictoryConditions
     Characters family
@@ -25955,7 +25955,7 @@ Trait TsorimVictoryConditions
 ;------------------------------------------
 ;Trait: BaktriaVictoryConditions
 ; BaktriaVictoryConditions:
-; o Own Chighu, Sulek, Chach, Alexandriea_Eschate, Gave_Haomavarga, Taksashila, Marakanda, Khiva, Nisa, Antiocheia_Margiane, Baktra, Kophen, Asaak, Hekarompylos, Alexandreia_Ariana, Prophthasia, Alexandropolis, Opiana, Gabai, Karmana, Pura, Patala
+; o Own Chighu, Sulek, Chach, Alexandriea_Eschate, Gave_Haomavarga, Taksashila, Marakanda, Khiva, Nisa, Antiocheia-Margiane, Baktra, Kophen, Asaak, Hekarompylos, Alexandreia-Ariana, Prophthasia, Alexandropolis, Opiana, Gabai, Karmana, Pura, Patala
 ; o Factions destroyed: Saka, Pahlava
 
 Trait BaktriaVictoryConditions
@@ -25983,7 +25983,7 @@ Trait PtolemaioiVictoryConditions
 ;------------------------------------------
 ;Trait: ArcheSeleukideiaVictoryConditions
 ; ArcheSeleukideiaVictoryConditions:
-; o Own Pella, Demetrias, Thermon, Korinthos, Sparte, Athenai, Chalkis, Byzantion, Kydonia, Rhodos, Trapezous, Ani-Kamah, Sinope, Amaseia, Nikomedia, Ankyra, Pergamon, Ipsos, Mazaka, Sardis, Mytilene, Halikarnassos, Side, Tarsos, Salamis, Antiocheia, Karkathiokerta, Armavir, Arbela, Edessa, Seleukia, Palmyra, Damaskos, Sidon, Bostra, Hierosolyma, Petra, Sulek, Chach, Alexandriea_Eschate, Gave_Haomavarga, Taksashila, Marakanda, Khiva, Nisa, Antiocheia_Margiane, Baktra, Kophen, Asaak, Hekarompylos, Alexandreia_Ariana, Prophthasia, Alexandropolis, Opiana, Gabai, Karmana, Pura, Patala, Persepolis, Zadrakata, Apameia, Susa, Charax, Ekbatana, Phraaspa, Gerrha, Homna, Alexandreia, Paraitonion, Kyrene, Ammonion, Hibis, Memphis, Diospolis_Megale, Pselkis
+; o Own Pella, Demetrias, Thermon, Korinthos, Sparte, Athenai, Chalkis, Byzantion, Kydonia, Rhodos, Trapezous, Ani-Kamah, Sinope, Amaseia, Nikomedia, Ankyra, Pergamon, Ipsos, Mazaka, Sardis, Mytilene, Halikarnassos, Side, Tarsos, Salamis, Antiocheia, Karkathiokerta, Armavir, Arbela, Edessa, Seleukia, Palmyra, Damaskos, Sidon, Bostra, Hierosolyma, Petra, Sulek, Chach, Alexandriea_Eschate, Gave_Haomavarga, Taksashila, Marakanda, Khiva, Nisa, Antiocheia-Margiane, Baktra, Kophen, Asaak, Hekarompylos, Alexandreia-Ariana, Prophthasia, Alexandropolis, Opiana, Gabai, Karmana, Pura, Patala, Persepolis, Zadrakata, Apameia, Susa, Charax, Ekbatana, Phraaspa, Gerrha, Homna, Alexandreia, Paraitonion, Kyrene, Ammonion, Hibis, Memphis, Diospolis_Megale, Pselkis
 ; o Factions destroyed: Baktria, Pahlava, Hayasdan, Ptolemaioi
 
 Trait ArcheSeleukideiaVictoryConditions
@@ -26011,7 +26011,7 @@ Trait MakedoniaVictoryConditions
 ;------------------------------------------
 ;Trait: KoinonHellenonVictoryConditions
 ; KoinonHellenonVictoryConditions:
-; o Own Ars�, Emporion, Massalia, Karali, Lilibeo, Messana, Syracuse;/Syrakousai, Arpi, Capua, Taras, Rhegion, Apollonia;/Ambrakia, Pella, Demetrias, Thermon, Athenai, Chalkis, Mytilene, Korinthos, Sparte, Kydonia, Rhodos, Salamis, Byzantion, Pergamon, Sardis, Halikarnassos, Kyrene, Chersonesos, Pantikapaion, Sinope, and Trapezous.
+; o Own Arsé, Emporion, Massalia, Karali, Lilibeo, Messana, Syracuse;/Syrakousai, Arpi, Capua, Taras, Rhegion, Ambrakia;/Ambrakia, Pella, Demetrias, Thermon, Athenai, Chalkis, Mytilene, Korinthos, Sparte, Kydonia, Rhodos, Salamis, Byzantion, Pergamon, Sardis, Halikarnassos, Kyrene, Chersonesos, Pantikapaion, Sinope, and Trapezous.
 ; o Factions destroyed: Makedon, Epeiros
 
 Trait KoinonHellenonVictoryConditions
@@ -26040,7 +26040,7 @@ Trait SakaVictoryConditions
 ;------------------------------------------
 ;Trait: EpeirosVictoryConditions
 ; EpeirosVictoryConditions:
-; o Own Massalia, Segesta, Alalia, Karali, Boninia, Patavium, Arretium, Ariminium, Rome;/Roma, Capua, Cannae, Taras, Rhegion, Messana, Lilibeo, Syracuse;/Syrakousai, Segestica, Vindobona, Singidunum, Naissus, Serdike, Epidamnos, Apollinia;/Ambrakia, Tylis, Kallatis, Pella, Demetrias, Thermon, Korinthos, Sparte, Athenai, Chalkis, Byzantion, Kydonia, Rhodos, Trapezous, Sinope, Amaseia, Nikomedia, Ankyra, Pergamon, Ipsos, Sardis, Mytilene, Halikarnassos, Side, Tarsos, Mazaka, Antiocheia, Edessa, Karkathiokerta, Arbela, Seleukia, Ekbatana, Susa, Charax, and Persepolis
+; o Own Massalia, Segesta, Alalia, Karali, Boninia, Patavium, Arretium, Ariminium, Roma;/Roma, Capua, Cannae, Taras, Rhegion, Messana, Lilibeo, Syracuse;/Syrakousai, Segestica, Vindobona, Singidunum, Naissus, Serdike, Epidamnos, Apollinia;/Ambrakia, Tylis, Kallatis, Pella, Demetrias, Thermon, Korinthos, Sparte, Athenai, Chalkis, Byzantion, Kydonia, Rhodos, Trapezous, Sinope, Amaseia, Nikomedia, Ankyra, Pergamon, Ipsos, Sardis, Mytilene, Halikarnassos, Side, Tarsos, Mazaka, Antiocheia, Edessa, Karkathiokerta, Arbela, Seleukia, Ekbatana, Susa, Charax, and Persepolis
 
 Trait EpeirosVictoryConditions
     Characters family
@@ -26053,8 +26053,8 @@ Trait EpeirosVictoryConditions
 
 ;------------------------------------------
 ;Trait: RomeVictoryConditions
-; Rome Victory Conditions:
-; o For this man to successfully complete his faction's objectives, he must own all provinces of the Imperium Romanum in 14 AD, without the client kingdoms.  His generals must lead the armies of the Roman people to conduct raids against Maryab, Meroe, Garama, Armavir, Phraaspa, Seleukeia, Babylon, Camulosadae, Eburonum, Sarmiszegethusa and Swebotr�st�t�noz (by conquering them, but they do not have to keep them).\n\nHis faction must also destroy or outlast the following factions: Aedui, Averni, Iberia, Epeiros, Carthago, Pontus, Koinon Hellenon, Makedonia and Ptolemaioi
+; Roma Victory Conditions:
+; o For this man to successfully complete his faction's objectives, he must own all provinces of the Imperium Romanum in 14 AD, without the client kingdoms.  His generals must lead the armies of the Roman people to conduct raids against Maryab, Meroe, Garama, Armavir, Phraaspa, Seleukeia, Babylon, Camulosadae, Eburonum, Sarmiszegethusa and Swebotráustástámnoz (by conquering them, but they do not have to keep them).\n\nHis faction must also destroy or outlast the following factions: Aedui, Averni, Iberia, Epeiros, Carthago, Pontus, Koinon Hellenon, Makedonia and Ptolemaioi
 
 Trait RomeVictoryConditions
     Characters family
@@ -26067,8 +26067,8 @@ Trait RomeVictoryConditions
 ;------------------------------------------
 ;Trait: IberiaVictoryConditions
 ; IberiaVictoryConditions:
-; o Own Emain_Macha, Ivernis, Lemonum, Avaricum, Burdigala, Gergovia, Tolosa, Tyde, Pallantia, Vellika, Emporion, Massalia, Segesta, Arretium, Rome;Roma, Numantia, Oxtraca, Arse, Baikor, Mastia, Bocchoris, Gader, Lixus, Siga, Ippone, Kart_Hadast
-; o Factions destroyed: Rome, Karthadast
+; o Own Emain-Macha, Ivernis, Lemonum, Avaricum, Burdigala, Gergovia, Tolosa, Tyde, Pallantia, Vellika, Emporion, Massalia, Segesta, Arretium, Roma;Roma, Numantia, Oxtraca, Arse, Baikor, Mastia, Bocchoris, Gader, Lixus, Siga, Ippone, Kart-Hadast
+; o Factions destroyed: Roma, Karthadast
 
 Trait IberiaVictoryConditions
     Characters family
@@ -28265,7 +28265,7 @@ Trait ParthicusCognomen
 ;Mod: EBMod839 - 01/16/05 : added triumphs over Dacia, Syria, Parthia
 ;------------------------------------------
 ;Trait: Imperator
-; o Imperator (1): This man has been acclaimed Imperator ('commander') by his army after a great victory.  Once the Senate agrees to a Triumph, he may return to Rome at the head of his army.
+; o Imperator (1): This man has been acclaimed Imperator ('commander') by his army after a great victory.  Once the Senate agrees to a Triumph, he may return to Roma at the head of his army.
 
 Trait Imperator
     Characters family
@@ -28295,9 +28295,9 @@ Trait ReverseImperator
 
 ;------------------------------------------
 ;Trait: Triumphator
-; o Prospective_Triumphator (2): This man awaits only the word from the Senate to return to Rome and claim his Triumph!
-; o Triumphator (3): This man has fulfilled all the requirements for receiving a Triumph, and now that he has the Senate's approval, must return to Rome to claim it!
-; o Celebrating_Triumph (4): This man has returned to Rome to celebrate his Triumph!
+; o Prospective_Triumphator (2): This man awaits only the word from the Senate to return to Roma and claim his Triumph!
+; o Triumphator (3): This man has fulfilled all the requirements for receiving a Triumph, and now that he has the Senate's approval, must return to Roma to claim it!
+; o Celebrating_Triumph (4): This man has returned to Roma to celebrate his Triumph!
 
 Trait Triumphator
     Characters family
@@ -28327,7 +28327,7 @@ Trait Triumphator
 ;Mod: EBMod964 - 12/31 : Add GainMessage for Celebrating_Triumph
 ;------------------------------------------
 ;Trait: TooEagerTriumphator
-; o Too_Eager_Triumphator (1): <Influence>  -3 : This man has tried to enter Rome with his army before the Senate granted his Triumph.
+; o Too_Eager_Triumphator (1): <Influence>  -3 : This man has tried to enter Roma with his army before the Senate granted his Triumph.
 
 Trait TooEagerTriumphator
     Characters family
@@ -28345,7 +28345,7 @@ Trait TooEagerTriumphator
 
 ;------------------------------------------
 ;Trait: CelebratedTriumphator
-; o Celebrated_Triumphator (1): <Influence>  3 : This man has celebrated his Triumph in Rome!
+; o Celebrated_Triumphator (1): <Influence>  3 : This man has celebrated his Triumph in Roma!
 
 Trait CelebratedTriumphator
     Characters family
@@ -28720,7 +28720,7 @@ Trait HasNotCapturedEmainMacha
     Hidden
     AntiTraits HasEmainMacha
 
-    Level Has_Not_Captured_Emain_Macha
+    Level Has_Not_Captured_Emain-Macha
         Description Hidden_desc
         EffectsDescription Hidden_effects_desc
          Threshold  1
@@ -28731,7 +28731,7 @@ Trait HasEmainMacha
     Hidden
     AntiTraits HasNotCapturedEmainMacha
 
-    Level Has_Emain_Macha
+    Level Has_Emain-Macha
         Description Hidden_desc
         EffectsDescription Hidden_effects_desc
          Threshold  1
@@ -29196,7 +29196,7 @@ Trait StraboUspe
          Threshold  1
 
 ;------------------------------------------
-Trait StraboGava_Aursa
+Trait StraboGava-Aursa
     Characters family
 
     Level Strabo_Gava_Aursa
@@ -29216,7 +29216,7 @@ Trait StraboZadrakata
          Threshold  1
 
 ;------------------------------------------
-Trait StraboGava_Mazsakata
+Trait StraboGava-Mazsakata
     Characters family
 
     Level Strabo_Gava_Mazsakata
@@ -29236,7 +29236,7 @@ Trait StraboHekatompylos
          Threshold  1
 
 ;------------------------------------------
-Trait StraboAlexandreia_Ariana
+Trait StraboAlexandreia-Ariana
     Characters family
 
     Level Strabo_Alexandreia_Ariana
@@ -34592,7 +34592,7 @@ Trait EpeirosTaulantios
 ;------------------------------------------
 ;------------------------------------------
 ;Trait: Aorsi
-; o Aorsi (1): Potentially better than other Sarmatians tribes at trading and management, the Aorsi controlled the western and southern end of some very important trade routes and were apparently famous for the wealth they derived from that. Archaeological finds corrobarate the claims of ancient authors (Strabo) in this regard. An Aorsi nobleman might be more familiar with the subtleties of trade that his counterparts from other tribes. The Aorsi also appear to have been quite sensible when it came to diplomacy, choosing the winning side, Rome for example, when they were involved in international affairs and also mantaining relatively peaceful borders with their 'civilized' neighbors. However the Aorsi are not famous for developing warlike abilities.
+; o Aorsi (1): Potentially better than other Sarmatians tribes at trading and management, the Aorsi controlled the western and southern end of some very important trade routes and were apparently famous for the wealth they derived from that. Archaeological finds corrobarate the claims of ancient authors (Strabo) in this regard. An Aorsi nobleman might be more familiar with the subtleties of trade that his counterparts from other tribes. The Aorsi also appear to have been quite sensible when it came to diplomacy, choosing the winning side, Roma for example, when they were involved in international affairs and also mantaining relatively peaceful borders with their 'civilized' neighbors. However the Aorsi are not famous for developing warlike abilities.
 
 Trait Aorsi
     Characters family
@@ -41589,7 +41589,7 @@ Trigger Gallic_GeneralCapturedRoma
 
 
 ;------------------------------------------
-Trigger Iberia_GeneralCapturedEmain_Macha
+Trigger Iberia_GeneralCapturedEmain-Macha
   WhenToTest GeneralCaptureSettlement
 
     Condition SettlementName Emain-Macha
@@ -41598,7 +41598,7 @@ Trigger Iberia_GeneralCapturedEmain_Macha
   Affects IberiaCapturedTeamhaidh  1  Chance  100
 
 ;------------------------------------------
-Trigger Gallic_GeneralCapturedEmain_Macha
+Trigger Gallic_GeneralCapturedEmain-Macha
   WhenToTest GeneralCaptureSettlement
 
     Condition SettlementName Emain-Macha
@@ -41609,7 +41609,7 @@ Trigger Gallic_GeneralCapturedEmain_Macha
   Affects CapturedTeamhaidh  1  Chance  100
 
 ;------------------------------------------
-Trigger Casse_GeneralCapturedEmain_Macha
+Trigger Casse_GeneralCapturedEmain-Macha
   WhenToTest GeneralCaptureSettlement
 
     Condition FactionType britons
@@ -41772,7 +41772,7 @@ Trigger StraboArpiConquered
 Trigger StraboKimbriolandamConquered
   WhenToTest GeneralCaptureSettlement
     
-    Condition SettlementName G�j�~Kimbroz
+    Condition SettlementName Gáwjám~Kimbroz
           and Trait Hellenic > 0
           
   Affects StraboKimbriolandam  1  Chance 100
@@ -42014,13 +42014,13 @@ Trigger StraboUspeConquered
   Affects StraboUspe  1  Chance 100
 
 ;------------------------------------------
-Trigger StraboGava_AursaConquered
+Trigger StraboGava-AursaConquered
   WhenToTest GeneralCaptureSettlement
     
     Condition SettlementName Gava-Aursa
           and Trait Hellenic > 0
 
-  Affects StraboGava_Aursa  1  Chance 100
+  Affects StraboGava-Aursa  1  Chance 100
 
 ;------------------------------------------
 Trigger StraboZadrakataConquered
@@ -42032,13 +42032,13 @@ Trigger StraboZadrakataConquered
   Affects StraboZadrakata  1  Chance 100
 
 ;------------------------------------------
-Trigger StraboGava_MazsakataConquered
+Trigger StraboGava-MazsakataConquered
   WhenToTest GeneralCaptureSettlement
     
     Condition SettlementName Gava-Mazsakata
           and Trait Hellenic > 0
 
-  Affects StraboGava_Mazsakata  1  Chance 100
+  Affects StraboGava-Mazsakata  1  Chance 100
 
 ;------------------------------------------
 Trigger StraboHekatompylosConquered
@@ -42050,13 +42050,13 @@ Trigger StraboHekatompylosConquered
   Affects StraboHekatompylos  1  Chance 100
 
 ;------------------------------------------
-Trigger StraboAlexandreia_ArianaConquered
+Trigger StraboAlexandreia-ArianaConquered
   WhenToTest GeneralCaptureSettlement
     
     Condition SettlementName Alexandreia-Ariana
           and Trait Hellenic > 0
 
-  Affects StraboAlexandreia_Ariana  1  Chance 100
+  Affects StraboAlexandreia-Ariana  1  Chance 100
 
 ;------------------------------------------
 Trigger StraboAlexandreia_MargianeConquered
@@ -53625,7 +53625,7 @@ Trigger Aedui_Contini_2_OfferedForMarriage
 
     Condition FactionType gauls
           and Trait EthnoDetermined < 1 
-          and I_SettlementOwner Gawjam_Bastarnoz = gauls
+          and I_SettlementOwner Gáwjám~Bastarnoz = gauls
 
   Affects AeduiContini  1  Chance  10
 
@@ -53914,7 +53914,7 @@ Trigger Aedui_Osi_OfferedForMarriage
 
     Condition FactionType gauls
           and Trait EthnoDetermined < 1 
-          and I_SettlementOwner Ak_Ink = gauls
+          and I_SettlementOwner Ak-Ink = gauls
 
   Affects AeduiOsi  1  Chance  13
 
@@ -54904,7 +54904,7 @@ Trigger Aedui_Brigante_OfferedForMarriage
 
     Condition FactionType gauls
           and Trait EthnoDetermined < 1 
-          and I_SettlementOwner Caern_Brigantae = gauls
+          and I_SettlementOwner Caern-Brigantae = gauls
 
   Affects AeduiBrigante  1  Chance  17
 
@@ -54914,7 +54914,7 @@ Trigger Aedui_Brigante_2_OfferedForMarriage
 
     Condition FactionType gauls
           and Trait EthnoDetermined < 1 
-          and I_SettlementOwner Emain_Macha = gauls
+          and I_SettlementOwner Emain-Macha = gauls
 
   Affects AeduiBrigante  1  Chance  17
 
@@ -55291,7 +55291,7 @@ Trigger Aedui_Cruithni_OfferedForMarriage
 
     Condition FactionType gauls
           and Trait EthnoDetermined < 1 
-          and I_SettlementOwner Emain_Macha = gauls
+          and I_SettlementOwner Emain-Macha = gauls
 
   Affects AeduiCruithni  1  Chance  9
 
@@ -55602,7 +55602,7 @@ Trigger Aedui_Fene_2_OfferedForMarriage
 
     Condition FactionType gauls
           and Trait EthnoDetermined < 1 
-          and I_SettlementOwner Emain_Macha = gauls
+          and I_SettlementOwner Emain-Macha = gauls
 
   Affects AeduiFene  1  Chance  9
 
@@ -55662,7 +55662,7 @@ Trigger Aedui_FerBolgia_OfferedForMarriage
 
     Condition FactionType gauls
           and Trait EthnoDetermined < 1 
-          and I_SettlementOwner Emain_Macha = gauls
+          and I_SettlementOwner Emain-Macha = gauls
 
   Affects AeduiFerBolgia  1  Chance  10
 
@@ -55956,7 +55956,7 @@ Trigger Aedui_Ordovices_OfferedForMarriage
 
     Condition FactionType gauls
           and Trait EthnoDetermined < 1 
-          and I_SettlementOwner Ynys_Mon = gauls
+          and I_SettlementOwner Ynys-Mon = gauls
 
   Affects AeduiOrdovices  1  Chance  10
 
@@ -56027,7 +56027,7 @@ Trigger Aedui_Parise_OfferedForMarriage
 
     Condition FactionType gauls
           and Trait EthnoDetermined < 1 
-          and I_SettlementOwner Caern_Brigantae = gauls
+          and I_SettlementOwner Caern-Brigantae = gauls
 
   Affects AeduiParise  1  Chance  13
 
@@ -56118,7 +56118,7 @@ Trigger Aedui_Silure_OfferedForMarriage
 
     Condition FactionType gauls
           and Trait EthnoDetermined < 1 
-          and I_SettlementOwner Ynys_Mon = gauls
+          and I_SettlementOwner Ynys-Mon = gauls
 
   Affects AeduiSilure  1  Chance  12
 
@@ -58687,7 +58687,7 @@ Trigger Aedui_Contini_2_OfferedForAdoption
 
     Condition FactionType gauls
           and Trait EthnoDetermined < 1          
-          and I_SettlementOwner Gawjam_Bastarnoz = gauls
+          and I_SettlementOwner Gáwjám~Bastarnoz = gauls
 
   Affects AeduiContini  1  Chance  10
 
@@ -58980,7 +58980,7 @@ Trigger Aedui_Osi_OfferedForAdoption
 
     Condition FactionType gauls
           and Trait EthnoDetermined < 1          
-          and I_SettlementOwner Ak_Ink = gauls
+          and I_SettlementOwner Ak-Ink = gauls
 
   Affects AeduiOsi  1  Chance  13
 
@@ -59981,7 +59981,7 @@ Trigger Aedui_Brigante_OfferedForAdoption
 
     Condition FactionType gauls
           and Trait EthnoDetermined < 1          
-          and I_SettlementOwner Caern_Brigantae = gauls
+          and I_SettlementOwner Caern-Brigantae = gauls
 
   Affects AeduiBrigante  1  Chance  17
 
@@ -59991,7 +59991,7 @@ Trigger Aedui_Brigante_2_OfferedForAdoption
 
     Condition FactionType gauls
           and Trait EthnoDetermined < 1          
-          and I_SettlementOwner Emain_Macha = gauls
+          and I_SettlementOwner Emain-Macha = gauls
 
   Affects AeduiBrigante  1  Chance  17
 
@@ -60373,7 +60373,7 @@ Trigger Aedui_Cruithni_OfferedForAdoption
 
     Condition FactionType gauls
           and Trait EthnoDetermined < 1          
-          and I_SettlementOwner Emain_Macha = gauls
+          and I_SettlementOwner Emain-Macha = gauls
 
   Affects AeduiCruithni  1  Chance  9
 
@@ -60688,7 +60688,7 @@ Trigger Aedui_Fene_2_OfferedForAdoption
 
     Condition FactionType gauls
           and Trait EthnoDetermined < 1          
-          and I_SettlementOwner Emain_Macha = gauls
+          and I_SettlementOwner Emain-Macha = gauls
 
   Affects AeduiFene  1  Chance  9
 
@@ -60748,7 +60748,7 @@ Trigger Aedui_FerBolgia_OfferedForAdoption
 
     Condition FactionType gauls
           and Trait EthnoDetermined < 1          
-          and I_SettlementOwner Emain_Macha = gauls
+          and I_SettlementOwner Emain-Macha = gauls
 
   Affects AeduiFerBolgia  1  Chance  10
 
@@ -61045,7 +61045,7 @@ Trigger Aedui_Ordovices_OfferedForAdoption
 
     Condition FactionType gauls
           and Trait EthnoDetermined < 1          
-          and I_SettlementOwner Ynys_Mon = gauls
+          and I_SettlementOwner Ynys-Mon = gauls
 
   Affects AeduiOrdovices  1  Chance  10
 
@@ -61117,7 +61117,7 @@ Trigger Aedui_Parise_OfferedForAdoption
 
     Condition FactionType gauls
           and Trait EthnoDetermined < 1          
-          and I_SettlementOwner Caern_Brigantae = gauls
+          and I_SettlementOwner Caern-Brigantae = gauls
 
   Affects AeduiParise  1  Chance  13
 
@@ -61210,7 +61210,7 @@ Trigger Aedui_Silure_OfferedForAdoption
 
     Condition FactionType gauls
           and Trait EthnoDetermined < 1          
-          and I_SettlementOwner Ynys_Mon = gauls
+          and I_SettlementOwner Ynys-Mon = gauls
 
   Affects AeduiSilure  1  Chance  12
 
@@ -62149,7 +62149,7 @@ Trigger Aedui_Contini_2_LesserGeneralOfferedForAdoption
 
     Condition FactionType gauls
           and Trait EthnoDetermined < 1          
-          and I_SettlementOwner Gawjam_Bastarnoz = gauls
+          and I_SettlementOwner Gáwjám~Bastarnoz = gauls
 
   Affects AeduiContini  1  Chance  10
 
@@ -62438,7 +62438,7 @@ Trigger Aedui_Osi_LesserGeneralOfferedForAdoption
 
     Condition FactionType gauls
           and Trait EthnoDetermined < 1          
-          and I_SettlementOwner Ak_Ink = gauls
+          and I_SettlementOwner Ak-Ink = gauls
 
   Affects AeduiOsi  1  Chance  13
 
@@ -63429,7 +63429,7 @@ Trigger Aedui_Brigante_LesserGeneralOfferedForAdoption
 
     Condition FactionType gauls
           and Trait EthnoDetermined < 1          
-          and I_SettlementOwner Caern_Brigantae = gauls
+          and I_SettlementOwner Caern-Brigantae = gauls
 
   Affects AeduiBrigante  1  Chance  17
 
@@ -63439,7 +63439,7 @@ Trigger Aedui_Brigante_2_LesserGeneralOfferedForAdoption
 
     Condition FactionType gauls
           and Trait EthnoDetermined < 1          
-          and I_SettlementOwner Emain_Macha = gauls
+          and I_SettlementOwner Emain-Macha = gauls
 
   Affects AeduiBrigante  1  Chance  17
 
@@ -63816,7 +63816,7 @@ Trigger Aedui_Cruithni_LesserGeneralOfferedForAdoption
 
     Condition FactionType gauls
           and Trait EthnoDetermined < 1          
-          and I_SettlementOwner Emain_Macha = gauls
+          and I_SettlementOwner Emain-Macha = gauls
 
   Affects AeduiCruithni  1  Chance  9
 
@@ -64126,7 +64126,7 @@ Trigger Aedui_Fene_2_LesserGeneralOfferedForAdoption
 
     Condition FactionType gauls
           and Trait EthnoDetermined < 1          
-          and I_SettlementOwner Emain_Macha = gauls
+          and I_SettlementOwner Emain-Macha = gauls
 
   Affects AeduiFene  1  Chance  9
 
@@ -64186,7 +64186,7 @@ Trigger Aedui_FerBolgia_LesserGeneralOfferedForAdoption
 
     Condition FactionType gauls
           and Trait EthnoDetermined < 1          
-          and I_SettlementOwner Emain_Macha = gauls
+          and I_SettlementOwner Emain-Macha = gauls
 
   Affects AeduiFerBolgia  1  Chance  10
 
@@ -64480,7 +64480,7 @@ Trigger Aedui_Ordovices_LesserGeneralOfferedForAdoption
 
     Condition FactionType gauls
           and Trait EthnoDetermined < 1          
-          and I_SettlementOwner Ynys_Mon = gauls
+          and I_SettlementOwner Ynys-Mon = gauls
 
   Affects AeduiOrdovices  1  Chance  10
 
@@ -64551,7 +64551,7 @@ Trigger Aedui_Parise_LesserGeneralOfferedForAdoption
 
     Condition FactionType gauls
           and Trait EthnoDetermined < 1          
-          and I_SettlementOwner Caern_Brigantae = gauls
+          and I_SettlementOwner Caern-Brigantae = gauls
 
   Affects AeduiParise  1  Chance  13
 
@@ -64642,7 +64642,7 @@ Trigger Aedui_Silure_LesserGeneralOfferedForAdoption
 
     Condition FactionType gauls
           and Trait EthnoDetermined < 1          
-          and I_SettlementOwner Ynys_Mon = gauls
+          and I_SettlementOwner Ynys-Mon = gauls
 
   Affects AeduiSilure  1  Chance  12
 
@@ -66623,7 +66623,7 @@ Trigger Arverni_Contini_2_OfferedForMarriage
 
     Condition FactionType scythia
           and Trait EthnoDetermined < 1 
-          and I_SettlementOwner Gawjam_Bastarnoz = scythia
+          and I_SettlementOwner Gáwjám~Bastarnoz = scythia
 
   Affects ArverniContini  1  Chance  10
 
@@ -66912,7 +66912,7 @@ Trigger Arverni_Osi_OfferedForMarriage
 
     Condition FactionType scythia
           and Trait EthnoDetermined < 1 
-          and I_SettlementOwner Ak_Ink = scythia
+          and I_SettlementOwner Ak-Ink = scythia
 
   Affects ArverniOsi  1  Chance  19
 
@@ -67903,7 +67903,7 @@ Trigger Arverni_Brigante_OfferedForMarriage
 
     Condition FactionType scythia
           and Trait EthnoDetermined < 1 
-          and I_SettlementOwner Caern_Brigantae = scythia
+          and I_SettlementOwner Caern-Brigantae = scythia
 
   Affects ArverniBrigante  1  Chance  17
 
@@ -67913,7 +67913,7 @@ Trigger Arverni_Brigante_2_OfferedForMarriage
 
     Condition FactionType scythia
           and Trait EthnoDetermined < 1 
-          and I_SettlementOwner Emain_Macha = scythia
+          and I_SettlementOwner Emain-Macha = scythia
 
   Affects ArverniBrigante  1  Chance  17
 
@@ -68290,7 +68290,7 @@ Trigger Arverni_Cruithni_OfferedForMarriage
 
     Condition FactionType scythia
           and Trait EthnoDetermined < 1 
-          and I_SettlementOwner Emain_Macha = scythia
+          and I_SettlementOwner Emain-Macha = scythia
 
   Affects ArverniCruithni  1  Chance  9
 
@@ -68601,7 +68601,7 @@ Trigger Arverni_Fene_2_OfferedForMarriage
 
     Condition FactionType scythia
           and Trait EthnoDetermined < 1 
-          and I_SettlementOwner Emain_Macha = scythia
+          and I_SettlementOwner Emain-Macha = scythia
 
   Affects ArverniFene  1  Chance  9
 
@@ -68661,7 +68661,7 @@ Trigger Arverni_FerBolgia_OfferedForMarriage
 
     Condition FactionType scythia
           and Trait EthnoDetermined < 1 
-          and I_SettlementOwner Emain_Macha = scythia
+          and I_SettlementOwner Emain-Macha = scythia
 
   Affects ArverniFerBolgia  1  Chance  10
 
@@ -68955,7 +68955,7 @@ Trigger Arverni_Ordovices_OfferedForMarriage
 
     Condition FactionType scythia
           and Trait EthnoDetermined < 1 
-          and I_SettlementOwner Ynys_Mon = scythia
+          and I_SettlementOwner Ynys-Mon = scythia
 
   Affects ArverniOrdovices  1  Chance  10
 
@@ -69026,7 +69026,7 @@ Trigger Arverni_Parise_OfferedForMarriage
 
     Condition FactionType scythia
           and Trait EthnoDetermined < 1 
-          and I_SettlementOwner Caern_Brigantae = scythia
+          and I_SettlementOwner Caern-Brigantae = scythia
 
   Affects ArverniParise  1  Chance  13
 
@@ -69117,7 +69117,7 @@ Trigger Arverni_Silure_OfferedForMarriage
 
     Condition FactionType scythia
           and Trait EthnoDetermined < 1 
-          and I_SettlementOwner Ynys_Mon = scythia
+          and I_SettlementOwner Ynys-Mon = scythia
 
   Affects ArverniSilure  1  Chance  12
 
@@ -71749,7 +71749,7 @@ Trigger Arverni_Contini_2_OfferedForAdoption
 
     Condition FactionType scythia
           and Trait EthnoDetermined < 1          
-          and I_SettlementOwner Gawjam_Bastarnoz = scythia
+          and I_SettlementOwner Gáwjám~Bastarnoz = scythia
 
   Affects ArverniContini  1  Chance  10
 
@@ -72042,7 +72042,7 @@ Trigger Arverni_Osi_OfferedForAdoption
 
     Condition FactionType scythia
           and Trait EthnoDetermined < 1          
-          and I_SettlementOwner Ak_Ink = scythia
+          and I_SettlementOwner Ak-Ink = scythia
 
   Affects ArverniOsi  1  Chance  19
 
@@ -73045,7 +73045,7 @@ Trigger Arverni_Brigante_OfferedForAdoption
 
     Condition FactionType scythia
           and Trait EthnoDetermined < 1          
-          and I_SettlementOwner Caern_Brigantae = scythia
+          and I_SettlementOwner Caern-Brigantae = scythia
 
   Affects ArverniBrigante  1  Chance  17
 
@@ -73055,7 +73055,7 @@ Trigger Arverni_Brigante_2_OfferedForAdoption
 
     Condition FactionType scythia
           and Trait EthnoDetermined < 1          
-          and I_SettlementOwner Emain_Macha = scythia
+          and I_SettlementOwner Emain-Macha = scythia
 
   Affects ArverniBrigante  1  Chance  17
 
@@ -73437,7 +73437,7 @@ Trigger Arverni_Cruithni_OfferedForAdoption
 
     Condition FactionType scythia
           and Trait EthnoDetermined < 1          
-          and I_SettlementOwner Emain_Macha = scythia
+          and I_SettlementOwner Emain-Macha = scythia
 
   Affects ArverniCruithni  1  Chance  9
 
@@ -73752,7 +73752,7 @@ Trigger Arverni_Fene_2_OfferedForAdoption
 
     Condition FactionType scythia
           and Trait EthnoDetermined < 1          
-          and I_SettlementOwner Emain_Macha = scythia
+          and I_SettlementOwner Emain-Macha = scythia
 
   Affects ArverniFene  1  Chance  9
 
@@ -73812,7 +73812,7 @@ Trigger Arverni_FerBolgia_OfferedForAdoption
 
     Condition FactionType scythia
           and Trait EthnoDetermined < 1          
-          and I_SettlementOwner Emain_Macha = scythia
+          and I_SettlementOwner Emain-Macha = scythia
 
   Affects ArverniFerBolgia  1  Chance  10
 
@@ -74109,7 +74109,7 @@ Trigger Arverni_Ordovices_OfferedForAdoption
 
     Condition FactionType scythia
           and Trait EthnoDetermined < 1          
-          and I_SettlementOwner Ynys_Mon = scythia
+          and I_SettlementOwner Ynys-Mon = scythia
 
   Affects ArverniOrdovices  1  Chance  10
 
@@ -74181,7 +74181,7 @@ Trigger Arverni_Parise_OfferedForAdoption
 
     Condition FactionType scythia
           and Trait EthnoDetermined < 1          
-          and I_SettlementOwner Caern_Brigantae = scythia
+          and I_SettlementOwner Caern-Brigantae = scythia
 
   Affects ArverniParise  1  Chance  13
 
@@ -74274,7 +74274,7 @@ Trigger Arverni_Silure_OfferedForAdoption
 
     Condition FactionType scythia
           and Trait EthnoDetermined < 1          
-          and I_SettlementOwner Ynys_Mon = scythia
+          and I_SettlementOwner Ynys-Mon = scythia
 
   Affects ArverniSilure  1  Chance  12
 
@@ -75217,7 +75217,7 @@ Trigger Arverni_Contini_2_LesserGeneralOfferedForAdoption
 
     Condition FactionType scythia
           and Trait EthnoDetermined < 1          
-          and I_SettlementOwner Gawjam_Bastarnoz = scythia
+          and I_SettlementOwner Gáwjám~Bastarnoz = scythia
 
   Affects ArverniContini  1  Chance  10
 
@@ -75506,7 +75506,7 @@ Trigger Arverni_Osi_LesserGeneralOfferedForAdoption
 
     Condition FactionType scythia
           and Trait EthnoDetermined < 1          
-          and I_SettlementOwner Ak_Ink = scythia
+          and I_SettlementOwner Ak-Ink = scythia
 
   Affects ArverniOsi  1  Chance  19
 
@@ -76497,7 +76497,7 @@ Trigger Arverni_Brigante_LesserGeneralOfferedForAdoption
 
     Condition FactionType scythia
           and Trait EthnoDetermined < 1          
-          and I_SettlementOwner Caern_Brigantae = scythia
+          and I_SettlementOwner Caern-Brigantae = scythia
 
   Affects ArverniBrigante  1  Chance  17
 
@@ -76507,7 +76507,7 @@ Trigger Arverni_Brigante_2_LesserGeneralOfferedForAdoption
 
     Condition FactionType scythia
           and Trait EthnoDetermined < 1          
-          and I_SettlementOwner Emain_Macha = scythia
+          and I_SettlementOwner Emain-Macha = scythia
 
   Affects ArverniBrigante  1  Chance  17
 
@@ -76884,7 +76884,7 @@ Trigger Arverni_Cruithni_LesserGeneralOfferedForAdoption
 
     Condition FactionType scythia
           and Trait EthnoDetermined < 1          
-          and I_SettlementOwner Emain_Macha = scythia
+          and I_SettlementOwner Emain-Macha = scythia
 
   Affects ArverniCruithni  1  Chance  9
 
@@ -77195,7 +77195,7 @@ Trigger Arverni_Fene_2_LesserGeneralOfferedForAdoption
 
     Condition FactionType scythia
           and Trait EthnoDetermined < 1          
-          and I_SettlementOwner Emain_Macha = scythia
+          and I_SettlementOwner Emain-Macha = scythia
 
   Affects ArverniFene  1  Chance  9
 
@@ -77255,7 +77255,7 @@ Trigger Arverni_FerBolgia_LesserGeneralOfferedForAdoption
 
     Condition FactionType scythia
           and Trait EthnoDetermined < 1          
-          and I_SettlementOwner Emain_Macha = scythia
+          and I_SettlementOwner Emain-Macha = scythia
 
   Affects ArverniFerBolgia  1  Chance  10
 
@@ -77549,7 +77549,7 @@ Trigger Arverni_Ordovices_LesserGeneralOfferedForAdoption
 
     Condition FactionType scythia
           and Trait EthnoDetermined < 1          
-          and I_SettlementOwner Ynys_Mon = scythia
+          and I_SettlementOwner Ynys-Mon = scythia
 
   Affects ArverniOrdovices  1  Chance  10
 
@@ -77620,7 +77620,7 @@ Trigger Arverni_Parise_LesserGeneralOfferedForAdoption
 
     Condition FactionType scythia
           and Trait EthnoDetermined < 1          
-          and I_SettlementOwner Caern_Brigantae = scythia
+          and I_SettlementOwner Caern-Brigantae = scythia
 
   Affects ArverniParise  1  Chance  13
 
@@ -77711,7 +77711,7 @@ Trigger Arverni_Silure_LesserGeneralOfferedForAdoption
 
     Condition FactionType scythia
           and Trait EthnoDetermined < 1          
-          and I_SettlementOwner Ynys_Mon = scythia
+          and I_SettlementOwner Ynys-Mon = scythia
 
   Affects ArverniSilure  1  Chance  12
 
@@ -79811,7 +79811,7 @@ Trigger Casse_Contini_2_OfferedForMarriage
 
     Condition FactionType britons
           and Trait EthnoDetermined < 1 
-          and I_SettlementOwner Gawjam_Bastarnoz = britons
+          and I_SettlementOwner Gáwjám~Bastarnoz = britons
 
   Affects CasseContini  1  Chance  10
 
@@ -80100,7 +80100,7 @@ Trigger Casse_Osi_OfferedForMarriage
 
     Condition FactionType britons
           and Trait EthnoDetermined < 1 
-          and I_SettlementOwner Ak_Ink = britons
+          and I_SettlementOwner Ak-Ink = britons
 
   Affects CasseOsi  1  Chance  19
 
@@ -83650,7 +83650,7 @@ Trigger Casse_Contini_2_OfferedForAdoption
 
     Condition FactionType britons
           and Trait EthnoDetermined < 1          
-          and I_SettlementOwner Gawjam_Bastarnoz = britons
+          and I_SettlementOwner Gáwjám~Bastarnoz = britons
 
   Affects CasseContini  1  Chance  10
 
@@ -83859,7 +83859,7 @@ Trigger Casse_Osi_OfferedForAdoption
 
     Condition FactionType britons
           and Trait EthnoDetermined < 1          
-          and I_SettlementOwner Ak_Ink = britons
+          and I_SettlementOwner Ak-Ink = britons
 
   Affects CasseOsi  1  Chance  19
 
@@ -85644,7 +85644,7 @@ Trigger Casse_Contini_2_LesserGeneralOfferedForAdoption
 
     Condition FactionType britons
           and Trait EthnoDetermined < 1          
-          and I_SettlementOwner Gawjam_Bastarnoz = britons
+          and I_SettlementOwner Gáwjám~Bastarnoz = britons
 
   Affects CasseContini  1  Chance  10
 
@@ -85933,7 +85933,7 @@ Trigger Casse_Osi_LesserGeneralOfferedForAdoption
 
     Condition FactionType britons
           and Trait EthnoDetermined < 1          
-          and I_SettlementOwner Ak_Ink = britons
+          and I_SettlementOwner Ak-Ink = britons
 
   Affects CasseOsi  1  Chance  19
 
@@ -86924,7 +86924,7 @@ Trigger Casse_Brigante_OfferedForMarriage
 
     Condition FactionType britons
           and Trait EthnoDetermined < 1 
-          and I_SettlementOwner Caern_Brigantae = britons
+          and I_SettlementOwner Caern-Brigantae = britons
 
   Affects CasseBrigante  1  Chance  17
 
@@ -86934,7 +86934,7 @@ Trigger Casse_Brigante_2_OfferedForMarriage
 
     Condition FactionType britons
           and Trait EthnoDetermined < 1 
-          and I_SettlementOwner Emain_Macha = britons
+          and I_SettlementOwner Emain-Macha = britons
 
   Affects CasseBrigante  1  Chance  17
 
@@ -87249,7 +87249,7 @@ Trigger Casse_Cruithni_OfferedForMarriage
 
     Condition FactionType britons
           and Trait EthnoDetermined < 1 
-          and I_SettlementOwner Emain_Macha = britons
+          and I_SettlementOwner Emain-Macha = britons
 
   Affects CasseCruithni  1  Chance  9
 
@@ -87560,7 +87560,7 @@ Trigger Casse_Fene_2_OfferedForMarriage
 
     Condition FactionType britons
           and Trait EthnoDetermined < 1 
-          and I_SettlementOwner Emain_Macha = britons
+          and I_SettlementOwner Emain-Macha = britons
 
   Affects CasseFene  1  Chance  9
 
@@ -87620,7 +87620,7 @@ Trigger Casse_FerBolgia_OfferedForMarriage
 
     Condition FactionType britons
           and Trait EthnoDetermined < 1 
-          and I_SettlementOwner Emain_Macha = britons
+          and I_SettlementOwner Emain-Macha = britons
 
   Affects CasseFerBolgia  1  Chance  10
 
@@ -87914,7 +87914,7 @@ Trigger Casse_Ordovices_OfferedForMarriage
 
     Condition FactionType britons
           and Trait EthnoDetermined < 1 
-          and I_SettlementOwner Ynys_Mon = britons
+          and I_SettlementOwner Ynys-Mon = britons
 
   Affects CasseOrdovices  1  Chance  10
 
@@ -87985,7 +87985,7 @@ Trigger Casse_Parise_OfferedForMarriage
 
     Condition FactionType britons
           and Trait EthnoDetermined < 1 
-          and I_SettlementOwner Caern_Brigantae = britons
+          and I_SettlementOwner Caern-Brigantae = britons
 
   Affects CasseParise  1  Chance  13
 
@@ -88076,7 +88076,7 @@ Trigger Casse_Silure_OfferedForMarriage
 
     Condition FactionType britons
           and Trait EthnoDetermined < 1 
-          and I_SettlementOwner Ynys_Mon = britons
+          and I_SettlementOwner Ynys-Mon = britons
 
   Affects CasseSilure  1  Chance  12
 
@@ -89361,7 +89361,7 @@ Trigger Casse_Brigante_OfferedForAdoption
 
     Condition FactionType britons
           and Trait EthnoDetermined < 1          
-          and I_SettlementOwner Caern_Brigantae = britons
+          and I_SettlementOwner Caern-Brigantae = britons
 
   Affects CasseBrigante  1  Chance  17
 
@@ -89371,7 +89371,7 @@ Trigger Casse_Brigante_2_OfferedForAdoption
 
     Condition FactionType britons
           and Trait EthnoDetermined < 1          
-          and I_SettlementOwner Emain_Macha = britons
+          and I_SettlementOwner Emain-Macha = britons
 
   Affects CasseBrigante  1  Chance  17
 
@@ -89700,7 +89700,7 @@ Trigger Casse_Cruithni_OfferedForAdoption
 
     Condition FactionType britons
           and Trait EthnoDetermined < 1          
-          and I_SettlementOwner Emain_Macha = britons
+          and I_SettlementOwner Emain-Macha = britons
 
   Affects CasseCruithni  1  Chance  9
 
@@ -90015,7 +90015,7 @@ Trigger Casse_Fene_2_OfferedForAdoption
 
     Condition FactionType britons
           and Trait EthnoDetermined < 1          
-          and I_SettlementOwner Emain_Macha = britons
+          and I_SettlementOwner Emain-Macha = britons
 
   Affects CasseFene  1  Chance  9
 
@@ -90075,7 +90075,7 @@ Trigger Casse_FerBolgia_OfferedForAdoption
 
     Condition FactionType britons
           and Trait EthnoDetermined < 1          
-          and I_SettlementOwner Emain_Macha = britons
+          and I_SettlementOwner Emain-Macha = britons
 
   Affects CasseFerBolgia  1  Chance  10
 
@@ -90372,7 +90372,7 @@ Trigger Casse_Ordovices_OfferedForAdoption
 
     Condition FactionType britons
           and Trait EthnoDetermined < 1          
-          and I_SettlementOwner Ynys_Mon = britons
+          and I_SettlementOwner Ynys-Mon = britons
 
   Affects CasseOrdovices  1  Chance  10
 
@@ -90444,7 +90444,7 @@ Trigger Casse_Parise_OfferedForAdoption
 
     Condition FactionType britons
           and Trait EthnoDetermined < 1          
-          and I_SettlementOwner Caern_Brigantae = britons
+          and I_SettlementOwner Caern-Brigantae = britons
 
   Affects CasseParise  1  Chance  13
 
@@ -90537,7 +90537,7 @@ Trigger Casse_Silure_OfferedForAdoption
 
     Condition FactionType britons
           and Trait EthnoDetermined < 1          
-          and I_SettlementOwner Ynys_Mon = britons
+          and I_SettlementOwner Ynys-Mon = britons
 
   Affects CasseSilure  1  Chance  12
 
@@ -90759,7 +90759,7 @@ Trigger Casse_Brigante_LesserGeneralOfferedForAdoption
 
     Condition FactionType britons
           and Trait EthnoDetermined < 1          
-          and I_SettlementOwner Caern_Brigantae = britons
+          and I_SettlementOwner Caern-Brigantae = britons
 
   Affects CasseBrigante  1  Chance  17
 
@@ -90769,7 +90769,7 @@ Trigger Casse_Brigante_2_LesserGeneralOfferedForAdoption
 
     Condition FactionType britons
           and Trait EthnoDetermined < 1          
-          and I_SettlementOwner Emain_Macha = britons
+          and I_SettlementOwner Emain-Macha = britons
 
   Affects CasseBrigante  1  Chance  17
 
@@ -91084,7 +91084,7 @@ Trigger Casse_Cruithni_LesserGeneralOfferedForAdoption
 
     Condition FactionType britons
           and Trait EthnoDetermined < 1          
-          and I_SettlementOwner Emain_Macha = britons
+          and I_SettlementOwner Emain-Macha = britons
 
   Affects CasseCruithni  1  Chance  9
 
@@ -91395,7 +91395,7 @@ Trigger Casse_Fene_2_LesserGeneralOfferedForAdoption
 
     Condition FactionType britons
           and Trait EthnoDetermined < 1          
-          and I_SettlementOwner Emain_Macha = britons
+          and I_SettlementOwner Emain-Macha = britons
 
   Affects CasseFene  1  Chance  9
 
@@ -91455,7 +91455,7 @@ Trigger Casse_FerBolgia_LesserGeneralOfferedForAdoption
 
     Condition FactionType britons
           and Trait EthnoDetermined < 1          
-          and I_SettlementOwner Emain_Macha = britons
+          and I_SettlementOwner Emain-Macha = britons
 
   Affects CasseFerBolgia  1  Chance  10
 
@@ -91749,7 +91749,7 @@ Trigger Casse_Ordovices_LesserGeneralOfferedForAdoption
 
     Condition FactionType britons
           and Trait EthnoDetermined < 1          
-          and I_SettlementOwner Ynys_Mon = britons
+          and I_SettlementOwner Ynys-Mon = britons
 
   Affects CasseOrdovices  1  Chance  10
 
@@ -91820,7 +91820,7 @@ Trigger Casse_Parise_LesserGeneralOfferedForAdoption
 
     Condition FactionType britons
           and Trait EthnoDetermined < 1          
-          and I_SettlementOwner Caern_Brigantae = britons
+          and I_SettlementOwner Caern-Brigantae = britons
 
   Affects CasseParise  1  Chance  13
 
@@ -91911,7 +91911,7 @@ Trigger Casse_Silure_LesserGeneralOfferedForAdoption
 
     Condition FactionType britons
           and Trait EthnoDetermined < 1          
-          and I_SettlementOwner Ynys_Mon = britons
+          and I_SettlementOwner Ynys-Mon = britons
 
   Affects CasseSilure  1  Chance  12
 
@@ -95413,7 +95413,7 @@ Trigger Sarmatia_Yancai_OfferedForMarriage
 
     Condition FactionType armenia
           and Trait EthnoDetermined < 1
-          and I_SettlementOwner Gava_Alanna = armenia
+          and I_SettlementOwner Gava-Alanna = armenia
 
   Affects Yancai 1  Chance  38
 
@@ -95424,7 +95424,7 @@ Trigger Sarmatia_Yancai_OfferedForMarriage2
     Condition FactionType armenia
           and Trait EthnoDetermined < 1
           and Trait Yancai < 1
-          and I_SettlementOwner Gava_Mazsakata = armenia
+          and I_SettlementOwner Gava-Mazsakata = armenia
 
   Affects Yancai 1  Chance  38
 
@@ -95536,7 +95536,7 @@ Trigger Makedonia_Epeirotes_OfferedForMarriage
 
     Condition FactionType macedon
           and Trait EthnoDetermined < 1
-          and I_SettlementOwner Apollonia = macedon
+          and I_SettlementOwner Ambrakia = macedon
           and I_SettlementOwner Epidamnos = macedon
 
   Affects MakedonianEpeirotes  1  Chance  6
@@ -102414,7 +102414,7 @@ Trigger Saka_Aurusa_OfferedForMarriage
 
     Condition FactionType pontus
           and Trait EthnoDetermined < 1 
-          and I_SettlementOwner Gava_Alanna = pontus
+          and I_SettlementOwner Gava-Alanna = pontus
 
   Affects SakaAurusa  1  Chance  3
    
@@ -102424,7 +102424,7 @@ Trigger Saka_Aurusa2_OfferedForMarriage
 
     Condition FactionType pontus
           and Trait EthnoDetermined < 1 
-          and I_SettlementOwner Gava_Aursa = pontus
+          and I_SettlementOwner Gava-Aursa = pontus
 
   Affects SakaAurusa  1  Chance  3
    
@@ -102954,7 +102954,7 @@ Trigger Saka_Mazsaka_OfferedForMarriage
 
     Condition FactionType pontus
           and Trait EthnoDetermined < 1 
-          and I_SettlementOwner Gava_Mazsakata = pontus
+          and I_SettlementOwner Gava-Mazsakata = pontus
 
   Affects SakaMazsaka  1  Chance  5
    
@@ -103034,7 +103034,7 @@ Trigger Saka_SakaHaomavarga_OfferedForMarriage
 
     Condition FactionType pontus
           and Trait EthnoDetermined < 1 
-          and I_SettlementOwner Alexandreia_Eschate = pontus
+          and I_SettlementOwner Alexandreia-Eschate = pontus
 
   Affects SakaHaomavarga  1  Chance  4
    
@@ -103044,7 +103044,7 @@ Trigger Saka_SakaHaomavarga2_OfferedForMarriage
 
     Condition FactionType pontus
           and Trait EthnoDetermined < 1 
-          and I_SettlementOwner Gava_Haomavarga = pontus
+          and I_SettlementOwner Gava-Haomavarga = pontus
 
   Affects SakaHaomavarga  1  Chance  4
    
@@ -103203,7 +103203,7 @@ Trigger Saka_SauRoma_OfferedForMarriage
 
     Condition FactionType pontus
           and Trait EthnoDetermined < 1 
-          and I_SettlementOwner Gava_Yazyga = pontus
+          and I_SettlementOwner Gava-Yazyga = pontus
 
   Affects SakaSauRoma  1  Chance  4
    
@@ -103213,7 +103213,7 @@ Trigger Saka_SauRoma2_OfferedForMarriage
 
     Condition FactionType pontus
           and Trait EthnoDetermined < 1 
-          and I_SettlementOwner Gava_Roxsalanna = pontus
+          and I_SettlementOwner Gava-Roxsalanna = pontus
 
   Affects SakaSauRoma  1  Chance  4
    
@@ -103559,7 +103559,7 @@ Trigger Saka_Yavana6_OfferedForMarriage
 
     Condition FactionType pontus
           and Trait EthnoDetermined < 1 
-          and I_SettlementOwner Alexandreia_Ariana = pontus
+          and I_SettlementOwner Alexandreia-Ariana = pontus
 
   Affects SakaYavana  1  Chance  6
    
@@ -103684,7 +103684,7 @@ Trigger Saka_Yavanakamboja6_OfferedForMarriage
 
     Condition FactionType pontus
           and Trait EthnoDetermined < 1 
-          and I_SettlementOwner Alexandreia_Ariana = pontus
+          and I_SettlementOwner Alexandreia-Ariana = pontus
 
   Affects SakaYavanakamboja  1  Chance  1
    
@@ -103876,7 +103876,7 @@ Trigger Saka_Yavanasaka6_OfferedForMarriage
 
     Condition FactionType pontus
           and Trait EthnoDetermined < 1 
-          and I_SettlementOwner Alexandreia_Ariana = pontus
+          and I_SettlementOwner Alexandreia-Ariana = pontus
 
   Affects SakaYavanasaka  1  Chance  8
    
@@ -105812,7 +105812,7 @@ Trigger Sweboz_Gutoningaz_OfferedForMarriage_a
 
     Condition Trait EthnoDetermined < 1
           and FactionType germans
-          and I_SettlementOwner Gawjam_Skandzawarjoz = germans
+          and I_SettlementOwner Gáwjám~Skándzáwárjoz = germans
           and RandomPercent > 96
 
   Affects SwebozGutoningaz  1  Chance  100
@@ -105825,7 +105825,7 @@ Trigger Sweboz_Gutoningaz_OfferedForMarriage_b
 
     Condition Trait EthnoDetermined < 1
           and FactionType germans
-          and I_SettlementOwner Gintaras_Ostan = germans
+          and I_SettlementOwner Gintaras-Ostan = germans
           and RandomPercent > 90
 
   Affects SwebozGutoningaz  1  Chance  100
@@ -105838,7 +105838,7 @@ Trigger Sweboz_Gutoningaz_OfferedForMarriage_c
 
     Condition Trait EthnoDetermined < 1
           and FactionType germans
-          and I_SettlementOwner Gawjam_Gotanoz = germans
+          and I_SettlementOwner Gáwjám~Gotánoz = germans
           and RandomPercent > 85
 
   Affects SwebozGutoningaz  1  Chance  100
@@ -105904,7 +105904,7 @@ Trigger Sweboz_Kembringaz_OfferedForMarriage
 
     Condition Trait EthnoDetermined < 1
           and FactionType germans
-          and I_SettlementOwner Gawjam_Kimbroz = germans
+          and I_SettlementOwner Gáwjám~Kimbroz = germans
           and RandomPercent > 83
 
   Affects SwebozKembringaz  1  Chance  100
@@ -105984,7 +105984,7 @@ Trigger Sweboz_Heruskingaz_OfferedForMarriage
 
     Condition Trait EthnoDetermined < 1
           and FactionType germans
-          and I_SettlementOwner Gawjam_Heruskoz = germans
+          and I_SettlementOwner Gáwjám~Heruskoz = germans
           and RandomPercent > 75
 
   Affects SwebozHeruskingaz  1  Chance  100
@@ -106066,7 +106066,7 @@ Trigger Sweboz_Rugingaz_OfferedForMarriage
 
     Condition Trait EthnoDetermined < 1
           and FactionType germans
-          and I_SettlementOwner Gawjam_Rugoz = germans
+          and I_SettlementOwner Gáwjám~Rugoz = germans
           and RandomPercent > 80
 
   Affects SwebozRugingaz  1  Chance  100
@@ -106148,7 +106148,7 @@ Trigger Sweboz_Hattingaz_OfferedForMarriage_a
 
     Condition Trait EthnoDetermined < 1
           and FactionType germans
-          and I_SettlementOwner Gawjam_Heruskoz = germans
+          and I_SettlementOwner Gáwjám~Heruskoz = germans
           and RandomPercent > 72
 
   Affects SwebozHattingaz  1  Chance  100
@@ -106252,7 +106252,7 @@ Trigger Sweboz_Habukingaz_OfferedForMarriage
 
     Condition Trait EthnoDetermined < 1
           and FactionType germans
-          and I_SettlementOwner Gawjam_Habukoz = germans
+          and I_SettlementOwner Gáwjám~Hábukoz = germans
           and RandomPercent > 63
 
   Affects SwebozHabukingaz  1  Chance  100
@@ -106326,7 +106326,7 @@ Trigger Sweboz_Wenjonilingaz_OfferedForMarriage
 
     Condition Trait EthnoDetermined < 1
           and FactionType germans
-          and I_SettlementOwner Swebotraustastamnoz = germans
+          and I_SettlementOwner Swebotráustástámnoz = germans
           and RandomPercent > 72
 
   Affects SwebozWenjonilingaz  1  Chance  100
@@ -106403,7 +106403,7 @@ Trigger Sweboz_Markamanningaz_OfferedForMarriage
 
     Condition Trait EthnoDetermined < 1
           and FactionType germans
-          and I_SettlementOwner Swebotraustastamnoz = germans
+          and I_SettlementOwner Swebotráustástámnoz = germans
           and RandomPercent > 60
 
   Affects SwebozMarkamanningaz  1  Chance  100
@@ -106477,7 +106477,7 @@ Trigger Sweboz_Ermundeuringaz_OfferedForMarriage
 
     Condition Trait EthnoDetermined < 1
           and FactionType germans
-          and I_SettlementOwner Swebotraustastamnoz = germans
+          and I_SettlementOwner Swebotráustástámnoz = germans
           and RandomPercent > 55
 
   Affects SwebozErmundeuringaz  1  Chance  100
@@ -129242,7 +129242,7 @@ Trigger Sarmatia_Yancai_OfferedForAdoption
 
     Condition FactionType armenia
           and Trait EthnoDetermined < 1
-          and I_SettlementOwner Gava_Alanna = armenia
+          and I_SettlementOwner Gava-Alanna = armenia
 
   Affects Yancai 1  Chance  38
 
@@ -129253,7 +129253,7 @@ Trigger Sarmatia_Yancai_OfferedForAdoption2
     Condition FactionType armenia
           and Trait EthnoDetermined < 1
           and Trait Yancai < 1
-          and I_SettlementOwner Gava_Mazsakata = armenia
+          and I_SettlementOwner Gava-Mazsakata = armenia
 
   Affects Yancai 1  Chance  38
 
@@ -129365,7 +129365,7 @@ Trigger Makedonia_Epeirotes_OfferedForAdoption
 
     Condition FactionType macedon
           and Trait EthnoDetermined < 1
-          and I_SettlementOwner Apollonia = macedon
+          and I_SettlementOwner Ambrakia = macedon
           and I_SettlementOwner Epidamnos = macedon
 
   Affects MakedonianEpeirotes  1  Chance  6
@@ -136267,7 +136267,7 @@ Trigger Saka_Aurusa_OfferedForAdoption
 
     Condition FactionType pontus
           and Trait EthnoDetermined < 1          
-          and I_SettlementOwner Gava_Alanna = pontus
+          and I_SettlementOwner Gava-Alanna = pontus
 
   Affects SakaAurusa  1  Chance  3
 
@@ -136277,7 +136277,7 @@ Trigger Saka_Aurusa2_OfferedForAdoption
 
     Condition FactionType pontus
           and Trait EthnoDetermined < 1          
-          and I_SettlementOwner Gava_Aursa = pontus
+          and I_SettlementOwner Gava-Aursa = pontus
 
   Affects SakaAurusa  1  Chance  3
 
@@ -136814,7 +136814,7 @@ Trigger Saka_Mazsaka_OfferedForAdoption
 
     Condition FactionType pontus
           and Trait EthnoDetermined < 1          
-          and I_SettlementOwner Gava_Mazsakata = pontus
+          and I_SettlementOwner Gava-Mazsakata = pontus
 
   Affects SakaMazsaka  1  Chance  5
 
@@ -136895,7 +136895,7 @@ Trigger Saka_SakaHaomavarga_OfferedForAdoption
 
     Condition FactionType pontus
           and Trait EthnoDetermined < 1          
-          and I_SettlementOwner Alexandreia_Eschate = pontus
+          and I_SettlementOwner Alexandreia-Eschate = pontus
 
   Affects SakaHaomavarga  1  Chance  4
 
@@ -136905,7 +136905,7 @@ Trigger Saka_SakaHaomavarga2_OfferedForAdoption
 
     Condition FactionType pontus
           and Trait EthnoDetermined < 1          
-          and I_SettlementOwner Gava_Haomavarga = pontus
+          and I_SettlementOwner Gava-Haomavarga = pontus
 
   Affects SakaHaomavarga  1  Chance  4
 
@@ -137066,7 +137066,7 @@ Trigger Saka_SauRoma_OfferedForAdoption
 
     Condition FactionType pontus
           and Trait EthnoDetermined < 1          
-          and I_SettlementOwner Gava_Yazyga = pontus
+          and I_SettlementOwner Gava-Yazyga = pontus
 
   Affects SakaSauRoma  1  Chance  4
 
@@ -137076,7 +137076,7 @@ Trigger Saka_SauRoma2_OfferedForAdoption
 
     Condition FactionType pontus
           and Trait EthnoDetermined < 1          
-          and I_SettlementOwner Gava_Roxsalanna = pontus
+          and I_SettlementOwner Gava-Roxsalanna = pontus
 
   Affects SakaSauRoma  1  Chance  4
 
@@ -137426,7 +137426,7 @@ Trigger Saka_Yavana6_OfferedForAdoption
 
     Condition FactionType pontus
           and Trait EthnoDetermined < 1          
-          and I_SettlementOwner Alexandreia_Ariana = pontus
+          and I_SettlementOwner Alexandreia-Ariana = pontus
 
   Affects SakaYavana  1  Chance  6
 
@@ -137552,7 +137552,7 @@ Trigger Saka_Yavanakamboja6_OfferedForAdoption
 
     Condition FactionType pontus
           and Trait EthnoDetermined < 1          
-          and I_SettlementOwner Alexandreia_Ariana = pontus
+          and I_SettlementOwner Alexandreia-Ariana = pontus
 
   Affects SakaYavanakamboja  1  Chance  1
 
@@ -137747,7 +137747,7 @@ Trigger Saka_Yavanasaka6_OfferedForAdoption
 
     Condition FactionType pontus
           and Trait EthnoDetermined < 1 
-          and I_SettlementOwner Alexandreia_Ariana = pontus
+          and I_SettlementOwner Alexandreia-Ariana = pontus
 
   Affects SakaYavanasaka  1  Chance  8
    
@@ -139970,7 +139970,7 @@ Trigger Sweboz_Gutoningaz_OfferedForAdoption_a
 
     Condition Trait EthnoDetermined < 1
           and FactionType germans
-          and I_SettlementOwner Gawjam_Skandzawarjoz = germans
+          and I_SettlementOwner Gáwjám~Skándzáwárjoz = germans
           and RandomPercent > 96
 
   Affects SwebozGutoningaz  1  Chance  100
@@ -139983,7 +139983,7 @@ Trigger Sweboz_Gutoningaz_OfferedForAdoption_b
 
     Condition Trait EthnoDetermined < 1
           and FactionType germans
-          and I_SettlementOwner Gintaras_Ostan = germans
+          and I_SettlementOwner Gintaras-Ostan = germans
           and RandomPercent > 90
 
   Affects SwebozGutoningaz  1  Chance  100
@@ -139996,7 +139996,7 @@ Trigger Sweboz_Gutoningaz_OfferedForAdoption_c
 
     Condition Trait EthnoDetermined < 1
           and FactionType germans
-          and I_SettlementOwner Gawjam_Gotanoz = germans
+          and I_SettlementOwner Gáwjám~Gotánoz = germans
           and RandomPercent > 85
 
   Affects SwebozGutoningaz  1  Chance  100
@@ -140062,7 +140062,7 @@ Trigger Sweboz_Kembringaz_OfferedForAdoption
 
     Condition Trait EthnoDetermined < 1
           and FactionType germans
-          and I_SettlementOwner Gawjam_Kimbroz = germans
+          and I_SettlementOwner Gáwjám~Kimbroz = germans
           and RandomPercent > 83
 
   Affects SwebozKembringaz  1  Chance  100
@@ -140142,7 +140142,7 @@ Trigger Sweboz_Heruskingaz_OfferedForAdoption
 
     Condition Trait EthnoDetermined < 1
           and FactionType germans
-          and I_SettlementOwner Gawjam_Heruskoz = germans
+          and I_SettlementOwner Gáwjám~Heruskoz = germans
           and RandomPercent > 75
 
   Affects SwebozHeruskingaz  1  Chance  100
@@ -140224,7 +140224,7 @@ Trigger Sweboz_Rugingaz_OfferedForAdoption
 
     Condition Trait EthnoDetermined < 1
           and FactionType germans
-          and I_SettlementOwner Gawjam_Rugoz = germans
+          and I_SettlementOwner Gáwjám~Rugoz = germans
           and RandomPercent > 80
 
   Affects SwebozRugingaz  1  Chance  100
@@ -140306,7 +140306,7 @@ Trigger Sweboz_Hattingaz_OfferedForAdoption_a
 
     Condition Trait EthnoDetermined < 1
           and FactionType germans
-          and I_SettlementOwner Gawjam_Heruskoz = germans
+          and I_SettlementOwner Gáwjám~Heruskoz = germans
           and RandomPercent > 72
 
   Affects SwebozHattingaz  1  Chance  100
@@ -140410,7 +140410,7 @@ Trigger Sweboz_Habukingaz_OfferedForAdoption
 
     Condition Trait EthnoDetermined < 1
           and FactionType germans
-          and I_SettlementOwner Gawjam_Habukoz = germans
+          and I_SettlementOwner Gáwjám~Hábukoz = germans
           and RandomPercent > 63
 
   Affects SwebozHabukingaz  1  Chance  100
@@ -140484,7 +140484,7 @@ Trigger Sweboz_Wenjonilingaz_OfferedForAdoption
 
     Condition Trait EthnoDetermined < 1
           and FactionType germans
-          and I_SettlementOwner Swebotraustastamnoz = germans
+          and I_SettlementOwner Swebotráustástámnoz = germans
           and RandomPercent > 72
 
   Affects SwebozWenjonilingaz  1  Chance  100
@@ -140561,7 +140561,7 @@ Trigger Sweboz_Markamanningaz_OfferedForAdoption
 
     Condition Trait EthnoDetermined < 1
           and FactionType germans
-          and I_SettlementOwner Swebotraustastamnoz = germans
+          and I_SettlementOwner Swebotráustástámnoz = germans
           and RandomPercent > 60
 
   Affects SwebozMarkamanningaz  1  Chance  100
@@ -140635,7 +140635,7 @@ Trigger Sweboz_Ermundeuringaz_OfferedForAdoption
 
     Condition Trait EthnoDetermined < 1
           and FactionType germans
-          and I_SettlementOwner Swebotraustastamnoz = germans
+          and I_SettlementOwner Swebotráustástámnoz = germans
           and RandomPercent > 55
 
   Affects SwebozErmundeuringaz  1  Chance  100
@@ -144943,7 +144943,7 @@ Trigger Sarmatia_Yancai_LesserGeneralOfferedForAdoption
 
     Condition FactionType armenia
           and Trait EthnoDetermined < 1
-          and I_SettlementOwner Gava_Alanna = armenia
+          and I_SettlementOwner Gava-Alanna = armenia
 
   Affects Yancai 1  Chance  38
 
@@ -144954,7 +144954,7 @@ Trigger Sarmatia_Yancai_LesserGeneralOfferedForAdoption2
     Condition FactionType armenia
           and Trait EthnoDetermined < 1
           and Trait Yancai < 1
-          and I_SettlementOwner Gava_Mazsakata = armenia
+          and I_SettlementOwner Gava-Mazsakata = armenia
 
   Affects Yancai 1  Chance  38
 
@@ -145066,7 +145066,7 @@ Trigger Makedonia_Epeirotes_LesserGeneralOfferedForAdoption
 
     Condition FactionType macedon
           and Trait EthnoDetermined < 1
-          and I_SettlementOwner Apollonia = macedon
+          and I_SettlementOwner Ambrakia = macedon
           and I_SettlementOwner Epidamnos = macedon
 
   Affects MakedonianEpeirotes  1  Chance  6
@@ -152078,7 +152078,7 @@ Trigger Saka_Aurusa_LesserGeneralOfferedForAdoption
 
     Condition FactionType pontus
           and Trait EthnoDetermined < 1          
-          and I_SettlementOwner Gava_Alanna = pontus
+          and I_SettlementOwner Gava-Alanna = pontus
 
   Affects SakaAurusa  1  Chance  3
 
@@ -152088,7 +152088,7 @@ Trigger Saka_Aurusa2_LesserGeneralOfferedForAdoption
 
     Condition FactionType pontus
           and Trait EthnoDetermined < 1          
-          and I_SettlementOwner Gava_Aursa = pontus
+          and I_SettlementOwner Gava-Aursa = pontus
 
   Affects SakaAurusa  1  Chance  3
 
@@ -152618,7 +152618,7 @@ Trigger Saka_Mazsaka_LesserGeneralOfferedForAdoption
 
     Condition FactionType pontus
           and Trait EthnoDetermined < 1          
-          and I_SettlementOwner Gava_Mazsakata = pontus
+          and I_SettlementOwner Gava-Mazsakata = pontus
 
   Affects SakaMazsaka  1  Chance  5
 
@@ -152698,7 +152698,7 @@ Trigger Saka_SakaHaomavarga_LesserGeneralOfferedForAdoption
 
     Condition FactionType pontus
           and Trait EthnoDetermined < 1          
-          and I_SettlementOwner Alexandreia_Eschate = pontus
+          and I_SettlementOwner Alexandreia-Eschate = pontus
 
   Affects SakaHaomavarga  1  Chance  4
 
@@ -152708,7 +152708,7 @@ Trigger Saka_SakaHaomavarga2_LesserGeneralOfferedForAdoption
 
     Condition FactionType pontus
           and Trait EthnoDetermined < 1          
-          and I_SettlementOwner Gava_Haomavarga = pontus
+          and I_SettlementOwner Gava-Haomavarga = pontus
 
   Affects SakaHaomavarga  1  Chance  4
 
@@ -152866,7 +152866,7 @@ Trigger Saka_SauRoma_LesserGeneralOfferedForAdoption
 
     Condition FactionType pontus
           and Trait EthnoDetermined < 1          
-          and I_SettlementOwner Gava_Yazyga = pontus
+          and I_SettlementOwner Gava-Yazyga = pontus
 
   Affects SakaSauRoma  1  Chance  4
 
@@ -152876,7 +152876,7 @@ Trigger Saka_SauRoma2_LesserGeneralOfferedForAdoption
 
     Condition FactionType pontus
           and Trait EthnoDetermined < 1          
-          and I_SettlementOwner Gava_Roxsalanna = pontus
+          and I_SettlementOwner Gava-Roxsalanna = pontus
 
   Affects SakaSauRoma  1  Chance  4
 
@@ -153223,7 +153223,7 @@ Trigger Saka_Yavana6_LesserGeneralOfferedForAdoption
 
     Condition FactionType pontus
           and Trait EthnoDetermined < 1          
-          and I_SettlementOwner Alexandreia_Ariana = pontus
+          and I_SettlementOwner Alexandreia-Ariana = pontus
 
   Affects SakaYavana  1  Chance  6
 
@@ -153348,7 +153348,7 @@ Trigger Saka_Yavanakamboja6_LesserGeneralOfferedForAdoption
 
     Condition FactionType pontus
           and Trait EthnoDetermined < 1          
-          and I_SettlementOwner Alexandreia_Ariana = pontus
+          and I_SettlementOwner Alexandreia-Ariana = pontus
 
   Affects SakaYavanakamboja  1  Chance  1
 
@@ -153541,7 +153541,7 @@ Trigger Saka_Yavanasaka6_LesserGeneralOfferedForAdoption
 
     Condition FactionType pontus
           and Trait EthnoDetermined < 1          
-          and I_SettlementOwner Alexandreia_Ariana = pontus
+          and I_SettlementOwner Alexandreia-Ariana = pontus
 
   Affects SakaYavanasaka  1  Chance  8
 
@@ -155767,7 +155767,7 @@ Trigger Sweboz_Gutoningaz_LesserGeneralOfferedForAdoption_a
 
     Condition Trait EthnoDetermined < 1
           and FactionType germans
-          and I_SettlementOwner Gawjam_Skandzawarjoz = germans
+          and I_SettlementOwner Gáwjám~Skándzáwárjoz = germans
           and RandomPercent > 96
 
   Affects SwebozGutoningaz  1  Chance  100
@@ -155780,7 +155780,7 @@ Trigger Sweboz_Gutoningaz_LesserGeneralOfferedForAdoption_b
 
     Condition Trait EthnoDetermined < 1
           and FactionType germans
-          and I_SettlementOwner Gintaras_Ostan = germans
+          and I_SettlementOwner Gintaras-Ostan = germans
           and RandomPercent > 90
 
   Affects SwebozGutoningaz  1  Chance  100
@@ -155793,7 +155793,7 @@ Trigger Sweboz_Gutoningaz_LesserGeneralOfferedForAdoption_c
 
     Condition Trait EthnoDetermined < 1
           and FactionType germans
-          and I_SettlementOwner Gawjam_Gotanoz = germans
+          and I_SettlementOwner Gáwjám~Gotánoz = germans
           and RandomPercent > 85
 
   Affects SwebozGutoningaz  1  Chance  100
@@ -155859,7 +155859,7 @@ Trigger Sweboz_Kembringaz_LesserGeneralOfferedForAdoption
 
     Condition Trait EthnoDetermined < 1
           and FactionType germans
-          and I_SettlementOwner Gawjam_Kimbroz = germans
+          and I_SettlementOwner Gáwjám~Kimbroz = germans
           and RandomPercent > 83
 
   Affects SwebozKembringaz  1  Chance  100
@@ -155939,7 +155939,7 @@ Trigger Sweboz_Heruskingaz_LesserGeneralOfferedForAdoption
 
     Condition Trait EthnoDetermined < 1
           and FactionType germans
-          and I_SettlementOwner Gawjam_Heruskoz = germans
+          and I_SettlementOwner Gáwjám~Heruskoz = germans
           and RandomPercent > 75
 
   Affects SwebozHeruskingaz  1  Chance  100
@@ -156021,7 +156021,7 @@ Trigger Sweboz_Rugingaz_LesserGeneralOfferedForAdoption
 
     Condition Trait EthnoDetermined < 1
           and FactionType germans
-          and I_SettlementOwner Gawjam_Rugoz = germans
+          and I_SettlementOwner Gáwjám~Rugoz = germans
           and RandomPercent > 80
 
   Affects SwebozRugingaz  1  Chance  100
@@ -156103,7 +156103,7 @@ Trigger Sweboz_Hattingaz_LesserGeneralOfferedForAdoption_a
 
     Condition Trait EthnoDetermined < 1
           and FactionType germans
-          and I_SettlementOwner Gawjam_Heruskoz = germans
+          and I_SettlementOwner Gáwjám~Heruskoz = germans
           and RandomPercent > 72
 
   Affects SwebozHattingaz  1  Chance  100
@@ -156207,7 +156207,7 @@ Trigger Sweboz_Habukingaz_LesserGeneralOfferedForAdoption
 
     Condition Trait EthnoDetermined < 1
           and FactionType germans
-          and I_SettlementOwner Gawjam_Habukoz = germans
+          and I_SettlementOwner Gáwjám~Hábukoz = germans
           and RandomPercent > 63
 
   Affects SwebozHabukingaz  1  Chance  100
@@ -156281,7 +156281,7 @@ Trigger Sweboz_Wenjonilingaz_LesserGeneralOfferedForAdoption
 
     Condition Trait EthnoDetermined < 1
           and FactionType germans
-          and I_SettlementOwner Swebotraustastamnoz = germans
+          and I_SettlementOwner Swebotráustástámnoz = germans
           and RandomPercent > 72
 
   Affects SwebozWenjonilingaz  1  Chance  100
@@ -156358,7 +156358,7 @@ Trigger Sweboz_Markamanningaz_LesserGeneralOfferedForAdoption
 
     Condition Trait EthnoDetermined < 1
           and FactionType germans
-          and I_SettlementOwner Swebotraustastamnoz = germans
+          and I_SettlementOwner Swebotráustástámnoz = germans
           and RandomPercent > 60
 
   Affects SwebozMarkamanningaz  1  Chance  100
@@ -156432,7 +156432,7 @@ Trigger Sweboz_Ermundeuringaz_LesserGeneralOfferedForAdoption
 
     Condition Trait EthnoDetermined < 1
           and FactionType germans
-          and I_SettlementOwner Swebotraustastamnoz = germans
+          and I_SettlementOwner Swebotráustástámnoz = germans
           and RandomPercent > 55
 
   Affects SwebozErmundeuringaz  1  Chance  100
@@ -160099,7 +160099,7 @@ Trigger klearchos_has_been_acquired
 
 
 ;------------------------------------------
-Trigger acquire_chang_chien_Alexandreia_Eschate
+Trigger acquire_chang_chien_Alexandreia-Eschate
   WhenToTest CharacterTurnEnd
     Condition EndedInSettlement
           and I_TurnNumber > 580
@@ -184740,7 +184740,7 @@ Trigger Governor_in_NearSpain_gets_bonuses_Arse
 
     Condition EndedInSettlement
           and FactionType seleucid
-          and SettlementName Ars�
+          and SettlementName Arsé
           and Attribute Electability = 15
           and Trait Roman_Provincial_Governor_Effect < 1
 
@@ -184779,7 +184779,7 @@ Trigger Governor_not_in_NearSpain_loses_bonuses
           and not SettlementName Numantia
           and not SettlementName Bocchoris
           and not SettlementName Mastia
-          and not SettlementName Ars�
+          and not SettlementName Arsé
           and Attribute Electability = 15
           and Trait Roman_Provincial_Governor_Effect = 1
 
@@ -188148,12 +188148,12 @@ Trigger Sweboz_FactionLeader_not_HairaskapizAllaStamnoz_already_united
     Condition FactionType germans
           and IsFactionLeader
           and Trait HairaskapizAllaStamnoz < 1
-          and I_SettlementOwner Gawjam_Habukoz = germans
-          and I_SettlementOwner Gawjam_Heruskoz = germans
+          and I_SettlementOwner Gáwjám~Hábukoz = germans
+          and I_SettlementOwner Gáwjám~Heruskoz = germans
           and I_SettlementOwner Arctaunon = germans
-          and I_SettlementOwner Gawjam_Rugoz = germans
-          and I_SettlementOwner Gawjam_Kimbroz = germans
-          and I_SettlementOwner Swebotraustastamnoz = germans
+          and I_SettlementOwner Gáwjám~Rugoz = germans
+          and I_SettlementOwner Gáwjám~Kimbroz = germans
+          and I_SettlementOwner Swebotráustástámnoz = germans
 
   Affects NotHairaskapizAllaStamnoz  1  Chance  100
 
@@ -188163,12 +188163,12 @@ Trigger Sweboz_Becomes_FactionLeader_not_HairaskapizAllaStamnoz_already_united
 
     Condition FactionType germans
           and IsFactionLeader
-          and I_SettlementOwner Gawjam_Habukoz = germans
-          and I_SettlementOwner Gawjam_Heruskoz = germans
+          and I_SettlementOwner Gáwjám~Hábukoz = germans
+          and I_SettlementOwner Gáwjám~Heruskoz = germans
           and I_SettlementOwner Arctaunon = germans
-          and I_SettlementOwner Gawjam_Rugoz = germans
-          and I_SettlementOwner Gawjam_Kimbroz = germans
-          and I_SettlementOwner Swebotraustastamnoz = germans
+          and I_SettlementOwner Gáwjám~Rugoz = germans
+          and I_SettlementOwner Gáwjám~Kimbroz = germans
+          and I_SettlementOwner Swebotráustástámnoz = germans
           and Trait HairaskapizAllaStamnoz < 1
 
   Affects NotHairaskapizAllaStamnoz  1  Chance  100
@@ -188179,7 +188179,7 @@ Trigger Sweboz_Becomes_FactionLeader_not_already_united_Habukoz
 
     Condition FactionType germans
           and IsFactionLeader
-          and not I_SettlementOwner Gawjam_Habukoz = germans
+          and not I_SettlementOwner Gáwjám~Hábukoz = germans
           and Trait HairaskapizAllaStamnoz < 1
 
   Affects HairaskapizAllaStamnoz  1  Chance  100
@@ -188190,7 +188190,7 @@ Trigger Sweboz_Becomes_FactionLeader_not_already_united_Heruskoz
 
     Condition FactionType germans
           and IsFactionLeader
-          and not I_SettlementOwner Gawjam_Heruskoz = germans
+          and not I_SettlementOwner Gáwjám~Heruskoz = germans
           and Trait HairaskapizAllaStamnoz < 1
 
   Affects HairaskapizAllaStamnoz  1  Chance  100
@@ -188212,7 +188212,7 @@ Trigger Sweboz_Becomes_FactionLeader_not_already_united_Rugoz
 
     Condition FactionType germans
           and IsFactionLeader
-          and not I_SettlementOwner Gawjam_Rugoz = germans
+          and not I_SettlementOwner Gáwjám~Rugoz = germans
           and Trait HairaskapizAllaStamnoz < 1
 
   Affects HairaskapizAllaStamnoz  1  Chance  100
@@ -188223,7 +188223,7 @@ Trigger Sweboz_Becomes_FactionLeader_not_already_united_Kimbrioz
 
     Condition FactionType germans
           and IsFactionLeader
-          and not I_SettlementOwner Gawjam_Kimbroz = germans
+          and not I_SettlementOwner Gáwjám~Kimbroz = germans
           and Trait HairaskapizAllaStamnoz < 1
 
   Affects HairaskapizAllaStamnoz  1  Chance  100
@@ -188234,7 +188234,7 @@ Trigger Sweboz_Becomes_FactionLeader_not_already_united_Swebotraustastamnoz
 
     Condition FactionType germans
           and IsFactionLeader
-          and not I_SettlementOwner Swebotraustastamnoz = germans
+          and not I_SettlementOwner Swebotráustástámnoz = germans
           and Trait HairaskapizAllaStamnoz < 1
 
   Affects HairaskapizAllaStamnoz  1  Chance  100
@@ -188246,12 +188246,12 @@ Trigger Sweboz_FactionLeader_becomes_HairaskapizAllaStamnoz
     Condition FactionType germans
           and IsFactionLeader
           and Trait HairaskapizAllaStamnoz = 1
-          and I_SettlementOwner Gawjam_Habukoz = germans
-          and I_SettlementOwner Gawjam_Heruskoz = germans
+          and I_SettlementOwner Gáwjám~Hábukoz = germans
+          and I_SettlementOwner Gáwjám~Heruskoz = germans
           and I_SettlementOwner Arctaunon = germans
-          and I_SettlementOwner Gawjam_Rugoz = germans
-          and I_SettlementOwner Gawjam_Kimbroz = germans
-          and I_SettlementOwner Swebotraustastamnoz = germans
+          and I_SettlementOwner Gáwjám~Rugoz = germans
+          and I_SettlementOwner Gáwjám~Kimbroz = germans
+          and I_SettlementOwner Swebotráustástámnoz = germans
           
   Affects HairaskapizAllaStamnoz  1  Chance  100
 
@@ -188698,7 +188698,7 @@ Trigger Is_InCelticLands_Bratosporitos
   WhenToTest CharacterTurnEnd
 
     Condition EndedInSettlement
-          and SettlementName Bratosporitos
+          and SettlementName Bratosporios
           and Trait InCelticLands < 1
 
   Affects InCelticLands  1  Chance  100
@@ -189755,7 +189755,7 @@ Trigger InIberia_Arse
   WhenToTest CharacterTurnEnd
 
     Condition EndedInSettlement
-          and SettlementName Ars�
+          and SettlementName Arsé
           and AgentType = family
           and Trait InIberia < 1
 
@@ -195506,9 +195506,9 @@ Trigger NotSakaReformer
           and Trait YearsPassed > 0
           and not I_SettlementOwner Baktra = pontus
           and not I_SettlementOwner Marakanda = pontus
-          and not I_SettlementOwner Alexandreia_Eschate = pontus
-          and not I_SettlementOwner Antiocheia_Margiane = pontus
-          and not I_SettlementOwner Alexandreia_Ariana = pontus
+          and not I_SettlementOwner Alexandreia-Eschate = pontus
+          and not I_SettlementOwner Antiocheia-Margiane = pontus
+          and not I_SettlementOwner Alexandreia-Ariana = pontus
           and not I_SettlementOwner Taksashila = pontus
 
   Affects ReverseYears  4  Chance  100
@@ -196650,7 +196650,7 @@ Trigger FactionConqueredSusa
 Trigger GeneralConqueredSwebotraustastamnoz
   WhenToTest GeneralCaptureSettlement
 
-    Condition SettlementName Swebotr�st�t�noz
+    Condition SettlementName Swebotráustástámnoz
 
   Affects ConqueredSwebotraustastamnoz  1  Chance  100
 
@@ -196860,7 +196860,7 @@ Trigger AeduiOwnsRoma
     Condition IsGeneral
           and FactionType gauls
           and Trait ConqueredRome < 1
-          and I_SettlementOwner Rome = gauls
+          and I_SettlementOwner Roma = gauls
 
   Affects ConqueredRome  1  Chance  100
 
@@ -196871,7 +196871,7 @@ Trigger ArverniOwnsRoma
     Condition IsGeneral
           and FactionType scythia
           and Trait ConqueredRome < 1
-          and I_SettlementOwner Rome = scythia
+          and I_SettlementOwner Roma = scythia
 
   Affects ConqueredRome  1  Chance  100
 
@@ -196981,7 +196981,7 @@ Trigger GetaiOwnsRoma
     Condition IsGeneral
           and FactionType dacia
           and Trait ConqueredRome < 1
-          and I_SettlementOwner Rome = dacia
+          and I_SettlementOwner Roma = dacia
 
   Affects ConqueredRome  1  Chance  100
 
@@ -197036,7 +197036,7 @@ Trigger GetaiOwnsGorduNeuriji
     Condition IsGeneral
           and FactionType dacia
           and Trait ConqueredGorduNeuriji < 1
-          and I_SettlementOwner Gordu_Neuriji = dacia
+          and I_SettlementOwner Gordu-Neuriji = dacia
 
   Affects ConqueredGorduNeuriji  1  Chance  100
 
@@ -197212,7 +197212,7 @@ Trigger LusotanaOwnsKart_Hadast
     Condition IsGeneral
           and FactionType spain
           and Trait ConqueredKart_Hadast < 1
-          and I_SettlementOwner Kart_Hadast = spain
+          and I_SettlementOwner Kart-Hadast = spain
 
   Affects ConqueredKart_Hadast  1  Chance  100
 
@@ -197256,7 +197256,7 @@ Trigger LusotanaOwnsRoma
     Condition IsGeneral
           and FactionType spain
           and Trait ConqueredRome < 1
-          and I_SettlementOwner Rome = spain
+          and I_SettlementOwner Roma = spain
 
   Affects ConqueredRome  1  Chance  100
 
@@ -197421,7 +197421,7 @@ Trigger SauromataeOwnsSwebotraustastamnoz
     Condition IsGeneral
           and FactionType armenia
           and Trait ConqueredSwebotraustastamnoz < 1
-          and I_SettlementOwner Swebotraustastamnoz = armenia
+          and I_SettlementOwner Swebotráustástámnoz = armenia
 
   Affects ConqueredSwebotraustastamnoz  1  Chance  100
 
@@ -197919,7 +197919,7 @@ Trigger Rome_Owns_Swebotraustastamnoz
     Condition IsGeneral
           and FactionType seleucid
           and Trait ConqueredSwebotraustastamnoz < 1
-          and I_SettlementOwner Swebotraustastamnoz = seleucid
+          and I_SettlementOwner Swebotráustástámnoz = seleucid
 
   Affects ConqueredSwebotraustastamnoz  1  Chance  100
 
@@ -197964,7 +197964,7 @@ Trigger RomanGeneralConqueredCamulosadae
 Trigger RomanGeneralConqueredSwebotraustastamnoz
   WhenToTest GeneralCaptureSettlement
 
-    Condition SettlementName Swebotr�st�t�noz
+    Condition SettlementName Swebotráustástámnoz
           and FactionType seleucid
           and Trait FamilyMember > 0
 
@@ -199563,7 +199563,7 @@ Trigger Celtic_Uiboraneitas_Conquer_Oxtraca
 Trigger Celtic_Galloneitas_Conquer_01
   WhenToTest GeneralCaptureSettlement
 
-    Condition SettlementName Swebotr�st�t�noz
+    Condition SettlementName Swebotráustástámnoz
           and Trait Celtic = 1
 
   Affects Galloneitas  10  Chance  100
@@ -202490,14 +202490,14 @@ Trigger Homna_is_Arid_Region
   Affects AridRegion  1  Chance  100
 
 ;------------------------------------------
-Trigger Dumatha_is_Arid_Region
-  WhenToTest CharacterTurnEnd
-
-    Condition EndedInSettlement
-          and SettlementName Dumatha
-          and Trait AridRegion < 1
-
-  Affects AridRegion  1  Chance  100
+;Trigger Dumatha_is_Arid_Region
+;  WhenToTest CharacterTurnEnd
+;
+;    Condition EndedInSettlement
+;          and SettlementName Dumatha
+;          and Trait AridRegion < 1
+;
+;  Affects AridRegion  1  Chance  100
 
 ;------------------------------------------
 Trigger Gerrha_is_Arid_Region

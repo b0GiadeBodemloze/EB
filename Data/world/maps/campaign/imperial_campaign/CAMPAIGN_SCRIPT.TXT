@@ -1054,7 +1054,7 @@ set_counter blib 1
 terminate_monitor
 end_monitor
 
-monitor_event SettlementTurnStart SettlementName Kart-Hadast
+monitor_event SettlementTurnStart SettlementName Kart_Hadast
 and GarrisonToPopulationRatio < 0.01
 console_command give_trait "Manivs Romanvs" UnitSize 1
 console_command give_trait "Caivs Romanvs" UnitSize 1
@@ -1086,7 +1086,7 @@ set_counter blib 1
 terminate_monitor
 end_monitor
 
-monitor_event SettlementTurnStart SettlementName Kart-Hadast
+monitor_event SettlementTurnStart SettlementName Kart_Hadast
 and GarrisonToPopulationRatio > 0.01
 and GarrisonToPopulationRatio < 0.02
 console_command give_trait "Manivs Romanvs" UnitSize 2
@@ -1119,7 +1119,7 @@ set_counter blib 1
 terminate_monitor
 end_monitor
 
-monitor_event SettlementTurnStart SettlementName Kart-Hadast
+monitor_event SettlementTurnStart SettlementName Kart_Hadast
 and GarrisonToPopulationRatio > 0.02
 and GarrisonToPopulationRatio < 0.05
 console_command give_trait "Manivs Romanvs" UnitSize 3
@@ -1152,7 +1152,7 @@ set_counter blib 1
 terminate_monitor
 end_monitor
 
-monitor_event SettlementTurnStart SettlementName Kart-Hadast
+monitor_event SettlementTurnStart SettlementName Kart_Hadast
 and GarrisonToPopulationRatio > 0.05
 console_command give_trait "Manivs Romanvs" UnitSize 4
 console_command give_trait "Caivs Romanvs" UnitSize 4
@@ -1574,7 +1574,7 @@ set_counter blib 1
 terminate_monitor
 end_monitor
 
-monitor_event SettlementTurnStart SettlementName Swebotráustástámnoz
+monitor_event SettlementTurnStart SettlementName Swebotraustastamnoz
 and GarrisonToPopulationRatio < 0.13
 console_command give_trait "Manivs Romanvs" UnitSize 1
 console_command give_trait "Caivs Romanvs" UnitSize 1
@@ -1606,7 +1606,7 @@ set_counter blib 1
 terminate_monitor
 end_monitor
 
-monitor_event SettlementTurnStart SettlementName Swebotráustástámnoz
+monitor_event SettlementTurnStart SettlementName Swebotraustastamnoz
 and GarrisonToPopulationRatio > 0.13
 and GarrisonToPopulationRatio < 0.26
 console_command give_trait "Manivs Romanvs" UnitSize 2
@@ -1639,7 +1639,7 @@ set_counter blib 1
 terminate_monitor
 end_monitor
 
-monitor_event SettlementTurnStart SettlementName Swebotráustástámnoz
+monitor_event SettlementTurnStart SettlementName Swebotraustastamnoz
 and GarrisonToPopulationRatio > 0.26
 and GarrisonToPopulationRatio < 0.52
 console_command give_trait "Manivs Romanvs" UnitSize 3
@@ -1673,7 +1673,7 @@ set_counter blib 1
 terminate_monitor
 end_monitor
 
-monitor_event SettlementTurnStart SettlementName Swebotráustástámnoz
+monitor_event SettlementTurnStart SettlementName Swebotraustastamnoz
 and GarrisonToPopulationRatio > 0.52
 console_command give_trait "Manivs Romanvs" UnitSize 4
 console_command give_trait "Caivs Romanvs" UnitSize 4
@@ -2358,7 +2358,7 @@ set_counter blib 1
 terminate_monitor
 end_monitor
 
-monitor_event SettlementTurnStart SettlementName Gava-Roxsalanna
+monitor_event SettlementTurnStart SettlementName Gava_Roxsalanna
 and GarrisonToPopulationRatio < 0.03
 console_command give_trait "Manivs Romanvs" UnitSize 1
 console_command give_trait "Caivs Romanvs" UnitSize 1
@@ -2390,7 +2390,7 @@ set_counter blib 1
 terminate_monitor
 end_monitor
 
-monitor_event SettlementTurnStart SettlementName Gava-Roxsalanna
+monitor_event SettlementTurnStart SettlementName Gava_Roxsalanna
 and GarrisonToPopulationRatio > 0.03
 and GarrisonToPopulationRatio < 0.07
 console_command give_trait "Manivs Romanvs" UnitSize 2
@@ -2423,7 +2423,7 @@ set_counter blib 1
 terminate_monitor
 end_monitor
 
-monitor_event SettlementTurnStart SettlementName Gava-Roxsalanna
+monitor_event SettlementTurnStart SettlementName Gava_Roxsalanna
 and GarrisonToPopulationRatio > 0.07
 and GarrisonToPopulationRatio < 0.15
 console_command give_trait "Manivs Romanvs" UnitSize 3
@@ -2456,7 +2456,7 @@ set_counter blib 1
 terminate_monitor
 end_monitor
 
-monitor_event SettlementTurnStart SettlementName Gava-Roxsalanna
+monitor_event SettlementTurnStart SettlementName Gava_Roxsalanna
 and GarrisonToPopulationRatio > 0.15
 console_command give_trait "Manivs Romanvs" UnitSize 4
 console_command give_trait "Caivs Romanvs" UnitSize 4
