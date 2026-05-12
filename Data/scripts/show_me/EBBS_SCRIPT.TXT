@@ -1,13 +1,13 @@
 script ; EB Background Script
 ;=======================================================
-;  Modyfication 23.09.2006
+;  Modification 23.09.2006
 ;  - fixed php generator, regenerated gov_aib.php part of script
 ;  - added fixed Prthia horse discount
 ;  - added micelenious scripts in Section 4
 ;  - fixed numidia -> saba mixup
 ;  - fixed internal names to external names in population script
 ;---------------------------
-;  Modyfication 20.09.2006
+;  Modification 29-7-2017 -b0Gia de Bodemloze
 ;=======================================================
 ;0) GOVT SCRIPTS
 ;1) Population Replenish script
@@ -179409,7 +179409,7 @@ monitor_event ButtonPressed ButtonPressed advisor_portrait_button
           and I_CompareCounter AdvanceXanthipposThreadDone = 1
     spawn_army
         faction egypt
-        character, Xanthippos ofcarthago, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 83, y 100
+        character Xanthippos ofcarthago, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 83, y 100
         unit hellenistic infantry spartiateshoplitai, exp 2 armour 1 weapon_lvl 0
     end
     console_command give_trait "Xanthippos ofcarthago" XanthipposBiography 1
@@ -179438,7 +179438,7 @@ and I_TurnNumber = 67
 and not I_LocalFaction egypt
     spawn_army
         faction egypt
-        character, Xanthippos ofcarthago, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 83, y 100
+        character Xanthippos ofcarthago, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 83, y 100
         unit hellenistic infantry spartiateshoplitai, exp 2 armour 1 weapon_lvl 0
     end
     console_command give_trait "Xanthippos ofcarthago" XanthipposBiography 1
@@ -180254,7 +180254,7 @@ monitor_event FactionTurnStart FactionType egypt
 
     spawn_army
         faction egypt
-        character, Naravas, named character, command 0, influence 0, management 0, subterfuge 0, age 30, x 72, y 98
+        character Naravas, named character, command 0, influence 0, management 0, subterfuge 0, age 30, x 72, y 98
         unit african cavalry numidian nobles, exp 3 armour 1 weapon_lvl 1
         unit african missile cavalry numidian, exp 2 armour 0 weapon_lvl 0
         unit african missile cavalry numidian, exp 0 armour 0 weapon_lvl 0
@@ -180391,7 +180391,7 @@ and not I_CharacterTypeNearTile slave named_character, 0  111, 167
 if I_CompareCounter EburonumGeneralDone = 0
 spawn_army
     faction slave
-    character, Diazenis, named character, command 0, influence 0, management 0, subterfuge 0, age 20, x 111, y 167
+    character Diazenis, named character, command 0, influence 0, management 0, subterfuge 0, age 20, x 111, y 167
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 4 armour 1 weapon_lvl 0
@@ -180510,7 +180510,7 @@ and not I_CharacterTypeNearTile slave named_character, 0  111,167
 and I_CompareCounter EburonumGeneralDone = 0
 spawn_army
     faction slave
-    character, Diazenis, named character, command 0, influence 0, management 0, subterfuge 0, age 20, x 111, y 167
+    character Diazenis, named character, command 0, influence 0, management 0, subterfuge 0, age 20, x 111, y 167
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
@@ -180634,7 +180634,7 @@ and not I_CharacterTypeNearTile slave named_character, 0  111, 167
 and I_CompareCounter EburonumGeneralDone = 0
 spawn_army
     faction slave
-    character, Diazenis, named character, command 0, influence 0, management 0, subterfuge 0, age 20, x 111, y 167
+    character Diazenis, named character, command 0, influence 0, management 0, subterfuge 0, age 20, x 111, y 167
     unit celtic infantry bataroas, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 5 armour 1 weapon_lvl 0
@@ -180826,7 +180826,7 @@ and not I_CharacterTypeNearTile dacia named_character, 2 111,169
 and not I_LocalFaction dacia
 spawn_army
     faction slave
-    character, Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
+    character Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
     unit celtic infantry solduros, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 4 armour 1 weapon_lvl 0
@@ -180860,7 +180860,7 @@ and not I_CharacterTypeNearTile dacia general, 2 111,169
 and not I_LocalFaction dacia
 spawn_army
     faction slave
-    character, Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
+    character Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
     unit celtic infantry solduros, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 4 armour 1 weapon_lvl 0
@@ -180894,7 +180894,7 @@ and I_CharacterTypeNearTile dacia named_character, 2 111,169
 and not I_LocalFaction dacia
 spawn_army
     faction slave
-    character, Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
+    character Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
     unit celtic infantry solduros, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 4 armour 1 weapon_lvl 0
@@ -180928,7 +180928,7 @@ and not I_CharacterTypeNearTile dacia named_character, 2 111,169
 and not I_LocalFaction dacia
 spawn_army
     faction slave
-    character, Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
+    character Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
     unit celtic infantry solduros, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 4 armour 1 weapon_lvl 0
@@ -180962,7 +180962,7 @@ and not I_CharacterTypeNearTile dacia general, 2 111,169
 and not I_LocalFaction dacia
 spawn_army
     faction slave
-    character, Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
+    character Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
     unit celtic infantry solduros, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 4 armour 1 weapon_lvl 0
@@ -180996,7 +180996,7 @@ and I_CharacterTypeNearTile dacia named_character, 2 111,169
 and not I_LocalFaction dacia
 spawn_army
     faction slave
-    character, Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
+    character Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
     unit celtic infantry solduros, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 4 armour 1 weapon_lvl 0
@@ -181036,7 +181036,7 @@ and not I_CharacterTypeNearTile germans named_character, 2 111,169
 and not I_LocalFaction germans
 spawn_army
     faction slave
-    character, Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
+    character Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
     unit celtic infantry solduros, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 4 armour 1 weapon_lvl 0
@@ -181070,7 +181070,7 @@ and not I_CharacterTypeNearTile germans general, 2 111,169
 and not I_LocalFaction germans
 spawn_army
     faction slave
-    character, Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
+    character Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
     unit celtic infantry solduros, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 4 armour 1 weapon_lvl 0
@@ -181104,7 +181104,7 @@ and I_CharacterTypeNearTile germans named_character, 2 111,169
 and not I_LocalFaction germans
 spawn_army
     faction slave
-    character, Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
+    character Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
     unit celtic infantry solduros, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 4 armour 1 weapon_lvl 0
@@ -181138,7 +181138,7 @@ and not I_CharacterTypeNearTile germans named_character, 2 111,169
 and not I_LocalFaction germans
 spawn_army
     faction slave
-    character, Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
+    character Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
     unit celtic infantry solduros, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 4 armour 1 weapon_lvl 0
@@ -181172,7 +181172,7 @@ and not I_CharacterTypeNearTile germans general, 2 111,169
 and not I_LocalFaction germans
 spawn_army
     faction slave
-    character, Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
+    character Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
     unit celtic infantry solduros, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 4 armour 1 weapon_lvl 0
@@ -181206,7 +181206,7 @@ and I_CharacterTypeNearTile germans named_character, 2 111,169
 and not I_LocalFaction germans
 spawn_army
     faction slave
-    character, Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
+    character Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
     unit celtic infantry solduros, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 4 armour 1 weapon_lvl 0
@@ -181246,7 +181246,7 @@ and not I_CharacterTypeNearTile gauls named_character, 2 111,169
 and not I_LocalFaction gauls
 spawn_army
     faction slave
-    character, Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
+    character Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
     unit celtic infantry solduros, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 4 armour 1 weapon_lvl 0
@@ -181280,7 +181280,7 @@ and not I_CharacterTypeNearTile gauls general, 2 111,169
 and not I_LocalFaction gauls
 spawn_army
     faction slave
-    character, Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
+    character Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
     unit celtic infantry solduros, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 4 armour 1 weapon_lvl 0
@@ -181314,7 +181314,7 @@ and I_CharacterTypeNearTile gauls named_character, 2 111,169
 and not I_LocalFaction gauls
 spawn_army
     faction slave
-    character, Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
+    character Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
     unit celtic infantry solduros, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 4 armour 1 weapon_lvl 0
@@ -181348,7 +181348,7 @@ and not I_CharacterTypeNearTile gauls named_character, 2 111,169
 and not I_LocalFaction gauls
 spawn_army
     faction slave
-    character, Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
+    character Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
     unit celtic infantry solduros, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 4 armour 1 weapon_lvl 0
@@ -181382,7 +181382,7 @@ and not I_CharacterTypeNearTile gauls general, 2 111,169
 and not I_LocalFaction gauls
 spawn_army
     faction slave
-    character, Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
+    character Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
     unit celtic infantry solduros, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 4 armour 1 weapon_lvl 0
@@ -181416,7 +181416,7 @@ and I_CharacterTypeNearTile gauls named_character, 2 111,169
 and not I_LocalFaction gauls
 spawn_army
     faction slave
-    character, Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
+    character Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
     unit celtic infantry solduros, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 4 armour 1 weapon_lvl 0
@@ -181456,7 +181456,7 @@ and not I_CharacterTypeNearTile scythia named_character, 2 111,169
 and not I_LocalFaction scythia
 spawn_army
     faction slave
-    character, Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
+    character Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
     unit celtic infantry solduros, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 4 armour 1 weapon_lvl 0
@@ -181490,7 +181490,7 @@ and not I_CharacterTypeNearTile scythia general, 2 111,169
 and not I_LocalFaction scythia
 spawn_army
     faction slave
-    character, Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
+    character Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
     unit celtic infantry solduros, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 4 armour 1 weapon_lvl 0
@@ -181524,7 +181524,7 @@ and I_CharacterTypeNearTile scythia named_character, 2 111,169
 and not I_LocalFaction scythia
 spawn_army
     faction slave
-    character, Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
+    character Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
     unit celtic infantry solduros, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 4 armour 1 weapon_lvl 0
@@ -181558,7 +181558,7 @@ and not I_CharacterTypeNearTile scythia named_character, 2 111,169
 and not I_LocalFaction scythia
 spawn_army
     faction slave
-    character, Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
+    character Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
     unit celtic infantry solduros, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 4 armour 1 weapon_lvl 0
@@ -181592,7 +181592,7 @@ and not I_CharacterTypeNearTile scythia general, 2 111,169
 and not I_LocalFaction scythia
 spawn_army
     faction slave
-    character, Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
+    character Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
     unit celtic infantry solduros, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 4 armour 1 weapon_lvl 0
@@ -181626,7 +181626,7 @@ and I_CharacterTypeNearTile scythia named_character, 2 111,169
 and not I_LocalFaction scythia
 spawn_army
     faction slave
-    character, Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
+    character Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
     unit celtic infantry solduros, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 4 armour 1 weapon_lvl 0
@@ -181666,7 +181666,7 @@ and not I_CharacterTypeNearTile greek_cities named_character, 2 111,169
 and not I_LocalFaction greek_cities
 spawn_army
     faction slave
-    character, Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
+    character Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
     unit celtic infantry solduros, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 6 armour 1 weapon_lvl 0
@@ -181701,7 +181701,7 @@ and not I_CharacterTypeNearTile greek_cities general, 2 111,169
 and not I_LocalFaction greek_cities
 spawn_army
     faction slave
-    character, Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
+    character Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
     unit celtic infantry solduros, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 6 armour 1 weapon_lvl 0
@@ -181736,7 +181736,7 @@ and I_CharacterTypeNearTile greek_cities named_character, 2 111,169
 and not I_LocalFaction greek_cities
 spawn_army
     faction slave
-    character, Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
+    character Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
     unit celtic infantry solduros, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 6 armour 1 weapon_lvl 0
@@ -181771,7 +181771,7 @@ and not I_CharacterTypeNearTile greek_cities named_character, 2 111,169
 and not I_LocalFaction greek_cities
 spawn_army
     faction slave
-    character, Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
+    character Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
     unit celtic infantry solduros, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 6 armour 1 weapon_lvl 0
@@ -181806,7 +181806,7 @@ and not I_CharacterTypeNearTile greek_cities general, 2 111,169
 and not I_LocalFaction greek_cities
 spawn_army
     faction slave
-    character, Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
+    character Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
     unit celtic infantry solduros, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 6 armour 1 weapon_lvl 0
@@ -181841,7 +181841,7 @@ and I_CharacterTypeNearTile greek_cities named_character, 2 111,169
 and not I_LocalFaction greek_cities
 spawn_army
     faction slave
-    character, Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
+    character Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
     unit celtic infantry solduros, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 6 armour 1 weapon_lvl 0
@@ -181882,7 +181882,7 @@ and not I_CharacterTypeNearTile macedon named_character, 2 111,169
 and not I_LocalFaction macedon
 spawn_army
     faction slave
-    character, Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
+    character Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
     unit celtic infantry solduros, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 6 armour 1 weapon_lvl 0
@@ -181917,7 +181917,7 @@ and not I_CharacterTypeNearTile macedon general, 2 111,169
 and not I_LocalFaction macedon
 spawn_army
     faction slave
-    character, Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
+    character Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
     unit celtic infantry solduros, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 6 armour 1 weapon_lvl 0
@@ -181952,7 +181952,7 @@ and I_CharacterTypeNearTile macedon named_character, 2 111,169
 and not I_LocalFaction macedon
 spawn_army
     faction slave
-    character, Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
+    character Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
     unit celtic infantry solduros, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 6 armour 1 weapon_lvl 0
@@ -181987,7 +181987,7 @@ and not I_CharacterTypeNearTile macedon named_character, 2 111,169
 and not I_LocalFaction macedon
 spawn_army
     faction slave
-    character, Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
+    character Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
     unit celtic infantry solduros, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 6 armour 1 weapon_lvl 0
@@ -182022,7 +182022,7 @@ and not I_CharacterTypeNearTile macedon general, 2 111,169
 and not I_LocalFaction macedon
 spawn_army
     faction slave
-    character, Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
+    character Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
     unit celtic infantry solduros, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 6 armour 1 weapon_lvl 0
@@ -182057,7 +182057,7 @@ and I_CharacterTypeNearTile macedon named_character, 2 111,169
 and not I_LocalFaction macedon
 spawn_army
     faction slave
-    character, Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
+    character Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
     unit celtic infantry solduros, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 6 armour 1 weapon_lvl 0
@@ -182098,7 +182098,7 @@ and not I_CharacterTypeNearTile seleucid named_character, 2 111,169
 and not I_LocalFaction seleucid
 spawn_army
     faction slave
-    character, Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
+    character Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
@@ -182133,7 +182133,7 @@ and not I_CharacterTypeNearTile seleucid general, 2 111,169
 and not I_LocalFaction seleucid
 spawn_army
     faction slave
-    character, Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
+    character Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
@@ -182168,7 +182168,7 @@ and I_CharacterTypeNearTile seleucid named_character, 2 111,169
 and not I_LocalFaction seleucid
 spawn_army
     faction slave
-    character, Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
+    character Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
@@ -182203,7 +182203,7 @@ and not I_CharacterTypeNearTile seleucid named_character, 2 111,169
 and not I_LocalFaction seleucid
 spawn_army
     faction slave
-    character, Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
+    character Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
@@ -182238,7 +182238,7 @@ and not I_CharacterTypeNearTile seleucid general, 2 111,169
 and not I_LocalFaction seleucid
 spawn_army
     faction slave
-    character, Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
+    character Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
@@ -182273,7 +182273,7 @@ and I_CharacterTypeNearTile seleucid named_character, 2 111,169
 and not I_LocalFaction seleucid
 spawn_army
     faction slave
-    character, Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
+    character Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
@@ -182314,7 +182314,7 @@ and not I_CharacterTypeNearTile thrace named_character, 2 111,169
 and not I_LocalFaction thrace
 spawn_army
     faction slave
-    character, Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
+    character Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
@@ -182349,7 +182349,7 @@ and not I_CharacterTypeNearTile thrace general, 2 111,169
 and not I_LocalFaction thrace
 spawn_army
     faction slave
-    character, Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
+    character Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
@@ -182384,7 +182384,7 @@ and I_CharacterTypeNearTile thrace named_character, 2 111,169
 and not I_LocalFaction thrace
 spawn_army
     faction slave
-    character, Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
+    character Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
@@ -182419,7 +182419,7 @@ and not I_CharacterTypeNearTile thrace named_character, 2 111,169
 and not I_LocalFaction thrace
 spawn_army
     faction slave
-    character, Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
+    character Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
@@ -182454,7 +182454,7 @@ and not I_CharacterTypeNearTile thrace general, 2 111,169
 and not I_LocalFaction thrace
 spawn_army
     faction slave
-    character, Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
+    character Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
@@ -182489,7 +182489,7 @@ and I_CharacterTypeNearTile thrace named_character, 2 111,169
 and not I_LocalFaction thrace
 spawn_army
     faction slave
-    character, Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
+    character Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
@@ -182530,7 +182530,7 @@ and not I_CharacterTypeNearTile egypt named_character, 2 111,169
 and not I_LocalFaction egypt
 spawn_army
     faction slave
-    character, Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
+    character Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
     unit celtic infantry solduros, exp 5 armour 2 weapon_lvl 0
     unit celtic infantry solduros, exp 5 armour 2 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
@@ -182565,7 +182565,7 @@ and not I_CharacterTypeNearTile egypt general, 2 111,169
 and not I_LocalFaction egypt
 spawn_army
     faction slave
-    character, Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
+    character Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
     unit celtic infantry solduros, exp 5 armour 2 weapon_lvl 0
     unit celtic infantry solduros, exp 5 armour 2 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
@@ -182600,7 +182600,7 @@ and I_CharacterTypeNearTile egypt named_character, 2 111,169
 and not I_LocalFaction egypt
 spawn_army
     faction slave
-    character, Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
+    character Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
     unit celtic infantry solduros, exp 5 armour 2 weapon_lvl 0
     unit celtic infantry solduros, exp 5 armour 2 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
@@ -182635,7 +182635,7 @@ and not I_CharacterTypeNearTile egypt named_character, 2 111,169
 and not I_LocalFaction egypt
 spawn_army
     faction slave
-    character, Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
+    character Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
     unit celtic infantry solduros, exp 5 armour 2 weapon_lvl 0
     unit celtic infantry solduros, exp 5 armour 2 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
@@ -182670,7 +182670,7 @@ and not I_CharacterTypeNearTile egypt general, 2 111,169
 and not I_LocalFaction egypt
 spawn_army
     faction slave
-    character, Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
+    character Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
     unit celtic infantry solduros, exp 5 armour 2 weapon_lvl 0
     unit celtic infantry solduros, exp 5 armour 2 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
@@ -182705,7 +182705,7 @@ and I_CharacterTypeNearTile egypt named_character, 2 111,169
 and not I_LocalFaction egypt
 spawn_army
     faction slave
-    character, Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
+    character Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 111, y 168
     unit celtic infantry solduros, exp 5 armour 2 weapon_lvl 0
     unit celtic infantry solduros, exp 5 armour 2 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
@@ -182863,7 +182863,7 @@ end_if
 if I_CompareCounter EburonumNewGovernorActivation = 1
 spawn_army
     faction slave
-    character, Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 60, x 112, y 168
+    character Nautius, named character, command 0, influence 0, management 0, subterfuge 0, age 60, x 112, y 168
     unit celtic infantry lugian, exp 2 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 2 armour 1 weapon_lvl 0
     unit celtic infantry uirodusios, exp 2 armour 1 weapon_lvl 0
@@ -182908,7 +182908,7 @@ if I_CompareCounter EburonumActivationFaction = 1
 and I_CompareCounter EburonumNewGovernorActivation = 1
 spawn_army
     faction britons
-    character, Beredos, named character, command 0, influence 0, management 0, subterfuge 0, age 60, x 112, y 169
+    character Beredos, named character, command 0, influence 0, management 0, subterfuge 0, age 60, x 112, y 169
     unit celtic missile iaosatae regional, exp 0 armour 0 weapon_lvl 0
     unit celtic missile iaosatae regional, exp 0 armour 0 weapon_lvl 0
     unit celtic missile iaosatae regional, exp 0 armour 0 weapon_lvl 0
@@ -182926,7 +182926,7 @@ if I_CompareCounter EburonumActivationFaction = 2
 and I_CompareCounter EburonumNewGovernorActivation = 1
 spawn_army
     faction scythia
-    character, Enestinos, named character, command 0, influence 0, management 0, subterfuge 0, age 60, x 112, y 169
+    character Enestinos, named character, command 0, influence 0, management 0, subterfuge 0, age 60, x 112, y 169
     unit celtic missile iaosatae regional, exp 0 armour 0 weapon_lvl 0
     unit celtic missile iaosatae regional, exp 0 armour 0 weapon_lvl 0
     unit celtic missile iaosatae regional, exp 0 armour 0 weapon_lvl 0
@@ -182944,7 +182944,7 @@ if I_CompareCounter EburonumActivationFaction = 3
 and I_CompareCounter EburonumNewGovernorActivation = 1
 spawn_army
     faction gauls
-    character, Cador, named character, command 0, influence 0, management 0, subterfuge 0, age 60, x 112, y 169
+    character Cador, named character, command 0, influence 0, management 0, subterfuge 0, age 60, x 112, y 169
     unit celtic missile iaosatae regional, exp 0 armour 0 weapon_lvl 0
     unit celtic missile iaosatae regional, exp 0 armour 0 weapon_lvl 0
     unit celtic missile iaosatae regional, exp 0 armour 0 weapon_lvl 0
@@ -182962,7 +182962,7 @@ if I_CompareCounter EburonumActivationFaction = 4
 and I_CompareCounter EburonumNewGovernorActivation = 1
 spawn_army
     faction egypt
-    character, Abascantus, named character, command 0, influence 0, management 0, subterfuge 0, age 60, x 112, y 169
+    character Abascantus, named character, command 0, influence 0, management 0, subterfuge 0, age 60, x 112, y 169
     unit celtic missile iaosatae regional, exp 0 armour 0 weapon_lvl 0
     unit celtic missile iaosatae regional, exp 0 armour 0 weapon_lvl 0
     unit celtic missile iaosatae regional, exp 0 armour 0 weapon_lvl 0
@@ -183060,7 +183060,7 @@ and not I_CharacterTypeNearTile slave named_character, 0  97, 160
 if I_CompareCounter IuvavoaetaGeneralDone = 0
 spawn_army
     faction slave
-    character, Satres, named character, command 0, influence 0, management 0, subterfuge 0, age 20, x 97, y 160
+    character Satres, named character, command 0, influence 0, management 0, subterfuge 0, age 20, x 97, y 160
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry teceitos, exp 5 armour 1 weapon_lvl 0
@@ -183188,7 +183188,7 @@ and not I_CharacterTypeNearTile slave named_character, 0  97,160
 and I_CompareCounter IuvavoaetaGeneralDone = 0
 spawn_army
     faction slave
-    character, Satres, named character, command 0, influence 0, management 0, subterfuge 0, age 20, x 97, y 160
+    character Satres, named character, command 0, influence 0, management 0, subterfuge 0, age 20, x 97, y 160
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
@@ -183373,7 +183373,7 @@ and not I_CharacterTypeNearTile dacia named_character, 2 99,160
 and not I_LocalFaction dacia
 spawn_army
     faction slave
-    character, Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
+    character Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry teceitos, exp 4 armour 1 weapon_lvl 0
@@ -183406,7 +183406,7 @@ and not I_CharacterTypeNearTile dacia general, 2 99,160
 and not I_LocalFaction dacia
 spawn_army
     faction slave
-    character, Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
+    character Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry teceitos, exp 4 armour 1 weapon_lvl 0
@@ -183439,7 +183439,7 @@ and I_CharacterTypeNearTile dacia named_character, 2 99,160
 and not I_LocalFaction dacia
 spawn_army
     faction slave
-    character, Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
+    character Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry teceitos, exp 4 armour 1 weapon_lvl 0
@@ -183472,7 +183472,7 @@ and not I_CharacterTypeNearTile dacia named_character, 2 99,160
 and not I_LocalFaction dacia
 spawn_army
     faction slave
-    character, Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
+    character Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry teceitos, exp 4 armour 1 weapon_lvl 0
@@ -183505,7 +183505,7 @@ and not I_CharacterTypeNearTile dacia general, 2 99,160
 and not I_LocalFaction dacia
 spawn_army
     faction slave
-    character, Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
+    character Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry teceitos, exp 4 armour 1 weapon_lvl 0
@@ -183538,7 +183538,7 @@ and I_CharacterTypeNearTile dacia named_character, 2 99,160
 and not I_LocalFaction dacia
 spawn_army
     faction slave
-    character, Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
+    character Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry teceitos, exp 4 armour 1 weapon_lvl 0
@@ -183577,7 +183577,7 @@ and not I_CharacterTypeNearTile germans named_character, 2 99,160
 and not I_LocalFaction germans
 spawn_army
     faction slave
-    character, Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
+    character Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry teceitos, exp 4 armour 1 weapon_lvl 0
@@ -183610,7 +183610,7 @@ and not I_CharacterTypeNearTile germans general, 2 99,160
 and not I_LocalFaction germans
 spawn_army
     faction slave
-    character, Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
+    character Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry teceitos, exp 4 armour 1 weapon_lvl 0
@@ -183643,7 +183643,7 @@ and I_CharacterTypeNearTile germans named_character, 2 99,160
 and not I_LocalFaction germans
 spawn_army
     faction slave
-    character, Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
+    character Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry teceitos, exp 4 armour 1 weapon_lvl 0
@@ -183676,7 +183676,7 @@ and not I_CharacterTypeNearTile germans named_character, 2 99,160
 and not I_LocalFaction germans
 spawn_army
     faction slave
-    character, Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
+    character Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry teceitos, exp 4 armour 1 weapon_lvl 0
@@ -183709,7 +183709,7 @@ and not I_CharacterTypeNearTile germans general, 2 99,160
 and not I_LocalFaction germans
 spawn_army
     faction slave
-    character, Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
+    character Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry teceitos, exp 4 armour 1 weapon_lvl 0
@@ -183742,7 +183742,7 @@ and I_CharacterTypeNearTile germans named_character, 2 99,160
 and not I_LocalFaction germans
 spawn_army
     faction slave
-    character, Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
+    character Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry teceitos, exp 4 armour 1 weapon_lvl 0
@@ -183781,7 +183781,7 @@ and not I_CharacterTypeNearTile gauls named_character, 2 99,160
 and not I_LocalFaction gauls
 spawn_army
     faction slave
-    character, Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
+    character Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry teceitos, exp 4 armour 1 weapon_lvl 0
@@ -183814,7 +183814,7 @@ and not I_CharacterTypeNearTile gauls general, 2 99,160
 and not I_LocalFaction gauls
 spawn_army
     faction slave
-    character, Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
+    character Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry teceitos, exp 4 armour 1 weapon_lvl 0
@@ -183847,7 +183847,7 @@ and I_CharacterTypeNearTile gauls named_character, 2 99,160
 and not I_LocalFaction gauls
 spawn_army
     faction slave
-    character, Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
+    character Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry teceitos, exp 4 armour 1 weapon_lvl 0
@@ -183880,7 +183880,7 @@ and not I_CharacterTypeNearTile gauls named_character, 2 99,160
 and not I_LocalFaction gauls
 spawn_army
     faction slave
-    character, Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
+    character Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry teceitos, exp 4 armour 1 weapon_lvl 0
@@ -183913,7 +183913,7 @@ and not I_CharacterTypeNearTile gauls general, 2 99,160
 and not I_LocalFaction gauls
 spawn_army
     faction slave
-    character, Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
+    character Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry teceitos, exp 4 armour 1 weapon_lvl 0
@@ -183946,7 +183946,7 @@ and I_CharacterTypeNearTile gauls named_character, 2 99,160
 and not I_LocalFaction gauls
 spawn_army
     faction slave
-    character, Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
+    character Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry teceitos, exp 4 armour 1 weapon_lvl 0
@@ -183985,7 +183985,7 @@ and not I_CharacterTypeNearTile scythia named_character, 2 99,160
 and not I_LocalFaction scythia
 spawn_army
     faction slave
-    character, Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
+    character Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry teceitos, exp 4 armour 1 weapon_lvl 0
@@ -184018,7 +184018,7 @@ and not I_CharacterTypeNearTile scythia general, 2 99,160
 and not I_LocalFaction scythia
 spawn_army
     faction slave
-    character, Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
+    character Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry teceitos, exp 4 armour 1 weapon_lvl 0
@@ -184051,7 +184051,7 @@ and I_CharacterTypeNearTile scythia named_character, 2 99,160
 and not I_LocalFaction scythia
 spawn_army
     faction slave
-    character, Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
+    character Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry teceitos, exp 4 armour 1 weapon_lvl 0
@@ -184084,7 +184084,7 @@ and not I_CharacterTypeNearTile scythia named_character, 2 99,160
 and not I_LocalFaction scythia
 spawn_army
     faction slave
-    character, Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
+    character Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry teceitos, exp 4 armour 1 weapon_lvl 0
@@ -184117,7 +184117,7 @@ and not I_CharacterTypeNearTile scythia general, 2 99,160
 and not I_LocalFaction scythia
 spawn_army
     faction slave
-    character, Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
+    character Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry teceitos, exp 4 armour 1 weapon_lvl 0
@@ -184150,7 +184150,7 @@ and I_CharacterTypeNearTile scythia named_character, 2 99,160
 and not I_LocalFaction scythia
 spawn_army
     faction slave
-    character, Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
+    character Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry teceitos, exp 4 armour 1 weapon_lvl 0
@@ -184189,7 +184189,7 @@ and not I_CharacterTypeNearTile greek_cities named_character, 2 99,160
 and not I_LocalFaction greek_cities
 spawn_army
     faction slave
-    character, Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
+    character Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
@@ -184225,7 +184225,7 @@ and not I_CharacterTypeNearTile greek_cities general, 2 99,160
 and not I_LocalFaction greek_cities
 spawn_army
     faction slave
-    character, Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
+    character Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
@@ -184261,7 +184261,7 @@ and I_CharacterTypeNearTile greek_cities named_character, 2 99,160
 and not I_LocalFaction greek_cities
 spawn_army
     faction slave
-    character, Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
+    character Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
@@ -184297,7 +184297,7 @@ and not I_CharacterTypeNearTile greek_cities named_character, 2 99,160
 and not I_LocalFaction greek_cities
 spawn_army
     faction slave
-    character, Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
+    character Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
@@ -184333,7 +184333,7 @@ and not I_CharacterTypeNearTile greek_cities general, 2 99,160
 and not I_LocalFaction greek_cities
 spawn_army
     faction slave
-    character, Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
+    character Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
@@ -184369,7 +184369,7 @@ and I_CharacterTypeNearTile greek_cities named_character, 2 99,160
 and not I_LocalFaction greek_cities
 spawn_army
     faction slave
-    character, Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
+    character Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
@@ -184411,7 +184411,7 @@ and not I_CharacterTypeNearTile macedon named_character, 2 99,160
 and not I_LocalFaction macedon
 spawn_army
     faction slave
-    character, Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
+    character Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
@@ -184447,7 +184447,7 @@ and not I_CharacterTypeNearTile macedon general, 2 99,160
 and not I_LocalFaction macedon
 spawn_army
     faction slave
-    character, Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
+    character Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
@@ -184483,7 +184483,7 @@ and I_CharacterTypeNearTile macedon named_character, 2 99,160
 and not I_LocalFaction macedon
 spawn_army
     faction slave
-    character, Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
+    character Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
@@ -184519,7 +184519,7 @@ and not I_CharacterTypeNearTile macedon named_character, 2 99,160
 and not I_LocalFaction macedon
 spawn_army
     faction slave
-    character, Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
+    character Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
@@ -184555,7 +184555,7 @@ and not I_CharacterTypeNearTile macedon general, 2 99,160
 and not I_LocalFaction macedon
 spawn_army
     faction slave
-    character, Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
+    character Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
@@ -184591,7 +184591,7 @@ and I_CharacterTypeNearTile macedon named_character, 2 99,160
 and not I_LocalFaction macedon
 spawn_army
     faction slave
-    character, Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
+    character Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
@@ -184633,7 +184633,7 @@ and not I_CharacterTypeNearTile seleucid named_character, 2 99,160
 and not I_LocalFaction seleucid
 spawn_army
     faction slave
-    character, Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
+    character Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
@@ -184669,7 +184669,7 @@ and not I_CharacterTypeNearTile seleucid general, 2 99,160
 and not I_LocalFaction seleucid
 spawn_army
     faction slave
-    character, Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
+    character Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
@@ -184705,7 +184705,7 @@ and I_CharacterTypeNearTile seleucid named_character, 2 99,160
 and not I_LocalFaction seleucid
 spawn_army
     faction slave
-    character, Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
+    character Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
@@ -184741,7 +184741,7 @@ and not I_CharacterTypeNearTile seleucid named_character, 2 99,160
 and not I_LocalFaction seleucid
 spawn_army
     faction slave
-    character, Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
+    character Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
@@ -184777,7 +184777,7 @@ and not I_CharacterTypeNearTile seleucid general, 2 99,160
 and not I_LocalFaction seleucid
 spawn_army
     faction slave
-    character, Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
+    character Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
@@ -184813,7 +184813,7 @@ and I_CharacterTypeNearTile seleucid named_character, 2 99,160
 and not I_LocalFaction seleucid
 spawn_army
     faction slave
-    character, Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
+    character Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
@@ -184855,7 +184855,7 @@ and not I_CharacterTypeNearTile thrace named_character, 2 99,160
 and not I_LocalFaction thrace
 spawn_army
     faction slave
-    character, Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
+    character Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
@@ -184891,7 +184891,7 @@ and not I_CharacterTypeNearTile thrace general, 2 99,160
 and not I_LocalFaction thrace
 spawn_army
     faction slave
-    character, Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
+    character Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
@@ -184927,7 +184927,7 @@ and I_CharacterTypeNearTile thrace named_character, 2 99,160
 and not I_LocalFaction thrace
 spawn_army
     faction slave
-    character, Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
+    character Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
@@ -184963,7 +184963,7 @@ and not I_CharacterTypeNearTile thrace named_character, 2 99,160
 and not I_LocalFaction thrace
 spawn_army
     faction slave
-    character, Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
+    character Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
@@ -184999,7 +184999,7 @@ and not I_CharacterTypeNearTile thrace general, 2 99,160
 and not I_LocalFaction thrace
 spawn_army
     faction slave
-    character, Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
+    character Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
@@ -185035,7 +185035,7 @@ and I_CharacterTypeNearTile thrace named_character, 2 99,160
 and not I_LocalFaction thrace
 spawn_army
     faction slave
-    character, Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
+    character Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
@@ -185077,7 +185077,7 @@ and not I_CharacterTypeNearTile egypt named_character, 2 99,160
 and not I_LocalFaction egypt
 spawn_army
     faction slave
-    character, Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
+    character Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
@@ -185113,7 +185113,7 @@ and not I_CharacterTypeNearTile egypt general, 2 99,160
 and not I_LocalFaction egypt
 spawn_army
     faction slave
-    character, Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
+    character Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
@@ -185149,7 +185149,7 @@ and I_CharacterTypeNearTile egypt named_character, 2 99,160
 and not I_LocalFaction egypt
 spawn_army
     faction slave
-    character, Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
+    character Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
@@ -185185,7 +185185,7 @@ and not I_CharacterTypeNearTile egypt named_character, 2 99,160
 and not I_LocalFaction egypt
 spawn_army
     faction slave
-    character, Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
+    character Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
@@ -185221,7 +185221,7 @@ and not I_CharacterTypeNearTile egypt general, 2 99,160
 and not I_LocalFaction egypt
 spawn_army
     faction slave
-    character, Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
+    character Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
@@ -185257,7 +185257,7 @@ and I_CharacterTypeNearTile egypt named_character, 2 99,160
 and not I_LocalFaction egypt
 spawn_army
     faction slave
-    character, Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
+    character Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 99, y 159
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry neitos, exp 5 armour 1 weapon_lvl 0
@@ -185409,7 +185409,7 @@ end_if
 if I_CompareCounter IuvavoaetaNewGovernorActivation = 1
 spawn_army
     faction slave
-    character, Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 60, x 98, y 159
+    character Rescuturme, named character, command 0, influence 0, management 0, subterfuge 0, age 60, x 98, y 159
     unit celtic infantry solduros, exp 2 armour 1 weapon_lvl 0
     unit celtic infantry botroas, exp 2 armour 1 weapon_lvl 0
     unit celtic infantry botroas, exp 2 armour 1 weapon_lvl 0
@@ -185454,7 +185454,7 @@ if I_CompareCounter IuvavoaetaActivationFaction = 1
 and I_CompareCounter IuvavoaetaNewGovernorActivation = 1
 spawn_army
     faction britons
-    character, Brycham, named character, command 0, influence 0, management 0, subterfuge 0, age 60, x 98, y 160
+    character Brycham, named character, command 0, influence 0, management 0, subterfuge 0, age 60, x 98, y 160
     unit celtic missile iaosatae regional, exp 0 armour 0 weapon_lvl 0
     unit celtic missile iaosatae regional, exp 0 armour 0 weapon_lvl 0
     unit celtic missile iaosatae regional, exp 0 armour 0 weapon_lvl 0
@@ -185471,7 +185471,7 @@ if I_CompareCounter IuvavoaetaActivationFaction = 2
 and I_CompareCounter IuvavoaetaNewGovernorActivation = 1
 spawn_army
     faction scythia
-    character, Erbin, named character, command 0, influence 0, management 0, subterfuge 0, age 60, x 98, y 160
+    character Erbin, named character, command 0, influence 0, management 0, subterfuge 0, age 60, x 98, y 160
     unit celtic missile iaosatae regional, exp 0 armour 0 weapon_lvl 0
     unit celtic missile iaosatae regional, exp 0 armour 0 weapon_lvl 0
     unit celtic missile iaosatae regional, exp 0 armour 0 weapon_lvl 0
@@ -185488,7 +185488,7 @@ if I_CompareCounter IuvavoaetaActivationFaction = 3
 and I_CompareCounter IuvavoaetaNewGovernorActivation = 1
 spawn_army
     faction gauls
-    character, Erbin, named character, command 0, influence 0, management 0, subterfuge 0, age 60, x 98, y 160
+    character Erbin, named character, command 0, influence 0, management 0, subterfuge 0, age 60, x 98, y 160
     unit celtic missile iaosatae regional, exp 0 armour 0 weapon_lvl 0
     unit celtic missile iaosatae regional, exp 0 armour 0 weapon_lvl 0
     unit celtic missile iaosatae regional, exp 0 armour 0 weapon_lvl 0
@@ -185505,7 +185505,7 @@ if I_CompareCounter IuvavoaetaActivationFaction = 4
 and I_CompareCounter IuvavoaetaNewGovernorActivation = 1
 spawn_army
     faction egypt
-    character, Annibas, named character, command 0, influence 0, management 0, subterfuge 0, age 60, x 98, y 160
+    character Annibas, named character, command 0, influence 0, management 0, subterfuge 0, age 60, x 98, y 160
     unit celtic missile iaosatae regional, exp 0 armour 0 weapon_lvl 0
     unit celtic missile iaosatae regional, exp 0 armour 0 weapon_lvl 0
     unit celtic missile iaosatae regional, exp 0 armour 0 weapon_lvl 0
@@ -185593,7 +185593,7 @@ and not I_CharacterTypeNearTile slave named_character, 0  124, 173
 if I_CompareCounter CarrodunumGeneralDone = 0
 spawn_army
     faction slave
-    character, Rhesus, named character, command 0, influence 0, management 0, subterfuge 0, age 20, x 124, y 173
+    character Rhesus, named character, command 0, influence 0, management 0, subterfuge 0, age 20, x 124, y 173
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 5 armour 1 weapon_lvl 0
@@ -185694,7 +185694,7 @@ and not I_CharacterTypeNearTile slave named_character, 0  124,173
 and I_CompareCounter CarrodunumGeneralDone = 0
 spawn_army
     faction slave
-    character, Rhesus, named character, command 0, influence 0, management 0, subterfuge 0, age 20, x 124, y 173
+    character Rhesus, named character, command 0, influence 0, management 0, subterfuge 0, age 20, x 124, y 173
     unit germanic cavalry ridoharjoz, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 5 armour 1 weapon_lvl 0
@@ -185886,7 +185886,7 @@ and not I_CharacterTypeNearTile dacia named_character, 2 121,173
 and not I_LocalFaction dacia
 spawn_army
     faction slave
-    character, Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
+    character Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
     unit germanic cavalry ridoharjoz, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
@@ -185920,7 +185920,7 @@ and not I_CharacterTypeNearTile dacia general, 2 121,173
 and not I_LocalFaction dacia
 spawn_army
     faction slave
-    character, Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
+    character Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
     unit germanic cavalry ridoharjoz, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
@@ -185954,7 +185954,7 @@ and I_CharacterTypeNearTile dacia named_character, 2 121,173
 and not I_LocalFaction dacia
 spawn_army
     faction slave
-    character, Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
+    character Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
     unit germanic cavalry ridoharjoz, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
@@ -185988,7 +185988,7 @@ and not I_CharacterTypeNearTile dacia named_character, 2 121,173
 and not I_LocalFaction dacia
 spawn_army
     faction slave
-    character, Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
+    character Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
     unit germanic cavalry ridoharjoz, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
@@ -186022,7 +186022,7 @@ and not I_CharacterTypeNearTile dacia general, 2 121,173
 and not I_LocalFaction dacia
 spawn_army
     faction slave
-    character, Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
+    character Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
     unit germanic cavalry ridoharjoz, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
@@ -186056,7 +186056,7 @@ and I_CharacterTypeNearTile dacia named_character, 2 121,173
 and not I_LocalFaction dacia
 spawn_army
     faction slave
-    character, Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
+    character Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
     unit germanic cavalry ridoharjoz, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
@@ -186096,7 +186096,7 @@ and not I_CharacterTypeNearTile romans_scipii named_character, 2 121,173
 and not I_LocalFaction romans_scipii
 spawn_army
     faction slave
-    character, Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
+    character Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
     unit germanic cavalry ridoharjoz, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
@@ -186130,7 +186130,7 @@ and not I_CharacterTypeNearTile romans_scipii general, 2 121,173
 and not I_LocalFaction romans_scipii
 spawn_army
     faction slave
-    character, Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
+    character Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
     unit germanic cavalry ridoharjoz, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
@@ -186164,7 +186164,7 @@ and I_CharacterTypeNearTile romans_scipii named_character, 2 121,173
 and not I_LocalFaction romans_scipii
 spawn_army
     faction slave
-    character, Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
+    character Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
     unit germanic cavalry ridoharjoz, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
@@ -186198,7 +186198,7 @@ and not I_CharacterTypeNearTile romans_scipii named_character, 2 121,173
 and not I_LocalFaction romans_scipii
 spawn_army
     faction slave
-    character, Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
+    character Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
     unit germanic cavalry ridoharjoz, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
@@ -186232,7 +186232,7 @@ and not I_CharacterTypeNearTile romans_scipii general, 2 121,173
 and not I_LocalFaction romans_scipii
 spawn_army
     faction slave
-    character, Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
+    character Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
     unit germanic cavalry ridoharjoz, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
@@ -186266,7 +186266,7 @@ and I_CharacterTypeNearTile romans_scipii named_character, 2 121,173
 and not I_LocalFaction romans_scipii
 spawn_army
     faction slave
-    character, Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
+    character Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
     unit germanic cavalry ridoharjoz, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
@@ -186306,7 +186306,7 @@ and not I_CharacterTypeNearTile germans named_character, 2 121,173
 and not I_LocalFaction germans
 spawn_army
     faction slave
-    character, Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
+    character Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
     unit germanic cavalry ridoharjoz, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
@@ -186340,7 +186340,7 @@ and not I_CharacterTypeNearTile germans general, 2 121,173
 and not I_LocalFaction germans
 spawn_army
     faction slave
-    character, Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
+    character Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
     unit germanic cavalry ridoharjoz, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
@@ -186374,7 +186374,7 @@ and I_CharacterTypeNearTile germans named_character, 2 121,173
 and not I_LocalFaction germans
 spawn_army
     faction slave
-    character, Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
+    character Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
     unit germanic cavalry ridoharjoz, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
@@ -186408,7 +186408,7 @@ and not I_CharacterTypeNearTile germans named_character, 2 121,173
 and not I_LocalFaction germans
 spawn_army
     faction slave
-    character, Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
+    character Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
     unit germanic cavalry ridoharjoz, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
@@ -186442,7 +186442,7 @@ and not I_CharacterTypeNearTile germans general, 2 121,173
 and not I_LocalFaction germans
 spawn_army
     faction slave
-    character, Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
+    character Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
     unit germanic cavalry ridoharjoz, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
@@ -186476,7 +186476,7 @@ and I_CharacterTypeNearTile germans named_character, 2 121,173
 and not I_LocalFaction germans
 spawn_army
     faction slave
-    character, Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
+    character Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
     unit germanic cavalry ridoharjoz, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
@@ -186516,7 +186516,7 @@ and not I_CharacterTypeNearTile gauls named_character, 2 121,173
 and not I_LocalFaction gauls
 spawn_army
     faction slave
-    character, Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
+    character Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
     unit germanic cavalry ridoharjoz, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
@@ -186550,7 +186550,7 @@ and not I_CharacterTypeNearTile gauls general, 2 121,173
 and not I_LocalFaction gauls
 spawn_army
     faction slave
-    character, Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
+    character Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
     unit germanic cavalry ridoharjoz, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
@@ -186584,7 +186584,7 @@ and I_CharacterTypeNearTile gauls named_character, 2 121,173
 and not I_LocalFaction gauls
 spawn_army
     faction slave
-    character, Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
+    character Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
     unit germanic cavalry ridoharjoz, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
@@ -186618,7 +186618,7 @@ and not I_CharacterTypeNearTile gauls named_character, 2 121,173
 and not I_LocalFaction gauls
 spawn_army
     faction slave
-    character, Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
+    character Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
     unit germanic cavalry ridoharjoz, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
@@ -186652,7 +186652,7 @@ and not I_CharacterTypeNearTile gauls general, 2 121,173
 and not I_LocalFaction gauls
 spawn_army
     faction slave
-    character, Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
+    character Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
     unit germanic cavalry ridoharjoz, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
@@ -186686,7 +186686,7 @@ and I_CharacterTypeNearTile gauls named_character, 2 121,173
 and not I_LocalFaction gauls
 spawn_army
     faction slave
-    character, Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
+    character Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
     unit germanic cavalry ridoharjoz, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
@@ -186726,7 +186726,7 @@ and not I_CharacterTypeNearTile greek_cities named_character, 2 121,173
 and not I_LocalFaction greek_cities
 spawn_army
     faction slave
-    character, Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
+    character Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
     unit germanic cavalry ridoharjoz, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 5 armour 1 weapon_lvl 0
@@ -186762,7 +186762,7 @@ and not I_CharacterTypeNearTile greek_cities general, 2 121,173
 and not I_LocalFaction greek_cities
 spawn_army
     faction slave
-    character, Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
+    character Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
     unit germanic cavalry ridoharjoz, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 5 armour 1 weapon_lvl 0
@@ -186798,7 +186798,7 @@ and I_CharacterTypeNearTile greek_cities named_character, 2 121,173
 and not I_LocalFaction greek_cities
 spawn_army
     faction slave
-    character, Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
+    character Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
     unit germanic cavalry ridoharjoz, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 5 armour 1 weapon_lvl 0
@@ -186834,7 +186834,7 @@ and not I_CharacterTypeNearTile greek_cities named_character, 2 121,173
 and not I_LocalFaction greek_cities
 spawn_army
     faction slave
-    character, Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
+    character Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
     unit germanic cavalry ridoharjoz, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 5 armour 1 weapon_lvl 0
@@ -186870,7 +186870,7 @@ and not I_CharacterTypeNearTile greek_cities general, 2 121,173
 and not I_LocalFaction greek_cities
 spawn_army
     faction slave
-    character, Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
+    character Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
     unit germanic cavalry ridoharjoz, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 5 armour 1 weapon_lvl 0
@@ -186906,7 +186906,7 @@ and I_CharacterTypeNearTile greek_cities named_character, 2 121,173
 and not I_LocalFaction greek_cities
 spawn_army
     faction slave
-    character, Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
+    character Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
     unit germanic cavalry ridoharjoz, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 5 armour 1 weapon_lvl 0
@@ -186948,7 +186948,7 @@ and not I_CharacterTypeNearTile macedon named_character, 2 121,173
 and not I_LocalFaction macedon
 spawn_army
     faction slave
-    character, Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
+    character Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
     unit germanic cavalry ridoharjoz, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 5 armour 1 weapon_lvl 0
@@ -186984,7 +186984,7 @@ and not I_CharacterTypeNearTile macedon general, 2 121,173
 and not I_LocalFaction macedon
 spawn_army
     faction slave
-    character, Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
+    character Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
     unit germanic cavalry ridoharjoz, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 5 armour 1 weapon_lvl 0
@@ -187020,7 +187020,7 @@ and I_CharacterTypeNearTile macedon named_character, 2 121,173
 and not I_LocalFaction macedon
 spawn_army
     faction slave
-    character, Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
+    character Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
     unit germanic cavalry ridoharjoz, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 5 armour 1 weapon_lvl 0
@@ -187056,7 +187056,7 @@ and not I_CharacterTypeNearTile macedon named_character, 2 121,173
 and not I_LocalFaction macedon
 spawn_army
     faction slave
-    character, Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
+    character Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
     unit germanic cavalry ridoharjoz, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 5 armour 1 weapon_lvl 0
@@ -187092,7 +187092,7 @@ and not I_CharacterTypeNearTile macedon general, 2 121,173
 and not I_LocalFaction macedon
 spawn_army
     faction slave
-    character, Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
+    character Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
     unit germanic cavalry ridoharjoz, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 5 armour 1 weapon_lvl 0
@@ -187128,7 +187128,7 @@ and I_CharacterTypeNearTile macedon named_character, 2 121,173
 and not I_LocalFaction macedon
 spawn_army
     faction slave
-    character, Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
+    character Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
     unit germanic cavalry ridoharjoz, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 5 armour 1 weapon_lvl 0
@@ -187170,7 +187170,7 @@ and not I_CharacterTypeNearTile seleucid named_character, 2 121,173
 and not I_LocalFaction seleucid
 spawn_army
     faction slave
-    character, Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
+    character Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
     unit germanic cavalry ridoharjoz, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 5 armour 1 weapon_lvl 0
@@ -187206,7 +187206,7 @@ and not I_CharacterTypeNearTile seleucid general, 2 121,173
 and not I_LocalFaction seleucid
 spawn_army
     faction slave
-    character, Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
+    character Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
     unit germanic cavalry ridoharjoz, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 5 armour 1 weapon_lvl 0
@@ -187242,7 +187242,7 @@ and I_CharacterTypeNearTile seleucid named_character, 2 121,173
 and not I_LocalFaction seleucid
 spawn_army
     faction slave
-    character, Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
+    character Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
     unit germanic cavalry ridoharjoz, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 5 armour 1 weapon_lvl 0
@@ -187278,7 +187278,7 @@ and not I_CharacterTypeNearTile seleucid named_character, 2 121,173
 and not I_LocalFaction seleucid
 spawn_army
     faction slave
-    character, Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
+    character Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
     unit germanic cavalry ridoharjoz, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 5 armour 1 weapon_lvl 0
@@ -187314,7 +187314,7 @@ and not I_CharacterTypeNearTile seleucid general, 2 121,173
 and not I_LocalFaction seleucid
 spawn_army
     faction slave
-    character, Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
+    character Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
     unit germanic cavalry ridoharjoz, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 5 armour 1 weapon_lvl 0
@@ -187350,7 +187350,7 @@ and I_CharacterTypeNearTile seleucid named_character, 2 121,173
 and not I_LocalFaction seleucid
 spawn_army
     faction slave
-    character, Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
+    character Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
     unit germanic cavalry ridoharjoz, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 5 armour 1 weapon_lvl 0
@@ -187392,7 +187392,7 @@ and not I_CharacterTypeNearTile thrace named_character, 2 121,173
 and not I_LocalFaction thrace
 spawn_army
     faction slave
-    character, Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
+    character Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
     unit germanic cavalry ridoharjoz, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 5 armour 1 weapon_lvl 0
@@ -187428,7 +187428,7 @@ and not I_CharacterTypeNearTile thrace general, 2 121,173
 and not I_LocalFaction thrace
 spawn_army
     faction slave
-    character, Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
+    character Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
     unit germanic cavalry ridoharjoz, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 5 armour 1 weapon_lvl 0
@@ -187464,7 +187464,7 @@ and I_CharacterTypeNearTile thrace named_character, 2 121,173
 and not I_LocalFaction thrace
 spawn_army
     faction slave
-    character, Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
+    character Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
     unit germanic cavalry ridoharjoz, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 5 armour 1 weapon_lvl 0
@@ -187500,7 +187500,7 @@ and not I_CharacterTypeNearTile thrace named_character, 2 121,173
 and not I_LocalFaction thrace
 spawn_army
     faction slave
-    character, Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
+    character Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
     unit germanic cavalry ridoharjoz, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 5 armour 1 weapon_lvl 0
@@ -187536,7 +187536,7 @@ and not I_CharacterTypeNearTile thrace general, 2 121,173
 and not I_LocalFaction thrace
 spawn_army
     faction slave
-    character, Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
+    character Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
     unit germanic cavalry ridoharjoz, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 5 armour 1 weapon_lvl 0
@@ -187572,7 +187572,7 @@ and I_CharacterTypeNearTile thrace named_character, 2 121,173
 and not I_LocalFaction thrace
 spawn_army
     faction slave
-    character, Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
+    character Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
     unit germanic cavalry ridoharjoz, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 5 armour 1 weapon_lvl 0
@@ -187614,7 +187614,7 @@ and not I_CharacterTypeNearTile egypt named_character, 2 121,173
 and not I_LocalFaction egypt
 spawn_army
     faction slave
-    character, Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
+    character Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
     unit germanic cavalry ridoharjoz, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 5 armour 1 weapon_lvl 0
@@ -187650,7 +187650,7 @@ and not I_CharacterTypeNearTile egypt general, 2 121,173
 and not I_LocalFaction egypt
 spawn_army
     faction slave
-    character, Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
+    character Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
     unit germanic cavalry ridoharjoz, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 5 armour 1 weapon_lvl 0
@@ -187686,7 +187686,7 @@ and I_CharacterTypeNearTile egypt named_character, 2 121,173
 and not I_LocalFaction egypt
 spawn_army
     faction slave
-    character, Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
+    character Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
     unit germanic cavalry ridoharjoz, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 5 armour 1 weapon_lvl 0
@@ -187722,7 +187722,7 @@ and not I_CharacterTypeNearTile egypt named_character, 2 121,173
 and not I_LocalFaction egypt
 spawn_army
     faction slave
-    character, Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
+    character Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
     unit germanic cavalry ridoharjoz, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 5 armour 1 weapon_lvl 0
@@ -187758,7 +187758,7 @@ and not I_CharacterTypeNearTile egypt general, 2 121,173
 and not I_LocalFaction egypt
 spawn_army
     faction slave
-    character, Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
+    character Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
     unit germanic cavalry ridoharjoz, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 5 armour 1 weapon_lvl 0
@@ -187794,7 +187794,7 @@ and I_CharacterTypeNearTile egypt named_character, 2 121,173
 and not I_LocalFaction egypt
 spawn_army
     faction slave
-    character, Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
+    character Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 122, y 174
     unit germanic cavalry ridoharjoz, exp 6 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry bataroas, exp 5 armour 1 weapon_lvl 0
@@ -187961,7 +187961,7 @@ end_if
 if I_CompareCounter CarrodunumNewGovernorActivation = 1
 spawn_army
     faction slave
-    character, Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 60, x 121, y 175
+    character Rhaskuporis, named character, command 0, influence 0, management 0, subterfuge 0, age 60, x 121, y 175
     unit celtic infantry solduros, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 4 armour 1 weapon_lvl 0
     unit celtic infantry uirodusios, exp 2 armour 1 weapon_lvl 0
@@ -188005,7 +188005,7 @@ if I_CompareCounter CarrodunumActivationFaction = 1
 and I_CompareCounter CarrodunumNewGovernorActivation = 1
 spawn_army
     faction britons
-    character, Cynan, named character, command 0, influence 0, management 0, subterfuge 0, age 60, x 122, y 173
+    character Cynan, named character, command 0, influence 0, management 0, subterfuge 0, age 60, x 122, y 173
     unit celtic missile iaosatae regional, exp 0 armour 0 weapon_lvl 0
     unit celtic missile iaosatae regional, exp 0 armour 0 weapon_lvl 0
     unit celtic missile iaosatae regional, exp 0 armour 0 weapon_lvl 0
@@ -188022,7 +188022,7 @@ if I_CompareCounter CarrodunumActivationFaction = 2
 and I_CompareCounter CarrodunumNewGovernorActivation = 1
 spawn_army
     faction scythia
-    character, Geraint, named character, command 0, influence 0, management 0, subterfuge 0, age 60, x 122, y 173
+    character Geraint, named character, command 0, influence 0, management 0, subterfuge 0, age 60, x 122, y 173
     unit celtic missile iaosatae regional, exp 0 armour 0 weapon_lvl 0
     unit celtic missile iaosatae regional, exp 0 armour 0 weapon_lvl 0
     unit celtic missile iaosatae regional, exp 0 armour 0 weapon_lvl 0
@@ -188039,7 +188039,7 @@ if I_CompareCounter CarrodunumActivationFaction = 3
 and I_CompareCounter CarrodunumNewGovernorActivation = 1
 spawn_army
     faction gauls
-    character, Geraint, named character, command 0, influence 0, management 0, subterfuge 0, age 60, x 122, y 173
+    character Geraint, named character, command 0, influence 0, management 0, subterfuge 0, age 60, x 122, y 173
     unit celtic missile iaosatae regional, exp 0 armour 0 weapon_lvl 0
     unit celtic missile iaosatae regional, exp 0 armour 0 weapon_lvl 0
     unit celtic missile iaosatae regional, exp 0 armour 0 weapon_lvl 0
@@ -188056,7 +188056,7 @@ if I_CompareCounter CarrodunumActivationFaction = 4
 and I_CompareCounter CarrodunumNewGovernorActivation = 1
 spawn_army
     faction egypt
-    character, Bodashtart, named character, command 0, influence 0, management 0, subterfuge 0, age 60, x 122, y 173
+    character Bodashtart, named character, command 0, influence 0, management 0, subterfuge 0, age 60, x 122, y 173
     unit celtic missile iaosatae regional, exp 0 armour 0 weapon_lvl 0
     unit celtic missile iaosatae regional, exp 0 armour 0 weapon_lvl 0
     unit celtic missile iaosatae regional, exp 0 armour 0 weapon_lvl 0
@@ -188143,7 +188143,7 @@ and not I_CharacterTypeNearTile slave named_character, 0  139, 196
 if I_CompareCounter Seliun_PilisGeneralDone = 0
 spawn_army
     faction slave
-    character, Sautes, named character, command 0, influence 0, management 0, subterfuge 0, age 20, x 139, y 196
+    character Sautes, named character, command 0, influence 0, management 0, subterfuge 0, age 20, x 139, y 196
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 4 armour 1 weapon_lvl 0
@@ -188187,7 +188187,7 @@ and I_CompareCounter Seliun_PilisGeneralDead = 1
 if I_CompareCounter Seliun_PilisGeneralDone = 0
 spawn_army
     faction slave
-    character, Sautes, named character, command 0, influence 0, management 0, subterfuge 0, age 20, x 139, y 196
+    character Sautes, named character, command 0, influence 0, management 0, subterfuge 0, age 20, x 139, y 196
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
@@ -188358,7 +188358,7 @@ and not I_CharacterTypeNearTile dacia named_character, 2 141,196
 and not I_LocalFaction dacia
 spawn_army
     faction slave
-    character, Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
+    character Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry frameharjoz, exp 5 armour 1 weapon_lvl 0
@@ -188392,7 +188392,7 @@ and not I_CharacterTypeNearTile dacia general, 2 141,196
 and not I_LocalFaction dacia
 spawn_army
     faction slave
-    character, Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
+    character Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry frameharjoz, exp 5 armour 1 weapon_lvl 0
@@ -188426,7 +188426,7 @@ and I_CharacterTypeNearTile dacia named_character, 2 141,196
 and not I_LocalFaction dacia
 spawn_army
     faction slave
-    character, Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
+    character Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry frameharjoz, exp 5 armour 1 weapon_lvl 0
@@ -188460,7 +188460,7 @@ and not I_CharacterTypeNearTile dacia named_character, 2 141,196
 and not I_LocalFaction dacia
 spawn_army
     faction slave
-    character, Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
+    character Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry frameharjoz, exp 5 armour 1 weapon_lvl 0
@@ -188494,7 +188494,7 @@ and not I_CharacterTypeNearTile dacia general, 2 141,196
 and not I_LocalFaction dacia
 spawn_army
     faction slave
-    character, Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
+    character Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry frameharjoz, exp 5 armour 1 weapon_lvl 0
@@ -188528,7 +188528,7 @@ and I_CharacterTypeNearTile dacia named_character, 2 141,196
 and not I_LocalFaction dacia
 spawn_army
     faction slave
-    character, Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
+    character Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry frameharjoz, exp 5 armour 1 weapon_lvl 0
@@ -188568,7 +188568,7 @@ and not I_CharacterTypeNearTile germans named_character, 2 141,196
 and not I_LocalFaction germans
 spawn_army
     faction slave
-    character, Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
+    character Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry frameharjoz, exp 5 armour 1 weapon_lvl 0
@@ -188602,7 +188602,7 @@ and not I_CharacterTypeNearTile germans general, 2 141,196
 and not I_LocalFaction germans
 spawn_army
     faction slave
-    character, Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
+    character Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry frameharjoz, exp 5 armour 1 weapon_lvl 0
@@ -188636,7 +188636,7 @@ and I_CharacterTypeNearTile germans named_character, 2 141,196
 and not I_LocalFaction germans
 spawn_army
     faction slave
-    character, Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
+    character Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry frameharjoz, exp 5 armour 1 weapon_lvl 0
@@ -188670,7 +188670,7 @@ and not I_CharacterTypeNearTile germans named_character, 2 141,196
 and not I_LocalFaction germans
 spawn_army
     faction slave
-    character, Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
+    character Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry frameharjoz, exp 5 armour 1 weapon_lvl 0
@@ -188704,7 +188704,7 @@ and not I_CharacterTypeNearTile germans general, 2 141,196
 and not I_LocalFaction germans
 spawn_army
     faction slave
-    character, Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
+    character Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry frameharjoz, exp 5 armour 1 weapon_lvl 0
@@ -188738,7 +188738,7 @@ and I_CharacterTypeNearTile germans named_character, 2 141,196
 and not I_LocalFaction germans
 spawn_army
     faction slave
-    character, Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
+    character Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry frameharjoz, exp 5 armour 1 weapon_lvl 0
@@ -188778,7 +188778,7 @@ and not I_CharacterTypeNearTile armenia named_character, 2 141,196
 and not I_LocalFaction armenia
 spawn_army
     faction slave
-    character, Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
+    character Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry frameharjoz, exp 5 armour 1 weapon_lvl 0
@@ -188812,7 +188812,7 @@ and not I_CharacterTypeNearTile armenia general, 2 141,196
 and not I_LocalFaction armenia
 spawn_army
     faction slave
-    character, Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
+    character Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry frameharjoz, exp 5 armour 1 weapon_lvl 0
@@ -188846,7 +188846,7 @@ and I_CharacterTypeNearTile armenia named_character, 2 141,196
 and not I_LocalFaction armenia
 spawn_army
     faction slave
-    character, Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
+    character Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry frameharjoz, exp 5 armour 1 weapon_lvl 0
@@ -188880,7 +188880,7 @@ and not I_CharacterTypeNearTile armenia named_character, 2 141,196
 and not I_LocalFaction armenia
 spawn_army
     faction slave
-    character, Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
+    character Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry frameharjoz, exp 5 armour 1 weapon_lvl 0
@@ -188914,7 +188914,7 @@ and not I_CharacterTypeNearTile armenia general, 2 141,196
 and not I_LocalFaction armenia
 spawn_army
     faction slave
-    character, Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
+    character Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry frameharjoz, exp 5 armour 1 weapon_lvl 0
@@ -188948,7 +188948,7 @@ and I_CharacterTypeNearTile armenia named_character, 2 141,196
 and not I_LocalFaction armenia
 spawn_army
     faction slave
-    character, Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
+    character Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry frameharjoz, exp 5 armour 1 weapon_lvl 0
@@ -188988,7 +188988,7 @@ and not I_CharacterTypeNearTile romans_scipii named_character, 2 141,196
 and not I_LocalFaction romans_scipii
 spawn_army
     faction slave
-    character, Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
+    character Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry frameharjoz, exp 5 armour 1 weapon_lvl 0
@@ -189022,7 +189022,7 @@ and not I_CharacterTypeNearTile romans_scipii general, 2 141,196
 and not I_LocalFaction romans_scipii
 spawn_army
     faction slave
-    character, Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
+    character Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry frameharjoz, exp 5 armour 1 weapon_lvl 0
@@ -189056,7 +189056,7 @@ and I_CharacterTypeNearTile romans_scipii named_character, 2 141,196
 and not I_LocalFaction romans_scipii
 spawn_army
     faction slave
-    character, Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
+    character Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry frameharjoz, exp 5 armour 1 weapon_lvl 0
@@ -189090,7 +189090,7 @@ and not I_CharacterTypeNearTile romans_scipii named_character, 2 141,196
 and not I_LocalFaction romans_scipii
 spawn_army
     faction slave
-    character, Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
+    character Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry frameharjoz, exp 5 armour 1 weapon_lvl 0
@@ -189124,7 +189124,7 @@ and not I_CharacterTypeNearTile romans_scipii general, 2 141,196
 and not I_LocalFaction romans_scipii
 spawn_army
     faction slave
-    character, Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
+    character Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry frameharjoz, exp 5 armour 1 weapon_lvl 0
@@ -189158,7 +189158,7 @@ and I_CharacterTypeNearTile romans_scipii named_character, 2 141,196
 and not I_LocalFaction romans_scipii
 spawn_army
     faction slave
-    character, Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
+    character Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry frameharjoz, exp 5 armour 1 weapon_lvl 0
@@ -189198,7 +189198,7 @@ and not I_CharacterTypeNearTile gauls named_character, 2 141,196
 and not I_LocalFaction gauls
 spawn_army
     faction slave
-    character, Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
+    character Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry frameharjoz, exp 4 armour 1 weapon_lvl 0
@@ -189231,7 +189231,7 @@ and not I_CharacterTypeNearTile gauls general, 2 141,196
 and not I_LocalFaction gauls
 spawn_army
     faction slave
-    character, Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
+    character Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry frameharjoz, exp 4 armour 1 weapon_lvl 0
@@ -189264,7 +189264,7 @@ and I_CharacterTypeNearTile gauls named_character, 2 141,196
 and not I_LocalFaction gauls
 spawn_army
     faction slave
-    character, Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
+    character Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry frameharjoz, exp 4 armour 1 weapon_lvl 0
@@ -189297,7 +189297,7 @@ and not I_CharacterTypeNearTile gauls named_character, 2 141,196
 and not I_LocalFaction gauls
 spawn_army
     faction slave
-    character, Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
+    character Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry frameharjoz, exp 4 armour 1 weapon_lvl 0
@@ -189330,7 +189330,7 @@ and not I_CharacterTypeNearTile gauls general, 2 141,196
 and not I_LocalFaction gauls
 spawn_army
     faction slave
-    character, Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
+    character Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry frameharjoz, exp 4 armour 1 weapon_lvl 0
@@ -189363,7 +189363,7 @@ and I_CharacterTypeNearTile gauls named_character, 2 141,196
 and not I_LocalFaction gauls
 spawn_army
     faction slave
-    character, Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
+    character Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry frameharjoz, exp 4 armour 1 weapon_lvl 0
@@ -189402,7 +189402,7 @@ and not I_CharacterTypeNearTile greek_cities named_character, 2 141,196
 and not I_LocalFaction greek_cities
 spawn_army
     faction slave
-    character, Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
+    character Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
@@ -189437,7 +189437,7 @@ and not I_CharacterTypeNearTile greek_cities general, 2 141,196
 and not I_LocalFaction greek_cities
 spawn_army
     faction slave
-    character, Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
+    character Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
@@ -189472,7 +189472,7 @@ and I_CharacterTypeNearTile greek_cities named_character, 2 141,196
 and not I_LocalFaction greek_cities
 spawn_army
     faction slave
-    character, Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
+    character Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
@@ -189507,7 +189507,7 @@ and not I_CharacterTypeNearTile greek_cities named_character, 2 141,196
 and not I_LocalFaction greek_cities
 spawn_army
     faction slave
-    character, Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
+    character Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
@@ -189542,7 +189542,7 @@ and not I_CharacterTypeNearTile greek_cities general, 2 141,196
 and not I_LocalFaction greek_cities
 spawn_army
     faction slave
-    character, Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
+    character Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
@@ -189577,7 +189577,7 @@ and I_CharacterTypeNearTile greek_cities named_character, 2 141,196
 and not I_LocalFaction greek_cities
 spawn_army
     faction slave
-    character, Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
+    character Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
@@ -189618,7 +189618,7 @@ and not I_CharacterTypeNearTile macedon named_character, 2 141,196
 and not I_LocalFaction macedon
 spawn_army
     faction slave
-    character, Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
+    character Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
@@ -189653,7 +189653,7 @@ and not I_CharacterTypeNearTile macedon general, 2 141,196
 and not I_LocalFaction macedon
 spawn_army
     faction slave
-    character, Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
+    character Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
@@ -189688,7 +189688,7 @@ and I_CharacterTypeNearTile macedon named_character, 2 141,196
 and not I_LocalFaction macedon
 spawn_army
     faction slave
-    character, Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
+    character Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
@@ -189723,7 +189723,7 @@ and not I_CharacterTypeNearTile macedon named_character, 2 141,196
 and not I_LocalFaction macedon
 spawn_army
     faction slave
-    character, Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
+    character Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
@@ -189758,7 +189758,7 @@ and not I_CharacterTypeNearTile macedon general, 2 141,196
 and not I_LocalFaction macedon
 spawn_army
     faction slave
-    character, Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
+    character Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
@@ -189793,7 +189793,7 @@ and I_CharacterTypeNearTile macedon named_character, 2 141,196
 and not I_LocalFaction macedon
 spawn_army
     faction slave
-    character, Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
+    character Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
@@ -189834,7 +189834,7 @@ and not I_CharacterTypeNearTile seleucid named_character, 2 141,196
 and not I_LocalFaction seleucid
 spawn_army
     faction slave
-    character, Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
+    character Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
@@ -189869,7 +189869,7 @@ and not I_CharacterTypeNearTile seleucid general, 2 141,196
 and not I_LocalFaction seleucid
 spawn_army
     faction slave
-    character, Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
+    character Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
@@ -189904,7 +189904,7 @@ and I_CharacterTypeNearTile seleucid named_character, 2 141,196
 and not I_LocalFaction seleucid
 spawn_army
     faction slave
-    character, Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
+    character Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
@@ -189939,7 +189939,7 @@ and not I_CharacterTypeNearTile seleucid named_character, 2 141,196
 and not I_LocalFaction seleucid
 spawn_army
     faction slave
-    character, Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
+    character Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
@@ -189974,7 +189974,7 @@ and not I_CharacterTypeNearTile seleucid general, 2 141,196
 and not I_LocalFaction seleucid
 spawn_army
     faction slave
-    character, Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
+    character Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
@@ -190009,7 +190009,7 @@ and I_CharacterTypeNearTile seleucid named_character, 2 141,196
 and not I_LocalFaction seleucid
 spawn_army
     faction slave
-    character, Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
+    character Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
@@ -190050,7 +190050,7 @@ and not I_CharacterTypeNearTile thrace named_character, 2 141,196
 and not I_LocalFaction thrace
 spawn_army
     faction slave
-    character, Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
+    character Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
@@ -190085,7 +190085,7 @@ and not I_CharacterTypeNearTile thrace general, 2 141,196
 and not I_LocalFaction thrace
 spawn_army
     faction slave
-    character, Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
+    character Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
@@ -190120,7 +190120,7 @@ and I_CharacterTypeNearTile thrace named_character, 2 141,196
 and not I_LocalFaction thrace
 spawn_army
     faction slave
-    character, Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
+    character Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
@@ -190155,7 +190155,7 @@ and not I_CharacterTypeNearTile thrace named_character, 2 141,196
 and not I_LocalFaction thrace
 spawn_army
     faction slave
-    character, Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
+    character Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
@@ -190190,7 +190190,7 @@ and not I_CharacterTypeNearTile thrace general, 2 141,196
 and not I_LocalFaction thrace
 spawn_army
     faction slave
-    character, Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
+    character Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
@@ -190225,7 +190225,7 @@ and I_CharacterTypeNearTile thrace named_character, 2 141,196
 and not I_LocalFaction thrace
 spawn_army
     faction slave
-    character, Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
+    character Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
@@ -190266,7 +190266,7 @@ and not I_CharacterTypeNearTile egypt named_character, 2 141,196
 and not I_LocalFaction egypt
 spawn_army
     faction slave
-    character, Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
+    character Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
@@ -190301,7 +190301,7 @@ and not I_CharacterTypeNearTile egypt general, 2 141,196
 and not I_LocalFaction egypt
 spawn_army
     faction slave
-    character, Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
+    character Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
@@ -190336,7 +190336,7 @@ and I_CharacterTypeNearTile egypt named_character, 2 141,196
 and not I_LocalFaction egypt
 spawn_army
     faction slave
-    character, Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
+    character Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
@@ -190371,7 +190371,7 @@ and not I_CharacterTypeNearTile egypt named_character, 2 141,196
 and not I_LocalFaction egypt
 spawn_army
     faction slave
-    character, Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
+    character Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
@@ -190406,7 +190406,7 @@ and not I_CharacterTypeNearTile egypt general, 2 141,196
 and not I_LocalFaction egypt
 spawn_army
     faction slave
-    character, Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
+    character Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
@@ -190441,7 +190441,7 @@ and I_CharacterTypeNearTile egypt named_character, 2 141,196
 and not I_LocalFaction egypt
 spawn_army
     faction slave
-    character, Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
+    character Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 140, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry gastiz, exp 5 armour 1 weapon_lvl 0
@@ -190595,7 +190595,7 @@ end_if
 if I_CompareCounter Seliun_PilisNewGovernorActivation = 1
 spawn_army
     faction slave
-    character, Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 60, x 141, y 198
+    character Deopus, named character, command 0, influence 0, management 0, subterfuge 0, age 60, x 141, y 198
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry frameharjoz, exp 2 armour 1 weapon_lvl 0
     unit germanic infantry frameharjoz, exp 2 armour 1 weapon_lvl 0
@@ -190639,7 +190639,7 @@ if I_CompareCounter Seliun_PilisActivationFaction = 1
 and I_CompareCounter Seliun_PilisNewGovernorActivation = 1
 spawn_army
     faction britons
-    character, Gorteyrn, named character, command 0, influence 0, management 0, subterfuge 0, age 60, x 141, y 197
+    character Gorteyrn, named character, command 0, influence 0, management 0, subterfuge 0, age 60, x 141, y 197
     unit celtic missile iaosatae regional, exp 0 armour 0 weapon_lvl 0
     unit celtic missile iaosatae regional, exp 0 armour 0 weapon_lvl 0
     unit celtic missile iaosatae regional, exp 0 armour 0 weapon_lvl 0
@@ -190657,7 +190657,7 @@ if I_CompareCounter Seliun_PilisActivationFaction = 2
 and I_CompareCounter Seliun_PilisNewGovernorActivation = 1
 spawn_army
     faction scythia
-    character, Gorteyrn, named character, command 0, influence 0, management 0, subterfuge 0, age 60, x 141, y 197
+    character Gorteyrn, named character, command 0, influence 0, management 0, subterfuge 0, age 60, x 141, y 197
     unit celtic missile iaosatae regional, exp 0 armour 0 weapon_lvl 0
     unit celtic missile iaosatae regional, exp 0 armour 0 weapon_lvl 0
     unit celtic missile iaosatae regional, exp 0 armour 0 weapon_lvl 0
@@ -190675,7 +190675,7 @@ if I_CompareCounter Seliun_PilisActivationFaction = 3
 and I_CompareCounter Seliun_PilisNewGovernorActivation = 1
 spawn_army
     faction gauls
-    character, Gorteyrn, named character, command 0, influence 0, management 0, subterfuge 0, age 60, x 141, y 197
+    character Gorteyrn, named character, command 0, influence 0, management 0, subterfuge 0, age 60, x 141, y 197
     unit celtic missile iaosatae regional, exp 0 armour 0 weapon_lvl 0
     unit celtic missile iaosatae regional, exp 0 armour 0 weapon_lvl 0
     unit celtic missile iaosatae regional, exp 0 armour 0 weapon_lvl 0
@@ -190693,7 +190693,7 @@ if I_CompareCounter Seliun_PilisActivationFaction = 4
 and I_CompareCounter Seliun_PilisNewGovernorActivation = 1
 spawn_army
     faction egypt
-    character, Bodinelqart, named character, command 0, influence 0, management 0, subterfuge 0, age 65, x 141, y 197
+    character Bodinelqart, named character, command 0, influence 0, management 0, subterfuge 0, age 65, x 141, y 197
     unit celtic missile iaosatae regional, exp 0 armour 0 weapon_lvl 0
     unit celtic missile iaosatae regional, exp 0 armour 0 weapon_lvl 0
     unit celtic missile iaosatae regional, exp 0 armour 0 weapon_lvl 0
@@ -190779,7 +190779,7 @@ and not I_CharacterTypeNearTile slave named_character, 0  124, 196
 if I_CompareCounter Gintaras_OstanGeneralDone = 0
 spawn_army
     faction slave
-    character, Diazelmis, named character, command 0, influence 0, management 0, subterfuge 0, age 20, x 124, y 196
+    character Diazelmis, named character, command 0, influence 0, management 0, subterfuge 0, age 20, x 124, y 196
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 4 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 4 armour 1 weapon_lvl 0
@@ -190822,7 +190822,7 @@ and I_CompareCounter Gintaras_OstanGeneralDead = 1
 if I_CompareCounter Gintaras_OstanGeneralDone = 0
 spawn_army
     faction slave
-    character, Diazelmis, named character, command 0, influence 0, management 0, subterfuge 0, age 20, x 124, y 196
+    character Diazelmis, named character, command 0, influence 0, management 0, subterfuge 0, age 20, x 124, y 196
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
@@ -190991,7 +190991,7 @@ and not I_CharacterTypeNearTile dacia named_character, 2 122,196
 and not I_LocalFaction dacia
 spawn_army
     faction slave
-    character, Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
+    character Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry sahsnotoz, exp 5 armour 1 weapon_lvl 0
@@ -191025,7 +191025,7 @@ and not I_CharacterTypeNearTile dacia general, 2 122,196
 and not I_LocalFaction dacia
 spawn_army
     faction slave
-    character, Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
+    character Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry sahsnotoz, exp 5 armour 1 weapon_lvl 0
@@ -191059,7 +191059,7 @@ and I_CharacterTypeNearTile dacia named_character, 2 122,196
 and not I_LocalFaction dacia
 spawn_army
     faction slave
-    character, Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
+    character Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry sahsnotoz, exp 5 armour 1 weapon_lvl 0
@@ -191093,7 +191093,7 @@ and not I_CharacterTypeNearTile dacia named_character, 2 122,196
 and not I_LocalFaction dacia
 spawn_army
     faction slave
-    character, Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
+    character Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry sahsnotoz, exp 5 armour 1 weapon_lvl 0
@@ -191127,7 +191127,7 @@ and not I_CharacterTypeNearTile dacia general, 2 122,196
 and not I_LocalFaction dacia
 spawn_army
     faction slave
-    character, Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
+    character Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry sahsnotoz, exp 5 armour 1 weapon_lvl 0
@@ -191161,7 +191161,7 @@ and I_CharacterTypeNearTile dacia named_character, 2 122,196
 and not I_LocalFaction dacia
 spawn_army
     faction slave
-    character, Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
+    character Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry sahsnotoz, exp 5 armour 1 weapon_lvl 0
@@ -191201,7 +191201,7 @@ and not I_CharacterTypeNearTile germans named_character, 2 122,196
 and not I_LocalFaction germans
 spawn_army
     faction slave
-    character, Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
+    character Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry sahsnotoz, exp 5 armour 1 weapon_lvl 0
@@ -191235,7 +191235,7 @@ and not I_CharacterTypeNearTile germans general, 2 122,196
 and not I_LocalFaction germans
 spawn_army
     faction slave
-    character, Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
+    character Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry sahsnotoz, exp 5 armour 1 weapon_lvl 0
@@ -191269,7 +191269,7 @@ and I_CharacterTypeNearTile germans named_character, 2 122,196
 and not I_LocalFaction germans
 spawn_army
     faction slave
-    character, Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
+    character Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry sahsnotoz, exp 5 armour 1 weapon_lvl 0
@@ -191303,7 +191303,7 @@ and not I_CharacterTypeNearTile germans named_character, 2 122,196
 and not I_LocalFaction germans
 spawn_army
     faction slave
-    character, Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
+    character Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry sahsnotoz, exp 5 armour 1 weapon_lvl 0
@@ -191337,7 +191337,7 @@ and not I_CharacterTypeNearTile germans general, 2 122,196
 and not I_LocalFaction germans
 spawn_army
     faction slave
-    character, Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
+    character Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry sahsnotoz, exp 5 armour 1 weapon_lvl 0
@@ -191371,7 +191371,7 @@ and I_CharacterTypeNearTile germans named_character, 2 122,196
 and not I_LocalFaction germans
 spawn_army
     faction slave
-    character, Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
+    character Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry sahsnotoz, exp 5 armour 1 weapon_lvl 0
@@ -191411,7 +191411,7 @@ and not I_CharacterTypeNearTile armenia named_character, 2 122,196
 and not I_LocalFaction armenia
 spawn_army
     faction slave
-    character, Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
+    character Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry sahsnotoz, exp 5 armour 1 weapon_lvl 0
@@ -191446,7 +191446,7 @@ and not I_CharacterTypeNearTile armenia general, 2 122,196
 and not I_LocalFaction armenia
 spawn_army
     faction slave
-    character, Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
+    character Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry sahsnotoz, exp 5 armour 1 weapon_lvl 0
@@ -191481,7 +191481,7 @@ and I_CharacterTypeNearTile armenia named_character, 2 122,196
 and not I_LocalFaction armenia
 spawn_army
     faction slave
-    character, Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
+    character Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry sahsnotoz, exp 5 armour 1 weapon_lvl 0
@@ -191516,7 +191516,7 @@ and not I_CharacterTypeNearTile armenia named_character, 2 122,196
 and not I_LocalFaction armenia
 spawn_army
     faction slave
-    character, Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
+    character Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry sahsnotoz, exp 5 armour 1 weapon_lvl 0
@@ -191551,7 +191551,7 @@ and not I_CharacterTypeNearTile armenia general, 2 122,196
 and not I_LocalFaction armenia
 spawn_army
     faction slave
-    character, Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
+    character Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry sahsnotoz, exp 5 armour 1 weapon_lvl 0
@@ -191586,7 +191586,7 @@ and I_CharacterTypeNearTile armenia named_character, 2 122,196
 and not I_LocalFaction armenia
 spawn_army
     faction slave
-    character, Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
+    character Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry sahsnotoz, exp 5 armour 1 weapon_lvl 0
@@ -191627,7 +191627,7 @@ and not I_CharacterTypeNearTile gauls named_character, 2 122,196
 and not I_LocalFaction gauls
 spawn_army
     faction slave
-    character, Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
+    character Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry sahsnotoz, exp 5 armour 1 weapon_lvl 0
@@ -191660,7 +191660,7 @@ and not I_CharacterTypeNearTile gauls general, 2 122,196
 and not I_LocalFaction gauls
 spawn_army
     faction slave
-    character, Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
+    character Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry sahsnotoz, exp 5 armour 1 weapon_lvl 0
@@ -191693,7 +191693,7 @@ and I_CharacterTypeNearTile gauls named_character, 2 122,196
 and not I_LocalFaction gauls
 spawn_army
     faction slave
-    character, Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
+    character Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry sahsnotoz, exp 5 armour 1 weapon_lvl 0
@@ -191726,7 +191726,7 @@ and not I_CharacterTypeNearTile gauls named_character, 2 122,196
 and not I_LocalFaction gauls
 spawn_army
     faction slave
-    character, Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
+    character Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry sahsnotoz, exp 5 armour 1 weapon_lvl 0
@@ -191759,7 +191759,7 @@ and not I_CharacterTypeNearTile gauls general, 2 122,196
 and not I_LocalFaction gauls
 spawn_army
     faction slave
-    character, Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
+    character Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry sahsnotoz, exp 5 armour 1 weapon_lvl 0
@@ -191792,7 +191792,7 @@ and I_CharacterTypeNearTile gauls named_character, 2 122,196
 and not I_LocalFaction gauls
 spawn_army
     faction slave
-    character, Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
+    character Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
     unit germanic infantry sahsnotoz, exp 5 armour 1 weapon_lvl 0
@@ -191831,7 +191831,7 @@ and not I_CharacterTypeNearTile greek_cities named_character, 2 122,196
 and not I_LocalFaction greek_cities
 spawn_army
     faction slave
-    character, Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
+    character Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
@@ -191867,7 +191867,7 @@ and not I_CharacterTypeNearTile greek_cities general, 2 122,196
 and not I_LocalFaction greek_cities
 spawn_army
     faction slave
-    character, Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
+    character Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
@@ -191903,7 +191903,7 @@ and I_CharacterTypeNearTile greek_cities named_character, 2 122,196
 and not I_LocalFaction greek_cities
 spawn_army
     faction slave
-    character, Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
+    character Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
@@ -191939,7 +191939,7 @@ and not I_CharacterTypeNearTile greek_cities named_character, 2 122,196
 and not I_LocalFaction greek_cities
 spawn_army
     faction slave
-    character, Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
+    character Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
@@ -191975,7 +191975,7 @@ and not I_CharacterTypeNearTile greek_cities general, 2 122,196
 and not I_LocalFaction greek_cities
 spawn_army
     faction slave
-    character, Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
+    character Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
@@ -192011,7 +192011,7 @@ and I_CharacterTypeNearTile greek_cities named_character, 2 122,196
 and not I_LocalFaction greek_cities
 spawn_army
     faction slave
-    character, Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
+    character Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
@@ -192053,7 +192053,7 @@ and not I_CharacterTypeNearTile macedon named_character, 2 122,196
 and not I_LocalFaction macedon
 spawn_army
     faction slave
-    character, Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
+    character Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
@@ -192089,7 +192089,7 @@ and not I_CharacterTypeNearTile macedon general, 2 122,196
 and not I_LocalFaction macedon
 spawn_army
     faction slave
-    character, Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
+    character Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
@@ -192125,7 +192125,7 @@ and I_CharacterTypeNearTile macedon named_character, 2 122,196
 and not I_LocalFaction macedon
 spawn_army
     faction slave
-    character, Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
+    character Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
@@ -192161,7 +192161,7 @@ and not I_CharacterTypeNearTile macedon named_character, 2 122,196
 and not I_LocalFaction macedon
 spawn_army
     faction slave
-    character, Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
+    character Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
@@ -192197,7 +192197,7 @@ and not I_CharacterTypeNearTile macedon general, 2 122,196
 and not I_LocalFaction macedon
 spawn_army
     faction slave
-    character, Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
+    character Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
@@ -192233,7 +192233,7 @@ and I_CharacterTypeNearTile macedon named_character, 2 122,196
 and not I_LocalFaction macedon
 spawn_army
     faction slave
-    character, Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
+    character Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
@@ -192275,7 +192275,7 @@ and not I_CharacterTypeNearTile seleucid named_character, 2 122,196
 and not I_LocalFaction seleucid
 spawn_army
     faction slave
-    character, Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
+    character Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
@@ -192310,7 +192310,7 @@ and not I_CharacterTypeNearTile seleucid general, 2 122,196
 and not I_LocalFaction seleucid
 spawn_army
     faction slave
-    character, Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
+    character Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
@@ -192345,7 +192345,7 @@ and I_CharacterTypeNearTile seleucid named_character, 2 122,196
 and not I_LocalFaction seleucid
 spawn_army
     faction slave
-    character, Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
+    character Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
@@ -192380,7 +192380,7 @@ and not I_CharacterTypeNearTile seleucid named_character, 2 122,196
 and not I_LocalFaction seleucid
 spawn_army
     faction slave
-    character, Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
+    character Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
@@ -192415,7 +192415,7 @@ and not I_CharacterTypeNearTile seleucid general, 2 122,196
 and not I_LocalFaction seleucid
 spawn_army
     faction slave
-    character, Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
+    character Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
@@ -192450,7 +192450,7 @@ and I_CharacterTypeNearTile seleucid named_character, 2 122,196
 and not I_LocalFaction seleucid
 spawn_army
     faction slave
-    character, Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
+    character Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
@@ -192491,7 +192491,7 @@ and not I_CharacterTypeNearTile thrace named_character, 2 122,196
 and not I_LocalFaction thrace
 spawn_army
     faction slave
-    character, Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
+    character Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
@@ -192526,7 +192526,7 @@ and not I_CharacterTypeNearTile thrace general, 2 122,196
 and not I_LocalFaction thrace
 spawn_army
     faction slave
-    character, Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
+    character Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
@@ -192561,7 +192561,7 @@ and I_CharacterTypeNearTile thrace named_character, 2 122,196
 and not I_LocalFaction thrace
 spawn_army
     faction slave
-    character, Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
+    character Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
@@ -192596,7 +192596,7 @@ and not I_CharacterTypeNearTile thrace named_character, 2 122,196
 and not I_LocalFaction thrace
 spawn_army
     faction slave
-    character, Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
+    character Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
@@ -192631,7 +192631,7 @@ and not I_CharacterTypeNearTile thrace general, 2 122,196
 and not I_LocalFaction thrace
 spawn_army
     faction slave
-    character, Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
+    character Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
@@ -192666,7 +192666,7 @@ and I_CharacterTypeNearTile thrace named_character, 2 122,196
 and not I_LocalFaction thrace
 spawn_army
     faction slave
-    character, Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
+    character Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
@@ -192707,7 +192707,7 @@ and not I_CharacterTypeNearTile egypt named_character, 2 122,196
 and not I_LocalFaction egypt
 spawn_army
     faction slave
-    character, Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
+    character Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
@@ -192743,7 +192743,7 @@ and not I_CharacterTypeNearTile egypt general, 2 122,196
 and not I_LocalFaction egypt
 spawn_army
     faction slave
-    character, Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
+    character Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
@@ -192779,7 +192779,7 @@ and I_CharacterTypeNearTile egypt named_character, 2 122,196
 and not I_LocalFaction egypt
 spawn_army
     faction slave
-    character, Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
+    character Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
@@ -192815,7 +192815,7 @@ and not I_CharacterTypeNearTile egypt named_character, 2 122,196
 and not I_LocalFaction egypt
 spawn_army
     faction slave
-    character, Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
+    character Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
@@ -192851,7 +192851,7 @@ and not I_CharacterTypeNearTile egypt general, 2 122,196
 and not I_LocalFaction egypt
 spawn_army
     faction slave
-    character, Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
+    character Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
@@ -192887,7 +192887,7 @@ and I_CharacterTypeNearTile egypt named_character, 2 122,196
 and not I_LocalFaction egypt
 spawn_army
     faction slave
-    character, Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
+    character Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 40, x 123, y 195
     unit germanic cavalry ridoharjoz, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 5 armour 1 weapon_lvl 0
@@ -193042,7 +193042,7 @@ end_if
 if I_CompareCounter Gintaras_OstanNewGovernorActivation = 1
 spawn_army
     faction slave
-    character, Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 60, x 124, y 195
+    character Juva, named character, command 0, influence 0, management 0, subterfuge 0, age 60, x 124, y 195
     unit celtic infantry lugian, exp 2 armour 1 weapon_lvl 0
     unit celtic infantry lugian, exp 2 armour 1 weapon_lvl 0
     unit germanic infantry frameharjoz, exp 2 armour 1 weapon_lvl 0
@@ -193087,7 +193087,7 @@ if I_CompareCounter Gintaras_OstanActivationFaction = 1
 and I_CompareCounter Gintaras_OstanNewGovernorActivation = 1
 spawn_army
     faction britons
-    character, Glasobrin, named character, command 0, influence 0, management 0, subterfuge 0, age 60, x 123, y 196
+    character Glasobrin, named character, command 0, influence 0, management 0, subterfuge 0, age 60, x 123, y 196
     unit celtic missile iaosatae regional, exp 0 armour 0 weapon_lvl 0
     unit celtic missile iaosatae regional, exp 0 armour 0 weapon_lvl 0
     unit celtic missile iaosatae regional, exp 0 armour 0 weapon_lvl 0
@@ -193105,7 +193105,7 @@ if I_CompareCounter Gintaras_OstanActivationFaction = 2
 and I_CompareCounter Gintaras_OstanNewGovernorActivation = 1
 spawn_army
     faction scythia
-    character, Glasobrin, named character, command 0, influence 0, management 0, subterfuge 0, age 60, x 123, y 196
+    character Glasobrin, named character, command 0, influence 0, management 0, subterfuge 0, age 60, x 123, y 196
     unit celtic missile iaosatae regional, exp 0 armour 0 weapon_lvl 0
     unit celtic missile iaosatae regional, exp 0 armour 0 weapon_lvl 0
     unit celtic missile iaosatae regional, exp 0 armour 0 weapon_lvl 0
@@ -193123,7 +193123,7 @@ if I_CompareCounter Gintaras_OstanActivationFaction = 3
 and I_CompareCounter Gintaras_OstanNewGovernorActivation = 1
 spawn_army
     faction gauls
-    character, Glasobrin, named character, command 0, influence 0, management 0, subterfuge 0, age 60, x 123, y 196
+    character Glasobrin, named character, command 0, influence 0, management 0, subterfuge 0, age 60, x 123, y 196
     unit celtic missile iaosatae regional, exp 0 armour 0 weapon_lvl 0
     unit celtic missile iaosatae regional, exp 0 armour 0 weapon_lvl 0
     unit celtic missile iaosatae regional, exp 0 armour 0 weapon_lvl 0
@@ -193141,7 +193141,7 @@ if I_CompareCounter Gintaras_OstanActivationFaction = 4
 and I_CompareCounter Gintaras_OstanNewGovernorActivation = 1
 spawn_army
     faction egypt
-    character, Bodeshmun, named character, command 0, influence 0, management 0, subterfuge 0, age 65, x 123, y 196
+    character Bodeshmun, named character, command 0, influence 0, management 0, subterfuge 0, age 65, x 123, y 196
     unit celtic missile iaosatae regional, exp 0 armour 0 weapon_lvl 0
     unit celtic missile iaosatae regional, exp 0 armour 0 weapon_lvl 0
     unit celtic missile iaosatae regional, exp 0 armour 0 weapon_lvl 0
